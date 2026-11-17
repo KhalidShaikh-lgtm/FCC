@@ -1,0 +1,36 @@
+name: Build FCC ZIP availability tables
+on:
+  workflow_dispatch:
+    inputs:
+      states:
+        description: "Space-separated state:fips pairs"
+        default: "TX:48"
+  schedule:
+    - cron: "17 5 12 * *"   # monthly, 12th, 05:17 UTC
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install requests duckdb h3 zipcodes
+      - name: Build tables
+        env:
+          FCC_USERNAME: ${{ secrets.FCC_USERNAME }}
+          FCC_TOKEN: ${{ secrets.FCC_TOKEN }}
+          STATES: ${{ github.event.inputs.states || 'TX:48' }}
+        run: |
+          mkdir -p zipdata/out
+          for p in $STATES; do
+            s=${p%%:*}; f=${p##*:}
+            python zipdata/scripts/build_zip_table.py "$s" "$f" "zipdata/out/$(echo $s | tr A-Z a-z)-zips.json"
+            rm -rf work
+          done
+      - name: Commit results
+        run: |
+          git config user.name "zip-table-bot"; git config user.email "bot@users.noreply.github.com"
+          git add zipdata/out && (git commit -m "Update FCC ZIP tables" && git push) || echo "no changes"
