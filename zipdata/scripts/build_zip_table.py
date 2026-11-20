@@ -23,11 +23,12 @@ def get(path, **kw):
 
 dates = get("/listAsOfDates").json()["data"]
 asof = max(d["as_of_date"] for d in dates if d.get("data_type") == "availability")
-files = get(f"/downloads/listAvailabilityData/{asof}", params={"category": "State", "subcategory": "Fixed Broadband"}).json()["data"]
+files = get(f"/downloads/listAvailabilityData/{asof}").json()["data"]
 os.makedirs("zipdata/out", exist_ok=True)
-json.dump({"n": len(files), "sample": files[:6], "keys": sorted({k for f in files for k in f})}, open("zipdata/out/debug-files.json", "w"), indent=1)
+json.dump({"n": len(files), "sample": files[:6], "keys": sorted({k for f in files for k in f}), "combos": sorted({str((f.get("category"), f.get("subcategory"), f.get("technology_type"))) for f in files}), "dates": dates[:4]}, open("zipdata/out/debug-files.json", "w"), indent=1)
 print("listed", len(files), "sample", files[:2])
-mine = [f for f in files if str(f.get("state_fips")) == fips and f.get("technology_type") != "Mobile Broadband"]
+mine = [f for f in files if str(f.get("state_fips")).zfill(2) == fips and f.get("category") == "State"
+        and f.get("technology_type") == "Fixed Broadband" and f.get("subcategory") == "Location Coverage"]
 if not mine: sys.exit("no matching files for state fips " + fips)
 print("as_of", asof, "files", [(f["file_name"]) for f in mine])
 
