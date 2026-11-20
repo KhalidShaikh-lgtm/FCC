@@ -31,6 +31,7 @@ jobs:
             rm -rf work
           done
       - name: Commit results
+        if: always()
         run: |
           git config user.name "zip-table-bot"; git config user.email "bot@users.noreply.github.com"
           git add zipdata/out && (git commit -m "Update FCC ZIP tables" && git push) || echo "no changes"
