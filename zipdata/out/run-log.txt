@@ -1,4 +1,481 @@
-listed 10403 sample [{'file_id': 1889733, 'category': 'Provider', 'subcategory': 'Hexagon Coverage', 'technology_type': 'Mobile Broadband', 'technology_code': '300', 'technology_code_desc': '3G', 'speed_tier': None, 'state_fips': '56', 'state_name': 'Wyoming', 'provider_id': '130886', 'provider_name': 'NE Colorado Cellular, Inc.', 'file_type': 'gis', 'file_name': 'bdc_56_130886_3G_mobile_broadband_h3_J26_10nov2026', 'record_count': '13520'}, {'file_id': 1889869, 'category': 'Provider', 'subcategory': 'Hexagon Coverage', 'technology_type': 'Mobile Broadband', 'technology_code': '300', 'technology_code_desc': '3G', 'speed_tier': None, 'state_fips': '30', 'state_name': 'Montana', 'provider_id': '360114', 'provider_name': 'Union Holding Corp.', 'file_type': 'gis', 'file_name': 'bdc_30_360114_3G_mobile_broadband_h3_J26_10nov2026', 'record_count': '14492'}]
+listed 10403 sample [{'file_id': 1889659, 'category': 'Provider', 'subcategory': 'Hexagon Coverage', 'technology_type': 'Mobile Broadband', 'technology_code': '300', 'technology_code_desc': '3G', 'speed_tier': None, 'state_fips': '78', 'state_name': 'United States Virgin Islands', 'provider_id': '130081', 'provider_name': 'ATN International, Inc.', 'file_type': 'gis', 'file_name': 'bdc_78_130081_3G_mobile_broadband_h3_J26_10nov2026', 'record_count': '19197'}, {'file_id': 1889864, 'category': 'Provider', 'subcategory': 'Hexagon Coverage', 'technology_type': 'Mobile Broadband', 'technology_code': '300', 'technology_code_desc': '3G', 'speed_tier': None, 'state_fips': '16', 'state_name': 'Idaho', 'provider_id': '360114', 'provider_name': 'Union Holding Corp.', 'file_type': 'gis', 'file_name': 'bdc_16_360114_3G_mobile_broadband_h3_J26_10nov2026', 'record_count': '18128'}]
+as_of 2026-06-30 files ['bdc_01_Other_fixed_broadband_J26_10nov2026', 'bdc_01_Copper_fixed_broadband_J26_10nov2026', 'bdc_01_Cable_fixed_broadband_J26_10nov2026', 'bdc_01_FibertothePremises_fixed_broadband_J26_10nov2026', 'bdc_01_GSOSatellite_fixed_broadband_J26_10nov2026', 'bdc_01_NGSOSatellite_fixed_broadband_J26_10nov2026', 'bdc_01_UnlicensedFixedWireless_fixed_broadband_J26_10nov2026', 'bdc_01_LicensedFixedWireless_fixed_broadband_J26_10nov2026', 'bdc_01_LBRFixedWireless_fixed_broadband_J26_10nov2026']
+skip bdc_01_Other_fixed_broadband_J26_10nov2026
+loaded bdc_01_Copper_fixed_broadband_J26_10nov2026
+loaded bdc_01_Cable_fixed_broadband_J26_10nov2026
+loaded bdc_01_FibertothePremises_fixed_broadband_J26_10nov2026
+loaded bdc_01_GSOSatellite_fixed_broadband_J26_10nov2026
+loaded bdc_01_NGSOSatellite_fixed_broadband_J26_10nov2026
+loaded bdc_01_UnlicensedFixedWireless_fixed_broadband_J26_10nov2026
+loaded bdc_01_LicensedFixedWireless_fixed_broadband_J26_10nov2026
+loaded bdc_01_LBRFixedWireless_fixed_broadband_J26_10nov2026
+AL 597 zips 64 brands
+listed 10403 sample [{'file_id': 1889865, 'category': 'Provider', 'subcategory': 'Hexagon Coverage', 'technology_type': 'Mobile Broadband', 'technology_code': '300', 'technology_code_desc': '3G', 'speed_tier': None, 'state_fips': '08', 'state_name': 'Colorado', 'provider_id': '360114', 'provider_name': 'Union Holding Corp.', 'file_type': 'gis', 'file_name': 'bdc_08_360114_3G_mobile_broadband_h3_J26_10nov2026', 'record_count': '75234'}, {'file_id': 1889735, 'category': 'Provider', 'subcategory': 'Hexagon Coverage', 'technology_type': 'Mobile Broadband', 'technology_code': '300', 'technology_code_desc': '3G', 'speed_tier': None, 'state_fips': '08', 'state_name': 'Colorado', 'provider_id': '130886', 'provider_name': 'NE Colorado Cellular, Inc.', 'file_type': 'gis', 'file_name': 'bdc_08_130886_3G_mobile_broadband_h3_J26_10nov2026', 'record_count': '591447'}]
+as_of 2026-06-30 files ['bdc_02_Copper_fixed_broadband_J26_10nov2026', 'bdc_02_Cable_fixed_broadband_J26_10nov2026', 'bdc_02_FibertothePremises_fixed_broadband_J26_10nov2026', 'bdc_02_GSOSatellite_fixed_broadband_J26_10nov2026', 'bdc_02_NGSOSatellite_fixed_broadband_J26_10nov2026', 'bdc_02_UnlicensedFixedWireless_fixed_broadband_J26_10nov2026', 'bdc_02_LicensedFixedWireless_fixed_broadband_J26_10nov2026', 'bdc_02_LBRFixedWireless_fixed_broadband_J26_10nov2026']
+loaded bdc_02_Copper_fixed_broadband_J26_10nov2026
+loaded bdc_02_Cable_fixed_broadband_J26_10nov2026
+loaded bdc_02_FibertothePremises_fixed_broadband_J26_10nov2026
+loaded bdc_02_GSOSatellite_fixed_broadband_J26_10nov2026
+loaded bdc_02_NGSOSatellite_fixed_broadband_J26_10nov2026
+loaded bdc_02_UnlicensedFixedWireless_fixed_broadband_J26_10nov2026
+loaded bdc_02_LicensedFixedWireless_fixed_broadband_J26_10nov2026
+loaded bdc_02_LBRFixedWireless_fixed_broadband_J26_10nov2026
+AK 41 zips 11 brands
+listed 10403 sample [{'file_id': 1889854, 'category': 'Provider', 'subcategory': 'Hexagon Coverage', 'technology_type': 'Mobile Broadband', 'technology_code': '300', 'technology_code_desc': '3G', 'speed_tier': None, 'state_fips': '66', 'state_name': 'Guam', 'provider_id': '220001', 'provider_name': 'PTI Pacifica Inc.', 'file_type': 'gis', 'file_name': 'bdc_66_220001_3G_mobile_broadband_h3_J26_10nov2026', 'record_count': '3646'}, {'file_id': 1889738, 'category': 'Provider', 'subcategory': 'Hexagon Coverage', 'technology_type': 'Mobile Broadband', 'technology_code': '300', 'technology_code_desc': '3G', 'speed_tier': None, 'state_fips': '46', 'state_name': 'South Dakota', 'provider_id': '130886', 'provider_name': 'NE Colorado Cellular, Inc.', 'file_type': 'gis', 'file_name': 'bdc_46_130886_3G_mobile_broadband_h3_J26_10nov2026', 'record_count': '15964'}]
+as_of 2026-06-30 files ['bdc_04_Other_fixed_broadband_J26_10nov2026', 'bdc_04_Copper_fixed_broadband_J26_10nov2026', 'bdc_04_Cable_fixed_broadband_J26_10nov2026', 'bdc_04_FibertothePremises_fixed_broadband_J26_10nov2026', 'bdc_04_GSOSatellite_fixed_broadband_J26_10nov2026', 'bdc_04_NGSOSatellite_fixed_broadband_J26_10nov2026', 'bdc_04_UnlicensedFixedWireless_fixed_broadband_J26_10nov2026', 'bdc_04_LicensedFixedWireless_fixed_broadband_J26_10nov2026', 'bdc_04_LBRFixedWireless_fixed_broadband_J26_10nov2026']
+skip bdc_04_Other_fixed_broadband_J26_10nov2026
+loaded bdc_04_Copper_fixed_broadband_J26_10nov2026
+loaded bdc_04_Cable_fixed_broadband_J26_10nov2026
+loaded bdc_04_FibertothePremises_fixed_broadband_J26_10nov2026
+loaded bdc_04_GSOSatellite_fixed_broadband_J26_10nov2026
+loaded bdc_04_NGSOSatellite_fixed_broadband_J26_10nov2026
+loaded bdc_04_UnlicensedFixedWireless_fixed_broadband_J26_10nov2026
+loaded bdc_04_LicensedFixedWireless_fixed_broadband_J26_10nov2026
+loaded bdc_04_LBRFixedWireless_fixed_broadband_J26_10nov2026
+AZ 321 zips 62 brands
+listed 10403 sample [{'file_id': 1889851, 'category': 'Provider', 'subcategory': 'Hexagon Coverage', 'technology_type': 'Mobile Broadband', 'technology_code': '300', 'technology_code_desc': '3G', 'speed_tier': None, 'state_fips': '60', 'state_name': 'American Samoa', 'provider_id': '170012', 'provider_name': 'American Samoa Telecom, LLC', 'file_type': 'gis', 'file_name': 'bdc_60_170012_3G_mobile_broadband_h3_J26_10nov2026', 'record_count': '1072'}, {'file_id': 1889869, 'category': 'Provider', 'subcategory': 'Hexagon Coverage', 'technology_type': 'Mobile Broadband', 'technology_code': '300', 'technology_code_desc': '3G', 'speed_tier': None, 'state_fips': '30', 'state_name': 'Montana', 'provider_id': '360114', 'provider_name': 'Union Holding Corp.', 'file_type': 'gis', 'file_name': 'bdc_30_360114_3G_mobile_broadband_h3_J26_10nov2026', 'record_count': '14492'}]
+as_of 2026-06-30 files ['bdc_05_Copper_fixed_broadband_J26_10nov2026', 'bdc_05_Cable_fixed_broadband_J26_10nov2026', 'bdc_05_FibertothePremises_fixed_broadband_J26_10nov2026', 'bdc_05_GSOSatellite_fixed_broadband_J26_10nov2026', 'bdc_05_NGSOSatellite_fixed_broadband_J26_10nov2026', 'bdc_05_UnlicensedFixedWireless_fixed_broadband_J26_10nov2026', 'bdc_05_LicensedFixedWireless_fixed_broadband_J26_10nov2026', 'bdc_05_LBRFixedWireless_fixed_broadband_J26_10nov2026']
+loaded bdc_05_Copper_fixed_broadband_J26_10nov2026
+loaded bdc_05_Cable_fixed_broadband_J26_10nov2026
+loaded bdc_05_FibertothePremises_fixed_broadband_J26_10nov2026
+loaded bdc_05_GSOSatellite_fixed_broadband_J26_10nov2026
+loaded bdc_05_NGSOSatellite_fixed_broadband_J26_10nov2026
+loaded bdc_05_UnlicensedFixedWireless_fixed_broadband_J26_10nov2026
+loaded bdc_05_LicensedFixedWireless_fixed_broadband_J26_10nov2026
+loaded bdc_05_LBRFixedWireless_fixed_broadband_J26_10nov2026
+AR 530 zips 84 brands
+listed 10403 sample [{'file_id': 1889866, 'category': 'Provider', 'subcategory': 'Hexagon Coverage', 'technology_type': 'Mobile Broadband', 'technology_code': '300', 'technology_code_desc': '3G', 'speed_tier': None, 'state_fips': '49', 'state_name': 'Utah', 'provider_id': '360114', 'provider_name': 'Union Holding Corp.', 'file_type': 'gis', 'file_name': 'bdc_49_360114_3G_mobile_broadband_h3_J26_10nov2026', 'record_count': '15894'}, {'file_id': 1889734, 'category': 'Provider', 'subcategory': 'Hexagon Coverage', 'technology_type': 'Mobile Broadband', 'technology_code': '300', 'technology_code_desc': '3G', 'speed_tier': None, 'state_fips': '31', 'state_name': 'Nebraska', 'provider_id': '130886', 'provider_name': 'NE Colorado Cellular, Inc.', 'file_type': 'gis', 'file_name': 'bdc_31_130886_3G_mobile_broadband_h3_J26_10nov2026', 'record_count': '263159'}]
+as_of 2026-06-30 files ['bdc_06_Other_fixed_broadband_J26_10nov2026', 'bdc_06_Copper_fixed_broadband_J26_10nov2026', 'bdc_06_Cable_fixed_broadband_J26_10nov2026', 'bdc_06_FibertothePremises_fixed_broadband_J26_10nov2026', 'bdc_06_GSOSatellite_fixed_broadband_J26_10nov2026', 'bdc_06_NGSOSatellite_fixed_broadband_J26_10nov2026', 'bdc_06_UnlicensedFixedWireless_fixed_broadband_J26_10nov2026', 'bdc_06_LicensedFixedWireless_fixed_broadband_J26_10nov2026', 'bdc_06_LBRFixedWireless_fixed_broadband_J26_10nov2026']
+skip bdc_06_Other_fixed_broadband_J26_10nov2026
+loaded bdc_06_Copper_fixed_broadband_J26_10nov2026
+loaded bdc_06_Cable_fixed_broadband_J26_10nov2026
+loaded bdc_06_FibertothePremises_fixed_broadband_J26_10nov2026
+loaded bdc_06_GSOSatellite_fixed_broadband_J26_10nov2026
+loaded bdc_06_NGSOSatellite_fixed_broadband_J26_10nov2026
+loaded bdc_06_UnlicensedFixedWireless_fixed_broadband_J26_10nov2026
+loaded bdc_06_LicensedFixedWireless_fixed_broadband_J26_10nov2026
+loaded bdc_06_LBRFixedWireless_fixed_broadband_J26_10nov2026
+CA 1579 zips 133 brands
+listed 10403 sample [{'file_id': 1889864, 'category': 'Provider', 'subcategory': 'Hexagon Coverage', 'technology_type': 'Mobile Broadband', 'technology_code': '300', 'technology_code_desc': '3G', 'speed_tier': None, 'state_fips': '16', 'state_name': 'Idaho', 'provider_id': '360114', 'provider_name': 'Union Holding Corp.', 'file_type': 'gis', 'file_name': 'bdc_16_360114_3G_mobile_broadband_h3_J26_10nov2026', 'record_count': '18128'}, {'file_id': 1889851, 'category': 'Provider', 'subcategory': 'Hexagon Coverage', 'technology_type': 'Mobile Broadband', 'technology_code': '300', 'technology_code_desc': '3G', 'speed_tier': None, 'state_fips': '60', 'state_name': 'American Samoa', 'provider_id': '170012', 'provider_name': 'American Samoa Telecom, LLC', 'file_type': 'gis', 'file_name': 'bdc_60_170012_3G_mobile_broadband_h3_J26_10nov2026', 'record_count': '1072'}]
+as_of 2026-06-30 files ['bdc_08_Copper_fixed_broadband_J26_10nov2026', 'bdc_08_Cable_fixed_broadband_J26_10nov2026', 'bdc_08_FibertothePremises_fixed_broadband_J26_10nov2026', 'bdc_08_GSOSatellite_fixed_broadband_J26_10nov2026', 'bdc_08_NGSOSatellite_fixed_broadband_J26_10nov2026', 'bdc_08_UnlicensedFixedWireless_fixed_broadband_J26_10nov2026', 'bdc_08_LicensedFixedWireless_fixed_broadband_J26_10nov2026', 'bdc_08_LBRFixedWireless_fixed_broadband_J26_10nov2026']
+loaded bdc_08_Copper_fixed_broadband_J26_10nov2026
+loaded bdc_08_Cable_fixed_broadband_J26_10nov2026
+loaded bdc_08_FibertothePremises_fixed_broadband_J26_10nov2026
+loaded bdc_08_GSOSatellite_fixed_broadband_J26_10nov2026
+loaded bdc_08_NGSOSatellite_fixed_broadband_J26_10nov2026
+loaded bdc_08_UnlicensedFixedWireless_fixed_broadband_J26_10nov2026
+loaded bdc_08_LicensedFixedWireless_fixed_broadband_J26_10nov2026
+loaded bdc_08_LBRFixedWireless_fixed_broadband_J26_10nov2026
+CO 436 zips 97 brands
+listed 10403 sample [{'file_id': 1889738, 'category': 'Provider', 'subcategory': 'Hexagon Coverage', 'technology_type': 'Mobile Broadband', 'technology_code': '300', 'technology_code_desc': '3G', 'speed_tier': None, 'state_fips': '46', 'state_name': 'South Dakota', 'provider_id': '130886', 'provider_name': 'NE Colorado Cellular, Inc.', 'file_type': 'gis', 'file_name': 'bdc_46_130886_3G_mobile_broadband_h3_J26_10nov2026', 'record_count': '15964'}, {'file_id': 1889758, 'category': 'Provider', 'subcategory': 'Hexagon Coverage', 'technology_type': 'Mobile Broadband', 'technology_code': '300', 'technology_code_desc': '3G', 'speed_tier': None, 'state_fips': '66', 'state_name': 'Guam', 'provider_id': '130999', 'provider_name': 'NTT DoCoMo, Inc.', 'file_type': 'gis', 'file_name': 'bdc_66_130999_3G_mobile_broadband_h3_J26_10nov2026', 'record_count': '2238'}]
+as_of 2026-06-30 files ['bdc_09_Copper_fixed_broadband_J26_10nov2026', 'bdc_09_Cable_fixed_broadband_J26_10nov2026', 'bdc_09_FibertothePremises_fixed_broadband_J26_10nov2026', 'bdc_09_GSOSatellite_fixed_broadband_J26_10nov2026', 'bdc_09_NGSOSatellite_fixed_broadband_J26_10nov2026', 'bdc_09_LicensedFixedWireless_fixed_broadband_J26_10nov2026']
+loaded bdc_09_Copper_fixed_broadband_J26_10nov2026
+loaded bdc_09_Cable_fixed_broadband_J26_10nov2026
+loaded bdc_09_FibertothePremises_fixed_broadband_J26_10nov2026
+loaded bdc_09_GSOSatellite_fixed_broadband_J26_10nov2026
+loaded bdc_09_NGSOSatellite_fixed_broadband_J26_10nov2026
+loaded bdc_09_LicensedFixedWireless_fixed_broadband_J26_10nov2026
+CT 273 zips 13 brands
+listed 10403 sample [{'file_id': 1889733, 'category': 'Provider', 'subcategory': 'Hexagon Coverage', 'technology_type': 'Mobile Broadband', 'technology_code': '300', 'technology_code_desc': '3G', 'speed_tier': None, 'state_fips': '56', 'state_name': 'Wyoming', 'provider_id': '130886', 'provider_name': 'NE Colorado Cellular, Inc.', 'file_type': 'gis', 'file_name': 'bdc_56_130886_3G_mobile_broadband_h3_J26_10nov2026', 'record_count': '13520'}, {'file_id': 1889725, 'category': 'Provider', 'subcategory': 'Hexagon Coverage', 'technology_type': 'Mobile Broadband', 'technology_code': '300', 'technology_code_desc': '3G', 'speed_tier': None, 'state_fips': '02', 'state_name': 'Alaska', 'provider_id': '130534', 'provider_name': 'GCI Holdings LLC', 'file_type': 'gis', 'file_name': 'bdc_02_130534_3G_mobile_broadband_h3_J26_10nov2026', 'record_count': '887390'}]
+as_of 2026-06-30 files ['bdc_10_Copper_fixed_broadband_J26_10nov2026', 'bdc_10_Cable_fixed_broadband_J26_10nov2026', 'bdc_10_FibertothePremises_fixed_broadband_J26_10nov2026', 'bdc_10_GSOSatellite_fixed_broadband_J26_10nov2026', 'bdc_10_NGSOSatellite_fixed_broadband_J26_10nov2026', 'bdc_10_UnlicensedFixedWireless_fixed_broadband_J26_10nov2026', 'bdc_10_LicensedFixedWireless_fixed_broadband_J26_10nov2026']
+loaded bdc_10_Copper_fixed_broadband_J26_10nov2026
+loaded bdc_10_Cable_fixed_broadband_J26_10nov2026
+loaded bdc_10_FibertothePremises_fixed_broadband_J26_10nov2026
+loaded bdc_10_GSOSatellite_fixed_broadband_J26_10nov2026
+loaded bdc_10_NGSOSatellite_fixed_broadband_J26_10nov2026
+loaded bdc_10_UnlicensedFixedWireless_fixed_broadband_J26_10nov2026
+loaded bdc_10_LicensedFixedWireless_fixed_broadband_J26_10nov2026
+DE 60 zips 11 brands
+listed 10403 sample [{'file_id': 1889757, 'category': 'Provider', 'subcategory': 'Hexagon Coverage', 'technology_type': 'Mobile Broadband', 'technology_code': '300', 'technology_code_desc': '3G', 'speed_tier': None, 'state_fips': '69', 'state_name': 'Commonwealth of the Northern Mariana Islands', 'provider_id': '130999', 'provider_name': 'NTT DoCoMo, Inc.', 'file_type': 'gis', 'file_name': 'bdc_69_130999_3G_mobile_broadband_h3_J26_10nov2026', 'record_count': '1877'}, {'file_id': 1889659, 'category': 'Provider', 'subcategory': 'Hexagon Coverage', 'technology_type': 'Mobile Broadband', 'technology_code': '300', 'technology_code_desc': '3G', 'speed_tier': None, 'state_fips': '78', 'state_name': 'United States Virgin Islands', 'provider_id': '130081', 'provider_name': 'ATN International, Inc.', 'file_type': 'gis', 'file_name': 'bdc_78_130081_3G_mobile_broadband_h3_J26_10nov2026', 'record_count': '19197'}]
+as_of 2026-06-30 files ['bdc_11_Copper_fixed_broadband_J26_10nov2026', 'bdc_11_Cable_fixed_broadband_J26_10nov2026', 'bdc_11_FibertothePremises_fixed_broadband_J26_10nov2026', 'bdc_11_GSOSatellite_fixed_broadband_J26_10nov2026', 'bdc_11_NGSOSatellite_fixed_broadband_J26_10nov2026', 'bdc_11_UnlicensedFixedWireless_fixed_broadband_J26_10nov2026', 'bdc_11_LicensedFixedWireless_fixed_broadband_J26_10nov2026']
+loaded bdc_11_Copper_fixed_broadband_J26_10nov2026
+loaded bdc_11_Cable_fixed_broadband_J26_10nov2026
+loaded bdc_11_FibertothePremises_fixed_broadband_J26_10nov2026
+loaded bdc_11_GSOSatellite_fixed_broadband_J26_10nov2026
+loaded bdc_11_NGSOSatellite_fixed_broadband_J26_10nov2026
+loaded bdc_11_UnlicensedFixedWireless_fixed_broadband_J26_10nov2026
+loaded bdc_11_LicensedFixedWireless_fixed_broadband_J26_10nov2026
+DC 30 zips 10 brands
+listed 10403 sample [{'file_id': 1889854, 'category': 'Provider', 'subcategory': 'Hexagon Coverage', 'technology_type': 'Mobile Broadband', 'technology_code': '300', 'technology_code_desc': '3G', 'speed_tier': None, 'state_fips': '66', 'state_name': 'Guam', 'provider_id': '220001', 'provider_name': 'PTI Pacifica Inc.', 'file_type': 'gis', 'file_name': 'bdc_66_220001_3G_mobile_broadband_h3_J26_10nov2026', 'record_count': '3646'}, {'file_id': 1889864, 'category': 'Provider', 'subcategory': 'Hexagon Coverage', 'technology_type': 'Mobile Broadband', 'technology_code': '300', 'technology_code_desc': '3G', 'speed_tier': None, 'state_fips': '16', 'state_name': 'Idaho', 'provider_id': '360114', 'provider_name': 'Union Holding Corp.', 'file_type': 'gis', 'file_name': 'bdc_16_360114_3G_mobile_broadband_h3_J26_10nov2026', 'record_count': '18128'}]
+as_of 2026-06-30 files ['bdc_12_Other_fixed_broadband_J26_10nov2026', 'bdc_12_Copper_fixed_broadband_J26_10nov2026', 'bdc_12_Cable_fixed_broadband_J26_10nov2026', 'bdc_12_FibertothePremises_fixed_broadband_J26_10nov2026', 'bdc_12_GSOSatellite_fixed_broadband_J26_10nov2026', 'bdc_12_NGSOSatellite_fixed_broadband_J26_10nov2026', 'bdc_12_UnlicensedFixedWireless_fixed_broadband_J26_10nov2026', 'bdc_12_LicensedFixedWireless_fixed_broadband_J26_10nov2026', 'bdc_12_LBRFixedWireless_fixed_broadband_J26_10nov2026']
+skip bdc_12_Other_fixed_broadband_J26_10nov2026
+loaded bdc_12_Copper_fixed_broadband_J26_10nov2026
+loaded bdc_12_Cable_fixed_broadband_J26_10nov2026
+loaded bdc_12_FibertothePremises_fixed_broadband_J26_10nov2026
+loaded bdc_12_GSOSatellite_fixed_broadband_J26_10nov2026
+loaded bdc_12_NGSOSatellite_fixed_broadband_J26_10nov2026
+loaded bdc_12_UnlicensedFixedWireless_fixed_broadband_J26_10nov2026
+loaded bdc_12_LicensedFixedWireless_fixed_broadband_J26_10nov2026
+loaded bdc_12_LBRFixedWireless_fixed_broadband_J26_10nov2026
+FL 928 zips 67 brands
+listed 10403 sample [{'file_id': 1889858, 'category': 'Provider', 'subcategory': 'Hexagon Coverage', 'technology_type': 'Mobile Broadband', 'technology_code': '300', 'technology_code_desc': '3G', 'speed_tier': None, 'state_fips': '42', 'state_name': 'Pennsylvania', 'provider_id': '300085', 'provider_name': 'Tower Bridge Mobile Holdings, LLC', 'file_type': 'gis', 'file_name': 'bdc_42_300085_3G_mobile_broadband_h3_J26_10nov2026', 'record_count': '1035'}, {'file_id': 1889854, 'category': 'Provider', 'subcategory': 'Hexagon Coverage', 'technology_type': 'Mobile Broadband', 'technology_code': '300', 'technology_code_desc': '3G', 'speed_tier': None, 'state_fips': '66', 'state_name': 'Guam', 'provider_id': '220001', 'provider_name': 'PTI Pacifica Inc.', 'file_type': 'gis', 'file_name': 'bdc_66_220001_3G_mobile_broadband_h3_J26_10nov2026', 'record_count': '3646'}]
+as_of 2026-06-30 files ['bdc_13_Copper_fixed_broadband_J26_10nov2026', 'bdc_13_Cable_fixed_broadband_J26_10nov2026', 'bdc_13_FibertothePremises_fixed_broadband_J26_10nov2026', 'bdc_13_GSOSatellite_fixed_broadband_J26_10nov2026', 'bdc_13_NGSOSatellite_fixed_broadband_J26_10nov2026', 'bdc_13_UnlicensedFixedWireless_fixed_broadband_J26_10nov2026', 'bdc_13_LicensedFixedWireless_fixed_broadband_J26_10nov2026']
+loaded bdc_13_Copper_fixed_broadband_J26_10nov2026
+loaded bdc_13_Cable_fixed_broadband_J26_10nov2026
+loaded bdc_13_FibertothePremises_fixed_broadband_J26_10nov2026
+loaded bdc_13_GSOSatellite_fixed_broadband_J26_10nov2026
+loaded bdc_13_NGSOSatellite_fixed_broadband_J26_10nov2026
+loaded bdc_13_UnlicensedFixedWireless_fixed_broadband_J26_10nov2026
+loaded bdc_13_LicensedFixedWireless_fixed_broadband_J26_10nov2026
+GA 683 zips 89 brands
+listed 10403 sample [{'file_id': 1889725, 'category': 'Provider', 'subcategory': 'Hexagon Coverage', 'technology_type': 'Mobile Broadband', 'technology_code': '300', 'technology_code_desc': '3G', 'speed_tier': None, 'state_fips': '02', 'state_name': 'Alaska', 'provider_id': '130534', 'provider_name': 'GCI Holdings LLC', 'file_type': 'gis', 'file_name': 'bdc_02_130534_3G_mobile_broadband_h3_J26_10nov2026', 'record_count': '887390'}, {'file_id': 1889867, 'category': 'Provider', 'subcategory': 'Hexagon Coverage', 'technology_type': 'Mobile Broadband', 'technology_code': '300', 'technology_code_desc': '3G', 'speed_tier': None, 'state_fips': '46', 'state_name': 'South Dakota', 'provider_id': '360114', 'provider_name': 'Union Holding Corp.', 'file_type': 'gis', 'file_name': 'bdc_46_360114_3G_mobile_broadband_h3_J26_10nov2026', 'record_count': '3'}]
+as_of 2026-06-30 files ['bdc_15_Copper_fixed_broadband_J26_10nov2026', 'bdc_15_Cable_fixed_broadband_J26_10nov2026', 'bdc_15_FibertothePremises_fixed_broadband_J26_10nov2026', 'bdc_15_GSOSatellite_fixed_broadband_J26_10nov2026', 'bdc_15_NGSOSatellite_fixed_broadband_J26_10nov2026', 'bdc_15_UnlicensedFixedWireless_fixed_broadband_J26_10nov2026', 'bdc_15_LicensedFixedWireless_fixed_broadband_J26_10nov2026']
+loaded bdc_15_Copper_fixed_broadband_J26_10nov2026
+loaded bdc_15_Cable_fixed_broadband_J26_10nov2026
+loaded bdc_15_FibertothePremises_fixed_broadband_J26_10nov2026
+loaded bdc_15_GSOSatellite_fixed_broadband_J26_10nov2026
+loaded bdc_15_NGSOSatellite_fixed_broadband_J26_10nov2026
+loaded bdc_15_UnlicensedFixedWireless_fixed_broadband_J26_10nov2026
+loaded bdc_15_LicensedFixedWireless_fixed_broadband_J26_10nov2026
+HI 64 zips 5 brands
+listed 10403 sample [{'file_id': 1889659, 'category': 'Provider', 'subcategory': 'Hexagon Coverage', 'technology_type': 'Mobile Broadband', 'technology_code': '300', 'technology_code_desc': '3G', 'speed_tier': None, 'state_fips': '78', 'state_name': 'United States Virgin Islands', 'provider_id': '130081', 'provider_name': 'ATN International, Inc.', 'file_type': 'gis', 'file_name': 'bdc_78_130081_3G_mobile_broadband_h3_J26_10nov2026', 'record_count': '19197'}, {'file_id': 1889758, 'category': 'Provider', 'subcategory': 'Hexagon Coverage', 'technology_type': 'Mobile Broadband', 'technology_code': '300', 'technology_code_desc': '3G', 'speed_tier': None, 'state_fips': '66', 'state_name': 'Guam', 'provider_id': '130999', 'provider_name': 'NTT DoCoMo, Inc.', 'file_type': 'gis', 'file_name': 'bdc_66_130999_3G_mobile_broadband_h3_J26_10nov2026', 'record_count': '2238'}]
+as_of 2026-06-30 files ['bdc_16_Copper_fixed_broadband_J26_10nov2026', 'bdc_16_Cable_fixed_broadband_J26_10nov2026', 'bdc_16_FibertothePremises_fixed_broadband_J26_10nov2026', 'bdc_16_GSOSatellite_fixed_broadband_J26_10nov2026', 'bdc_16_NGSOSatellite_fixed_broadband_J26_10nov2026', 'bdc_16_UnlicensedFixedWireless_fixed_broadband_J26_10nov2026', 'bdc_16_LicensedFixedWireless_fixed_broadband_J26_10nov2026', 'bdc_16_LBRFixedWireless_fixed_broadband_J26_10nov2026']
+loaded bdc_16_Copper_fixed_broadband_J26_10nov2026
+loaded bdc_16_Cable_fixed_broadband_J26_10nov2026
+loaded bdc_16_FibertothePremises_fixed_broadband_J26_10nov2026
+loaded bdc_16_GSOSatellite_fixed_broadband_J26_10nov2026
+loaded bdc_16_NGSOSatellite_fixed_broadband_J26_10nov2026
+loaded bdc_16_UnlicensedFixedWireless_fixed_broadband_J26_10nov2026
+loaded bdc_16_LicensedFixedWireless_fixed_broadband_J26_10nov2026
+loaded bdc_16_LBRFixedWireless_fixed_broadband_J26_10nov2026
+ID 241 zips 63 brands
+listed 10403 sample [{'file_id': 1889865, 'category': 'Provider', 'subcategory': 'Hexagon Coverage', 'technology_type': 'Mobile Broadband', 'technology_code': '300', 'technology_code_desc': '3G', 'speed_tier': None, 'state_fips': '08', 'state_name': 'Colorado', 'provider_id': '360114', 'provider_name': 'Union Holding Corp.', 'file_type': 'gis', 'file_name': 'bdc_08_360114_3G_mobile_broadband_h3_J26_10nov2026', 'record_count': '75234'}, {'file_id': 1889733, 'category': 'Provider', 'subcategory': 'Hexagon Coverage', 'technology_type': 'Mobile Broadband', 'technology_code': '300', 'technology_code_desc': '3G', 'speed_tier': None, 'state_fips': '56', 'state_name': 'Wyoming', 'provider_id': '130886', 'provider_name': 'NE Colorado Cellular, Inc.', 'file_type': 'gis', 'file_name': 'bdc_56_130886_3G_mobile_broadband_h3_J26_10nov2026', 'record_count': '13520'}]
+as_of 2026-06-30 files ['bdc_17_Other_fixed_broadband_J26_10nov2026', 'bdc_17_Copper_fixed_broadband_J26_10nov2026', 'bdc_17_Cable_fixed_broadband_J26_10nov2026', 'bdc_17_FibertothePremises_fixed_broadband_J26_10nov2026', 'bdc_17_GSOSatellite_fixed_broadband_J26_10nov2026', 'bdc_17_NGSOSatellite_fixed_broadband_J26_10nov2026', 'bdc_17_UnlicensedFixedWireless_fixed_broadband_J26_10nov2026', 'bdc_17_LicensedFixedWireless_fixed_broadband_J26_10nov2026', 'bdc_17_LBRFixedWireless_fixed_broadband_J26_10nov2026']
+skip bdc_17_Other_fixed_broadband_J26_10nov2026
+loaded bdc_17_Copper_fixed_broadband_J26_10nov2026
+loaded bdc_17_Cable_fixed_broadband_J26_10nov2026
+loaded bdc_17_FibertothePremises_fixed_broadband_J26_10nov2026
+loaded bdc_17_GSOSatellite_fixed_broadband_J26_10nov2026
+loaded bdc_17_NGSOSatellite_fixed_broadband_J26_10nov2026
+loaded bdc_17_UnlicensedFixedWireless_fixed_broadband_J26_10nov2026
+loaded bdc_17_LicensedFixedWireless_fixed_broadband_J26_10nov2026
+loaded bdc_17_LBRFixedWireless_fixed_broadband_J26_10nov2026
+IL 1259 zips 136 brands
+listed 10403 sample [{'file_id': 1889659, 'category': 'Provider', 'subcategory': 'Hexagon Coverage', 'technology_type': 'Mobile Broadband', 'technology_code': '300', 'technology_code_desc': '3G', 'speed_tier': None, 'state_fips': '78', 'state_name': 'United States Virgin Islands', 'provider_id': '130081', 'provider_name': 'ATN International, Inc.', 'file_type': 'gis', 'file_name': 'bdc_78_130081_3G_mobile_broadband_h3_J26_10nov2026', 'record_count': '19197'}, {'file_id': 1889869, 'category': 'Provider', 'subcategory': 'Hexagon Coverage', 'technology_type': 'Mobile Broadband', 'technology_code': '300', 'technology_code_desc': '3G', 'speed_tier': None, 'state_fips': '30', 'state_name': 'Montana', 'provider_id': '360114', 'provider_name': 'Union Holding Corp.', 'file_type': 'gis', 'file_name': 'bdc_30_360114_3G_mobile_broadband_h3_J26_10nov2026', 'record_count': '14492'}]
+as_of 2026-06-30 files ['bdc_18_Copper_fixed_broadband_J26_10nov2026', 'bdc_18_Cable_fixed_broadband_J26_10nov2026', 'bdc_18_FibertothePremises_fixed_broadband_J26_10nov2026', 'bdc_18_GSOSatellite_fixed_broadband_J26_10nov2026', 'bdc_18_NGSOSatellite_fixed_broadband_J26_10nov2026', 'bdc_18_UnlicensedFixedWireless_fixed_broadband_J26_10nov2026', 'bdc_18_LicensedFixedWireless_fixed_broadband_J26_10nov2026', 'bdc_18_LBRFixedWireless_fixed_broadband_J26_10nov2026']
+loaded bdc_18_Copper_fixed_broadband_J26_10nov2026
+loaded bdc_18_Cable_fixed_broadband_J26_10nov2026
+loaded bdc_18_FibertothePremises_fixed_broadband_J26_10nov2026
+loaded bdc_18_GSOSatellite_fixed_broadband_J26_10nov2026
+loaded bdc_18_NGSOSatellite_fixed_broadband_J26_10nov2026
+loaded bdc_18_UnlicensedFixedWireless_fixed_broadband_J26_10nov2026
+loaded bdc_18_LicensedFixedWireless_fixed_broadband_J26_10nov2026
+loaded bdc_18_LBRFixedWireless_fixed_broadband_J26_10nov2026
+IN 700 zips 102 brands
+listed 10403 sample [{'file_id': 1889864, 'category': 'Provider', 'subcategory': 'Hexagon Coverage', 'technology_type': 'Mobile Broadband', 'technology_code': '300', 'technology_code_desc': '3G', 'speed_tier': None, 'state_fips': '16', 'state_name': 'Idaho', 'provider_id': '360114', 'provider_name': 'Union Holding Corp.', 'file_type': 'gis', 'file_name': 'bdc_16_360114_3G_mobile_broadband_h3_J26_10nov2026', 'record_count': '18128'}, {'file_id': 1889855, 'category': 'Provider', 'subcategory': 'Hexagon Coverage', 'technology_type': 'Mobile Broadband', 'technology_code': '300', 'technology_code_desc': '3G', 'speed_tier': None, 'state_fips': '69', 'state_name': 'Commonwealth of the Northern Mariana Islands', 'provider_id': '220001', 'provider_name': 'PTI Pacifica Inc.', 'file_type': 'gis', 'file_name': 'bdc_69_220001_3G_mobile_broadband_h3_J26_10nov2026', 'record_count': '2159'}]
+as_of 2026-06-30 files ['bdc_19_Copper_fixed_broadband_J26_10nov2026', 'bdc_19_Cable_fixed_broadband_J26_10nov2026', 'bdc_19_FibertothePremises_fixed_broadband_J26_10nov2026', 'bdc_19_GSOSatellite_fixed_broadband_J26_10nov2026', 'bdc_19_NGSOSatellite_fixed_broadband_J26_10nov2026', 'bdc_19_UnlicensedFixedWireless_fixed_broadband_J26_10nov2026', 'bdc_19_LicensedFixedWireless_fixed_broadband_J26_10nov2026', 'bdc_19_LBRFixedWireless_fixed_broadband_J26_10nov2026']
+loaded bdc_19_Copper_fixed_broadband_J26_10nov2026
+loaded bdc_19_Cable_fixed_broadband_J26_10nov2026
+loaded bdc_19_FibertothePremises_fixed_broadband_J26_10nov2026
+loaded bdc_19_GSOSatellite_fixed_broadband_J26_10nov2026
+loaded bdc_19_NGSOSatellite_fixed_broadband_J26_10nov2026
+loaded bdc_19_UnlicensedFixedWireless_fixed_broadband_J26_10nov2026
+loaded bdc_19_LicensedFixedWireless_fixed_broadband_J26_10nov2026
+loaded bdc_19_LBRFixedWireless_fixed_broadband_J26_10nov2026
+IA 901 zips 224 brands
+listed 10403 sample [{'file_id': 1889854, 'category': 'Provider', 'subcategory': 'Hexagon Coverage', 'technology_type': 'Mobile Broadband', 'technology_code': '300', 'technology_code_desc': '3G', 'speed_tier': None, 'state_fips': '66', 'state_name': 'Guam', 'provider_id': '220001', 'provider_name': 'PTI Pacifica Inc.', 'file_type': 'gis', 'file_name': 'bdc_66_220001_3G_mobile_broadband_h3_J26_10nov2026', 'record_count': '3646'}, {'file_id': 1889758, 'category': 'Provider', 'subcategory': 'Hexagon Coverage', 'technology_type': 'Mobile Broadband', 'technology_code': '300', 'technology_code_desc': '3G', 'speed_tier': None, 'state_fips': '66', 'state_name': 'Guam', 'provider_id': '130999', 'provider_name': 'NTT DoCoMo, Inc.', 'file_type': 'gis', 'file_name': 'bdc_66_130999_3G_mobile_broadband_h3_J26_10nov2026', 'record_count': '2238'}]
+as_of 2026-06-30 files ['bdc_20_Other_fixed_broadband_J26_10nov2026', 'bdc_20_Copper_fixed_broadband_J26_10nov2026', 'bdc_20_Cable_fixed_broadband_J26_10nov2026', 'bdc_20_FibertothePremises_fixed_broadband_J26_10nov2026', 'bdc_20_GSOSatellite_fixed_broadband_J26_10nov2026', 'bdc_20_NGSOSatellite_fixed_broadband_J26_10nov2026', 'bdc_20_UnlicensedFixedWireless_fixed_broadband_J26_10nov2026', 'bdc_20_LicensedFixedWireless_fixed_broadband_J26_10nov2026', 'bdc_20_LBRFixedWireless_fixed_broadband_J26_10nov2026']
+skip bdc_20_Other_fixed_broadband_J26_10nov2026
+loaded bdc_20_Copper_fixed_broadband_J26_10nov2026
+loaded bdc_20_Cable_fixed_broadband_J26_10nov2026
+loaded bdc_20_FibertothePremises_fixed_broadband_J26_10nov2026
+loaded bdc_20_GSOSatellite_fixed_broadband_J26_10nov2026
+loaded bdc_20_NGSOSatellite_fixed_broadband_J26_10nov2026
+loaded bdc_20_UnlicensedFixedWireless_fixed_broadband_J26_10nov2026
+loaded bdc_20_LicensedFixedWireless_fixed_broadband_J26_10nov2026
+loaded bdc_20_LBRFixedWireless_fixed_broadband_J26_10nov2026
+KS 679 zips 96 brands
+listed 10403 sample [{'file_id': 1889858, 'category': 'Provider', 'subcategory': 'Hexagon Coverage', 'technology_type': 'Mobile Broadband', 'technology_code': '300', 'technology_code_desc': '3G', 'speed_tier': None, 'state_fips': '42', 'state_name': 'Pennsylvania', 'provider_id': '300085', 'provider_name': 'Tower Bridge Mobile Holdings, LLC', 'file_type': 'gis', 'file_name': 'bdc_42_300085_3G_mobile_broadband_h3_J26_10nov2026', 'record_count': '1035'}, {'file_id': 1889757, 'category': 'Provider', 'subcategory': 'Hexagon Coverage', 'technology_type': 'Mobile Broadband', 'technology_code': '300', 'technology_code_desc': '3G', 'speed_tier': None, 'state_fips': '69', 'state_name': 'Commonwealth of the Northern Mariana Islands', 'provider_id': '130999', 'provider_name': 'NTT DoCoMo, Inc.', 'file_type': 'gis', 'file_name': 'bdc_69_130999_3G_mobile_broadband_h3_J26_10nov2026', 'record_count': '1877'}]
+as_of 2026-06-30 files ['bdc_21_Copper_fixed_broadband_J26_10nov2026', 'bdc_21_Cable_fixed_broadband_J26_10nov2026', 'bdc_21_FibertothePremises_fixed_broadband_J26_10nov2026', 'bdc_21_GSOSatellite_fixed_broadband_J26_10nov2026', 'bdc_21_NGSOSatellite_fixed_broadband_J26_10nov2026', 'bdc_21_UnlicensedFixedWireless_fixed_broadband_J26_10nov2026', 'bdc_21_LicensedFixedWireless_fixed_broadband_J26_10nov2026', 'bdc_21_LBRFixedWireless_fixed_broadband_J26_10nov2026']
+loaded bdc_21_Copper_fixed_broadband_J26_10nov2026
+loaded bdc_21_Cable_fixed_broadband_J26_10nov2026
+loaded bdc_21_FibertothePremises_fixed_broadband_J26_10nov2026
+loaded bdc_21_GSOSatellite_fixed_broadband_J26_10nov2026
+loaded bdc_21_NGSOSatellite_fixed_broadband_J26_10nov2026
+loaded bdc_21_UnlicensedFixedWireless_fixed_broadband_J26_10nov2026
+loaded bdc_21_LicensedFixedWireless_fixed_broadband_J26_10nov2026
+loaded bdc_21_LBRFixedWireless_fixed_broadband_J26_10nov2026
+KY 732 zips 78 brands
+listed 10403 sample [{'file_id': 1889866, 'category': 'Provider', 'subcategory': 'Hexagon Coverage', 'technology_type': 'Mobile Broadband', 'technology_code': '300', 'technology_code_desc': '3G', 'speed_tier': None, 'state_fips': '49', 'state_name': 'Utah', 'provider_id': '360114', 'provider_name': 'Union Holding Corp.', 'file_type': 'gis', 'file_name': 'bdc_49_360114_3G_mobile_broadband_h3_J26_10nov2026', 'record_count': '15894'}, {'file_id': 1889855, 'category': 'Provider', 'subcategory': 'Hexagon Coverage', 'technology_type': 'Mobile Broadband', 'technology_code': '300', 'technology_code_desc': '3G', 'speed_tier': None, 'state_fips': '69', 'state_name': 'Commonwealth of the Northern Mariana Islands', 'provider_id': '220001', 'provider_name': 'PTI Pacifica Inc.', 'file_type': 'gis', 'file_name': 'bdc_69_220001_3G_mobile_broadband_h3_J26_10nov2026', 'record_count': '2159'}]
+as_of 2026-06-30 files ['bdc_22_Copper_fixed_broadband_J26_10nov2026', 'bdc_22_Cable_fixed_broadband_J26_10nov2026', 'bdc_22_FibertothePremises_fixed_broadband_J26_10nov2026', 'bdc_22_GSOSatellite_fixed_broadband_J26_10nov2026', 'bdc_22_NGSOSatellite_fixed_broadband_J26_10nov2026', 'bdc_22_UnlicensedFixedWireless_fixed_broadband_J26_10nov2026', 'bdc_22_LicensedFixedWireless_fixed_broadband_J26_10nov2026', 'bdc_22_LBRFixedWireless_fixed_broadband_J26_10nov2026']
+loaded bdc_22_Copper_fixed_broadband_J26_10nov2026
+loaded bdc_22_Cable_fixed_broadband_J26_10nov2026
+loaded bdc_22_FibertothePremises_fixed_broadband_J26_10nov2026
+loaded bdc_22_GSOSatellite_fixed_broadband_J26_10nov2026
+loaded bdc_22_NGSOSatellite_fixed_broadband_J26_10nov2026
+loaded bdc_22_UnlicensedFixedWireless_fixed_broadband_J26_10nov2026
+loaded bdc_22_LicensedFixedWireless_fixed_broadband_J26_10nov2026
+loaded bdc_22_LBRFixedWireless_fixed_broadband_J26_10nov2026
+LA 474 zips 46 brands
+listed 10403 sample [{'file_id': 1889865, 'category': 'Provider', 'subcategory': 'Hexagon Coverage', 'technology_type': 'Mobile Broadband', 'technology_code': '300', 'technology_code_desc': '3G', 'speed_tier': None, 'state_fips': '08', 'state_name': 'Colorado', 'provider_id': '360114', 'provider_name': 'Union Holding Corp.', 'file_type': 'gis', 'file_name': 'bdc_08_360114_3G_mobile_broadband_h3_J26_10nov2026', 'record_count': '75234'}, {'file_id': 1889733, 'category': 'Provider', 'subcategory': 'Hexagon Coverage', 'technology_type': 'Mobile Broadband', 'technology_code': '300', 'technology_code_desc': '3G', 'speed_tier': None, 'state_fips': '56', 'state_name': 'Wyoming', 'provider_id': '130886', 'provider_name': 'NE Colorado Cellular, Inc.', 'file_type': 'gis', 'file_name': 'bdc_56_130886_3G_mobile_broadband_h3_J26_10nov2026', 'record_count': '13520'}]
+as_of 2026-06-30 files ['bdc_23_Copper_fixed_broadband_J26_10nov2026', 'bdc_23_Cable_fixed_broadband_J26_10nov2026', 'bdc_23_FibertothePremises_fixed_broadband_J26_10nov2026', 'bdc_23_GSOSatellite_fixed_broadband_J26_10nov2026', 'bdc_23_NGSOSatellite_fixed_broadband_J26_10nov2026', 'bdc_23_UnlicensedFixedWireless_fixed_broadband_J26_10nov2026', 'bdc_23_LicensedFixedWireless_fixed_broadband_J26_10nov2026', 'bdc_23_LBRFixedWireless_fixed_broadband_J26_10nov2026']
+loaded bdc_23_Copper_fixed_broadband_J26_10nov2026
+loaded bdc_23_Cable_fixed_broadband_J26_10nov2026
+loaded bdc_23_FibertothePremises_fixed_broadband_J26_10nov2026
+loaded bdc_23_GSOSatellite_fixed_broadband_J26_10nov2026
+loaded bdc_23_NGSOSatellite_fixed_broadband_J26_10nov2026
+loaded bdc_23_UnlicensedFixedWireless_fixed_broadband_J26_10nov2026
+loaded bdc_23_LicensedFixedWireless_fixed_broadband_J26_10nov2026
+loaded bdc_23_LBRFixedWireless_fixed_broadband_J26_10nov2026
+ME 387 zips 31 brands
+listed 10403 sample [{'file_id': 1889865, 'category': 'Provider', 'subcategory': 'Hexagon Coverage', 'technology_type': 'Mobile Broadband', 'technology_code': '300', 'technology_code_desc': '3G', 'speed_tier': None, 'state_fips': '08', 'state_name': 'Colorado', 'provider_id': '360114', 'provider_name': 'Union Holding Corp.', 'file_type': 'gis', 'file_name': 'bdc_08_360114_3G_mobile_broadband_h3_J26_10nov2026', 'record_count': '75234'}, {'file_id': 1889855, 'category': 'Provider', 'subcategory': 'Hexagon Coverage', 'technology_type': 'Mobile Broadband', 'technology_code': '300', 'technology_code_desc': '3G', 'speed_tier': None, 'state_fips': '69', 'state_name': 'Commonwealth of the Northern Mariana Islands', 'provider_id': '220001', 'provider_name': 'PTI Pacifica Inc.', 'file_type': 'gis', 'file_name': 'bdc_69_220001_3G_mobile_broadband_h3_J26_10nov2026', 'record_count': '2159'}]
+as_of 2026-06-30 files ['bdc_24_Copper_fixed_broadband_J26_10nov2026', 'bdc_24_Cable_fixed_broadband_J26_10nov2026', 'bdc_24_FibertothePremises_fixed_broadband_J26_10nov2026', 'bdc_24_GSOSatellite_fixed_broadband_J26_10nov2026', 'bdc_24_NGSOSatellite_fixed_broadband_J26_10nov2026', 'bdc_24_UnlicensedFixedWireless_fixed_broadband_J26_10nov2026', 'bdc_24_LicensedFixedWireless_fixed_broadband_J26_10nov2026', 'bdc_24_LBRFixedWireless_fixed_broadband_J26_10nov2026']
+loaded bdc_24_Copper_fixed_broadband_J26_10nov2026
+loaded bdc_24_Cable_fixed_broadband_J26_10nov2026
+loaded bdc_24_FibertothePremises_fixed_broadband_J26_10nov2026
+loaded bdc_24_GSOSatellite_fixed_broadband_J26_10nov2026
+loaded bdc_24_NGSOSatellite_fixed_broadband_J26_10nov2026
+loaded bdc_24_UnlicensedFixedWireless_fixed_broadband_J26_10nov2026
+loaded bdc_24_LicensedFixedWireless_fixed_broadband_J26_10nov2026
+loaded bdc_24_LBRFixedWireless_fixed_broadband_J26_10nov2026
+MD 425 zips 44 brands
+listed 10403 sample [{'file_id': 1889865, 'category': 'Provider', 'subcategory': 'Hexagon Coverage', 'technology_type': 'Mobile Broadband', 'technology_code': '300', 'technology_code_desc': '3G', 'speed_tier': None, 'state_fips': '08', 'state_name': 'Colorado', 'provider_id': '360114', 'provider_name': 'Union Holding Corp.', 'file_type': 'gis', 'file_name': 'bdc_08_360114_3G_mobile_broadband_h3_J26_10nov2026', 'record_count': '75234'}, {'file_id': 1889733, 'category': 'Provider', 'subcategory': 'Hexagon Coverage', 'technology_type': 'Mobile Broadband', 'technology_code': '300', 'technology_code_desc': '3G', 'speed_tier': None, 'state_fips': '56', 'state_name': 'Wyoming', 'provider_id': '130886', 'provider_name': 'NE Colorado Cellular, Inc.', 'file_type': 'gis', 'file_name': 'bdc_56_130886_3G_mobile_broadband_h3_J26_10nov2026', 'record_count': '13520'}]
+as_of 2026-06-30 files ['bdc_25_Other_fixed_broadband_J26_10nov2026', 'bdc_25_Copper_fixed_broadband_J26_10nov2026', 'bdc_25_Cable_fixed_broadband_J26_10nov2026', 'bdc_25_FibertothePremises_fixed_broadband_J26_10nov2026', 'bdc_25_GSOSatellite_fixed_broadband_J26_10nov2026', 'bdc_25_NGSOSatellite_fixed_broadband_J26_10nov2026', 'bdc_25_UnlicensedFixedWireless_fixed_broadband_J26_10nov2026', 'bdc_25_LicensedFixedWireless_fixed_broadband_J26_10nov2026', 'bdc_25_LBRFixedWireless_fixed_broadband_J26_10nov2026']
+skip bdc_25_Other_fixed_broadband_J26_10nov2026
+loaded bdc_25_Copper_fixed_broadband_J26_10nov2026
+loaded bdc_25_Cable_fixed_broadband_J26_10nov2026
+loaded bdc_25_FibertothePremises_fixed_broadband_J26_10nov2026
+loaded bdc_25_GSOSatellite_fixed_broadband_J26_10nov2026
+loaded bdc_25_NGSOSatellite_fixed_broadband_J26_10nov2026
+loaded bdc_25_UnlicensedFixedWireless_fixed_broadband_J26_10nov2026
+loaded bdc_25_LicensedFixedWireless_fixed_broadband_J26_10nov2026
+loaded bdc_25_LBRFixedWireless_fixed_broadband_J26_10nov2026
+MA 494 zips 29 brands
+listed 10403 sample [{'file_id': 1889855, 'category': 'Provider', 'subcategory': 'Hexagon Coverage', 'technology_type': 'Mobile Broadband', 'technology_code': '300', 'technology_code_desc': '3G', 'speed_tier': None, 'state_fips': '69', 'state_name': 'Commonwealth of the Northern Mariana Islands', 'provider_id': '220001', 'provider_name': 'PTI Pacifica Inc.', 'file_type': 'gis', 'file_name': 'bdc_69_220001_3G_mobile_broadband_h3_J26_10nov2026', 'record_count': '2159'}, {'file_id': 1889863, 'category': 'Provider', 'subcategory': 'Hexagon Coverage', 'technology_type': 'Mobile Broadband', 'technology_code': '300', 'technology_code_desc': '3G', 'speed_tier': None, 'state_fips': '31', 'state_name': 'Nebraska', 'provider_id': '360114', 'provider_name': 'Union Holding Corp.', 'file_type': 'gis', 'file_name': 'bdc_31_360114_3G_mobile_broadband_h3_J26_10nov2026', 'record_count': '5'}]
+as_of 2026-06-30 files ['bdc_26_Copper_fixed_broadband_J26_10nov2026', 'bdc_26_Cable_fixed_broadband_J26_10nov2026', 'bdc_26_FibertothePremises_fixed_broadband_J26_10nov2026', 'bdc_26_GSOSatellite_fixed_broadband_J26_10nov2026', 'bdc_26_NGSOSatellite_fixed_broadband_J26_10nov2026', 'bdc_26_UnlicensedFixedWireless_fixed_broadband_J26_10nov2026', 'bdc_26_LicensedFixedWireless_fixed_broadband_J26_10nov2026', 'bdc_26_LBRFixedWireless_fixed_broadband_J26_10nov2026']
+loaded bdc_26_Copper_fixed_broadband_J26_10nov2026
+loaded bdc_26_Cable_fixed_broadband_J26_10nov2026
+loaded bdc_26_FibertothePremises_fixed_broadband_J26_10nov2026
+loaded bdc_26_GSOSatellite_fixed_broadband_J26_10nov2026
+loaded bdc_26_NGSOSatellite_fixed_broadband_J26_10nov2026
+loaded bdc_26_UnlicensedFixedWireless_fixed_broadband_J26_10nov2026
+loaded bdc_26_LicensedFixedWireless_fixed_broadband_J26_10nov2026
+loaded bdc_26_LBRFixedWireless_fixed_broadband_J26_10nov2026
+MI 909 zips 89 brands
+listed 10403 sample [{'file_id': 1889866, 'category': 'Provider', 'subcategory': 'Hexagon Coverage', 'technology_type': 'Mobile Broadband', 'technology_code': '300', 'technology_code_desc': '3G', 'speed_tier': None, 'state_fips': '49', 'state_name': 'Utah', 'provider_id': '360114', 'provider_name': 'Union Holding Corp.', 'file_type': 'gis', 'file_name': 'bdc_49_360114_3G_mobile_broadband_h3_J26_10nov2026', 'record_count': '15894'}, {'file_id': 1889725, 'category': 'Provider', 'subcategory': 'Hexagon Coverage', 'technology_type': 'Mobile Broadband', 'technology_code': '300', 'technology_code_desc': '3G', 'speed_tier': None, 'state_fips': '02', 'state_name': 'Alaska', 'provider_id': '130534', 'provider_name': 'GCI Holdings LLC', 'file_type': 'gis', 'file_name': 'bdc_02_130534_3G_mobile_broadband_h3_J26_10nov2026', 'record_count': '887390'}]
+as_of 2026-06-30 files ['bdc_27_Other_fixed_broadband_J26_10nov2026', 'bdc_27_Copper_fixed_broadband_J26_10nov2026', 'bdc_27_Cable_fixed_broadband_J26_10nov2026', 'bdc_27_FibertothePremises_fixed_broadband_J26_10nov2026', 'bdc_27_GSOSatellite_fixed_broadband_J26_10nov2026', 'bdc_27_NGSOSatellite_fixed_broadband_J26_10nov2026', 'bdc_27_UnlicensedFixedWireless_fixed_broadband_J26_10nov2026', 'bdc_27_LicensedFixedWireless_fixed_broadband_J26_10nov2026', 'bdc_27_LBRFixedWireless_fixed_broadband_J26_10nov2026']
+skip bdc_27_Other_fixed_broadband_J26_10nov2026
+loaded bdc_27_Copper_fixed_broadband_J26_10nov2026
+loaded bdc_27_Cable_fixed_broadband_J26_10nov2026
+loaded bdc_27_FibertothePremises_fixed_broadband_J26_10nov2026
+loaded bdc_27_GSOSatellite_fixed_broadband_J26_10nov2026
+loaded bdc_27_NGSOSatellite_fixed_broadband_J26_10nov2026
+loaded bdc_27_UnlicensedFixedWireless_fixed_broadband_J26_10nov2026
+loaded bdc_27_LicensedFixedWireless_fixed_broadband_J26_10nov2026
+loaded bdc_27_LBRFixedWireless_fixed_broadband_J26_10nov2026
+MN 833 zips 112 brands
+listed 10403 sample [{'file_id': 1889863, 'category': 'Provider', 'subcategory': 'Hexagon Coverage', 'technology_type': 'Mobile Broadband', 'technology_code': '300', 'technology_code_desc': '3G', 'speed_tier': None, 'state_fips': '31', 'state_name': 'Nebraska', 'provider_id': '360114', 'provider_name': 'Union Holding Corp.', 'file_type': 'gis', 'file_name': 'bdc_31_360114_3G_mobile_broadband_h3_J26_10nov2026', 'record_count': '5'}, {'file_id': 1889855, 'category': 'Provider', 'subcategory': 'Hexagon Coverage', 'technology_type': 'Mobile Broadband', 'technology_code': '300', 'technology_code_desc': '3G', 'speed_tier': None, 'state_fips': '69', 'state_name': 'Commonwealth of the Northern Mariana Islands', 'provider_id': '220001', 'provider_name': 'PTI Pacifica Inc.', 'file_type': 'gis', 'file_name': 'bdc_69_220001_3G_mobile_broadband_h3_J26_10nov2026', 'record_count': '2159'}]
+as_of 2026-06-30 files ['bdc_28_Copper_fixed_broadband_J26_10nov2026', 'bdc_28_Cable_fixed_broadband_J26_10nov2026', 'bdc_28_FibertothePremises_fixed_broadband_J26_10nov2026', 'bdc_28_GSOSatellite_fixed_broadband_J26_10nov2026', 'bdc_28_NGSOSatellite_fixed_broadband_J26_10nov2026', 'bdc_28_UnlicensedFixedWireless_fixed_broadband_J26_10nov2026', 'bdc_28_LicensedFixedWireless_fixed_broadband_J26_10nov2026', 'bdc_28_LBRFixedWireless_fixed_broadband_J26_10nov2026']
+loaded bdc_28_Copper_fixed_broadband_J26_10nov2026
+loaded bdc_28_Cable_fixed_broadband_J26_10nov2026
+loaded bdc_28_FibertothePremises_fixed_broadband_J26_10nov2026
+loaded bdc_28_GSOSatellite_fixed_broadband_J26_10nov2026
+loaded bdc_28_NGSOSatellite_fixed_broadband_J26_10nov2026
+loaded bdc_28_UnlicensedFixedWireless_fixed_broadband_J26_10nov2026
+loaded bdc_28_LicensedFixedWireless_fixed_broadband_J26_10nov2026
+loaded bdc_28_LBRFixedWireless_fixed_broadband_J26_10nov2026
+MS 380 zips 57 brands
+listed 10403 sample [{'file_id': 1889733, 'category': 'Provider', 'subcategory': 'Hexagon Coverage', 'technology_type': 'Mobile Broadband', 'technology_code': '300', 'technology_code_desc': '3G', 'speed_tier': None, 'state_fips': '56', 'state_name': 'Wyoming', 'provider_id': '130886', 'provider_name': 'NE Colorado Cellular, Inc.', 'file_type': 'gis', 'file_name': 'bdc_56_130886_3G_mobile_broadband_h3_J26_10nov2026', 'record_count': '13520'}, {'file_id': 1889864, 'category': 'Provider', 'subcategory': 'Hexagon Coverage', 'technology_type': 'Mobile Broadband', 'technology_code': '300', 'technology_code_desc': '3G', 'speed_tier': None, 'state_fips': '16', 'state_name': 'Idaho', 'provider_id': '360114', 'provider_name': 'Union Holding Corp.', 'file_type': 'gis', 'file_name': 'bdc_16_360114_3G_mobile_broadband_h3_J26_10nov2026', 'record_count': '18128'}]
+as_of 2026-06-30 files ['bdc_29_Other_fixed_broadband_J26_10nov2026', 'bdc_29_Copper_fixed_broadband_J26_10nov2026', 'bdc_29_Cable_fixed_broadband_J26_10nov2026', 'bdc_29_FibertothePremises_fixed_broadband_J26_10nov2026', 'bdc_29_GSOSatellite_fixed_broadband_J26_10nov2026', 'bdc_29_NGSOSatellite_fixed_broadband_J26_10nov2026', 'bdc_29_UnlicensedFixedWireless_fixed_broadband_J26_10nov2026', 'bdc_29_LicensedFixedWireless_fixed_broadband_J26_10nov2026', 'bdc_29_LBRFixedWireless_fixed_broadband_J26_10nov2026']
+skip bdc_29_Other_fixed_broadband_J26_10nov2026
+loaded bdc_29_Copper_fixed_broadband_J26_10nov2026
+loaded bdc_29_Cable_fixed_broadband_J26_10nov2026
+loaded bdc_29_FibertothePremises_fixed_broadband_J26_10nov2026
+loaded bdc_29_GSOSatellite_fixed_broadband_J26_10nov2026
+loaded bdc_29_NGSOSatellite_fixed_broadband_J26_10nov2026
+loaded bdc_29_UnlicensedFixedWireless_fixed_broadband_J26_10nov2026
+loaded bdc_29_LicensedFixedWireless_fixed_broadband_J26_10nov2026
+loaded bdc_29_LBRFixedWireless_fixed_broadband_J26_10nov2026
+MO 977 zips 119 brands
+listed 10403 sample [{'file_id': 1889734, 'category': 'Provider', 'subcategory': 'Hexagon Coverage', 'technology_type': 'Mobile Broadband', 'technology_code': '300', 'technology_code_desc': '3G', 'speed_tier': None, 'state_fips': '31', 'state_name': 'Nebraska', 'provider_id': '130886', 'provider_name': 'NE Colorado Cellular, Inc.', 'file_type': 'gis', 'file_name': 'bdc_31_130886_3G_mobile_broadband_h3_J26_10nov2026', 'record_count': '263159'}, {'file_id': 1889854, 'category': 'Provider', 'subcategory': 'Hexagon Coverage', 'technology_type': 'Mobile Broadband', 'technology_code': '300', 'technology_code_desc': '3G', 'speed_tier': None, 'state_fips': '66', 'state_name': 'Guam', 'provider_id': '220001', 'provider_name': 'PTI Pacifica Inc.', 'file_type': 'gis', 'file_name': 'bdc_66_220001_3G_mobile_broadband_h3_J26_10nov2026', 'record_count': '3646'}]
+as_of 2026-06-30 files ['bdc_30_Copper_fixed_broadband_J26_10nov2026', 'bdc_30_Cable_fixed_broadband_J26_10nov2026', 'bdc_30_FibertothePremises_fixed_broadband_J26_10nov2026', 'bdc_30_GSOSatellite_fixed_broadband_J26_10nov2026', 'bdc_30_NGSOSatellite_fixed_broadband_J26_10nov2026', 'bdc_30_UnlicensedFixedWireless_fixed_broadband_J26_10nov2026', 'bdc_30_LicensedFixedWireless_fixed_broadband_J26_10nov2026', 'bdc_30_LBRFixedWireless_fixed_broadband_J26_10nov2026']
+loaded bdc_30_Copper_fixed_broadband_J26_10nov2026
+loaded bdc_30_Cable_fixed_broadband_J26_10nov2026
+loaded bdc_30_FibertothePremises_fixed_broadband_J26_10nov2026
+loaded bdc_30_GSOSatellite_fixed_broadband_J26_10nov2026
+loaded bdc_30_NGSOSatellite_fixed_broadband_J26_10nov2026
+loaded bdc_30_UnlicensedFixedWireless_fixed_broadband_J26_10nov2026
+loaded bdc_30_LicensedFixedWireless_fixed_broadband_J26_10nov2026
+loaded bdc_30_LBRFixedWireless_fixed_broadband_J26_10nov2026
+MT 299 zips 46 brands
+listed 10403 sample [{'file_id': 1889758, 'category': 'Provider', 'subcategory': 'Hexagon Coverage', 'technology_type': 'Mobile Broadband', 'technology_code': '300', 'technology_code_desc': '3G', 'speed_tier': None, 'state_fips': '66', 'state_name': 'Guam', 'provider_id': '130999', 'provider_name': 'NTT DoCoMo, Inc.', 'file_type': 'gis', 'file_name': 'bdc_66_130999_3G_mobile_broadband_h3_J26_10nov2026', 'record_count': '2238'}, {'file_id': 1889868, 'category': 'Provider', 'subcategory': 'Hexagon Coverage', 'technology_type': 'Mobile Broadband', 'technology_code': '300', 'technology_code_desc': '3G', 'speed_tier': None, 'state_fips': '56', 'state_name': 'Wyoming', 'provider_id': '360114', 'provider_name': 'Union Holding Corp.', 'file_type': 'gis', 'file_name': 'bdc_56_360114_3G_mobile_broadband_h3_J26_10nov2026', 'record_count': '458843'}]
+as_of 2026-06-30 files ['bdc_31_Copper_fixed_broadband_J26_10nov2026', 'bdc_31_Cable_fixed_broadband_J26_10nov2026', 'bdc_31_FibertothePremises_fixed_broadband_J26_10nov2026', 'bdc_31_GSOSatellite_fixed_broadband_J26_10nov2026', 'bdc_31_NGSOSatellite_fixed_broadband_J26_10nov2026', 'bdc_31_UnlicensedFixedWireless_fixed_broadband_J26_10nov2026', 'bdc_31_LicensedFixedWireless_fixed_broadband_J26_10nov2026', 'bdc_31_LBRFixedWireless_fixed_broadband_J26_10nov2026']
+loaded bdc_31_Copper_fixed_broadband_J26_10nov2026
+loaded bdc_31_Cable_fixed_broadband_J26_10nov2026
+loaded bdc_31_FibertothePremises_fixed_broadband_J26_10nov2026
+loaded bdc_31_GSOSatellite_fixed_broadband_J26_10nov2026
+loaded bdc_31_NGSOSatellite_fixed_broadband_J26_10nov2026
+loaded bdc_31_UnlicensedFixedWireless_fixed_broadband_J26_10nov2026
+loaded bdc_31_LicensedFixedWireless_fixed_broadband_J26_10nov2026
+loaded bdc_31_LBRFixedWireless_fixed_broadband_J26_10nov2026
+NE 560 zips 80 brands
+listed 10403 sample [{'file_id': 1889867, 'category': 'Provider', 'subcategory': 'Hexagon Coverage', 'technology_type': 'Mobile Broadband', 'technology_code': '300', 'technology_code_desc': '3G', 'speed_tier': None, 'state_fips': '46', 'state_name': 'South Dakota', 'provider_id': '360114', 'provider_name': 'Union Holding Corp.', 'file_type': 'gis', 'file_name': 'bdc_46_360114_3G_mobile_broadband_h3_J26_10nov2026', 'record_count': '3'}, {'file_id': 1889725, 'category': 'Provider', 'subcategory': 'Hexagon Coverage', 'technology_type': 'Mobile Broadband', 'technology_code': '300', 'technology_code_desc': '3G', 'speed_tier': None, 'state_fips': '02', 'state_name': 'Alaska', 'provider_id': '130534', 'provider_name': 'GCI Holdings LLC', 'file_type': 'gis', 'file_name': 'bdc_02_130534_3G_mobile_broadband_h3_J26_10nov2026', 'record_count': '887390'}]
+as_of 2026-06-30 files ['bdc_32_Other_fixed_broadband_J26_10nov2026', 'bdc_32_Copper_fixed_broadband_J26_10nov2026', 'bdc_32_Cable_fixed_broadband_J26_10nov2026', 'bdc_32_FibertothePremises_fixed_broadband_J26_10nov2026', 'bdc_32_GSOSatellite_fixed_broadband_J26_10nov2026', 'bdc_32_NGSOSatellite_fixed_broadband_J26_10nov2026', 'bdc_32_UnlicensedFixedWireless_fixed_broadband_J26_10nov2026', 'bdc_32_LicensedFixedWireless_fixed_broadband_J26_10nov2026', 'bdc_32_LBRFixedWireless_fixed_broadband_J26_10nov2026']
+skip bdc_32_Other_fixed_broadband_J26_10nov2026
+loaded bdc_32_Copper_fixed_broadband_J26_10nov2026
+loaded bdc_32_Cable_fixed_broadband_J26_10nov2026
+loaded bdc_32_FibertothePremises_fixed_broadband_J26_10nov2026
+loaded bdc_32_GSOSatellite_fixed_broadband_J26_10nov2026
+loaded bdc_32_NGSOSatellite_fixed_broadband_J26_10nov2026
+loaded bdc_32_UnlicensedFixedWireless_fixed_broadband_J26_10nov2026
+loaded bdc_32_LicensedFixedWireless_fixed_broadband_J26_10nov2026
+loaded bdc_32_LBRFixedWireless_fixed_broadband_J26_10nov2026
+NV 128 zips 41 brands
+listed 10403 sample [{'file_id': 1889735, 'category': 'Provider', 'subcategory': 'Hexagon Coverage', 'technology_type': 'Mobile Broadband', 'technology_code': '300', 'technology_code_desc': '3G', 'speed_tier': None, 'state_fips': '08', 'state_name': 'Colorado', 'provider_id': '130886', 'provider_name': 'NE Colorado Cellular, Inc.', 'file_type': 'gis', 'file_name': 'bdc_08_130886_3G_mobile_broadband_h3_J26_10nov2026', 'record_count': '591447'}, {'file_id': 1889863, 'category': 'Provider', 'subcategory': 'Hexagon Coverage', 'technology_type': 'Mobile Broadband', 'technology_code': '300', 'technology_code_desc': '3G', 'speed_tier': None, 'state_fips': '31', 'state_name': 'Nebraska', 'provider_id': '360114', 'provider_name': 'Union Holding Corp.', 'file_type': 'gis', 'file_name': 'bdc_31_360114_3G_mobile_broadband_h3_J26_10nov2026', 'record_count': '5'}]
+as_of 2026-06-30 files ['bdc_33_Copper_fixed_broadband_J26_10nov2026', 'bdc_33_Cable_fixed_broadband_J26_10nov2026', 'bdc_33_FibertothePremises_fixed_broadband_J26_10nov2026', 'bdc_33_GSOSatellite_fixed_broadband_J26_10nov2026', 'bdc_33_NGSOSatellite_fixed_broadband_J26_10nov2026', 'bdc_33_UnlicensedFixedWireless_fixed_broadband_J26_10nov2026', 'bdc_33_LicensedFixedWireless_fixed_broadband_J26_10nov2026', 'bdc_33_LBRFixedWireless_fixed_broadband_J26_10nov2026']
+loaded bdc_33_Copper_fixed_broadband_J26_10nov2026
+loaded bdc_33_Cable_fixed_broadband_J26_10nov2026
+loaded bdc_33_FibertothePremises_fixed_broadband_J26_10nov2026
+loaded bdc_33_GSOSatellite_fixed_broadband_J26_10nov2026
+loaded bdc_33_NGSOSatellite_fixed_broadband_J26_10nov2026
+loaded bdc_33_UnlicensedFixedWireless_fixed_broadband_J26_10nov2026
+loaded bdc_33_LicensedFixedWireless_fixed_broadband_J26_10nov2026
+loaded bdc_33_LBRFixedWireless_fixed_broadband_J26_10nov2026
+NH 232 zips 23 brands
+listed 10403 sample [{'file_id': 1889867, 'category': 'Provider', 'subcategory': 'Hexagon Coverage', 'technology_type': 'Mobile Broadband', 'technology_code': '300', 'technology_code_desc': '3G', 'speed_tier': None, 'state_fips': '46', 'state_name': 'South Dakota', 'provider_id': '360114', 'provider_name': 'Union Holding Corp.', 'file_type': 'gis', 'file_name': 'bdc_46_360114_3G_mobile_broadband_h3_J26_10nov2026', 'record_count': '3'}, {'file_id': 1889855, 'category': 'Provider', 'subcategory': 'Hexagon Coverage', 'technology_type': 'Mobile Broadband', 'technology_code': '300', 'technology_code_desc': '3G', 'speed_tier': None, 'state_fips': '69', 'state_name': 'Commonwealth of the Northern Mariana Islands', 'provider_id': '220001', 'provider_name': 'PTI Pacifica Inc.', 'file_type': 'gis', 'file_name': 'bdc_69_220001_3G_mobile_broadband_h3_J26_10nov2026', 'record_count': '2159'}]
+as_of 2026-06-30 files ['bdc_34_Copper_fixed_broadband_J26_10nov2026', 'bdc_34_Cable_fixed_broadband_J26_10nov2026', 'bdc_34_FibertothePremises_fixed_broadband_J26_10nov2026', 'bdc_34_GSOSatellite_fixed_broadband_J26_10nov2026', 'bdc_34_NGSOSatellite_fixed_broadband_J26_10nov2026', 'bdc_34_UnlicensedFixedWireless_fixed_broadband_J26_10nov2026', 'bdc_34_LicensedFixedWireless_fixed_broadband_J26_10nov2026', 'bdc_34_LBRFixedWireless_fixed_broadband_J26_10nov2026']
+loaded bdc_34_Copper_fixed_broadband_J26_10nov2026
+loaded bdc_34_Cable_fixed_broadband_J26_10nov2026
+loaded bdc_34_FibertothePremises_fixed_broadband_J26_10nov2026
+loaded bdc_34_GSOSatellite_fixed_broadband_J26_10nov2026
+loaded bdc_34_NGSOSatellite_fixed_broadband_J26_10nov2026
+loaded bdc_34_UnlicensedFixedWireless_fixed_broadband_J26_10nov2026
+loaded bdc_34_LicensedFixedWireless_fixed_broadband_J26_10nov2026
+loaded bdc_34_LBRFixedWireless_fixed_broadband_J26_10nov2026
+NJ 560 zips 14 brands
+listed 10403 sample [{'file_id': 1889865, 'category': 'Provider', 'subcategory': 'Hexagon Coverage', 'technology_type': 'Mobile Broadband', 'technology_code': '300', 'technology_code_desc': '3G', 'speed_tier': None, 'state_fips': '08', 'state_name': 'Colorado', 'provider_id': '360114', 'provider_name': 'Union Holding Corp.', 'file_type': 'gis', 'file_name': 'bdc_08_360114_3G_mobile_broadband_h3_J26_10nov2026', 'record_count': '75234'}, {'file_id': 1889864, 'category': 'Provider', 'subcategory': 'Hexagon Coverage', 'technology_type': 'Mobile Broadband', 'technology_code': '300', 'technology_code_desc': '3G', 'speed_tier': None, 'state_fips': '16', 'state_name': 'Idaho', 'provider_id': '360114', 'provider_name': 'Union Holding Corp.', 'file_type': 'gis', 'file_name': 'bdc_16_360114_3G_mobile_broadband_h3_J26_10nov2026', 'record_count': '18128'}]
+as_of 2026-06-30 files ['bdc_35_Copper_fixed_broadband_J26_10nov2026', 'bdc_35_Cable_fixed_broadband_J26_10nov2026', 'bdc_35_FibertothePremises_fixed_broadband_J26_10nov2026', 'bdc_35_GSOSatellite_fixed_broadband_J26_10nov2026', 'bdc_35_NGSOSatellite_fixed_broadband_J26_10nov2026', 'bdc_35_UnlicensedFixedWireless_fixed_broadband_J26_10nov2026', 'bdc_35_LicensedFixedWireless_fixed_broadband_J26_10nov2026', 'bdc_35_LBRFixedWireless_fixed_broadband_J26_10nov2026']
+loaded bdc_35_Copper_fixed_broadband_J26_10nov2026
+loaded bdc_35_Cable_fixed_broadband_J26_10nov2026
+loaded bdc_35_FibertothePremises_fixed_broadband_J26_10nov2026
+loaded bdc_35_GSOSatellite_fixed_broadband_J26_10nov2026
+loaded bdc_35_NGSOSatellite_fixed_broadband_J26_10nov2026
+loaded bdc_35_UnlicensedFixedWireless_fixed_broadband_J26_10nov2026
+loaded bdc_35_LicensedFixedWireless_fixed_broadband_J26_10nov2026
+loaded bdc_35_LBRFixedWireless_fixed_broadband_J26_10nov2026
+NM 247 zips 55 brands
+listed 10403 sample [{'file_id': 1889864, 'category': 'Provider', 'subcategory': 'Hexagon Coverage', 'technology_type': 'Mobile Broadband', 'technology_code': '300', 'technology_code_desc': '3G', 'speed_tier': None, 'state_fips': '16', 'state_name': 'Idaho', 'provider_id': '360114', 'provider_name': 'Union Holding Corp.', 'file_type': 'gis', 'file_name': 'bdc_16_360114_3G_mobile_broadband_h3_J26_10nov2026', 'record_count': '18128'}, {'file_id': 1889757, 'category': 'Provider', 'subcategory': 'Hexagon Coverage', 'technology_type': 'Mobile Broadband', 'technology_code': '300', 'technology_code_desc': '3G', 'speed_tier': None, 'state_fips': '69', 'state_name': 'Commonwealth of the Northern Mariana Islands', 'provider_id': '130999', 'provider_name': 'NTT DoCoMo, Inc.', 'file_type': 'gis', 'file_name': 'bdc_69_130999_3G_mobile_broadband_h3_J26_10nov2026', 'record_count': '1877'}]
+as_of 2026-06-30 files ['bdc_36_Other_fixed_broadband_J26_10nov2026', 'bdc_36_Copper_fixed_broadband_J26_10nov2026', 'bdc_36_Cable_fixed_broadband_J26_10nov2026', 'bdc_36_FibertothePremises_fixed_broadband_J26_10nov2026', 'bdc_36_GSOSatellite_fixed_broadband_J26_10nov2026', 'bdc_36_NGSOSatellite_fixed_broadband_J26_10nov2026', 'bdc_36_UnlicensedFixedWireless_fixed_broadband_J26_10nov2026', 'bdc_36_LicensedFixedWireless_fixed_broadband_J26_10nov2026', 'bdc_36_LBRFixedWireless_fixed_broadband_J26_10nov2026']
+skip bdc_36_Other_fixed_broadband_J26_10nov2026
+loaded bdc_36_Copper_fixed_broadband_J26_10nov2026
+loaded bdc_36_Cable_fixed_broadband_J26_10nov2026
+loaded bdc_36_FibertothePremises_fixed_broadband_J26_10nov2026
+loaded bdc_36_GSOSatellite_fixed_broadband_J26_10nov2026
+loaded bdc_36_NGSOSatellite_fixed_broadband_J26_10nov2026
+loaded bdc_36_UnlicensedFixedWireless_fixed_broadband_J26_10nov2026
+loaded bdc_36_LicensedFixedWireless_fixed_broadband_J26_10nov2026
+loaded bdc_36_LBRFixedWireless_fixed_broadband_J26_10nov2026
+NY 1667 zips 70 brands
+listed 10403 sample [{'file_id': 1889863, 'category': 'Provider', 'subcategory': 'Hexagon Coverage', 'technology_type': 'Mobile Broadband', 'technology_code': '300', 'technology_code_desc': '3G', 'speed_tier': None, 'state_fips': '31', 'state_name': 'Nebraska', 'provider_id': '360114', 'provider_name': 'Union Holding Corp.', 'file_type': 'gis', 'file_name': 'bdc_31_360114_3G_mobile_broadband_h3_J26_10nov2026', 'record_count': '5'}, {'file_id': 1889866, 'category': 'Provider', 'subcategory': 'Hexagon Coverage', 'technology_type': 'Mobile Broadband', 'technology_code': '300', 'technology_code_desc': '3G', 'speed_tier': None, 'state_fips': '49', 'state_name': 'Utah', 'provider_id': '360114', 'provider_name': 'Union Holding Corp.', 'file_type': 'gis', 'file_name': 'bdc_49_360114_3G_mobile_broadband_h3_J26_10nov2026', 'record_count': '15894'}]
+as_of 2026-06-30 files ['bdc_37_Copper_fixed_broadband_J26_10nov2026', 'bdc_37_Cable_fixed_broadband_J26_10nov2026', 'bdc_37_FibertothePremises_fixed_broadband_J26_10nov2026', 'bdc_37_GSOSatellite_fixed_broadband_J26_10nov2026', 'bdc_37_NGSOSatellite_fixed_broadband_J26_10nov2026', 'bdc_37_UnlicensedFixedWireless_fixed_broadband_J26_10nov2026', 'bdc_37_LicensedFixedWireless_fixed_broadband_J26_10nov2026', 'bdc_37_LBRFixedWireless_fixed_broadband_J26_10nov2026']
+loaded bdc_37_Copper_fixed_broadband_J26_10nov2026
+loaded bdc_37_Cable_fixed_broadband_J26_10nov2026
+loaded bdc_37_FibertothePremises_fixed_broadband_J26_10nov2026
+loaded bdc_37_GSOSatellite_fixed_broadband_J26_10nov2026
+loaded bdc_37_NGSOSatellite_fixed_broadband_J26_10nov2026
+loaded bdc_37_UnlicensedFixedWireless_fixed_broadband_J26_10nov2026
+loaded bdc_37_LicensedFixedWireless_fixed_broadband_J26_10nov2026
+loaded bdc_37_LBRFixedWireless_fixed_broadband_J26_10nov2026
+NC 750 zips 66 brands
+listed 10403 sample [{'file_id': 1889867, 'category': 'Provider', 'subcategory': 'Hexagon Coverage', 'technology_type': 'Mobile Broadband', 'technology_code': '300', 'technology_code_desc': '3G', 'speed_tier': None, 'state_fips': '46', 'state_name': 'South Dakota', 'provider_id': '360114', 'provider_name': 'Union Holding Corp.', 'file_type': 'gis', 'file_name': 'bdc_46_360114_3G_mobile_broadband_h3_J26_10nov2026', 'record_count': '3'}, {'file_id': 1889757, 'category': 'Provider', 'subcategory': 'Hexagon Coverage', 'technology_type': 'Mobile Broadband', 'technology_code': '300', 'technology_code_desc': '3G', 'speed_tier': None, 'state_fips': '69', 'state_name': 'Commonwealth of the Northern Mariana Islands', 'provider_id': '130999', 'provider_name': 'NTT DoCoMo, Inc.', 'file_type': 'gis', 'file_name': 'bdc_69_130999_3G_mobile_broadband_h3_J26_10nov2026', 'record_count': '1877'}]
+as_of 2026-06-30 files ['bdc_38_Copper_fixed_broadband_J26_10nov2026', 'bdc_38_Cable_fixed_broadband_J26_10nov2026', 'bdc_38_FibertothePremises_fixed_broadband_J26_10nov2026', 'bdc_38_GSOSatellite_fixed_broadband_J26_10nov2026', 'bdc_38_NGSOSatellite_fixed_broadband_J26_10nov2026', 'bdc_38_UnlicensedFixedWireless_fixed_broadband_J26_10nov2026', 'bdc_38_LicensedFixedWireless_fixed_broadband_J26_10nov2026', 'bdc_38_LBRFixedWireless_fixed_broadband_J26_10nov2026']
+loaded bdc_38_Copper_fixed_broadband_J26_10nov2026
+loaded bdc_38_Cable_fixed_broadband_J26_10nov2026
+loaded bdc_38_FibertothePremises_fixed_broadband_J26_10nov2026
+loaded bdc_38_GSOSatellite_fixed_broadband_J26_10nov2026
+loaded bdc_38_NGSOSatellite_fixed_broadband_J26_10nov2026
+loaded bdc_38_UnlicensedFixedWireless_fixed_broadband_J26_10nov2026
+loaded bdc_38_LicensedFixedWireless_fixed_broadband_J26_10nov2026
+loaded bdc_38_LBRFixedWireless_fixed_broadband_J26_10nov2026
+ND 378 zips 34 brands
+listed 10403 sample [{'file_id': 1889866, 'category': 'Provider', 'subcategory': 'Hexagon Coverage', 'technology_type': 'Mobile Broadband', 'technology_code': '300', 'technology_code_desc': '3G', 'speed_tier': None, 'state_fips': '49', 'state_name': 'Utah', 'provider_id': '360114', 'provider_name': 'Union Holding Corp.', 'file_type': 'gis', 'file_name': 'bdc_49_360114_3G_mobile_broadband_h3_J26_10nov2026', 'record_count': '15894'}, {'file_id': 1889733, 'category': 'Provider', 'subcategory': 'Hexagon Coverage', 'technology_type': 'Mobile Broadband', 'technology_code': '300', 'technology_code_desc': '3G', 'speed_tier': None, 'state_fips': '56', 'state_name': 'Wyoming', 'provider_id': '130886', 'provider_name': 'NE Colorado Cellular, Inc.', 'file_type': 'gis', 'file_name': 'bdc_56_130886_3G_mobile_broadband_h3_J26_10nov2026', 'record_count': '13520'}]
+as_of 2026-06-30 files ['bdc_39_Copper_fixed_broadband_J26_10nov2026', 'bdc_39_Cable_fixed_broadband_J26_10nov2026', 'bdc_39_FibertothePremises_fixed_broadband_J26_10nov2026', 'bdc_39_GSOSatellite_fixed_broadband_J26_10nov2026', 'bdc_39_NGSOSatellite_fixed_broadband_J26_10nov2026', 'bdc_39_UnlicensedFixedWireless_fixed_broadband_J26_10nov2026', 'bdc_39_LicensedFixedWireless_fixed_broadband_J26_10nov2026', 'bdc_39_LBRFixedWireless_fixed_broadband_J26_10nov2026']
+loaded bdc_39_Copper_fixed_broadband_J26_10nov2026
+loaded bdc_39_Cable_fixed_broadband_J26_10nov2026
+loaded bdc_39_FibertothePremises_fixed_broadband_J26_10nov2026
+loaded bdc_39_GSOSatellite_fixed_broadband_J26_10nov2026
+loaded bdc_39_NGSOSatellite_fixed_broadband_J26_10nov2026
+loaded bdc_39_UnlicensedFixedWireless_fixed_broadband_J26_10nov2026
+loaded bdc_39_LicensedFixedWireless_fixed_broadband_J26_10nov2026
+loaded bdc_39_LBRFixedWireless_fixed_broadband_J26_10nov2026
+OH 1018 zips 107 brands
+listed 10403 sample [{'file_id': 1889867, 'category': 'Provider', 'subcategory': 'Hexagon Coverage', 'technology_type': 'Mobile Broadband', 'technology_code': '300', 'technology_code_desc': '3G', 'speed_tier': None, 'state_fips': '46', 'state_name': 'South Dakota', 'provider_id': '360114', 'provider_name': 'Union Holding Corp.', 'file_type': 'gis', 'file_name': 'bdc_46_360114_3G_mobile_broadband_h3_J26_10nov2026', 'record_count': '3'}, {'file_id': 1889736, 'category': 'Provider', 'subcategory': 'Hexagon Coverage', 'technology_type': 'Mobile Broadband', 'technology_code': '300', 'technology_code_desc': '3G', 'speed_tier': None, 'state_fips': '20', 'state_name': 'Kansas', 'provider_id': '130886', 'provider_name': 'NE Colorado Cellular, Inc.', 'file_type': 'gis', 'file_name': 'bdc_20_130886_3G_mobile_broadband_h3_J26_10nov2026', 'record_count': '160195'}]
+as_of 2026-06-30 files ['bdc_40_Other_fixed_broadband_J26_10nov2026', 'bdc_40_Copper_fixed_broadband_J26_10nov2026', 'bdc_40_Cable_fixed_broadband_J26_10nov2026', 'bdc_40_FibertothePremises_fixed_broadband_J26_10nov2026', 'bdc_40_GSOSatellite_fixed_broadband_J26_10nov2026', 'bdc_40_NGSOSatellite_fixed_broadband_J26_10nov2026', 'bdc_40_UnlicensedFixedWireless_fixed_broadband_J26_10nov2026', 'bdc_40_LicensedFixedWireless_fixed_broadband_J26_10nov2026', 'bdc_40_LBRFixedWireless_fixed_broadband_J26_10nov2026']
+skip bdc_40_Other_fixed_broadband_J26_10nov2026
+loaded bdc_40_Copper_fixed_broadband_J26_10nov2026
+loaded bdc_40_Cable_fixed_broadband_J26_10nov2026
+loaded bdc_40_FibertothePremises_fixed_broadband_J26_10nov2026
+loaded bdc_40_GSOSatellite_fixed_broadband_J26_10nov2026
+loaded bdc_40_NGSOSatellite_fixed_broadband_J26_10nov2026
+loaded bdc_40_UnlicensedFixedWireless_fixed_broadband_J26_10nov2026
+loaded bdc_40_LicensedFixedWireless_fixed_broadband_J26_10nov2026
+loaded bdc_40_LBRFixedWireless_fixed_broadband_J26_10nov2026
+OK 595 zips 111 brands
+listed 10403 sample [{'file_id': 1889865, 'category': 'Provider', 'subcategory': 'Hexagon Coverage', 'technology_type': 'Mobile Broadband', 'technology_code': '300', 'technology_code_desc': '3G', 'speed_tier': None, 'state_fips': '08', 'state_name': 'Colorado', 'provider_id': '360114', 'provider_name': 'Union Holding Corp.', 'file_type': 'gis', 'file_name': 'bdc_08_360114_3G_mobile_broadband_h3_J26_10nov2026', 'record_count': '75234'}, {'file_id': 1889725, 'category': 'Provider', 'subcategory': 'Hexagon Coverage', 'technology_type': 'Mobile Broadband', 'technology_code': '300', 'technology_code_desc': '3G', 'speed_tier': None, 'state_fips': '02', 'state_name': 'Alaska', 'provider_id': '130534', 'provider_name': 'GCI Holdings LLC', 'file_type': 'gis', 'file_name': 'bdc_02_130534_3G_mobile_broadband_h3_J26_10nov2026', 'record_count': '887390'}]
+as_of 2026-06-30 files ['bdc_41_Copper_fixed_broadband_J26_10nov2026', 'bdc_41_Cable_fixed_broadband_J26_10nov2026', 'bdc_41_FibertothePremises_fixed_broadband_J26_10nov2026', 'bdc_41_GSOSatellite_fixed_broadband_J26_10nov2026', 'bdc_41_NGSOSatellite_fixed_broadband_J26_10nov2026', 'bdc_41_UnlicensedFixedWireless_fixed_broadband_J26_10nov2026', 'bdc_41_LicensedFixedWireless_fixed_broadband_J26_10nov2026', 'bdc_41_LBRFixedWireless_fixed_broadband_J26_10nov2026']
+loaded bdc_41_Copper_fixed_broadband_J26_10nov2026
+loaded bdc_41_Cable_fixed_broadband_J26_10nov2026
+loaded bdc_41_FibertothePremises_fixed_broadband_J26_10nov2026
+loaded bdc_41_GSOSatellite_fixed_broadband_J26_10nov2026
+loaded bdc_41_NGSOSatellite_fixed_broadband_J26_10nov2026
+loaded bdc_41_UnlicensedFixedWireless_fixed_broadband_J26_10nov2026
+loaded bdc_41_LicensedFixedWireless_fixed_broadband_J26_10nov2026
+loaded bdc_41_LBRFixedWireless_fixed_broadband_J26_10nov2026
+OR 381 zips 74 brands
+listed 10403 sample [{'file_id': 1889851, 'category': 'Provider', 'subcategory': 'Hexagon Coverage', 'technology_type': 'Mobile Broadband', 'technology_code': '300', 'technology_code_desc': '3G', 'speed_tier': None, 'state_fips': '60', 'state_name': 'American Samoa', 'provider_id': '170012', 'provider_name': 'American Samoa Telecom, LLC', 'file_type': 'gis', 'file_name': 'bdc_60_170012_3G_mobile_broadband_h3_J26_10nov2026', 'record_count': '1072'}, {'file_id': 1889738, 'category': 'Provider', 'subcategory': 'Hexagon Coverage', 'technology_type': 'Mobile Broadband', 'technology_code': '300', 'technology_code_desc': '3G', 'speed_tier': None, 'state_fips': '46', 'state_name': 'South Dakota', 'provider_id': '130886', 'provider_name': 'NE Colorado Cellular, Inc.', 'file_type': 'gis', 'file_name': 'bdc_46_130886_3G_mobile_broadband_h3_J26_10nov2026', 'record_count': '15964'}]
+as_of 2026-06-30 files ['bdc_42_Other_fixed_broadband_J26_10nov2026', 'bdc_42_Copper_fixed_broadband_J26_10nov2026', 'bdc_42_Cable_fixed_broadband_J26_10nov2026', 'bdc_42_FibertothePremises_fixed_broadband_J26_10nov2026', 'bdc_42_GSOSatellite_fixed_broadband_J26_10nov2026', 'bdc_42_NGSOSatellite_fixed_broadband_J26_10nov2026', 'bdc_42_UnlicensedFixedWireless_fixed_broadband_J26_10nov2026', 'bdc_42_LicensedFixedWireless_fixed_broadband_J26_10nov2026', 'bdc_42_LBRFixedWireless_fixed_broadband_J26_10nov2026']
+skip bdc_42_Other_fixed_broadband_J26_10nov2026
+loaded bdc_42_Copper_fixed_broadband_J26_10nov2026
+loaded bdc_42_Cable_fixed_broadband_J26_10nov2026
+loaded bdc_42_FibertothePremises_fixed_broadband_J26_10nov2026
+loaded bdc_42_GSOSatellite_fixed_broadband_J26_10nov2026
+loaded bdc_42_NGSOSatellite_fixed_broadband_J26_10nov2026
+loaded bdc_42_UnlicensedFixedWireless_fixed_broadband_J26_10nov2026
+loaded bdc_42_LicensedFixedWireless_fixed_broadband_J26_10nov2026
+loaded bdc_42_LBRFixedWireless_fixed_broadband_J26_10nov2026
+PA 1463 zips 85 brands
+listed 10403 sample [{'file_id': 1889869, 'category': 'Provider', 'subcategory': 'Hexagon Coverage', 'technology_type': 'Mobile Broadband', 'technology_code': '300', 'technology_code_desc': '3G', 'speed_tier': None, 'state_fips': '30', 'state_name': 'Montana', 'provider_id': '360114', 'provider_name': 'Union Holding Corp.', 'file_type': 'gis', 'file_name': 'bdc_30_360114_3G_mobile_broadband_h3_J26_10nov2026', 'record_count': '14492'}, {'file_id': 1889725, 'category': 'Provider', 'subcategory': 'Hexagon Coverage', 'technology_type': 'Mobile Broadband', 'technology_code': '300', 'technology_code_desc': '3G', 'speed_tier': None, 'state_fips': '02', 'state_name': 'Alaska', 'provider_id': '130534', 'provider_name': 'GCI Holdings LLC', 'file_type': 'gis', 'file_name': 'bdc_02_130534_3G_mobile_broadband_h3_J26_10nov2026', 'record_count': '887390'}]
+as_of 2026-06-30 files ['bdc_44_Copper_fixed_broadband_J26_10nov2026', 'bdc_44_Cable_fixed_broadband_J26_10nov2026', 'bdc_44_FibertothePremises_fixed_broadband_J26_10nov2026', 'bdc_44_GSOSatellite_fixed_broadband_J26_10nov2026', 'bdc_44_NGSOSatellite_fixed_broadband_J26_10nov2026', 'bdc_44_LicensedFixedWireless_fixed_broadband_J26_10nov2026']
+loaded bdc_44_Copper_fixed_broadband_J26_10nov2026
+loaded bdc_44_Cable_fixed_broadband_J26_10nov2026
+loaded bdc_44_FibertothePremises_fixed_broadband_J26_10nov2026
+loaded bdc_44_GSOSatellite_fixed_broadband_J26_10nov2026
+loaded bdc_44_NGSOSatellite_fixed_broadband_J26_10nov2026
+loaded bdc_44_LicensedFixedWireless_fixed_broadband_J26_10nov2026
+RI 73 zips 8 brands
+listed 10403 sample [{'file_id': 1889736, 'category': 'Provider', 'subcategory': 'Hexagon Coverage', 'technology_type': 'Mobile Broadband', 'technology_code': '300', 'technology_code_desc': '3G', 'speed_tier': None, 'state_fips': '20', 'state_name': 'Kansas', 'provider_id': '130886', 'provider_name': 'NE Colorado Cellular, Inc.', 'file_type': 'gis', 'file_name': 'bdc_20_130886_3G_mobile_broadband_h3_J26_10nov2026', 'record_count': '160195'}, {'file_id': 1889854, 'category': 'Provider', 'subcategory': 'Hexagon Coverage', 'technology_type': 'Mobile Broadband', 'technology_code': '300', 'technology_code_desc': '3G', 'speed_tier': None, 'state_fips': '66', 'state_name': 'Guam', 'provider_id': '220001', 'provider_name': 'PTI Pacifica Inc.', 'file_type': 'gis', 'file_name': 'bdc_66_220001_3G_mobile_broadband_h3_J26_10nov2026', 'record_count': '3646'}]
+as_of 2026-06-30 files ['bdc_45_Copper_fixed_broadband_J26_10nov2026', 'bdc_45_Cable_fixed_broadband_J26_10nov2026', 'bdc_45_FibertothePremises_fixed_broadband_J26_10nov2026', 'bdc_45_GSOSatellite_fixed_broadband_J26_10nov2026', 'bdc_45_NGSOSatellite_fixed_broadband_J26_10nov2026', 'bdc_45_UnlicensedFixedWireless_fixed_broadband_J26_10nov2026', 'bdc_45_LicensedFixedWireless_fixed_broadband_J26_10nov2026']
+loaded bdc_45_Copper_fixed_broadband_J26_10nov2026
+loaded bdc_45_Cable_fixed_broadband_J26_10nov2026
+loaded bdc_45_FibertothePremises_fixed_broadband_J26_10nov2026
+loaded bdc_45_GSOSatellite_fixed_broadband_J26_10nov2026
+loaded bdc_45_NGSOSatellite_fixed_broadband_J26_10nov2026
+loaded bdc_45_UnlicensedFixedWireless_fixed_broadband_J26_10nov2026
+loaded bdc_45_LicensedFixedWireless_fixed_broadband_J26_10nov2026
+SC 377 zips 45 brands
+listed 10403 sample [{'file_id': 1889855, 'category': 'Provider', 'subcategory': 'Hexagon Coverage', 'technology_type': 'Mobile Broadband', 'technology_code': '300', 'technology_code_desc': '3G', 'speed_tier': None, 'state_fips': '69', 'state_name': 'Commonwealth of the Northern Mariana Islands', 'provider_id': '220001', 'provider_name': 'PTI Pacifica Inc.', 'file_type': 'gis', 'file_name': 'bdc_69_220001_3G_mobile_broadband_h3_J26_10nov2026', 'record_count': '2159'}, {'file_id': 1889734, 'category': 'Provider', 'subcategory': 'Hexagon Coverage', 'technology_type': 'Mobile Broadband', 'technology_code': '300', 'technology_code_desc': '3G', 'speed_tier': None, 'state_fips': '31', 'state_name': 'Nebraska', 'provider_id': '130886', 'provider_name': 'NE Colorado Cellular, Inc.', 'file_type': 'gis', 'file_name': 'bdc_31_130886_3G_mobile_broadband_h3_J26_10nov2026', 'record_count': '263159'}]
+as_of 2026-06-30 files ['bdc_46_Copper_fixed_broadband_J26_10nov2026', 'bdc_46_Cable_fixed_broadband_J26_10nov2026', 'bdc_46_FibertothePremises_fixed_broadband_J26_10nov2026', 'bdc_46_GSOSatellite_fixed_broadband_J26_10nov2026', 'bdc_46_NGSOSatellite_fixed_broadband_J26_10nov2026', 'bdc_46_UnlicensedFixedWireless_fixed_broadband_J26_10nov2026', 'bdc_46_LicensedFixedWireless_fixed_broadband_J26_10nov2026', 'bdc_46_LBRFixedWireless_fixed_broadband_J26_10nov2026']
+loaded bdc_46_Copper_fixed_broadband_J26_10nov2026
+loaded bdc_46_Cable_fixed_broadband_J26_10nov2026
+loaded bdc_46_FibertothePremises_fixed_broadband_J26_10nov2026
+loaded bdc_46_GSOSatellite_fixed_broadband_J26_10nov2026
+loaded bdc_46_NGSOSatellite_fixed_broadband_J26_10nov2026
+loaded bdc_46_UnlicensedFixedWireless_fixed_broadband_J26_10nov2026
+loaded bdc_46_LicensedFixedWireless_fixed_broadband_J26_10nov2026
+loaded bdc_46_LBRFixedWireless_fixed_broadband_J26_10nov2026
+SD 348 zips 52 brands
+listed 10403 sample [{'file_id': 1889757, 'category': 'Provider', 'subcategory': 'Hexagon Coverage', 'technology_type': 'Mobile Broadband', 'technology_code': '300', 'technology_code_desc': '3G', 'speed_tier': None, 'state_fips': '69', 'state_name': 'Commonwealth of the Northern Mariana Islands', 'provider_id': '130999', 'provider_name': 'NTT DoCoMo, Inc.', 'file_type': 'gis', 'file_name': 'bdc_69_130999_3G_mobile_broadband_h3_J26_10nov2026', 'record_count': '1877'}, {'file_id': 1889659, 'category': 'Provider', 'subcategory': 'Hexagon Coverage', 'technology_type': 'Mobile Broadband', 'technology_code': '300', 'technology_code_desc': '3G', 'speed_tier': None, 'state_fips': '78', 'state_name': 'United States Virgin Islands', 'provider_id': '130081', 'provider_name': 'ATN International, Inc.', 'file_type': 'gis', 'file_name': 'bdc_78_130081_3G_mobile_broadband_h3_J26_10nov2026', 'record_count': '19197'}]
+as_of 2026-06-30 files ['bdc_47_Copper_fixed_broadband_J26_10nov2026', 'bdc_47_Cable_fixed_broadband_J26_10nov2026', 'bdc_47_FibertothePremises_fixed_broadband_J26_10nov2026', 'bdc_47_GSOSatellite_fixed_broadband_J26_10nov2026', 'bdc_47_NGSOSatellite_fixed_broadband_J26_10nov2026', 'bdc_47_UnlicensedFixedWireless_fixed_broadband_J26_10nov2026', 'bdc_47_LicensedFixedWireless_fixed_broadband_J26_10nov2026', 'bdc_47_LBRFixedWireless_fixed_broadband_J26_10nov2026']
+loaded bdc_47_Copper_fixed_broadband_J26_10nov2026
+loaded bdc_47_Cable_fixed_broadband_J26_10nov2026
+loaded bdc_47_FibertothePremises_fixed_broadband_J26_10nov2026
+loaded bdc_47_GSOSatellite_fixed_broadband_J26_10nov2026
+loaded bdc_47_NGSOSatellite_fixed_broadband_J26_10nov2026
+loaded bdc_47_UnlicensedFixedWireless_fixed_broadband_J26_10nov2026
+loaded bdc_47_LicensedFixedWireless_fixed_broadband_J26_10nov2026
+loaded bdc_47_LBRFixedWireless_fixed_broadband_J26_10nov2026
+TN 607 zips 85 brands
+listed 10403 sample [{'file_id': 1889734, 'category': 'Provider', 'subcategory': 'Hexagon Coverage', 'technology_type': 'Mobile Broadband', 'technology_code': '300', 'technology_code_desc': '3G', 'speed_tier': None, 'state_fips': '31', 'state_name': 'Nebraska', 'provider_id': '130886', 'provider_name': 'NE Colorado Cellular, Inc.', 'file_type': 'gis', 'file_name': 'bdc_31_130886_3G_mobile_broadband_h3_J26_10nov2026', 'record_count': '263159'}, {'file_id': 1889735, 'category': 'Provider', 'subcategory': 'Hexagon Coverage', 'technology_type': 'Mobile Broadband', 'technology_code': '300', 'technology_code_desc': '3G', 'speed_tier': None, 'state_fips': '08', 'state_name': 'Colorado', 'provider_id': '130886', 'provider_name': 'NE Colorado Cellular, Inc.', 'file_type': 'gis', 'file_name': 'bdc_08_130886_3G_mobile_broadband_h3_J26_10nov2026', 'record_count': '591447'}]
 as_of 2026-06-30 files ['bdc_48_Other_fixed_broadband_J26_10nov2026', 'bdc_48_Copper_fixed_broadband_J26_10nov2026', 'bdc_48_Cable_fixed_broadband_J26_10nov2026', 'bdc_48_FibertothePremises_fixed_broadband_J26_10nov2026', 'bdc_48_GSOSatellite_fixed_broadband_J26_10nov2026', 'bdc_48_NGSOSatellite_fixed_broadband_J26_10nov2026', 'bdc_48_UnlicensedFixedWireless_fixed_broadband_J26_10nov2026', 'bdc_48_LicensedFixedWireless_fixed_broadband_J26_10nov2026', 'bdc_48_LBRFixedWireless_fixed_broadband_J26_10nov2026']
 skip bdc_48_Other_fixed_broadband_J26_10nov2026
 loaded bdc_48_Copper_fixed_broadband_J26_10nov2026
@@ -10,3 +487,81 @@ loaded bdc_48_UnlicensedFixedWireless_fixed_broadband_J26_10nov2026
 loaded bdc_48_LicensedFixedWireless_fixed_broadband_J26_10nov2026
 loaded bdc_48_LBRFixedWireless_fixed_broadband_J26_10nov2026
 TX 1738 zips 200 brands
+listed 10403 sample [{'file_id': 1889733, 'category': 'Provider', 'subcategory': 'Hexagon Coverage', 'technology_type': 'Mobile Broadband', 'technology_code': '300', 'technology_code_desc': '3G', 'speed_tier': None, 'state_fips': '56', 'state_name': 'Wyoming', 'provider_id': '130886', 'provider_name': 'NE Colorado Cellular, Inc.', 'file_type': 'gis', 'file_name': 'bdc_56_130886_3G_mobile_broadband_h3_J26_10nov2026', 'record_count': '13520'}, {'file_id': 1889865, 'category': 'Provider', 'subcategory': 'Hexagon Coverage', 'technology_type': 'Mobile Broadband', 'technology_code': '300', 'technology_code_desc': '3G', 'speed_tier': None, 'state_fips': '08', 'state_name': 'Colorado', 'provider_id': '360114', 'provider_name': 'Union Holding Corp.', 'file_type': 'gis', 'file_name': 'bdc_08_360114_3G_mobile_broadband_h3_J26_10nov2026', 'record_count': '75234'}]
+as_of 2026-06-30 files ['bdc_49_Copper_fixed_broadband_J26_10nov2026', 'bdc_49_Cable_fixed_broadband_J26_10nov2026', 'bdc_49_FibertothePremises_fixed_broadband_J26_10nov2026', 'bdc_49_GSOSatellite_fixed_broadband_J26_10nov2026', 'bdc_49_NGSOSatellite_fixed_broadband_J26_10nov2026', 'bdc_49_UnlicensedFixedWireless_fixed_broadband_J26_10nov2026', 'bdc_49_LicensedFixedWireless_fixed_broadband_J26_10nov2026', 'bdc_49_LBRFixedWireless_fixed_broadband_J26_10nov2026']
+loaded bdc_49_Copper_fixed_broadband_J26_10nov2026
+loaded bdc_49_Cable_fixed_broadband_J26_10nov2026
+loaded bdc_49_FibertothePremises_fixed_broadband_J26_10nov2026
+loaded bdc_49_GSOSatellite_fixed_broadband_J26_10nov2026
+loaded bdc_49_NGSOSatellite_fixed_broadband_J26_10nov2026
+loaded bdc_49_UnlicensedFixedWireless_fixed_broadband_J26_10nov2026
+loaded bdc_49_LicensedFixedWireless_fixed_broadband_J26_10nov2026
+loaded bdc_49_LBRFixedWireless_fixed_broadband_J26_10nov2026
+UT 216 zips 50 brands
+listed 10403 sample [{'file_id': 1889733, 'category': 'Provider', 'subcategory': 'Hexagon Coverage', 'technology_type': 'Mobile Broadband', 'technology_code': '300', 'technology_code_desc': '3G', 'speed_tier': None, 'state_fips': '56', 'state_name': 'Wyoming', 'provider_id': '130886', 'provider_name': 'NE Colorado Cellular, Inc.', 'file_type': 'gis', 'file_name': 'bdc_56_130886_3G_mobile_broadband_h3_J26_10nov2026', 'record_count': '13520'}, {'file_id': 1889865, 'category': 'Provider', 'subcategory': 'Hexagon Coverage', 'technology_type': 'Mobile Broadband', 'technology_code': '300', 'technology_code_desc': '3G', 'speed_tier': None, 'state_fips': '08', 'state_name': 'Colorado', 'provider_id': '360114', 'provider_name': 'Union Holding Corp.', 'file_type': 'gis', 'file_name': 'bdc_08_360114_3G_mobile_broadband_h3_J26_10nov2026', 'record_count': '75234'}]
+as_of 2026-06-30 files ['bdc_50_Copper_fixed_broadband_J26_10nov2026', 'bdc_50_Cable_fixed_broadband_J26_10nov2026', 'bdc_50_FibertothePremises_fixed_broadband_J26_10nov2026', 'bdc_50_GSOSatellite_fixed_broadband_J26_10nov2026', 'bdc_50_NGSOSatellite_fixed_broadband_J26_10nov2026', 'bdc_50_UnlicensedFixedWireless_fixed_broadband_J26_10nov2026', 'bdc_50_LicensedFixedWireless_fixed_broadband_J26_10nov2026', 'bdc_50_LBRFixedWireless_fixed_broadband_J26_10nov2026']
+loaded bdc_50_Copper_fixed_broadband_J26_10nov2026
+loaded bdc_50_Cable_fixed_broadband_J26_10nov2026
+loaded bdc_50_FibertothePremises_fixed_broadband_J26_10nov2026
+loaded bdc_50_GSOSatellite_fixed_broadband_J26_10nov2026
+loaded bdc_50_NGSOSatellite_fixed_broadband_J26_10nov2026
+loaded bdc_50_UnlicensedFixedWireless_fixed_broadband_J26_10nov2026
+loaded bdc_50_LicensedFixedWireless_fixed_broadband_J26_10nov2026
+loaded bdc_50_LBRFixedWireless_fixed_broadband_J26_10nov2026
+VT 244 zips 33 brands
+listed 10403 sample [{'file_id': 1889855, 'category': 'Provider', 'subcategory': 'Hexagon Coverage', 'technology_type': 'Mobile Broadband', 'technology_code': '300', 'technology_code_desc': '3G', 'speed_tier': None, 'state_fips': '69', 'state_name': 'Commonwealth of the Northern Mariana Islands', 'provider_id': '220001', 'provider_name': 'PTI Pacifica Inc.', 'file_type': 'gis', 'file_name': 'bdc_69_220001_3G_mobile_broadband_h3_J26_10nov2026', 'record_count': '2159'}, {'file_id': 1889863, 'category': 'Provider', 'subcategory': 'Hexagon Coverage', 'technology_type': 'Mobile Broadband', 'technology_code': '300', 'technology_code_desc': '3G', 'speed_tier': None, 'state_fips': '31', 'state_name': 'Nebraska', 'provider_id': '360114', 'provider_name': 'Union Holding Corp.', 'file_type': 'gis', 'file_name': 'bdc_31_360114_3G_mobile_broadband_h3_J26_10nov2026', 'record_count': '5'}]
+as_of 2026-06-30 files ['bdc_51_Copper_fixed_broadband_J26_10nov2026', 'bdc_51_Cable_fixed_broadband_J26_10nov2026', 'bdc_51_FibertothePremises_fixed_broadband_J26_10nov2026', 'bdc_51_GSOSatellite_fixed_broadband_J26_10nov2026', 'bdc_51_NGSOSatellite_fixed_broadband_J26_10nov2026', 'bdc_51_UnlicensedFixedWireless_fixed_broadband_J26_10nov2026', 'bdc_51_LicensedFixedWireless_fixed_broadband_J26_10nov2026', 'bdc_51_LBRFixedWireless_fixed_broadband_J26_10nov2026']
+loaded bdc_51_Copper_fixed_broadband_J26_10nov2026
+loaded bdc_51_Cable_fixed_broadband_J26_10nov2026
+loaded bdc_51_FibertothePremises_fixed_broadband_J26_10nov2026
+loaded bdc_51_GSOSatellite_fixed_broadband_J26_10nov2026
+loaded bdc_51_NGSOSatellite_fixed_broadband_J26_10nov2026
+loaded bdc_51_UnlicensedFixedWireless_fixed_broadband_J26_10nov2026
+loaded bdc_51_LicensedFixedWireless_fixed_broadband_J26_10nov2026
+loaded bdc_51_LBRFixedWireless_fixed_broadband_J26_10nov2026
+VA 862 zips 56 brands
+listed 10403 sample [{'file_id': 1889863, 'category': 'Provider', 'subcategory': 'Hexagon Coverage', 'technology_type': 'Mobile Broadband', 'technology_code': '300', 'technology_code_desc': '3G', 'speed_tier': None, 'state_fips': '31', 'state_name': 'Nebraska', 'provider_id': '360114', 'provider_name': 'Union Holding Corp.', 'file_type': 'gis', 'file_name': 'bdc_31_360114_3G_mobile_broadband_h3_J26_10nov2026', 'record_count': '5'}, {'file_id': 1889757, 'category': 'Provider', 'subcategory': 'Hexagon Coverage', 'technology_type': 'Mobile Broadband', 'technology_code': '300', 'technology_code_desc': '3G', 'speed_tier': None, 'state_fips': '69', 'state_name': 'Commonwealth of the Northern Mariana Islands', 'provider_id': '130999', 'provider_name': 'NTT DoCoMo, Inc.', 'file_type': 'gis', 'file_name': 'bdc_69_130999_3G_mobile_broadband_h3_J26_10nov2026', 'record_count': '1877'}]
+as_of 2026-06-30 files ['bdc_53_Copper_fixed_broadband_J26_10nov2026', 'bdc_53_Cable_fixed_broadband_J26_10nov2026', 'bdc_53_FibertothePremises_fixed_broadband_J26_10nov2026', 'bdc_53_GSOSatellite_fixed_broadband_J26_10nov2026', 'bdc_53_NGSOSatellite_fixed_broadband_J26_10nov2026', 'bdc_53_UnlicensedFixedWireless_fixed_broadband_J26_10nov2026', 'bdc_53_LicensedFixedWireless_fixed_broadband_J26_10nov2026', 'bdc_53_LBRFixedWireless_fixed_broadband_J26_10nov2026']
+loaded bdc_53_Copper_fixed_broadband_J26_10nov2026
+loaded bdc_53_Cable_fixed_broadband_J26_10nov2026
+loaded bdc_53_FibertothePremises_fixed_broadband_J26_10nov2026
+loaded bdc_53_GSOSatellite_fixed_broadband_J26_10nov2026
+loaded bdc_53_NGSOSatellite_fixed_broadband_J26_10nov2026
+loaded bdc_53_UnlicensedFixedWireless_fixed_broadband_J26_10nov2026
+loaded bdc_53_LicensedFixedWireless_fixed_broadband_J26_10nov2026
+loaded bdc_53_LBRFixedWireless_fixed_broadband_J26_10nov2026
+WA 529 zips 88 brands
+listed 10403 sample [{'file_id': 1889865, 'category': 'Provider', 'subcategory': 'Hexagon Coverage', 'technology_type': 'Mobile Broadband', 'technology_code': '300', 'technology_code_desc': '3G', 'speed_tier': None, 'state_fips': '08', 'state_name': 'Colorado', 'provider_id': '360114', 'provider_name': 'Union Holding Corp.', 'file_type': 'gis', 'file_name': 'bdc_08_360114_3G_mobile_broadband_h3_J26_10nov2026', 'record_count': '75234'}, {'file_id': 1889864, 'category': 'Provider', 'subcategory': 'Hexagon Coverage', 'technology_type': 'Mobile Broadband', 'technology_code': '300', 'technology_code_desc': '3G', 'speed_tier': None, 'state_fips': '16', 'state_name': 'Idaho', 'provider_id': '360114', 'provider_name': 'Union Holding Corp.', 'file_type': 'gis', 'file_name': 'bdc_16_360114_3G_mobile_broadband_h3_J26_10nov2026', 'record_count': '18128'}]
+as_of 2026-06-30 files ['bdc_54_Copper_fixed_broadband_J26_10nov2026', 'bdc_54_Cable_fixed_broadband_J26_10nov2026', 'bdc_54_FibertothePremises_fixed_broadband_J26_10nov2026', 'bdc_54_GSOSatellite_fixed_broadband_J26_10nov2026', 'bdc_54_NGSOSatellite_fixed_broadband_J26_10nov2026', 'bdc_54_UnlicensedFixedWireless_fixed_broadband_J26_10nov2026', 'bdc_54_LicensedFixedWireless_fixed_broadband_J26_10nov2026', 'bdc_54_LBRFixedWireless_fixed_broadband_J26_10nov2026']
+loaded bdc_54_Copper_fixed_broadband_J26_10nov2026
+loaded bdc_54_Cable_fixed_broadband_J26_10nov2026
+loaded bdc_54_FibertothePremises_fixed_broadband_J26_10nov2026
+loaded bdc_54_GSOSatellite_fixed_broadband_J26_10nov2026
+loaded bdc_54_NGSOSatellite_fixed_broadband_J26_10nov2026
+loaded bdc_54_UnlicensedFixedWireless_fixed_broadband_J26_10nov2026
+loaded bdc_54_LicensedFixedWireless_fixed_broadband_J26_10nov2026
+loaded bdc_54_LBRFixedWireless_fixed_broadband_J26_10nov2026
+WV 609 zips 51 brands
+listed 10403 sample [{'file_id': 1889736, 'category': 'Provider', 'subcategory': 'Hexagon Coverage', 'technology_type': 'Mobile Broadband', 'technology_code': '300', 'technology_code_desc': '3G', 'speed_tier': None, 'state_fips': '20', 'state_name': 'Kansas', 'provider_id': '130886', 'provider_name': 'NE Colorado Cellular, Inc.', 'file_type': 'gis', 'file_name': 'bdc_20_130886_3G_mobile_broadband_h3_J26_10nov2026', 'record_count': '160195'}, {'file_id': 1889659, 'category': 'Provider', 'subcategory': 'Hexagon Coverage', 'technology_type': 'Mobile Broadband', 'technology_code': '300', 'technology_code_desc': '3G', 'speed_tier': None, 'state_fips': '78', 'state_name': 'United States Virgin Islands', 'provider_id': '130081', 'provider_name': 'ATN International, Inc.', 'file_type': 'gis', 'file_name': 'bdc_78_130081_3G_mobile_broadband_h3_J26_10nov2026', 'record_count': '19197'}]
+as_of 2026-06-30 files ['bdc_55_Other_fixed_broadband_J26_10nov2026', 'bdc_55_Copper_fixed_broadband_J26_10nov2026', 'bdc_55_Cable_fixed_broadband_J26_10nov2026', 'bdc_55_FibertothePremises_fixed_broadband_J26_10nov2026', 'bdc_55_GSOSatellite_fixed_broadband_J26_10nov2026', 'bdc_55_NGSOSatellite_fixed_broadband_J26_10nov2026', 'bdc_55_UnlicensedFixedWireless_fixed_broadband_J26_10nov2026', 'bdc_55_LicensedFixedWireless_fixed_broadband_J26_10nov2026', 'bdc_55_LBRFixedWireless_fixed_broadband_J26_10nov2026']
+skip bdc_55_Other_fixed_broadband_J26_10nov2026
+loaded bdc_55_Copper_fixed_broadband_J26_10nov2026
+loaded bdc_55_Cable_fixed_broadband_J26_10nov2026
+loaded bdc_55_FibertothePremises_fixed_broadband_J26_10nov2026
+loaded bdc_55_GSOSatellite_fixed_broadband_J26_10nov2026
+loaded bdc_55_NGSOSatellite_fixed_broadband_J26_10nov2026
+loaded bdc_55_UnlicensedFixedWireless_fixed_broadband_J26_10nov2026
+loaded bdc_55_LicensedFixedWireless_fixed_broadband_J26_10nov2026
+loaded bdc_55_LBRFixedWireless_fixed_broadband_J26_10nov2026
+WI 721 zips 88 brands
+listed 10403 sample [{'file_id': 1889738, 'category': 'Provider', 'subcategory': 'Hexagon Coverage', 'technology_type': 'Mobile Broadband', 'technology_code': '300', 'technology_code_desc': '3G', 'speed_tier': None, 'state_fips': '46', 'state_name': 'South Dakota', 'provider_id': '130886', 'provider_name': 'NE Colorado Cellular, Inc.', 'file_type': 'gis', 'file_name': 'bdc_46_130886_3G_mobile_broadband_h3_J26_10nov2026', 'record_count': '15964'}, {'file_id': 1889855, 'category': 'Provider', 'subcategory': 'Hexagon Coverage', 'technology_type': 'Mobile Broadband', 'technology_code': '300', 'technology_code_desc': '3G', 'speed_tier': None, 'state_fips': '69', 'state_name': 'Commonwealth of the Northern Mariana Islands', 'provider_id': '220001', 'provider_name': 'PTI Pacifica Inc.', 'file_type': 'gis', 'file_name': 'bdc_69_220001_3G_mobile_broadband_h3_J26_10nov2026', 'record_count': '2159'}]
+as_of 2026-06-30 files ['bdc_56_Copper_fixed_broadband_J26_10nov2026', 'bdc_56_Cable_fixed_broadband_J26_10nov2026', 'bdc_56_FibertothePremises_fixed_broadband_J26_10nov2026', 'bdc_56_GSOSatellite_fixed_broadband_J26_10nov2026', 'bdc_56_NGSOSatellite_fixed_broadband_J26_10nov2026', 'bdc_56_UnlicensedFixedWireless_fixed_broadband_J26_10nov2026', 'bdc_56_LicensedFixedWireless_fixed_broadband_J26_10nov2026', 'bdc_56_LBRFixedWireless_fixed_broadband_J26_10nov2026']
+loaded bdc_56_Copper_fixed_broadband_J26_10nov2026
+loaded bdc_56_Cable_fixed_broadband_J26_10nov2026
+loaded bdc_56_FibertothePremises_fixed_broadband_J26_10nov2026
+loaded bdc_56_GSOSatellite_fixed_broadband_J26_10nov2026
+loaded bdc_56_NGSOSatellite_fixed_broadband_J26_10nov2026
+loaded bdc_56_UnlicensedFixedWireless_fixed_broadband_J26_10nov2026
+loaded bdc_56_LicensedFixedWireless_fixed_broadband_J26_10nov2026
+loaded bdc_56_LBRFixedWireless_fixed_broadband_J26_10nov2026
+WY 128 zips 37 brands
