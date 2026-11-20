@@ -1,0 +1,34 @@
+listed 10403 sample [{'file_id': 1889864, 'category': 'Provider', 'subcategory': 'Hexagon Coverage', 'technology_type': 'Mobile Broadband', 'technology_code': '300', 'technology_code_desc': '3G', 'speed_tier': None, 'state_fips': '16', 'state_name': 'Idaho', 'provider_id': '360114', 'provider_name': 'Union Holding Corp.', 'file_type': 'gis', 'file_name': 'bdc_16_360114_3G_mobile_broadband_h3_J26_10nov2026', 'record_count': '18128'}, {'file_id': 1889736, 'category': 'Provider', 'subcategory': 'Hexagon Coverage', 'technology_type': 'Mobile Broadband', 'technology_code': '300', 'technology_code_desc': '3G', 'speed_tier': None, 'state_fips': '20', 'state_name': 'Kansas', 'provider_id': '130886', 'provider_name': 'NE Colorado Cellular, Inc.', 'file_type': 'gis', 'file_name': 'bdc_20_130886_3G_mobile_broadband_h3_J26_10nov2026', 'record_count': '160195'}]
+as_of 2026-06-30 files ['bdc_48_Other_fixed_broadband_J26_10nov2026', 'bdc_48_Copper_fixed_broadband_J26_10nov2026', 'bdc_48_Cable_fixed_broadband_J26_10nov2026', 'bdc_48_FibertothePremises_fixed_broadband_J26_10nov2026', 'bdc_48_GSOSatellite_fixed_broadband_J26_10nov2026', 'bdc_48_NGSOSatellite_fixed_broadband_J26_10nov2026', 'bdc_48_UnlicensedFixedWireless_fixed_broadband_J26_10nov2026', 'bdc_48_LicensedFixedWireless_fixed_broadband_J26_10nov2026', 'bdc_48_LBRFixedWireless_fixed_broadband_J26_10nov2026']
+skip bdc_48_Other_fixed_broadband_J26_10nov2026
+loaded bdc_48_Copper_fixed_broadband_J26_10nov2026
+loaded bdc_48_Cable_fixed_broadband_J26_10nov2026
+loaded bdc_48_FibertothePremises_fixed_broadband_J26_10nov2026
+Traceback (most recent call last):
+  File "/home/runner/work/FCC/FCC/zipdata/scripts/build_zip_table.py", line 50, in <module>
+    con.execute(f"""insert into agg select h3_res8_id, brand_name, technology,
+_duckdb.InvalidInputException: Invalid Input Error: CSV Error on Line: 53465
+Original Line: 0001684166,130123,"Big Bend Telephone Company, Inc",1104594889,60,0,0,0,X,TX,480439505001928,88488d19d9fffff
+Expected Number of Columns: 12 Found: 13
+Possible fixes:
+* Disable the parser's strict mode (strict_mode=false) to allow reading rows that do not comply with the CSV standard.
+* Enable null padding (null_padding=true) to replace missing values with NULL
+* Enable ignore errors (ignore_errors=true) to skip this row
+
+  file = work/bdc_48_GSOSatellite_fixed_broadband_J26_10nov2026.csv
+  delimiter = , (Auto-Detected)
+  quote = (empty) (Auto-Detected)
+  escape = (empty) (Auto-Detected)
+  new_line = \n (Auto-Detected)
+  header = true (Set By User)
+  skip_rows = 0 (Auto-Detected)
+  comment = (empty) (Auto-Detected)
+  strict_mode = true (Auto-Detected)
+  date_format =  (Auto-Detected)
+  timestamp_format =  (Auto-Detected)
+  null_padding = 0
+  sample_size = 20480
+  ignore_errors = false
+  all_varchar = 1
+
+
