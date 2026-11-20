@@ -24,10 +24,10 @@ jobs:
           FCC_TOKEN: ${{ secrets.FCC_TOKEN }}
           STATES: ${{ github.event.inputs.states || 'TX:48' }}
         run: |
-          mkdir -p zipdata/out
+          mkdir -p zipdata/out; : > zipdata/out/run-log.txt
           for p in $STATES; do
             s=${p%%:*}; f=${p##*:}
-            python zipdata/scripts/build_zip_table.py "$s" "$f" "zipdata/out/$(echo $s | tr A-Z a-z)-zips.json"
+            python zipdata/scripts/build_zip_table.py "$s" "$f" "zipdata/out/$(echo $s | tr A-Z a-z)-zips.json" 2>&1 | tee -a zipdata/out/run-log.txt
             rm -rf work
           done
       - name: Commit results
