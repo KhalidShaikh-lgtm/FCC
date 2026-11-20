@@ -49,7 +49,7 @@ for f in mine:
         if f["file_name"] not in csv and tname.lower() not in csv.lower(): continue
         con.execute(f"""insert into agg select h3_res8_id, brand_name, technology,
             max(max_advertised_download_speed), max(max_advertised_upload_speed), count(distinct location_id)
-            from read_csv('{csv}', header=true, all_varchar=true) where business_residential_code in ('R','X')
+            from read_csv('{csv}', header=true, all_varchar=true, delim=',', quote='"', escape='"', strict_mode=false, ignore_errors=true) where business_residential_code in ('R','X')
             group by 1,2,3""")
         os.remove(csv)
     print("loaded", name)
