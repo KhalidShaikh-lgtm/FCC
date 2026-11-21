@@ -23,3 +23,12 @@ The live site is **not** a static repo. It is:
 Adds: home/State/City/ZIP/guide/legal meta + Open Graph + JSON-LD (Organization, WebSite, WebPage, Article, BreadcrumbList, ItemList, FAQPage), /about, /methodology, /guides, /internet, /robots.txt (AI crawler allow list), /llms.txt, /llms-full.txt, /sitemap-core.xml, /og.png, real 404s.
 
 Deployed 2026-11-22 as KV `worker.v20.js`. **Rollback:** upload KV `worker.v19.js` as the `yourbillcheck-site` script (keep KV binding `SITE`, compat date 2024-11-01).
+
+## gsc-api (Search Console read access)
+
+`site/gsc-api.js` is a separate private Worker (`gsc-api`, workers.dev) that reads Google Search Console for `sc-domain:yourbillcheck.com` through the Search Console API using the owner's own OAuth login.
+
+- Secrets (Cloudflare, never in git): `GSC_CLIENT_ID`, `GSC_CLIENT_SECRET`, `GSC_REFRESH_TOKEN`, `API_KEY`. Pass the key as `?k=` or header `x-key`.
+- Routes: `/api/sites`, `/api/query?days=28&dimension=query|page|country|device|none&limit=25`, `/api/sitemaps`, `/api/sitemaps/submit?url=`, `/api/inspect?url=`.
+- Reconnect: delete `GSC_REFRESH_TOKEN`, visit `/auth?k=<API_KEY>`, store the token shown once.
+- Rotate the OAuth client secret in Google Cloud (Auth Platform > Clients > client > Additional information), update `GSC_CLIENT_SECRET`, redeploy, then delete the old secret.
