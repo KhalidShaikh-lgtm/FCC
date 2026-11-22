@@ -1,3 +1,4 @@
+import chrome
 import html, json, re
 SITE = "https://yourbillcheck.com"
 esc = lambda s: html.escape(str(s), quote=True)
@@ -63,8 +64,6 @@ summary:after{content:"+";float:right;color:var(--mint-d);font-size:22px;line-he
 .pick button{font:700 16px var(--fb);background:#fff;border:1.5px solid var(--line);border-radius:12px;padding:11px 18px;cursor:pointer;color:var(--ink)}
 .pick button:hover,.pick button.on{border-color:var(--mint);background:var(--mint-soft);color:var(--mint-d)}
 .note{font-size:14px;color:var(--muted);max-width:760px}
-footer{border-top:1px solid var(--line);margin-top:50px;padding:30px 0 40px;background:var(--soft);font-size:14.5px;color:var(--muted)}
-footer a{color:var(--muted)}footer .cols{display:flex;gap:30px;flex-wrap:wrap;margin-bottom:16px}footer .cols div{min-width:150px}footer b{display:block;color:var(--ink);margin-bottom:6px;font-family:var(--fd)}footer a{display:block;text-decoration:none;padding:2px 0}footer a:hover{color:var(--mint-d);text-decoration:underline}
 @media(max-width:640px){body{font-size:16px}.hero{padding:24px 0}.steps li{padding-left:56px}th,td{padding:10px}.cta{padding:20px}.pill{display:none}}
 """
 
@@ -88,20 +87,16 @@ def shell(path, title, desc, h1, lead, body, faq=None, crumbs=None, chips=None, 
     return ("<!DOCTYPE html><html lang=\"en\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">"
             f"<title>{esc(title)}</title><meta name=\"description\" content=\"{esc(desc)}\"><link rel=\"canonical\" href=\"{url}\"><meta name=\"robots\" content=\"index,follow,max-image-preview:large,max-snippet:-1\">"
             f"<meta property=\"og:title\" content=\"{esc(title)}\"><meta property=\"og:description\" content=\"{esc(desc)}\"><meta property=\"og:type\" content=\"article\"><meta property=\"og:url\" content=\"{url}\"><meta name=\"theme-color\" content=\"#0a8f6a\">"
-            f"{FONTS}<style>{CSS}</style><script type=\"application/ld+json\">{ldj}</script></head><body>"
-            f"<header class=\"top\"><div class=\"wrap\"><a class=\"logo\" href=\"/\"><i>$</i>YourBillCheck</a><span class=\"pill\">Free · No login</span></div></header>"
-            f"<nav class=\"bar\" data-ybc-bar><div class=\"wrap\">{bar}</div></nav>"
+            f"{FONTS}<style>{CSS}{chrome.CSS}</style><script type=\"application/ld+json\">{ldj}</script></head><body>"
+            + chrome.header() +
             f"<section class=\"hero\"><div class=\"wrap\"><p class=\"crumbs\">{cr}</p><h1>{esc(h1)}</h1><p class=\"lead\">{lead}</p><div class=\"meta\">{chip_html}<span class=\"chip\">Checked {checked}</span></div></div></section>"
             f"<main><div class=\"wrap\">{body}{fq}"
             "<p class=\"note\"><em>YourBillCheck is independent and not affiliated with any provider named here. Provider names identify their services. "
             f"Facts last checked {checked}. Equipment, prices and phone numbers vary by region and change, so confirm with your provider. Commissions do not affect the order of results.</em></p>"
             "<div class=\"cta\"><div><h3>Not sure which provider serves your address?</h3><p>Enter your ZIP code to see who reports service nearby, with speeds and starting prices.</p></div><a class=\"btn alt\" href=\"/\">Check my ZIP code</a></div>"
             "</div></main>"
-            "<footer><div class=\"wrap\"><div class=\"cols\"><div><b>Tools</b><a href=\"/speed-test\">Speed test</a><a href=\"/help\">Troubleshooter</a><a href=\"/compare\">Compare providers</a><a href=\"/providers\">Support numbers</a></div>"
-            "<div><b>Learn</b><a href=\"/guides\">Guides</a><a href=\"/about\">About</a><a href=\"/methodology\">How we get our data</a></div>"
-            "<div><b>Legal</b><a href=\"/privacy\">Privacy</a><a href=\"/terms\">Terms</a></div></div>"
-            "YourBillCheck, 4550 W Buckingham Rd, Garland, TX 75042</div></footer>"
-            f"{script}</body></html>")
+            + chrome.footer() +
+            f"{script}{chrome.JS}</body></html>")
 
 def dot(color, mode=""):
     return f'<span class="dot {color} {mode}"></span>'
