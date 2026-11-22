@@ -71,8 +71,9 @@ P = {
  "cox": dict(name="Cox", kind="cable", price="from $55/mo", promo="",
    plans=[("Fast", "about 250 Mbps", "$55"), ("Go Even Faster", "500 Mbps", "$85"), ("Go Super Fast", "1 Gbps", "$100"), ("Go Beyond Fast", "2 Gbps", "$115")],
    note="Cox plans include a 1.25 TB monthly data cap.",
-   support=[], official="https://www.cox.com/residential/contactus.html",
-   extra="We could not confirm a single residential support number on Cox's own site, so we link to Cox's contact page instead of printing one. Use the number on your bill or the contact page."),
+   official="https://www.cox.com/residential/contactus.html",
+   extra="Cox directs customers to its online support and chat rather than one published residential phone number, so use the official Cox contact page (chat and support options) or the number on your bill.",
+   support=[("Online support, chat and contact options", "Open Cox's official contact page", "https://www.cox.com/residential/contactus.html")]),
  "centurylink": dict(name="CenturyLink", kind="DSL and fiber", price="from $50/mo", promo="",
    plans=[("Fiber", "fiber", "$50"), ("Fiber Gig", "fiber", "$75"), ("DSL", "DSL", "$55")], note="About $15/mo modem. Plans vary by address.",
    support=[("Account and technical support", "800-244-1111", "https://www.centurylink.com/home/help/contact.html"),
@@ -84,8 +85,9 @@ P = {
    official="https://www.optimum.com/contact-us"),
  "starlink": dict(name="Starlink", kind="satellite", price="from $55/mo", promo="",
    plans=[("Residential", "up to 400 Mbps", "$55")], note="Equipment is extra (about $349 to buy, or rent in some areas). Price can be lower or higher by area.",
-   support=[], official="https://www.starlink.com/support",
-   extra="Starlink handles support mainly through its app and website rather than a phone line, so we do not list a phone number."),
+   official="https://www.starlink.com/support",
+   support=[("Help center, chat and support requests", "Open Starlink Support", "https://www.starlink.com/support")],
+   extra="Starlink handles support through its app and the Support page rather than a phone line. Use the Support page or the Starlink app."),
 }
 PF = {k: P[k] for k in P}
 
