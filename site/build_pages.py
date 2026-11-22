@@ -490,8 +490,26 @@ save("/speed-test", page("/speed-test", "Free Internet Speed Test | YourBillChec
      "Test your download and upload speed, latency and jitter in about 30 seconds, then compare the result with the plan you pay for.",
      ST_BODY + ST_EXTRA, faq, [("Home", SITE + "/"), ("Speed test", SITE + "/speed-test")]))
 
+# ---------- provider speed test pages ----------
+for _k in ["att","xfinity","spectrum","verizon","frontier","cox","optimum","centurylink","t-mobile"]:
+    _p = P.get(_k)
+    if not _p: continue
+    _n = _p["name"]
+    _plans = ("<h2>Compare with your " + _n + " plan</h2><table><tr><th>Plan</th><th>Speed</th><th>Promo price</th></tr>" + "".join(f"<tr><td>{a}</td><td>{b}</td><td>{c}</td></tr>" for a, b, c in _p["plans"]) + "</table><p class=\"note\">" + _p.get("note","") + "</p>") if _p.get("plans") else ""
+    _sup = "".join(f"<li>{a}: <b>{b}</b></li>" for a, b, c in _p["support"])
+    _body = ST_BODY + f"""<p>This test measures your connection, so it works for any provider. Compare the result with the speed on your {_n} bill. Wi-Fi often shows less than a wired connection.</p>{_plans}
+<h2>Slower than your {_n} plan?</h2><ol class="steps"><li>Restart your {_n} modem or gateway.</li><li>Test again with a computer plugged in by Ethernet.</li><li>See <a href="/help/{_k}">{_n} troubleshooting</a> and the <a href="/help/{_k}/lights">lights guide</a> if there is one.</li><li>Still slow? Call {_n}:<ul>{_sup}</ul></li></ol>
+<p><a href="/speed-test">General speed test</a> · <a href="/moving/{_k}">Moving {_n} service</a> · <a href="/providers/{_k}">{_n} support numbers</a></p>"""
+    _faq = [(f"How do I test my {_n} internet speed?", f"Press GO on this page with a device connected to your {_n} network, ideally by Ethernet, and compare the result with your plan."),
+            (f"Why is my {_n} speed slower than advertised?", "Wi-Fi, distance from the router, busy devices and peak hours all reduce speed. Test by cable to see the line speed."),
+            (f"Is this the official {_n} speed test?", f"No. It is an independent test and is not affiliated with {_n}. It uses Cloudflare's open speed test engine.")]
+    save(f"/speed-test/{_k}", page(f"/speed-test/{_k}", f"{_n} Speed Test: Check Your {_n} Internet Speed", f"Free {_n} speed test. Measure download, upload and ping, compare with your {_n} plan, and get fixes if it is slow.",
+         f"{_n} Speed Test", f"Test your {_n} internet speed in about 30 seconds and compare it with your plan.", _body, _faq, [("Home", SITE + "/"), ("Speed test", SITE + "/speed-test"), (_n, SITE + f"/speed-test/{_k}")]))
+
 import build_help
+import build_moving
 build_help.build(P, page, save)
 MD = build_help.build_models(P, page, save)
+build_moving.build(P, build_help.PROV, page, save)
 json.dump(sorted(set(manifest)), open(os.path.join(OUT, "manifest.json"), "w"), indent=0)
 print(len(manifest), "pages;", TOTAL, "zips")
