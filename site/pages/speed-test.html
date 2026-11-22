@@ -144,8 +144,8 @@ async function run(){
    $("d").textContent=d.toFixed(1);$("u").textContent=u.toFixed(1);$("l").textContent=Math.round(l);$("j").textContent=Math.round(s.jitter||0);
    setMax(d);tgt=d;phase("done");document.querySelectorAll("#ph span").forEach(s=>s.className="done");$("stat").textContent="Done. Download speed shown on the gauge.";
    verdict(d,u,l);save(d,u);hist();$("out").style.display="block";$("go").classList.remove("hide");$("go").textContent="AGAIN";$("go").classList.remove("pulse");window._r={d:d,u:u,l:l}};
-  t.onError=()=>{$("stat").textContent="The test could not run. Check your connection or ad blocker and try again.";$("go").classList.remove("hide")};
-  t.play();
+  t.onError=e=>{try{console.warn("speedtest",e)}catch(_){}};
+  t.play();setTimeout(()=>{if(!window._r||$("go").classList.contains("hide")){if($("out").style.display==="none"&&Number($("d").textContent)>0===false){$("stat").textContent="The test could not finish. Check your connection or ad blocker and try again.";$("go").classList.remove("hide")}}},90000);
  }catch(e){$("stat").textContent="The test could not load. Check your connection or ad blocker and try again.";$("go").classList.remove("hide")}
 }
 ticks();paint();hist();
