@@ -424,5 +424,6 @@ save("/speed-test", page("/speed-test", "Free Internet Speed Test | YourBillChec
 
 import build_help
 build_help.build(P, page, save)
+MD = build_help.build_models(P, page, save)
 json.dump(sorted(set(manifest)), open(os.path.join(OUT, "manifest.json"), "w"), indent=0)
 print(len(manifest), "pages;", TOTAL, "zips")
