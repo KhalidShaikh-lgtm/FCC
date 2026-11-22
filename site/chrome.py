@@ -23,7 +23,7 @@ def header(active=""):
             '<div class="yh-disc"><div class="yw">We may earn money when you click our links. <a href="/about">How we make money</a>'
             '<button type="button" class="yh-x" aria-label="Dismiss notice">&times;</button></div></div>'
             '<header class="yh-main"><div class="yw yh-row">'
-            '<a class="yh-logo" href="/"><i>$</i>YourBillCheck</a>'
+            '<a class="yh-logo" href="/"><img src="/header-icon.png" width="36" height="36" alt="" decoding="async">YourBillCheck</a>'
             '<button type="button" class="yh-burger" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button>'
             f'<nav class="yh-nav" aria-label="Main">{dd}<a class="yh-l" href="/moving">Moving</a></nav>'
             f'<div class="yh-right"><a class="yh-call" href="tel:{PHONE_TEL}">{PHONE}<span>{PHONE_TXT}</span></a>'
@@ -65,6 +65,7 @@ CSS = """
 .yh header.yh-main,header.yh-main{position:sticky;top:0;z-index:50;background:#fff;border-bottom:1px solid #e3e8ee;box-shadow:0 1px 0 rgba(15,34,51,.03);margin:0;padding:0;display:block}
 .yh-row{display:flex;align-items:center;gap:28px;min-height:76px}
 .yh-logo{display:flex;align-items:center;gap:10px;font:800 24px/1 "Bricolage Grotesque",Figtree,system-ui,sans-serif;letter-spacing:-.02em;color:#0f2233!important;white-space:nowrap}
+.yh-logo img{width:36px;height:36px;display:block}
 .yh-logo i{font-style:normal;display:grid;place-items:center;width:34px;height:34px;border-radius:10px;background:#0a8f6a;color:#fff;font-size:19px}
 .yh-nav{display:flex;align-items:center;gap:6px;flex:1;margin:0;padding:0}
 .yh-dd{position:relative}
