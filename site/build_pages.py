@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 import json, glob, os, collections, html, re
-OUT = "/home/claude/fcc/site/pages"
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "pages")
 SITE = "https://yourbillcheck.com"
 CHECKED = "November 22, 2026"
 os.makedirs(OUT, exist_ok=True)
@@ -92,32 +92,10 @@ P = {
 PF = {k: P[k] for k in P}
 
 # ---------- page shell ----------
-def crumb_ld(items):
-    return {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": i + 1, "name": n, "item": u} for i, (n, u) in enumerate(items)]}
-
-def page(path, title, desc, h1, lead, body, faq=None, crumbs=None, extra_head="", extra_body_end=""):
-    url = SITE + path
-    crumbs = crumbs or [("Home", SITE + "/"), (h1, url)]
-    ld = [{"@type": "Article", "headline": h1, "description": desc, "mainEntityOfPage": url, "dateModified": "2026-11-22", "datePublished": "2026-11-22",
-           "author": {"@type": "Organization", "name": "YourBillCheck"}, "publisher": {"@type": "Organization", "name": "YourBillCheck", "url": SITE}},
-          crumb_ld(crumbs)]
-    fq = ""
-    if faq:
-        ld.append({"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": re.sub("<[^>]+>", "", a)}} for q, a in faq]})
-        fq = "<h2>Frequently asked questions</h2>" + "".join(f"<h3>{esc(q)}</h3><p>{a}</p>" for q, a in faq)
-    ldj = json.dumps({"@context": "https://schema.org", "@graph": ld}, ensure_ascii=False).replace("</", "<\\/")
-    return ("<!DOCTYPE html><html lang=\"en\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">"
-            f"<title>{esc(title)}</title><meta name=\"description\" content=\"{esc(desc)}\"><link rel=\"canonical\" href=\"{url}\"><meta name=\"robots\" content=\"index,follow\">"
-            f"<meta property=\"og:title\" content=\"{esc(title)}\"><meta property=\"og:description\" content=\"{esc(desc)}\"><meta property=\"og:type\" content=\"article\"><meta property=\"og:url\" content=\"{url}\">"
-            f"<link rel=\"stylesheet\" href=\"/s.css\">{extra_head}<script type=\"application/ld+json\">{ldj}</script></head><body><div class=\"w\">"
-            "<a class=\"top\" href=\"/\">YourBillCheck</a>"
-            f"<p style=\"font-size:13px;color:#667\">{' › '.join(f'<a href=\"{esc(u)}\">{esc(n)}</a>' for n, u in crumbs[:-1])}</p>"
-            f"<h1>{esc(h1)}</h1><p class=\"lead\">{lead}</p>{body}{fq}"
-            "<p><em>YourBillCheck is independent and is not affiliated with any provider named here. Provider names are used only to identify their services. "
-            f"Facts last checked {CHECKED}. Prices, channel lineups and phone numbers change, so confirm with the provider before you order or call. Commissions do not affect the order of results.</em></p>"
-            "<h2>Check what is available at your address</h2><p>Enter your ZIP code to see which providers report service nearby, then confirm your exact address with the provider.</p>"
-            "<p><a href=\"/\">Check my ZIP code</a></p>"
-            f"<footer><a href=\"/\">Home</a> · <a href=\"/compare\">Compare providers</a> · <a href=\"/providers\">Provider support</a> · <a href=\"/help\">Help guides</a> · <a href=\"/speed-test\">Speed test</a></footer>{extra_body_end}</div></body></html>")
+import sys; sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import ui
+def page(path, title, desc, h1, lead, body, faq=None, crumbs=None, chips=None, script=""):
+    return ui.shell(path, title, desc, h1, lead, body, faq, crumbs, chips, script=script, checked=CHECKED)
 
 manifest = []
 def save(path, html_):
@@ -391,22 +369,18 @@ hub("/providers", "Provider Customer Service and Support Numbers | YourBillCheck
     "Customer service numbers for major US internet, TV and mobile providers, copied from each provider's own site and checked Nov 22, 2026.", "Provider Support Numbers and Plans",
     "Official customer service numbers for major providers, copied from their own websites, plus coverage and starting prices.",
     [(f"/providers/{k}", f"{P[k]['name']}", f"support numbers, plans and coverage") for k in P], [("Home", SITE + "/"), ("Providers", SITE + "/providers")])
-hub("/help", "Internet, TV and Mobile Help Guides | YourBillCheck",
-    "Step-by-step help for internet not working, slow internet, Wi-Fi drops, TV and channel problems, lost or stolen SIM, setup, canceling and moving.", "Internet, TV and Mobile Help Guides",
-    "Plain-language fixes for the most common internet, TV and mobile problems.",
-    [(f"/help/{s}", v[1], v[2]) for s, v in HELP.items()], [("Home", SITE + "/"), ("Help", SITE + "/help")])
 
 for k in P: provider_page(k)
 for a, b in PAIRS: compare_page(a, b)
 
 # ---------- speed test ----------
 ST_BODY = """
-<div id="st" style="border:1px solid #dde;border-radius:12px;padding:20px;margin:16px 0;background:#fff">
-<button id="go" style="background:#0a8a5f;color:#fff;border:0;border-radius:8px;padding:12px 22px;font-size:16px;cursor:pointer">Start speed test</button>
+<div id="st" class="card" style="padding:26px;max-width:760px">
+<button id="go" class="btn" style="font-size:18px;padding:15px 30px">Start speed test</button>
 <p id="stat" style="color:#445;margin:12px 0 0">Press the button. The test takes about 30 seconds. For the most accurate result, use a computer connected by Ethernet and pause other downloads.</p>
-<div id="res" style="display:none;margin-top:14px"><table style="width:100%"><tr><th>Download</th><th>Upload</th><th>Latency</th><th>Jitter</th></tr><tr><td id="d">-</td><td id="u">-</td><td id="l">-</td><td id="j">-</td></tr></table>
+<div id="res" style="display:none;margin-top:14px"><table><tr><th>Download</th><th>Upload</th><th>Latency</th><th>Jitter</th></tr><tr><td id="d">-</td><td id="u">-</td><td id="l">-</td><td id="j">-</td></tr></table>
 <p id="msg"></p>
-<form id="zf" onsubmit="var z=document.getElementById('zi').value.trim();if(/^\\d{5}$/.test(z)){location.href='/internet/'+z}else{alert('Enter a 5-digit ZIP code')}return false"><p>Want a faster or cheaper plan? <input id="zi" inputmode="numeric" maxlength="5" placeholder="Your ZIP" style="padding:8px;border:1px solid #bbc;border-radius:6px"> <button style="padding:8px 14px;border:0;border-radius:6px;background:#0b2a63;color:#fff">See providers</button></p></form></div>
+<form id="zf" onsubmit="var z=document.getElementById('zi').value.trim();if(/^\\d{5}$/.test(z)){location.href='/internet/'+z}else{alert('Enter a 5-digit ZIP code')}return false"><p>Want a faster or cheaper plan? <input id="zi" inputmode="numeric" maxlength="5" placeholder="Your ZIP" style="padding:8px;border:1px solid #bbc;border-radius:6px"> <button class="btn" style="padding:9px 16px;font-size:15px">See providers</button></p></form></div>
 <noscript><p>The speed test needs JavaScript.</p></noscript></div>
 <script type="module">
 const $=id=>document.getElementById(id);
@@ -448,5 +422,7 @@ save("/speed-test", page("/speed-test", "Free Internet Speed Test | YourBillChec
      "Test your download and upload speed, latency and jitter in about 30 seconds, then compare the result with the plan you pay for.",
      ST_BODY + ST_EXTRA, faq, [("Home", SITE + "/"), ("Speed test", SITE + "/speed-test")]))
 
+import build_help
+build_help.build(P, page, save)
 json.dump(sorted(set(manifest)), open(os.path.join(OUT, "manifest.json"), "w"), indent=0)
 print(len(manifest), "pages;", TOTAL, "zips")
