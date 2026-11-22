@@ -59,35 +59,109 @@ summary:after{content:"+";float:right;color:var(--mint-d);font-size:22px;line-he
 footer{border-top:1px solid var(--line);margin-top:50px;padding:30px 0 40px;background:var(--soft);font-size:14.5px;color:var(--muted)}
 footer a{color:var(--muted)}footer .cols{display:flex;gap:30px;flex-wrap:wrap;margin-bottom:16px}footer .cols div{min-width:150px}footer b{display:block;color:var(--ink);margin-bottom:6px;font-family:var(--fd)}footer a{display:block;text-decoration:none;padding:2px 0}footer a:hover{color:var(--mint-d);text-decoration:underline}
 @media(max-width:640px){body{font-size:16px}.hero{padding:24px 0}.steps li{padding-left:56px}th,td{padding:10px}.cta{padding:20px}.pill{display:none}}
-</style><script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Article", "headline": "Free Internet Speed Test", "description": "Run a free internet speed test to measure download, upload, latency and jitter, then see what the results mean and how to fix slow internet.", "mainEntityOfPage": "https://yourbillcheck.com/speed-test", "dateModified": "2026-11-22", "datePublished": "2026-11-22", "author": {"@type": "Organization", "name": "YourBillCheck"}, "publisher": {"@type": "Organization", "name": "YourBillCheck", "url": "https://yourbillcheck.com"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://yourbillcheck.com/"}, {"@type": "ListItem", "position": 2, "name": "Speed test", "item": "https://yourbillcheck.com/speed-test"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What is a good internet speed?", "acceptedAnswer": {"@type": "Answer", "text": "For most homes, 100 to 500 Mbps download is comfortable. Basic use works with 25 to 100 Mbps. See our guide on how much speed you need."}}, {"@type": "Question", "name": "Why is my speed test lower than my plan?", "acceptedAnswer": {"@type": "Answer", "text": "Wi-Fi, old equipment, other devices and time of day all lower results. Test with Ethernet to see your true connection speed."}}, {"@type": "Question", "name": "Is this speed test free?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, it is free and needs no account."}}, {"@type": "Question", "name": "How often should I test my internet speed?", "acceptedAnswer": {"@type": "Answer", "text": "Test when you notice slowdowns, after changing equipment and before calling your provider."}}]}]}</script></head><body><header class="top"><div class="wrap"><a class="logo" href="/"><i>$</i>YourBillCheck</a><span class="pill">Free · No login</span></div></header><nav class="bar" data-ybc-bar><div class="wrap"><a href="/speed-test" class=on>Speed Test</a><a href="/help">Troubleshoot</a><a href="/compare">Compare ISPs</a><a href="/providers">Support Numbers</a><a href="/guides">Guides</a></div></nav><section class="hero"><div class="wrap"><p class="crumbs"><a href="https://yourbillcheck.com/">Home</a></p><h1>Free Internet Speed Test</h1><p class="lead">Test your download and upload speed, latency and jitter in about 30 seconds, then compare the result with the plan you pay for.</p><div class="meta"><span class="chip">Checked November 22, 2026</span></div></div></section><main><div class="wrap">
-<div id="st" class="card" style="padding:26px;max-width:760px">
-<button id="go" class="btn" style="font-size:18px;padding:15px 30px">Start speed test</button>
-<p id="stat" style="color:#445;margin:12px 0 0">Press the button. The test takes about 30 seconds. For the most accurate result, use a computer connected by Ethernet and pause other downloads.</p>
-<div id="res" style="display:none;margin-top:14px"><table><tr><th>Download</th><th>Upload</th><th>Latency</th><th>Jitter</th></tr><tr><td id="d">-</td><td id="u">-</td><td id="l">-</td><td id="j">-</td></tr></table>
-<p id="msg"></p>
-<form id="zf" onsubmit="var z=document.getElementById('zi').value.trim();if(/^\d{5}$/.test(z)){location.href='/internet/'+z}else{alert('Enter a 5-digit ZIP code')}return false"><p>Want a faster or cheaper plan? <input id="zi" inputmode="numeric" maxlength="5" placeholder="Your ZIP" style="padding:8px;border:1px solid #bbc;border-radius:6px"> <button class="btn" style="padding:9px 16px;font-size:15px">See providers</button></p></form></div>
-<noscript><p>The speed test needs JavaScript.</p></noscript></div>
+</style><script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Article", "headline": "Free Internet Speed Test", "description": "Run a free internet speed test to measure download, upload, latency and jitter, then see what the results mean and how to fix slow internet.", "mainEntityOfPage": "https://yourbillcheck.com/speed-test", "dateModified": "2026-11-22", "datePublished": "2026-11-22", "author": {"@type": "Organization", "name": "YourBillCheck"}, "publisher": {"@type": "Organization", "name": "YourBillCheck", "url": "https://yourbillcheck.com"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://yourbillcheck.com/"}, {"@type": "ListItem", "position": 2, "name": "Speed test", "item": "https://yourbillcheck.com/speed-test"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What is a good internet speed?", "acceptedAnswer": {"@type": "Answer", "text": "For most homes, 100 Mbps download handles HD and 4K streaming, video calls and gaming for several people. Larger households and heavy uploaders benefit from 300 Mbps or more."}}, {"@type": "Question", "name": "Why is my speed lower than my plan?", "acceptedAnswer": {"@type": "Answer", "text": "Wi-Fi interference, distance from the router, older devices, busy hours and other devices using bandwidth all lower results. Test with an Ethernet cable to see your true line speed."}}, {"@type": "Question", "name": "Is this speed test free?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. It is free, needs no sign-up, and nothing is stored except your last few results on your own device."}}, {"@type": "Question", "name": "How often should I test?", "acceptedAnswer": {"@type": "Answer", "text": "Test when something feels slow, after changing plans or equipment, and at different times of day to spot peak-hour slowdowns."}}]}]}</script></head><body><header class="top"><div class="wrap"><a class="logo" href="/"><i>$</i>YourBillCheck</a><span class="pill">Free · No login</span></div></header><nav class="bar" data-ybc-bar><div class="wrap"><a href="/speed-test" class=on>Speed Test</a><a href="/help">Troubleshoot</a><a href="/compare">Compare ISPs</a><a href="/providers">Support Numbers</a><a href="/guides">Guides</a></div></nav><section class="hero"><div class="wrap"><p class="crumbs"><a href="https://yourbillcheck.com/">Home</a></p><h1>Free Internet Speed Test</h1><p class="lead">Test your download and upload speed, latency and jitter in about 30 seconds, then compare the result with the plan you pay for.</p><div class="meta"><span class="chip">Checked November 22, 2026</span></div></div></section><main><div class="wrap">
+<style>
+.stc{position:relative;max-width:820px;margin:-8px auto 26px;background:#fff;border:1px solid var(--line);border-radius:26px;box-shadow:0 40px 70px -40px rgba(10,143,106,.55),0 2px 8px rgba(15,34,51,.05);padding:26px 22px 22px;overflow:hidden}
+.stc:before{content:"";position:absolute;inset:0;background:radial-gradient(600px 260px at 50% -10%,rgba(10,143,106,.12),transparent 70%);pointer-events:none}
+.ph{display:flex;justify-content:center;gap:8px;position:relative;margin-bottom:6px}
+.ph span{font:700 12.5px var(--fb);letter-spacing:.04em;text-transform:uppercase;padding:6px 13px;border-radius:99px;background:var(--soft);color:var(--muted);border:1px solid var(--line);transition:.25s}
+.ph span.on{background:var(--mint);color:#fff;border-color:var(--mint);box-shadow:0 8px 18px -8px rgba(10,143,106,.8)}.ph span.done{background:var(--mint-soft);color:var(--mint-d);border-color:#cfe8dd}
+.gw{position:relative;width:100%;max-width:460px;margin:0 auto}
+.gw svg{width:100%;height:auto;display:block}
+.gnum{position:absolute;left:0;right:0;bottom:6%;text-align:center;pointer-events:none}
+.gnum b{display:block;font:800 clamp(46px,11vw,76px)/1 var(--fd);letter-spacing:-.03em;color:var(--ink)}
+.gnum small{font:600 15px var(--fb);color:var(--muted);letter-spacing:.08em}
+#go{position:absolute;left:50%;top:56%;transform:translate(-50%,-50%);width:150px;height:150px;border-radius:50%;border:0;cursor:pointer;color:#fff;background:radial-gradient(circle at 30% 25%,#19c394,var(--mint) 55%,var(--mint-d));font:800 34px var(--fd);letter-spacing:.02em;box-shadow:0 0 0 10px rgba(10,143,106,.12),0 0 0 22px rgba(10,143,106,.07),0 22px 40px -14px rgba(10,143,106,.8);transition:.2s}
+#go:hover{transform:translate(-50%,-50%) scale(1.05)}#go.pulse{animation:pl 2s infinite}@keyframes pl{50%{box-shadow:0 0 0 16px rgba(10,143,106,.16),0 0 0 34px rgba(10,143,106,.05),0 22px 40px -14px rgba(10,143,106,.8)}}
+#go.hide{opacity:0;pointer-events:none;transform:translate(-50%,-50%) scale(.6)}
+.tiles{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:8px;position:relative}
+.tile{background:var(--soft);border:1px solid var(--line);border-radius:16px;padding:12px 10px;text-align:center}
+.tile i{display:block;font-style:normal;font:700 11.5px var(--fb);letter-spacing:.07em;text-transform:uppercase;color:var(--muted)}
+.tile b{display:block;font:800 26px var(--fd);margin-top:2px;letter-spacing:-.02em}.tile u{text-decoration:none;font:600 12px var(--fb);color:var(--muted)}
+.tile.dl b{color:#0a8f6a}.tile.ul b{color:#2563eb}
+canvas#spark{width:100%;height:70px;display:block;margin-top:14px;position:relative}
+.stat{text-align:center;color:var(--muted);font-size:15px;margin:10px 0 0;position:relative;min-height:24px}
+#out{display:none;position:relative;margin-top:18px}
+.verdict{text-align:center;margin:6px 0 14px}.verdict b{font:800 24px var(--fd)}.verdict span{display:block;color:var(--muted);font-size:15px;margin-top:2px}
+.can{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:8px;margin:12px 0}
+.can div{display:flex;gap:9px;align-items:center;border:1px solid var(--line);border-radius:12px;padding:9px 12px;font-size:14.5px;background:#fff}
+.can em{font-style:normal;font-weight:800;width:20px;height:20px;border-radius:50%;display:grid;place-items:center;font-size:12px;color:#fff;flex:none}.can .y em{background:var(--mint)}.can .n em{background:#c5ccd4}.can .n{color:#8a97a3}
+.acts{display:flex;gap:10px;flex-wrap:wrap;justify-content:center;margin-top:8px}
+.hist{font-size:13.5px;color:var(--muted);text-align:center;margin-top:12px}
+@media(max-width:560px){.tiles{grid-template-columns:repeat(2,1fr)}#go{width:120px;height:120px;font-size:28px}}
+</style>
+<div class="stc" id="st">
+ <div class="ph" id="ph"><span data-p="lat">Ping</span><span data-p="down">Download</span><span data-p="up">Upload</span></div>
+ <div class="gw">
+  <svg viewBox="0 0 400 235" aria-hidden="true"><defs><linearGradient id="gg" x1="0" x2="1"><stop offset="0" stop-color="#19c394"/><stop offset=".6" stop-color="#0a8f6a"/><stop offset="1" stop-color="#2563eb"/></linearGradient></defs>
+   <path d="M40 200 A160 160 0 0 1 360 200" fill="none" stroke="#e8edf2" stroke-width="22" stroke-linecap="round"/>
+   <path id="arc" d="M40 200 A160 160 0 0 1 360 200" fill="none" stroke="url(#gg)" stroke-width="22" stroke-linecap="round" stroke-dasharray="503" stroke-dashoffset="503"/>
+   <g id="ticks" font-family="Figtree,sans-serif" font-size="13" fill="#7a8896" text-anchor="middle"></g>
+   <g id="nd" transform="rotate(-90 200 200)"><path d="M200 200 L196 112 L200 98 L204 112Z" fill="#0f2233"/><circle cx="200" cy="200" r="9" fill="#0f2233"/><circle cx="200" cy="200" r="3.5" fill="#fff"/></g></svg>
+  <div class="gnum"><b id="big">0</b><small id="unit">MBPS</small></div>
+  <button id="go" class="pulse" type="button">GO</button>
+ </div>
+ <div class="stat" id="stat">Press GO. The test takes about 30 seconds.</div>
+ <div class="tiles"><div class="tile"><i>Ping</i><b id="l">-</b><u>ms</u></div><div class="tile"><i>Jitter</i><b id="j">-</b><u>ms</u></div><div class="tile dl"><i>Download</i><b id="d">-</b><u>Mbps</u></div><div class="tile ul"><i>Upload</i><b id="u">-</b><u>Mbps</u></div></div>
+ <canvas id="spark" width="760" height="70"></canvas>
+ <div id="out">
+  <div class="verdict"><b id="vt"></b><span id="vs"></span></div>
+  <div class="can" id="can"></div>
+  <div class="acts"><button class="btn" id="again" type="button">Test again</button><button class="btn alt" id="share" type="button" style="border:1.5px solid var(--line)">Copy result</button></div>
+  <form id="zf" style="margin-top:20px;text-align:center" onsubmit="var z=document.getElementById('zi').value.trim();if(/^\d{5}$/.test(z)){location.href='/internet/'+z}else{alert('Enter a 5-digit ZIP code')}return false"><p style="margin:0 auto 8px;max-width:none"><b>Want faster or cheaper internet?</b> See who serves your address.</p><input id="zi" inputmode="numeric" maxlength="5" placeholder="Your ZIP code" style="padding:12px 14px;border:1.5px solid var(--line);border-radius:12px;font:600 16px var(--fb);width:170px"> <button class="btn" type="submit">See providers</button></form>
+ </div>
+ <div class="hist" id="hist"></div>
+ <noscript><p>The speed test needs JavaScript.</p></noscript>
+</div>
 <script type="module">
 const $=id=>document.getElementById(id);
-$("go").addEventListener("click",async()=>{
- $("go").disabled=true;$("stat").textContent="Loading the test...";$("res").style.display="none";
+const SC=[25,50,100,250,500,1000,2000,5000];let max=100,cur=0,tgt=0,raf=0,samples=[];
+const arc=$("arc"),nd=$("nd"),tk=$("ticks");
+function ticks(){tk.innerHTML="";const n=5;for(let i=0;i<=n;i++){const a=Math.PI*(1-i/n),r=188;const x=200+r*Math.cos(a),y=200-r*Math.sin(a);const t=document.createElementNS("http://www.w3.org/2000/svg","text");t.setAttribute("x",x);t.setAttribute("y",y+4);t.textContent=Math.round(max*i/n);tk.appendChild(t)}}
+function setMax(v){const m=SC.find(s=>s>=v*1.1)||5000;if(m>max){max=m;ticks()}}
+function paint(){cur+=(tgt-cur)*.12;if(Math.abs(tgt-cur)<.05)cur=tgt;const f=Math.min(1,cur/max);arc.style.strokeDashoffset=503*(1-f);nd.setAttribute("transform","rotate("+(-90+180*f)+" 200 200)");$("big").textContent=cur>=100?Math.round(cur):cur.toFixed(1);raf=requestAnimationFrame(paint)}
+function spark(){const c=$("spark"),x=c.getContext("2d");x.clearRect(0,0,c.width,c.height);if(samples.length<2)return;const m=Math.max.apply(null,samples)*1.1||1,w=c.width,h=c.height;x.beginPath();samples.forEach((v,i)=>{const px=i/(samples.length-1)*w,py=h-v/m*h;i?x.lineTo(px,py):x.moveTo(px,py)});x.strokeStyle="#0a8f6a";x.lineWidth=3;x.stroke();x.lineTo(w,h);x.lineTo(0,h);x.closePath();x.fillStyle="rgba(10,143,106,.12)";x.fill()}
+function phase(p){document.querySelectorAll("#ph span").forEach(s=>{const o=["lat","down","up"];s.className=o.indexOf(s.dataset.p)<o.indexOf(p)?"done":(s.dataset.p===p?"on":"")});}
+function hist(){try{const h=JSON.parse(localStorage.getItem("ybc_st")||"[]");$("hist").textContent=h.length?"Recent tests on this device: "+h.slice(-4).reverse().map(x=>x.d+" down / "+x.u+" up").join("  ·  "):""}catch(e){}}
+function save(d,u){try{const h=JSON.parse(localStorage.getItem("ybc_st")||"[]");h.push({d:Math.round(d),u:Math.round(u)});localStorage.setItem("ybc_st",JSON.stringify(h.slice(-10)))}catch(e){}}
+function verdict(d,u,l){let t,s;if(d>=500){t="Blazing fast";s="Plenty for any household, any number of 4K streams, and large uploads."}else if(d>=200){t="Excellent";s="Comfortable for a busy household, 4K streaming and gaming."}else if(d>=100){t="Very good";s="Handles HD and 4K streaming, video calls and gaming for several people."}else if(d>=25){t="Good for light use";s="Fine for HD streaming and calls for a few people; a busy home may feel it."}else{t="Slow";s="You may struggle with video calls and streaming. See our slow-internet guide."}
+ $("vt").textContent=t;$("vs").textContent=s;
+ const A=[["HD streaming on several screens",d>=25],["4K streaming",d>=25],["Multiple 4K streams at once",d>=100],["Video calls and meetings",d>=10&&u>=3],["Online gaming",l<60&&d>=15],["Working from home",d>=50&&u>=10],["Cloud backups and big uploads",u>=50],["Large game downloads in minutes",d>=300]];
+ $("can").innerHTML=A.map(a=>'<div class="'+(a[1]?"y":"n")+'"><em>'+(a[1]?"✓":"–")+"</em>"+a[0]+"</div>").join("")}
+let t=null;
+async function run(){
+ $("go").classList.add("hide");$("out").style.display="none";samples=[];max=100;ticks();tgt=0;cur=0;$("stat").textContent="Loading the test...";phase("lat");
+ ["l","j","d","u"].forEach(i=>$(i).textContent="-");
  try{
   const {default:SpeedTest}=await import("https://esm.sh/@cloudflare/speedtest@1.5.0");
-  const t=new SpeedTest({autoStart:false});
-  t.onResultsChange=()=>{$("stat").textContent="Testing... "+(t.results&&t.results.getSummary&&t.results.getSummary().download?(t.results.getSummary().download/1e6).toFixed(0)+" Mbps so far":"")};
-  t.onFinish=r=>{
-   const s=r.getSummary();const dn=s.download/1e6,up=s.upload/1e6;
-   $("d").textContent=dn.toFixed(1)+" Mbps";$("u").textContent=up.toFixed(1)+" Mbps";$("l").textContent=(s.latency||0).toFixed(0)+" ms";$("j").textContent=(s.jitter||0).toFixed(0)+" ms";
-   let m;if(dn<25)m="That is slow for most households. Try the fixes in our slow internet guide, and check whether a faster provider reports service at your address.";
-   else if(dn<100)m="That works for HD streaming and video calls for a few people. Heavy households may want more.";
-   else if(dn<500)m="That is a comfortable speed for most homes, including 4K streaming and gaming.";
-   else m="That is a very fast connection.";
-   $("msg").innerHTML=m+' <a href="/help/slow-internet">Slow internet guide</a>';
-   $("res").style.display="block";$("stat").textContent="Done.";$("go").disabled=false;$("go").textContent="Run again";
-  };
-  t.onError=()=>{$("stat").textContent="The test could not run. Check your connection and try again.";$("go").disabled=false};
+  t=new SpeedTest({autoStart:false});
+  t.onResultsChange=({type})=>{const s=t.results.getSummary();
+   if(s.latency!=null)$("l").textContent=Math.round(s.latency);if(s.jitter!=null)$("j").textContent=Math.round(s.jitter);
+   if(type==="latency"||type==="packetLoss"){phase("lat");$("stat").textContent="Checking latency...";tgt=0;}
+   if(type==="download"&&s.download){phase("down");const v=s.download/1e6;setMax(v);tgt=v;$("d").textContent=v.toFixed(1);$("stat").textContent="Testing download speed...";samples.push(v);spark()}
+   if(type==="upload"&&s.upload){phase("up");const v=s.upload/1e6;setMax(v);tgt=v;$("u").textContent=v.toFixed(1);$("stat").textContent="Testing upload speed...";samples.push(v);spark()}};
+  t.onFinish=r=>{const s=r.getSummary();const d=s.download/1e6,u=s.upload/1e6,l=s.latency||0;
+   $("d").textContent=d.toFixed(1);$("u").textContent=u.toFixed(1);$("l").textContent=Math.round(l);$("j").textContent=Math.round(s.jitter||0);
+   setMax(d);tgt=d;phase("done");document.querySelectorAll("#ph span").forEach(s=>s.className="done");$("stat").textContent="Done. Download speed shown on the gauge.";
+   verdict(d,u,l);save(d,u);hist();$("out").style.display="block";$("go").classList.remove("hide");$("go").textContent="AGAIN";$("go").classList.remove("pulse");window._r={d:d,u:u,l:l}};
+  t.onError=()=>{$("stat").textContent="The test could not run. Check your connection or ad blocker and try again.";$("go").classList.remove("hide")};
   t.play();
- }catch(e){$("stat").textContent="The test could not load. Check your connection or ad blocker and try again.";$("go").disabled=false}
-});
+ }catch(e){$("stat").textContent="The test could not load. Check your connection or ad blocker and try again.";$("go").classList.remove("hide")}
+}
+ticks();paint();hist();
+$("go").addEventListener("click",run);$("again").addEventListener("click",()=>{window.scrollTo({top:0,behavior:"smooth"});run()});
+$("share").addEventListener("click",()=>{const r=window._r;if(!r)return;const txt="My internet speed: "+r.d.toFixed(0)+" Mbps down, "+r.u.toFixed(0)+" Mbps up, "+Math.round(r.l)+" ms ping. Test yours: https://yourbillcheck.com/speed-test";(navigator.clipboard?navigator.clipboard.writeText(txt):Promise.reject()).then(()=>{$("share").textContent="Copied!"}).catch(()=>{$("share").textContent="Copy failed"})});
 </script>
-<h2>How to read your results</h2><ul><li><strong>Download</strong> is how fast data reaches you: streaming, browsing, downloads.</li><li><strong>Upload</strong> is how fast you send data: video calls, cloud backups, posting video.</li><li><strong>Latency</strong> is the delay in milliseconds. Lower is better for gaming and calls.</li><li><strong>Jitter</strong> is how much latency varies. High jitter makes calls and games choppy.</li></ul><h2>How to get an accurate test</h2><ol><li>Use a computer connected by Ethernet if you can.</li><li>Close streaming, downloads and cloud backups.</li><li>Run it two or three times and at different times of day.</li><li>Compare the result with the speed on your bill. Wi-Fi results are usually lower than wired.</li></ol><p>This test runs in your browser using Cloudflare's open speed test and does not need an account. Results depend on your device, Wi-Fi and the time of day.</p><p>Results far below your plan? See <a href="/help/slow-internet">slow internet fixes</a> and <a href="/help/internet-not-working">internet not working</a>.</p><h2>Frequently asked questions</h2><details><summary>What is a good internet speed?</summary><p>For most homes, 100 to 500 Mbps download is comfortable. Basic use works with 25 to 100 Mbps. See our guide on how much speed you need.</p></details><details><summary>Why is my speed test lower than my plan?</summary><p>Wi-Fi, old equipment, other devices and time of day all lower results. Test with Ethernet to see your true connection speed.</p></details><details><summary>Is this speed test free?</summary><p>Yes, it is free and needs no account.</p></details><details><summary>How often should I test my internet speed?</summary><p>Test when you notice slowdowns, after changing equipment and before calling your provider.</p></details><p class="note"><em>YourBillCheck is independent and not affiliated with any provider named here. Provider names identify their services. Facts last checked November 22, 2026. Equipment, prices and phone numbers vary by region and change, so confirm with your provider. Commissions do not affect the order of results.</em></p><div class="cta"><div><h3>Not sure which provider serves your address?</h3><p>Enter your ZIP code to see who reports service nearby, with speeds and starting prices.</p></div><a class="btn alt" href="/">Check my ZIP code</a></div></div></main><footer><div class="wrap"><div class="cols"><div><b>Tools</b><a href="/speed-test">Speed test</a><a href="/help">Troubleshooter</a><a href="/compare">Compare providers</a><a href="/providers">Support numbers</a></div><div><b>Learn</b><a href="/guides">Guides</a><a href="/about">About</a><a href="/methodology">How we get our data</a></div><div><b>Legal</b><a href="/privacy">Privacy</a><a href="/terms">Terms</a></div></div>YourBillCheck, 4550 W Buckingham Rd, Garland, TX 75042</div></footer></body></html>
+
+<h2>How to read your results</h2>
+<div class="grid">
+<div class="card"><h3>Download</h3><p>How fast data reaches your devices. It drives streaming, browsing and downloads. This is the number most plans advertise.</p></div>
+<div class="card"><h3>Upload</h3><p>How fast you send data out. It matters for video calls, cloud backups and posting large files.</p></div>
+<div class="card"><h3>Ping (latency)</h3><p>The delay in milliseconds before data starts moving. Under 30 ms feels instant; over 100 ms can hurt gaming and calls.</p></div>
+<div class="card"><h3>Jitter</h3><p>How much your latency wobbles. Low jitter means smooth calls and games.</p></div>
+</div>
+<h2>Get the most accurate result</h2>
+<ol class="steps"><li>Connect a computer to the router with an Ethernet cable if you can.</li><li>Pause streaming, downloads and cloud backups on other devices.</li><li>Close extra tabs and VPNs, then run the test two or three times.</li><li>Compare with the speed on your bill. Wi-Fi often shows 20 to 50 percent less than wired.</li></ol>
+<div class="call tip"><b>Slower than your plan?</b> Restart your modem and router, move closer to the router, or follow our <a href="/help">troubleshooting guides</a> for your provider. Still slow? <a href="/providers">Compare providers</a> at your address.</div>
+<p class="note">This test uses the Cloudflare speed test engine and measures the connection between your device and the nearest Cloudflare server. Results vary by device, Wi-Fi and time of day.</p>
+<h2>Frequently asked questions</h2><details><summary>What is a good internet speed?</summary><p>For most homes, 100 Mbps download handles HD and 4K streaming, video calls and gaming for several people. Larger households and heavy uploaders benefit from 300 Mbps or more.</p></details><details><summary>Why is my speed lower than my plan?</summary><p>Wi-Fi interference, distance from the router, older devices, busy hours and other devices using bandwidth all lower results. Test with an Ethernet cable to see your true line speed.</p></details><details><summary>Is this speed test free?</summary><p>Yes. It is free, needs no sign-up, and nothing is stored except your last few results on your own device.</p></details><details><summary>How often should I test?</summary><p>Test when something feels slow, after changing plans or equipment, and at different times of day to spot peak-hour slowdowns.</p></details><p class="note"><em>YourBillCheck is independent and not affiliated with any provider named here. Provider names identify their services. Facts last checked November 22, 2026. Equipment, prices and phone numbers vary by region and change, so confirm with your provider. Commissions do not affect the order of results.</em></p><div class="cta"><div><h3>Not sure which provider serves your address?</h3><p>Enter your ZIP code to see who reports service nearby, with speeds and starting prices.</p></div><a class="btn alt" href="/">Check my ZIP code</a></div></div></main><footer><div class="wrap"><div class="cols"><div><b>Tools</b><a href="/speed-test">Speed test</a><a href="/help">Troubleshooter</a><a href="/compare">Compare providers</a><a href="/providers">Support numbers</a></div><div><b>Learn</b><a href="/guides">Guides</a><a href="/about">About</a><a href="/methodology">How we get our data</a></div><div><b>Legal</b><a href="/privacy">Privacy</a><a href="/terms">Terms</a></div></div>YourBillCheck, 4550 W Buckingham Rd, Garland, TX 75042</div></footer></body></html>
