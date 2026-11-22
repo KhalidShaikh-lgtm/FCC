@@ -228,6 +228,9 @@ def build(P, page, save):
             for c, m, lab, mean, sev, act in [r for r in rows if r[4] != "ok"][:5]:
                 body += f'<tr><td>{dot(c, m)}<b>{esc(lab)}</b></td><td>{esc(mean)}</td></tr>'
             body += f'</table><p><a href="/help/{k}/lights">See every {esc(n)} light and what to do →</a></p>'
+        mg = [(s_, sh) for kk, lst in MODELS.items() if kk == k for s_, sh, *_ in lst]
+        if mg:
+            body += f'<h2>{esc(n)} model guides</h2><div class="grid">' + "".join(f'<a class="card" href="/help/{k}/{s_}"><b>{esc(sh)}</b><span>Lights, reset and fixes</span></a>' for s_, sh in mg) + "</div>"
         body += f'<h2 id="no-internet">{esc(n)}: no internet or a red light</h2><ol class="steps">' + "".join(f"<li>{s}</li>" for s in d["noint"]) + "</ol>"
         body += f'<h2 id="restart">How to restart your {esc(n)} equipment</h2><ol class="steps">' + "".join(f"<li>{s}</li>" for s in d["restart"]) + "</ol>"
         body += '<div class="call warn"><b>Before you factory reset</b>A factory reset erases your Wi-Fi name, password and custom settings. Write them down first, and only reset when your provider or its guide tells you to.</div>'
@@ -300,3 +303,82 @@ def build(P, page, save):
          "Fix It: Internet, TV and Router Troubleshooter", "Pick your provider, then your problem. Get exact steps for your equipment: what the lights mean, how to restart, and when to call.", body, None,
          [("Home", "https://yourbillcheck.com/"), ("Troubleshoot", "https://yourbillcheck.com/help")], chips=["9 providers", "Official sources"], script=js))
     return cards_all
+
+C4000_RING = [
+ ("blue", "blink", "Blinking or solid blue", "Booting up and syncing with the network.", "wait", "Wait up to 5 minutes; if it keeps blinking, check the DSL cord at the modem and wall jack."),
+ ("green", "", "Solid green", "Online and connected.", "ok", "Nothing to do."),
+ ("green", "blink", "Fast-flickering green", "Sending or receiving data.", "ok", "Normal."),
+ ("green", "blink", "Blinking green", "WPS is searching for a device to connect.", "wait", "Select your network on the device."),
+ ("red", "blink", "Blinking red", "WPS connection failed.", "wait", "Wait 2 minutes, check you chose the right network name (on the modem sticker), and retry."),
+ ("red", "", "Solid red", "Network failure.", "fix", "Reboot the modem first, then call or chat with CenturyLink."),
+ ("amber", "blink", "Blinking amber-green or amber-white", "Firmware update in progress.", "wait", "Do not unplug it."),
+ ("red", "blink", "Blinking green-red", "Network issue.", "fix", "Call or chat with CenturyLink."),
+ ("off", "", "Off", "Not connected to the network.", "fix", "Check power and the line, then reboot."),
+]
+C4000_DSL = [
+ ("green", "", "DSL light solid green", "Connected with an active line (DSL models only).", "ok", "Nothing to do."),
+ ("red", "", "DSL light solid red", "Connection error.", "fix", "Call or chat with CenturyLink."),
+ ("off", "", "DSL light off", "Nothing connected to the DSL port.", "fix", "Plug the DSL cord into the modem and wall jack."),
+]
+TMO_G5_SCREENS = [
+ ("Connection", "Up to five bars show cellular signal strength. An X means the gateway is not connected to the cellular network."),
+ ("Devices", "How many wired and wireless devices are connected. Use the T-Life app to manage each device."),
+ ("Internet Line Number", "Shows your internet number when a SIM card is installed."),
+ ("Messages", "Lets you read messages from T-Mobile."),
+ ("Language", "English and Español."),
+]
+MODELS = {
+ "att": [("bgw320", "AT&T BGW320 Gateway", "AT&T BGW320 Wi-Fi Gateway: Lights, Reset and Fixes", ATT_BGW, None,
+   "The BGW320 is the fiber Wi-Fi Gateway AT&T installs with many Fiber plans. A single Service light on the front tells you most of what you need to know, and a WPS light shows Wi-Fi pairing status.",
+   ["Look at the front <b>Service</b> light and match it to the table.", "If it is <b>blinking red slowly</b>, check the cable, then press and hold the red <b>reset button for 10 seconds</b>.", "If it is <b>blinking red fast</b>, check myAT&T or Smart Home Manager for an outage and reboot.",
+    "If it is <b>solid red</b>, check the WPS light: off means overheating (move it to a flat, carpet-free spot with airflow); red means a hardware issue (reboot, then contact AT&T for a replacement).", "<b>Solid blue</b> means internet backup mode during an outage; it returns to fiber when the outage ends.",
+    "If the WPS light blinks green fast, the gateway is doing a factory reset: wait for it to restart."],
+   "https://www.att.com/device-support/article/134376/at&t/bgw320/", "AT&T: BGW320 getting to know your equipment"),],
+ "verizon": [("fios-router-g3100", "Verizon Fios Router G3100", "Verizon Fios Router G3100: Lights, Reset and Fixes", VZ, None,
+   "The Fios Router G3100 has one front status light. Its color and blink pattern tell you whether it is working, booting, pairing or in trouble.",
+   ["Read the front light: <b>white solid</b> is normal, <b>yellow solid</b> is no internet, <b>red solid</b> is a hardware or system failure.", "For a <b>soft reboot</b>, press and hold the rear Reset button for at least 3 seconds.",
+    "For a <b>factory reset</b>, hold the Reset button at least 10 seconds. This erases settings, so note your Wi-Fi name and password first.", "You can also reboot from the router's web page: Advanced, Utilities, Reboot Router. Verizon's guide suggests doing this when Verizon support tells you to.",
+    "<b>Red fast blink</b> means overheating; give it airflow. <b>Green solid</b> means Wi-Fi is turned off.", "If yellow or red persists, contact Verizon."],
+   "https://www.verizon.com/content/dam/verizon/support/consumer/documents/internet/fios-router-user-guide.pdf", "Verizon: Fios Router G3100 user guide"),],
+ "centurylink": [("c4000", "CenturyLink C4000 Modem", "CenturyLink C4000 Modem: Light Ring, Reset and Fixes", C4000_RING, C4000_DSL,
+   "The C4000 has one light ring on the front, and DSL models add a DSL light on the back. The ring works the same on every C4000 model (DSL C4000BG, BZ, LG, LZ and fiber C4000XG).",
+   ["Check the front ring color against the table. <b>Solid green</b> means online.", "<b>Solid red</b> means a network failure. Reboot the modem first; CenturyLink calls rebooting the first step for a red ring.",
+    "On DSL models, check the rear DSL light: <b>red</b> is a connection error, <b>off</b> means nothing is plugged into the DSL port.", "If the ring keeps blinking blue for more than 5 minutes, check that the green DSL cord is firmly in the modem and the wall jack; if it repeats, service may not be active on that jack, so try another jack.",
+    "After a failed WPS pairing, wait 2 minutes for the ring to return to solid green, confirm the network name on the modem sticker, and retry.", "For severe errors, CenturyLink says a reset and repeat setup may be needed, ideally with a support agent."],
+   "https://www.centurylink.com/home/help/internet/modems-and-routers/greenwave-c4000/led-display-guide.html", "CenturyLink: C4000 modem light guide"),],
+ "t-mobile": [("5g-gateway", "T-Mobile 5G Gateway Gen5", "T-Mobile 5G Gateway (Gen5): Screen, Signal Bars and Fixes", None, None,
+   "The T-Mobile 5G Gateway Gen5 has an LCD screen instead of colored lights. You use the arrow buttons to move through screens that show signal, connected devices and messages.",
+   ["On the <b>Connection</b> screen, count the bars. <b>An X</b> means the gateway is not connected to the cellular network.", "Move the gateway to a spot with stronger signal (near a window, higher up, away from large metal objects). T-Mobile notes the gateway operates between 32°F and 104°F.",
+    "Restart it: unplug the gateway for 30 seconds, plug it back in, and wait 2 minutes before testing.", "T-Mobile installs firmware updates automatically between 1 and 3 a.m. Pacific, so leave the gateway powered on then and do not restart it during an update.",
+    "Use the Devices screen or the T-Life app to see how many devices are connected.", "Turn off any VPN or firewall and restart connected devices. If the X stays, contact T-Mobile Home Internet support."],
+   "https://www.t-mobile.com/support/home-internet/5g-gateway-g5", "T-Mobile: 5G Gateway Gen5"),],
+}
+
+def build_models(P, page, save):
+    done = []
+    for k, lst in MODELS.items():
+        d = PROV[k]; n = d["name"]
+        for slug, short, title, rows, rows2, lead, steps, src, srct in lst:
+            body = f"<p>{esc(lead)}</p>"
+            if rows:
+                body += "<h2>What the lights mean</h2><table><tr><th>Light</th><th>What it means</th><th>What to do</th></tr>"
+                for c, m, lab, mean, sev, act in rows:
+                    lbl = {"ok": "OK", "wait": "WAIT", "fix": "ACTION"}[sev]
+                    body += f'<tr><td>{dot(c, m)}<b>{esc(lab)}</b></td><td>{esc(mean)}<br><span class="sev {sev}">{lbl}</span></td><td>{esc(act)}</td></tr>'
+                body += "</table>"
+            if rows2:
+                body += "<h2>Rear DSL light</h2><table><tr><th>Light</th><th>What it means</th><th>What to do</th></tr>" + "".join(
+                    f'<tr><td>{dot(c, m)}<b>{esc(lab)}</b></td><td>{esc(mean)}<br><span class="sev {sev}">{ {"ok":"OK","wait":"WAIT","fix":"ACTION"}[sev] }</span></td><td>{esc(act)}</td></tr>' for c, m, lab, mean, sev, act in rows2) + "</table>"
+            if not rows:
+                body += "<h2>What the screen shows</h2><table><tr><th>Screen</th><th>What it shows</th></tr>" + "".join(f"<tr><td><b>{esc(a)}</b></td><td>{esc(b)}</td></tr>" for a, b in TMO_G5_SCREENS) + "</table>"
+            body += f"<h2>Fix it step by step</h2><ol class=\"steps\">" + "".join(f"<li>{s}</li>" for s in steps) + "</ol>"
+            body += '<div class="call warn"><b>Before any factory reset</b>It erases your Wi-Fi name, password and custom settings. Note them first, and reset only when the provider guide says to.</div>'
+            body += f'<p>More: <a href="/help/{k}">{esc(n)} troubleshooting</a>' + (f' · <a href="/help/{k}/lights">all {esc(n)} lights</a>' if d["tables"] else "") + f' · <a href="/providers/{k}">support numbers</a>. Official source: <a href="{esc(src)}" rel="nofollow noopener">{esc(srct)}</a>.</p>'
+            faq = [(f"How do I reset the {short}?", steps[1].replace("<b>", "").replace("</b>", "") if len(steps) > 1 else "See the steps above."),
+                   (f"What does a red light mean on the {short}?" if rows else f"What does an X mean on the {short}?", "A red light means a problem such as no connection, overheating or hardware failure; see the table for your exact pattern." if rows else "An X means the gateway is not connected to the cellular network. Move it for a stronger signal and restart it."),
+                   (f"Who do I contact if the {short} still fails?", f"Contact {n} support. See our {n} page for official numbers and links.")]
+            save(f"/help/{k}/{slug}", page(f"/help/{k}/{slug}", title, f"{short}: what the lights or screen mean, how to reset it and how to fix common problems, from {n}'s own support guidance.",
+                 f"{short}: Lights, Reset and Fixes", lead, body, faq,
+                 [("Home", "https://yourbillcheck.com/"), ("Troubleshoot", "https://yourbillcheck.com/help"), (n, f"https://yourbillcheck.com/help/{k}"), (short, f"https://yourbillcheck.com/help/{k}/{slug}")], chips=[n, "Model guide"]))
+            done.append((k, slug, short))
+    return done
