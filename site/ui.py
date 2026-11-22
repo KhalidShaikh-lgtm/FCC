@@ -68,7 +68,7 @@ footer a{color:var(--muted)}footer .cols{display:flex;gap:30px;flex-wrap:wrap;ma
 @media(max-width:640px){body{font-size:16px}.hero{padding:24px 0}.steps li{padding-left:56px}th,td{padding:10px}.cta{padding:20px}.pill{display:none}}
 """
 
-NAV = [("/speed-test", "Speed Test"), ("/help", "Troubleshoot"), ("/compare", "Compare ISPs"), ("/providers", "Support Numbers"), ("/guides", "Guides")]
+NAV = [("/speed-test", "Speed Test"), ("/help", "Troubleshoot"), ("/moving", "Moving"), ("/compare", "Compare ISPs"), ("/providers", "Support Numbers"), ("/guides", "Guides")]
 
 def shell(path, title, desc, h1, lead, body, faq=None, crumbs=None, chips=None, jsonld_extra=None, date="2026-11-22", script="", checked="November 22, 2026"):
     url = SITE + path
