@@ -32,3 +32,7 @@ Deployed 2026-11-22 as KV `worker.v20.js`. **Rollback:** upload KV `worker.v19.j
 - Routes: `/api/sites`, `/api/query?days=28&dimension=query|page|country|device|none&limit=25`, `/api/sitemaps`, `/api/sitemaps/submit?url=`, `/api/inspect?url=`.
 - Reconnect: delete `GSC_REFRESH_TOKEN`, visit `/auth?k=<API_KEY>`, store the token shown once.
 - Rotate the OAuth client secret in Google Cloud (Auth Platform > Clients > client > Additional information), update `GSC_CLIENT_SECRET`, redeploy, then delete the old secret.
+
+## Guide pages (v22)
+
+The five long-form guides live in `site/guides/<slug>.html` (same template as the original Pages files, without the FAQ block, which the Worker adds from `GFAQ`). The Worker (v22) fetches them from `raw.githubusercontent.com` (`main`, then `seo-aeo-fixes`) and falls back to the original Pages file if the fetch fails. To change a guide, edit its HTML here; changes appear within about 10 minutes.
