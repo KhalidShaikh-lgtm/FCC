@@ -25,7 +25,7 @@ def header(active=""):
             '<header class="yh-main"><div class="yw yh-row">'
             '<a class="yh-logo" href="/"><img src="/header-icon.png" width="36" height="36" alt="" decoding="async">YourBillCheck</a>'
             '<button type="button" class="yh-burger" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button>'
-            f'<nav class="yh-nav" aria-label="Main">{dd}<a class="yh-l" href="/moving">Moving</a></nav>'
+            f'<nav class="yh-nav" aria-label="Main">{dd}<a class="yh-l" href="/bills">Lower Your Bill</a><a class="yh-l" href="/moving">Moving</a></nav>'
             f'<div class="yh-right"><a class="yh-call" href="tel:{PHONE_TEL}">{PHONE}<span>{PHONE_TXT}</span></a>'
             f'<button type="button" class="yh-search" aria-expanded="false">{GLASS}<span>Search</span></button></div>'
             '</div>'
@@ -41,7 +41,7 @@ def footer(disclaimers=None):
     disc = disclaimers or ('<p>YourBillCheck is an independent comparison and sales service. We are not affiliated with, endorsed by, or sponsored by any provider. Provider names are trademarks of their owners and are used only to identify the service.</p>'
                            '<p>We may earn a commission from providers when you sign up through us. Plans, prices and availability vary by address and change without notice.</p>')
     return ('<footer class="yf" data-ybc-chrome><div class="yw"><div class="yf-cols">'
-            '<div><h4>Providers</h4><a href="/compare">Compare Providers</a><a href="/providers">Provider Support Numbers</a><a href="/moving">Moving Guides</a>'
+            '<div><h4>Providers</h4><a href="/compare">Compare Providers</a><a href="/providers">Provider Support Numbers</a><a href="/bills">Why Is My Bill So High?</a><a href="/moving">Moving Guides</a>'
             '<form class="yf-zip" onsubmit="var z=this.z.value.trim();if(/^\\d{5}$/.test(z)){location.href=\'/internet/\'+z}return false"><input name="z" inputmode="numeric" maxlength="5" placeholder="Search by ZIP" aria-label="ZIP code"><button type="submit" aria-label="Search">' + GLASS + '</button></form>'
             f'<select class="yf-sel" aria-label="Browse by state" onchange="if(this.value)location.href=\'/internet/\'+this.value">{opts}</select></div>'
             f'<div><h4>Resources</h4>{popl}</div>'
