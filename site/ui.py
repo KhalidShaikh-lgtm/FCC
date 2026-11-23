@@ -69,11 +69,11 @@ summary:after{content:"+";float:right;color:var(--mint-d);font-size:22px;line-he
 
 NAV = [("/speed-test", "Speed Test"), ("/help", "Troubleshoot"), ("/moving", "Moving"), ("/compare", "Compare ISPs"), ("/providers", "Support Numbers"), ("/guides", "Guides")]
 
-def shell(path, title, desc, h1, lead, body, faq=None, crumbs=None, chips=None, jsonld_extra=None, date="2026-11-22", script="", checked="November 22, 2026"):
+def shell(path, title, desc, h1, lead, body, faq=None, crumbs=None, chips=None, jsonld_extra=None, date="2026-11-22", script="", checked="November 22, 2026", author=None):
     url = SITE + path
     crumbs = crumbs or [("Home", SITE + "/"), (h1, url)]
     ld = [{"@type": "Article", "headline": h1, "description": desc, "mainEntityOfPage": url, "dateModified": date, "datePublished": "2026-11-22",
-           "author": {"@type": "Organization", "name": "YourBillCheck"}, "publisher": {"@type": "Organization", "name": "YourBillCheck", "url": SITE}},
+           "author": author or {"@type": "Organization", "name": "YourBillCheck"}, "publisher": {"@type": "Organization", "name": "YourBillCheck", "url": SITE}},
           {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": i + 1, "name": n, "item": u} for i, (n, u) in enumerate(crumbs)]}]
     if jsonld_extra: ld += jsonld_extra
     fq = ""
