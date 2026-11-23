@@ -6,6 +6,7 @@ Facts checked November 24, 2026.
 """
 import html
 import ui
+import author
 
 esc = lambda s: html.escape(str(s), quote=True)
 SITE = "https://yourbillcheck.com"
@@ -210,7 +211,7 @@ def build(P, page_unused, save):
     for k in ORDER:
         d = B[k]; p = P.get(k, {}); n = p.get("name", k.title())
         price = p.get("price", "")
-        body = (f'<div class="call tip"><b>Short answer</b>{esc(d["short"])}</div>'
+        body = (author.box(CHECKED) + f'<div class="call tip"><b>Short answer</b>{esc(d["short"])}</div>'
                 f"<h2>What happens to your {esc(n)} bill after the promotion</h2><p>{esc(d['after'])}</p>"
                 + (f"<p>For comparison, {esc(n)}'s typical new-customer starting price we track is <b>{esc(price)}</b> (November 2026). If you pay a lot more for similar speed, you are probably on post-promotion pricing or paying add-ons.</p>" if price else "")
                 + f"<h2>Charges that make a {esc(n)} bill higher</h2>" + fees_table(d["fees"])
@@ -228,7 +229,7 @@ def build(P, page_unused, save):
         h1 = f"Why is my {n} bill so high?"
         lead = f"What pushes a {esc(n)} bill up, which charges you can remove, and what to say to get a lower rate."
         crumbs = [("Home", SITE + "/"), ("Lower your bill", SITE + "/bills"), (n, SITE + f"/bills/{k}")]
-        save(f"/bills/{k}", ui.shell(f"/bills/{k}", title, desc, h1, lead, body, faq, crumbs, ["Bill guide", "Sources listed"], date=DATE, checked=CHECKED))
+        save(f"/bills/{k}", ui.shell(f"/bills/{k}", title, desc, h1, lead, body, faq, crumbs, ["Bill guide", "Sources listed"], date=DATE, checked=CHECKED, author=author.PERSON))
         done.append(k)
 
     # ---- hub ----
@@ -240,7 +241,7 @@ def build(P, page_unused, save):
                 ("Regional sports fee", "A TV-only charge for regional sports networks, depending on your package."),
                 ("Recovery and regulatory fees", "Provider-set charges with official-sounding names. They can rise even on price-locked plans."),
                 ("Data overage", "Extra charges for going over a data cap. Many providers have no caps; check yours.")]
-    body = ('<div class="call tip"><b>Short answer</b>Most internet bills rise for the same few reasons: a promotional price ending, equipment rental, TV fees, provider-set "recovery" fees, and paying for speed you don\'t use. Most can be reduced with one phone call or by switching.</div>'
+    body = (author.box(CHECKED) + '<div class="call tip"><b>Short answer</b>Most internet bills rise for the same few reasons: a promotional price ending, equipment rental, TV fees, provider-set "recovery" fees, and paying for speed you don\'t use. Most can be reduced with one phone call or by switching.</div>'
             "<h2>Pick your provider</h2><div class=\"grid\">" + cards + "</div>"
             "<h2>The 6-point bill check</h2>" + cl_html()
             + "<h2>What the charges on your bill mean</h2><table><tr><th>Charge</th><th>What it is</th></tr>"
@@ -257,5 +258,6 @@ def build(P, page_unused, save):
     save("/bills", ui.shell("/bills", "Why Is My Internet Bill So High? Fees Explained and How to Lower It",
          "Why internet bills go up and how to lower yours: promo endings, equipment and TV fees, price locks, a call script and provider-by-provider guides.",
          "Why is my internet bill so high?", "What pushes internet bills up, which charges you can remove, and provider-by-provider guides with sources.",
-         body, faq, [("Home", SITE + "/"), ("Lower your bill", SITE + "/bills")], ["Bill guides", "10 providers"], date=DATE, checked=CHECKED))
+         body, faq, [("Home", SITE + "/"), ("Lower your bill", SITE + "/bills")], ["Bill guides", "10 providers"], date=DATE, checked=CHECKED, author=author.PERSON))
+    author.build(save, ui.shell)
     return done
