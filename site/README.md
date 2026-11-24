@@ -36,3 +36,6 @@ Deployed 2026-11-22 as KV `worker.v20.js`. **Rollback:** upload KV `worker.v19.j
 ## Guide pages (v22)
 
 The five long-form guides live in `site/guides/<slug>.html` (same template as the original Pages files, without the FAQ block, which the Worker adds from `GFAQ`). The Worker (v22) fetches them from `raw.githubusercontent.com` (`main`, then `seo-aeo-fixes`) and falls back to the original Pages file if the fetch fails. To change a guide, edit its HTML here; changes appear within about 10 minutes.
+
+## v42 city-page upgrades (2026-11-24)
+`site/city-plus.js` is inserted into the Worker just before `function cityPage(`. City pages call `cityPlus(d,c,cs,L,ok,fast,pc,fib,S)` after the provider table: quick picks (fastest, lowest price, widest coverage, fiber), city vs state stats (fiber %, gigabit %, wired providers per ZIP), bill-guide links, and nearby cities (same/adjacent ZIP3). Cities with fewer than 3 non-satellite providers are `noindex,follow` (about 2,300 of 24,000). Rollback: upload KV `worker.v41.js`.
