@@ -1,4 +1,4 @@
-"""Batch 2: fee explainers (/bills/fees/<slug>) and speed-test topic pages (/speed-test/<topic>).
+"""Batch 2: fee explainers (/fees/<slug>) and speed-test topic pages (/speed-test/<topic>).
 Facts checked November 24, 2026; every page lists its sources."""
 import html
 import ui, author
@@ -58,7 +58,7 @@ FEES = {
    ("Is the regional sports fee part of my promotional price?", "Usually not. Providers list it separately and can change it during the promotion.")],
   [("Xfinity: price changes and TV fees", "https://www.xfinity.com/pricechanges/"),
    ("HighSpeedInternet.com: what you actually pay for Optimum", "https://highspeedinternet.com/resources/optimum-real-costs")]),
- "equipment-rental-fee": ("Modem and router rental fee",
+ "modem-router-rental-fee": ("Modem and router rental fee",
   "An equipment rental fee is a monthly charge for the modem, gateway or Wi-Fi router your provider lends you. Fiber providers usually include it; cable providers often charge for it, especially after a promotion ends. A compatible device you own can remove it.",
   "Your connection needs a modem (or a fiber terminal) and a Wi-Fi router, often combined in one gateway. Some providers include the gateway in the plan price; others bill it as its own line, sometimes free for a promotional period and charged afterwards.",
   [("AT&T Fiber", "No charge for standard equipment"),
@@ -134,29 +134,22 @@ FEES = {
    ("Frontier: offer terms (activation)", "https://go.frontier.com/id/mccall")]),
 }
 
+TITLES = {}
+
 def build_fees(save):
     for slug, (name, short, what, rows, avoid, faq, src) in FEES.items():
-        others = " · ".join(f'<a href="/bills/fees/{s}">{esc(v[0])}</a>' for s, v in FEES.items() if s != slug)
+        others = " · ".join(f'<a href="/fees/{s}">{esc(v[0])}</a>' for s, v in FEES.items() if s != slug)
         body = (author.box(CHECKED) + f'<div class="call tip"><b>Short answer</b>{esc(short)}</div>'
                 f"<h2>What the {esc(lc(name))} is</h2><p>{esc(what)}</p>"
                 f"<h2>{esc(name)} by provider</h2>" + table(["Provider", "What we found"], [(f"<b>{esc(a)}</b>", esc(b)) for a, b in rows])
                 + f"<h2>How to avoid or lower it</h2><ol class=\"steps\">" + "".join(f"<li>{esc(t)}</li>" for t in avoid) + "</ol>"
-                + f'<h2>Other charges on your bill</h2><p>{others} · <a href="/bills/fees">All fees</a> · <a href="/bills">Provider bill guides</a></p>'
+                + f'<h2>Other charges on your bill</h2><p>{others} · <a href="/fees">All fees</a> · <a href="/bills">Provider bill guides</a></p>'
                 + cta() + srcs(src))
-        save(f"/bills/fees/{slug}", ui.shell(f"/bills/fees/{slug}", f"What Is the {name} on My Bill? Amounts by Provider and How to Avoid It",
+        save(f"/fees/{slug}", ui.shell(f"/fees/{slug}", TITLES.get(slug, f"What Is the {name} on My Bill? Amounts by Provider and How to Avoid It"),
              f"What the {lc(name)} is, what Xfinity, Spectrum, Cox, Verizon and others charge, and how to avoid it. Sources listed, checked {CHECKED}.",
              f"What is the {lc(name)}?", esc(f"What it is, what providers charge and how to avoid it."), body, faq,
-             [("Home", SITE + "/"), ("Lower your bill", SITE + "/bills"), ("Fees", SITE + "/bills/fees"), (name, SITE + f"/bills/fees/{slug}")],
+             [("Home", SITE + "/"), ("Lower your bill", SITE + "/bills"), ("Fees", SITE + "/fees"), (name, SITE + f"/fees/{slug}")],
              ["Fee explainer", "Sources listed"], date=DATE, checked=CHECKED, author=author.PERSON))
-    cards = "".join(f'<a class="card" href="/bills/fees/{s}"><b>{esc(v[0])}</b><span>{esc(v[1][:110].rsplit(" ", 1)[0])}…</span></a>' for s, v in FEES.items())
-    body = (author.box(CHECKED) + '<div class="call tip"><b>Short answer</b>Most surprise charges on an internet or TV bill are provider fees, not taxes: TV broadcast and sports fees, equipment rental, recovery fees, overages and one-time setup or non-return charges. Most are avoidable or negotiable.</div>'
-            "<h2>Charges explained</h2><div class=\"grid\">" + cards + "</div>"
-            '<p><a href="/bills">Bill guides by provider</a> · <a href="/guides/how-to-lower-your-internet-bill">How to lower your internet bill</a></p>' + cta())
-    save("/bills/fees", ui.shell("/bills/fees", "Internet and TV Bill Fees Explained | YourBillCheck",
-         "Every common internet and TV bill fee explained: broadcast TV, regional sports, equipment rental, recovery fees, overages, installation and unreturned equipment.",
-         "Internet and TV bill fees explained", "What each charge on your bill means and how to avoid it.", body,
-         [("Which internet bill fees can I avoid?", "Equipment rental, overages, installation and unreturned-equipment charges are usually avoidable. TV broadcast and sports fees go away only with a different TV setup.")],
-         [("Home", SITE + "/"), ("Lower your bill", SITE + "/bills"), ("Fees", SITE + "/bills/fees")], ["Fee explainers"], date=DATE, checked=CHECKED, author=author.PERSON))
 
 # ---------------- speed-test topic pages ----------------
 NETFLIX = ("Netflix: recommended internet speeds", "https://help.netflix.com/en/node/306")
