@@ -9,6 +9,9 @@ CHECKED = "November 24, 2026"
 DATE = "2026-11-24"
 PHONE_TXT, PHONE_TEL = "(201) 644-6744", "+12016446744"
 
+def lc(n):
+    return n[0].lower() + n[1:]
+
 def srcs(lst):
     return ("<h2>Sources</h2><ul>" + "".join(f'<li><a href="{esc(u)}" rel="nofollow noopener" target="_blank">{esc(t)}</a></li>' for t, u in lst)
             + f"</ul><p class=\"note\">Checked {CHECKED}. Amounts vary by area and change often; your bill and your provider's broadband label are the final word.</p>")
@@ -135,14 +138,14 @@ def build_fees(save):
     for slug, (name, short, what, rows, avoid, faq, src) in FEES.items():
         others = " · ".join(f'<a href="/bills/fees/{s}">{esc(v[0])}</a>' for s, v in FEES.items() if s != slug)
         body = (author.box(CHECKED) + f'<div class="call tip"><b>Short answer</b>{esc(short)}</div>'
-                f"<h2>What the {esc(name.lower())} is</h2><p>{esc(what)}</p>"
+                f"<h2>What the {esc(lc(name))} is</h2><p>{esc(what)}</p>"
                 f"<h2>{esc(name)} by provider</h2>" + table(["Provider", "What we found"], [(f"<b>{esc(a)}</b>", esc(b)) for a, b in rows])
                 + f"<h2>How to avoid or lower it</h2><ol class=\"steps\">" + "".join(f"<li>{esc(t)}</li>" for t in avoid) + "</ol>"
                 + f'<h2>Other charges on your bill</h2><p>{others} · <a href="/bills/fees">All fees</a> · <a href="/bills">Provider bill guides</a></p>'
                 + cta() + srcs(src))
         save(f"/bills/fees/{slug}", ui.shell(f"/bills/fees/{slug}", f"What Is the {name} on My Bill? Amounts by Provider and How to Avoid It",
-             f"What the {name.lower()} is, what Xfinity, Spectrum, Cox, Verizon and others charge, and how to avoid it. Sources listed, checked {CHECKED}.",
-             f"What is the {name.lower()}?", esc(f"What it is, what providers charge and how to avoid it."), body, faq,
+             f"What the {lc(name)} is, what Xfinity, Spectrum, Cox, Verizon and others charge, and how to avoid it. Sources listed, checked {CHECKED}.",
+             f"What is the {lc(name)}?", esc(f"What it is, what providers charge and how to avoid it."), body, faq,
              [("Home", SITE + "/"), ("Lower your bill", SITE + "/bills"), ("Fees", SITE + "/bills/fees"), (name, SITE + f"/bills/fees/{slug}")],
              ["Fee explainer", "Sources listed"], date=DATE, checked=CHECKED, author=author.PERSON))
     cards = "".join(f'<a class="card" href="/bills/fees/{s}"><b>{esc(v[0])}</b><span>{esc(v[1][:110].rsplit(" ", 1)[0])}…</span></a>' for s, v in FEES.items())
