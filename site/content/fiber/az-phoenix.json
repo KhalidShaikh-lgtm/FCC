@@ -1,0 +1,38 @@
+{
+  "path": "/fiber/az/phoenix",
+  "title": "Fiber Internet in Phoenix, AZ: Who Offers It and What It Costs (2026)",
+  "description": "Which fiber providers serve Phoenix, AZ, how many ZIP codes each covers, speeds up to 8 Gbps, reported starting prices, and how to check your address.",
+  "h1": "Fiber internet in Phoenix, AZ",
+  "lead": "Who offers fiber in Phoenix, how widely, at what speeds and prices, and how to confirm it at your address.",
+  "short_answer": "Quantum Fiber is the main fiber provider in Phoenix, reported in 43 of the 50 Phoenix ZIP codes we track, with plans up to 8 Gbps and unlimited data. Cox offers fiber in select areas on top of citywide cable, and Wyyerd Connect reports fiber in 3 ZIP codes. Fiber reaching a ZIP code does not mean it reaches every street, so check your exact address.",
+  "chips": ["Local guide", "FCC data", "Sources listed"],
+  "crumbs": [["Home", "/"], ["Internet in Arizona", "/internet/az"], ["Phoenix", "/internet/az/phoenix"], ["Fiber in Phoenix", "/fiber/az/phoenix"]],
+  "sections": [
+    {"h2": "Fiber providers in Phoenix", "table": {"head": ["Provider", "Phoenix ZIP codes with service", "Top speed", "Notes"], "rows": [
+      ["<b>Quantum Fiber</b>", "43 of 50", "8 Gbps", "Unlimited data on all plans, per Quantum Fiber. Multi-gig tiers in select locations only. Reported starting prices $45 to $50 a month."],
+      ["<b>Cox</b>", "50 of 50 (cable); fiber in select areas", "2 Gbps", "Cable reaches almost all of Phoenix. Cox fiber-to-the-home is limited to some neighborhoods."],
+      ["<b>Wyyerd Connect</b>", "3 of 50", "8 Gbps", "Small footprint. Check your address."]]}},
+    {"h2": "How much of Phoenix actually has fiber?", "body_html": "<p>ZIP-level data overstates coverage. A provider counts as serving a ZIP code if it reports service at any location in it. Independent analysis of the same FCC data puts Quantum Fiber at under one-fifth of Phoenix locations, so many homes in a 'covered' ZIP code still only get cable, 5G or DSL. The only reliable test is an address check.</p>"},
+    {"h2": "Fiber nearby: Mesa, Tempe and the East Valley", "body_html": "<p>Google Fiber has been building in Maricopa County since 2023, starting in Mesa, and is expanding across the area. T-Mobile Fiber is reported in Tempe. Neither shows up in our Phoenix ZIP data yet. If you are on the Phoenix/Tempe or Phoenix/Mesa border, check them too.</p>"},
+    {"h2": "Is fiber worth it over Cox cable?", "body_html": "<ol class=\"steps\"><li><b>Uploads:</b> fiber plans are usually symmetrical, so uploads match downloads. Cable uploads are much slower, which matters for video calls, cloud backup and streaming from home.</li><li><b>Data:</b> Quantum Fiber says all its Phoenix plans have unlimited data.</li><li><b>Price after promotion:</b> compare the price in month 13, not month 1. Ask what equipment and fees add.</li><li><b>Change of owner:</b> AT&amp;T agreed to buy Quantum Fiber, with the sale expected to close in 2026, so plan names and prices may change.</li></ol>"},
+    {"h2": "Other options if fiber does not reach you", "body_html": "<p>In our Phoenix data, AT&amp;T, Verizon and T-Mobile 5G Home Internet each report service in all 50 ZIP codes, CenturyLink DSL in all 50, and Starlink, HughesNet and Viasat satellite almost everywhere. See the <a href=\"/internet/az/phoenix\">full list of Phoenix internet providers</a>, or <a href=\"/speed-test\">test your current speed</a> first.</p>"}
+  ],
+  "faq": [
+    ["Does Phoenix have fiber internet?", "Yes. Quantum Fiber reports fiber in 43 of 50 Phoenix ZIP codes and Cox offers fiber in select areas, but coverage within each ZIP code is partial, so check your address."],
+    ["What is the fastest internet in Phoenix?", "Quantum Fiber and Wyyerd Connect report plans up to 8 Gbps in parts of Phoenix. Cox's fastest plan is 2 Gbps."],
+    ["Is Google Fiber available in Phoenix?", "Google Fiber is building in Maricopa County, starting with Mesa. It does not appear in our Phoenix ZIP data yet."],
+    ["Does Quantum Fiber have a data cap in Phoenix?", "No. Quantum Fiber says all its Phoenix plans include unlimited data."]
+  ],
+  "sources": [
+    ["YourBillCheck: Phoenix internet providers (FCC Broadband Data Collection, June 30, 2026)", "https://yourbillcheck.com/internet/az/phoenix"],
+    ["Quantum Fiber: internet in Phoenix, AZ", "https://quantumfiber.com/local/az/phoenix"],
+    ["BroadbandNow: internet providers in Phoenix, AZ", "https://broadbandnow.com/arizona/phoenix"],
+    ["HighSpeedInternet.com: Phoenix ISP review 2026", "https://highspeedinternet.com/resources/city-internet-review-phoenix"],
+    ["BestNeighborhood: fiber providers in Phoenix (share of locations)", "https://bestneighborhood.org/fiber-tv-and-internet-phoenix-az/"],
+    ["Google Fiber: Mesa", "https://fiber.google.com/cities/mesa"],
+    ["CNET via Yahoo: Quantum Fiber review (AT&T purchase)", "https://tech.yahoo.com/computing/articles/quantum-fiber-review-plans-pricing-130000233.html"]
+  ],
+  "checked": "November 24, 2026",
+  "date": "2026-11-24",
+  "cta_provider": "internet"
+}

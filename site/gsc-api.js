@@ -22,7 +22,26 @@ async function g(env,url,opt){
   const x=await r.text();let j;try{j=JSON.parse(x)}catch(e){j={raw:x}}
   return J(j,r.status);
 }
+// Daily snapshot for the SEO agents: writes Search Console data to KV (binding SITE) so cloud jobs can read it
+// through the Cloudflare API without a browser. Sites list: KV key "gsc:sites" (JSON array of GSC property ids).
+async function sq(env,site,body){const t=await token(env);const r=await fetch("https://www.googleapis.com/webmasters/v3/sites/"+encodeURIComponent(site)+"/searchAnalytics/query",{method:"POST",headers:{authorization:"Bearer "+t,"content-type":"application/json"},body:JSON.stringify(body)});return (await r.json()).rows||[]}
+async function snapshot(env){
+  let sites=[SITE_URL];try{const x=await env.SITE.get("gsc:sites");if(x)sites=JSON.parse(x)}catch(e){}
+  const end=new Date(Date.now()-2*864e5),f=d=>d.toISOString().slice(0,10),back=n=>f(new Date(end.getTime()-n*864e5)),out={};
+  for(const site of sites){
+    const d={site,generated:new Date().toISOString(),range28:[back(28),f(end)],
+      query_page_28:await sq(env,site,{startDate:back(28),endDate:f(end),dimensions:["query","page"],rowLimit:5000}),
+      page_28:await sq(env,site,{startDate:back(28),endDate:f(end),dimensions:["page"],rowLimit:5000}),
+      query_7:await sq(env,site,{startDate:back(7),endDate:f(end),dimensions:["query"],rowLimit:2000}),
+      daily_28:await sq(env,site,{startDate:back(28),endDate:f(end),dimensions:["date"],rowLimit:100})};
+    const key=site.replace(/^sc-domain:/,"").replace(/^https?:\/\//,"").replace(/\/$/,"");
+    const j=JSON.stringify(d);await env.SITE.put("gsc:"+key+":latest",j);await env.SITE.put("gsc:"+key+":"+f(new Date()),j,{expirationTtl:120*864e5/1000});
+    out[key]=d.query_page_28.length;
+  }
+  return out;
+}
 export default {
+  async scheduled(ev,env,ctx){ctx.waitUntil(snapshot(env))},
   async fetch(req,env){
     const u=new URL(req.url),p=u.pathname;
     if(p==="/")return new Response("gsc-api ok",{status:200});
@@ -44,6 +63,7 @@ export default {
     }
     if(!env.GSC_REFRESH_TOKEN)return J({error:"not connected yet: visit /auth?k=KEY"},503);
     const enc=encodeURIComponent(SITE_URL);
+    if(p==="/api/snapshot")return J(await snapshot(env));
     if(p==="/api/sites")return g(env,"https://www.googleapis.com/webmasters/v3/sites");
     if(p==="/api/query"){
       const days=Math.min(Number(u.searchParams.get("days")||28),480),dim=u.searchParams.get("dimension")||"query",lim=Math.min(Number(u.searchParams.get("limit")||25),1000);
