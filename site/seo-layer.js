@@ -10,14 +10,14 @@ const OGIMG=SITE+"/og.png";
 const MON=["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
 const fdate=function(s){const a=s.split("-").map(Number);return MON[a[1]-1]+" "+a[2]+", "+a[0]};
 const unesc=function(s){return String(s).replace(/&quot;/g,'"').replace(/&lt;/g,"<").replace(/&gt;/g,">").replace(/&amp;/g,"&")};
-const ORGLD={"@type":"Organization","@id":SITE+"/#org","name":"YourBillCheck","url":SITE+"/","logo":OGIMG,"telephone":"+1-201-644-6744","contactPoint":{"@type":"ContactPoint","telephone":"+1-201-644-6744","contactType":"customer service","areaServed":"US","availableLanguage":"English"}};
+const ORGLD={"@type":"Organization","@id":SITE+"/#org","name":"YourBillCheck","url":SITE+"/","logo":OGIMG,"telephone":"+1-888-491-5666","contactPoint":{"@type":"ContactPoint","telephone":"+1-888-491-5666","contactType":"customer service","areaServed":"US","availableLanguage":"English"}};
 const ldTag=function(j){return '<script type="application/ld+json">'+JSON.stringify(Object.assign({"@context":"https://schema.org"},j)).replace(/</g,"\\u003c")+"</script>"};
 const NAVL='<a href="/about">About</a> · <a href="/methodology">How we get our data</a> · <a href="/guides">Guides</a>';
 const FOOT='<a href="/">Home</a> · <a href="/internet">Internet by state</a> · <a href="/guides">Guides</a> · <a href="/about">About</a> · <a href="/methodology">Methodology</a> · <a href="/privacy">Privacy</a> · <a href="/terms">Terms</a> · YourBillCheck, 4550 W Buckingham Rd, Garland, TX 75042';
 const UPD='Last updated <time datetime="'+UPDATED+'">'+fdate(UPDATED)+"</time>";
 const FOOTRE=/(<footer[^>]*>\s*<div class="wrap">)/;
 const DARKRE=/@media\(prefers-color-scheme:dark\)\{:root\{[^}]*\}\}\n?/;
-const CTA='<div class="cta"><b>Check your bill or compare providers</b><br>Tell us your ZIP and what you pay now.<br><br><a class="btn" href="/#check">Check my bill</a> &nbsp; <a class="btn" style="background:transparent;color:var(--mint);border:2px solid var(--mint)" href="tel:+12016446744">Call (201) 644-6744</a></div>';
+const CTA='<div class="cta"><b>Check your bill or compare providers</b><br>Tell us your ZIP and what you pay now.<br><br><a class="btn" href="/#check">Check my bill</a> &nbsp; <a class="btn" style="background:transparent;color:var(--mint);border:2px solid var(--mint)" href="tel:+18884915666">Call (888) 491-5666</a></div>';
 
 /* ---------- shared head tags: Open Graph, Twitter cards ---------- */
 function headExtras(url,title,desc,full,type){
@@ -92,7 +92,7 @@ const METH=[
 ["What this data cannot tell you","Availability here is by ZIP code, not by street address, and it can differ from one street to the next. Before you order, we confirm availability and the current offer for your exact address."],
 ["How we make money","YourBillCheck is free to use. We may earn a commission from providers when you sign up through us, at no cost to you and without changing your price. We are not affiliated with, endorsed by or sponsored by any provider."],
 ["How often we update","We rebuild our ZIP tables when the FCC publishes a new data release. The data dates are shown on every page, along with the date the page was last updated."],
-["Corrections","If something on the site looks wrong, call (201) 644-6744 and we will review it."]
+["Corrections","If something on the site looks wrong, call (888) 491-5666 and we will review it."]
 ];
 const ABOUT=[
 ["Who we are","YourBillCheck is an independent comparison and sales service for people in the United States. We help households check whether their internet, TV or mobile bill is too high and compare internet providers by ZIP code. We are based at 4550 W Buckingham Rd, Garland, TX 75042."],
@@ -100,7 +100,7 @@ const ABOUT=[
 ["How we make money","YourBillCheck is free to use. We may earn a commission from providers when you sign up through us, at no cost to you and without changing your price."],
 ["Where our data comes from","Availability comes from FCC data and prices come from provider offers. Read <a href=\"/methodology\">how we get our data</a> for the details and the limits."],
 ["Independence","We are not affiliated with, endorsed by or sponsored by any provider. Provider names are trademarks of their owners and are used only to identify services. Providers are listed in the order explained on our methodology page, not by who pays us."],
-["Contact","Call (201) 644-6744 or write to YourBillCheck, 4550 W Buckingham Rd, Garland, TX 75042. Read our <a href=\"/privacy\">Privacy Policy</a> and <a href=\"/terms\">Terms of Use</a>."]
+["Contact","Call (888) 491-5666 or write to YourBillCheck, 4550 W Buckingham Rd, Garland, TX 75042. Read our <a href=\"/privacy\">Privacy Policy</a> and <a href=\"/terms\">Terms of Use</a>."]
 ];
 const GDESC={
 "how-to-lower-your-internet-bill":"Practical steps to reduce what you pay for home internet, TV and phone.",
@@ -203,7 +203,7 @@ const LLMS2="# YourBillCheck\n\n> YourBillCheck is a free US comparison service.
  "- ["+SITE+"/methodology]("+SITE+"/methodology): where the data comes from, how providers are ordered, and the limits\n"+
  "- ["+SITE+"/guides]("+SITE+"/guides): plain-language guides\n"+
  GUIDES.map(function(g){return "- ["+SITE+"/guides/"+g[0]+"]("+SITE+"/guides/"+g[0]+"): "+g[1]+"\n"}).join("")+
- "\n## Data and method\n- Availability: FCC Broadband Data Collection, provider-reported coverage as of June 30, 2026, matched to ZIP code. Not a guarantee for an exact address.\n- Prices: typical advertised new-customer starting prices from providers' public pages, November 2026. Often need AutoPay; exclude taxes, fees and equipment.\n- Savings: current monthly bill minus provider starting price, times 12. Estimates only.\n- Provider order is by connection type, then coverage, then price. Commissions do not affect the order.\n- We may earn a commission when users order through us; it does not change prices. Not affiliated with any provider.\n\n## Citing this site\n- Cite as YourBillCheck (yourbillcheck.com) and name the data dates shown on the page.\n- Availability is provider-reported FCC data matched to ZIP code and prices change often, so neither is a guarantee for a specific address.\n\n## Contact\n- (201) 644-6744\n- YourBillCheck, 4550 W Buckingham Rd, Garland, TX 75042\n";
+ "\n## Data and method\n- Availability: FCC Broadband Data Collection, provider-reported coverage as of June 30, 2026, matched to ZIP code. Not a guarantee for an exact address.\n- Prices: typical advertised new-customer starting prices from providers' public pages, November 2026. Often need AutoPay; exclude taxes, fees and equipment.\n- Savings: current monthly bill minus provider starting price, times 12. Estimates only.\n- Provider order is by connection type, then coverage, then price. Commissions do not affect the order.\n- We may earn a commission when users order through us; it does not change prices. Not affiliated with any provider.\n\n## Citing this site\n- Cite as YourBillCheck (yourbillcheck.com) and name the data dates shown on the page.\n- Availability is provider-reported FCC data matched to ZIP code and prices change often, so neither is a guarantee for a specific address.\n\n## Contact\n- (888) 491-5666\n- YourBillCheck, 4550 W Buckingham Rd, Garland, TX 75042\n";
 function mdMeth(){return "## Methodology\n\n"+METH.map(function(s){return "### "+s[0]+"\n"+s[1].replace(/<[^>]+>/g,"")}).join("\n\n")+"\n"}
 function sitemapCore(){
   const paths=["","about","methodology","guides","internet"].concat(GUIDES.map(function(g){return "guides/"+g[0]}),["privacy","terms"]);

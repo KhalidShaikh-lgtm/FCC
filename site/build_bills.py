@@ -12,8 +12,8 @@ esc = lambda s: html.escape(str(s), quote=True)
 SITE = "https://yourbillcheck.com"
 CHECKED = "November 24, 2026"
 DATE = "2026-11-24"
-PHONE_TXT = "(201) 644-6744"
-PHONE_TEL = "+12016446744"
+PHONE_TXT = "(888) 491-5666"
+PHONE_TEL = "+18884915666"
 
 # Each provider: one-line answer, what happens after the promo, fee rows, provider-specific
 # ways to lower the bill, and sources. Fee row = (charge, typical amount, can you avoid it?, note)

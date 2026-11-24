@@ -7,7 +7,7 @@ esc = lambda s: html.escape(str(s), quote=True)
 SITE = "https://yourbillcheck.com"
 CHECKED = "November 24, 2026"
 DATE = "2026-11-24"
-PHONE_TXT, PHONE_TEL = "(201) 644-6744", "+12016446744"
+PHONE_TXT, PHONE_TEL = "(888) 491-5666", "+18884915666"
 
 def lc(n):
     return n[0].lower() + n[1:]
