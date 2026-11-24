@@ -62,6 +62,16 @@ Apply up to 3 "improve" or "ctr" items to existing pages. Same check chain. Neve
 Re-verify prices, dates and "checked" lines on the 10 most-visited pages and any page with time-sensitive facts
 (price trackers). Update `checked` dates only when facts were actually re-verified.
 
+### PRUNE (inside REFRESH, monthly; only for pages live 90+ days)
+Pages with 0 clicks and under 10 impressions in the last 90 days, or that Google reports as
+'Crawled - currently not indexed' for 60+ days:
+1. If the topic has demand: improve it (add real data, answer missing questions) and recheck in 60 days.
+2. If another page covers the same intent: merge into it and 301-redirect the old URL.
+3. Otherwise: add noindex and remove it from the sitemap. Reversible; the URL keeps working for visitors.
+Never delete files. Batch actions affecting more than 50 pages, or any templated group (e.g. all ZIP pages),
+need the owner's approval: write the proposal and the numbers in the report and wait.
+Log every pruned URL and the reason in seo/pruned.csv.
+
 ### OFFPAGE (every two weeks)
 Find 10 link opportunities (resource pages, local news, directories, journalists asking for sources, unlinked
 mentions). Write outreach drafts. Save to `seo/offpage/YYYY-MM-DD.md`. Tell the owner they are ready. Never send.
