@@ -41,7 +41,7 @@ if that skill is not available, follow `seo/PLAYBOOK.md` in this repo, which is 
   Only touch the worker if a page type needs a new prefix; roll back by re-uploading the previous version.
 
 ## Hard limits
-- Max 3 new pages per writing run, max 10 per week. Quality over count.
+- Max 5 new pages per writing run (daily), max 35 per week (set by Khalid, Nov 24). Skip any page that would be thin.
 - No emails, posts, directory submissions or account changes without Khalid's approval. Off-page work produces
   drafts and lists only.
-- Never delete pages. Never change the phone number, author, or legal/footer text.
+- Never delete pages. Weak pages are handled by the pruning rules in PLAYBOOK.md (improve, merge with 301, or noindex), never by deletion. Never change the phone number, author, or legal/footer text.
