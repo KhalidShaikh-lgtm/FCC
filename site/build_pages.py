@@ -513,6 +513,9 @@ MD = build_help.build_models(P, page, save)
 build_moving.build(P, build_help.PROV, page, save)
 import build_bills
 build_bills.build(P, page, save)
+import build_extra
+build_extra.build_fees(save)
+build_extra.build_speed(ST_BODY, save)
 import chrome
 open(os.path.join(OUT,"_chrome.html"),"w").write(chrome.bundle())
 json.dump(sorted(set(manifest)), open(os.path.join(OUT, "manifest.json"), "w"), indent=0)
