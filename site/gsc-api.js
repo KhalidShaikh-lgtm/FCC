@@ -40,8 +40,25 @@ async function snapshot(env){
   }
   return out;
 }
+// Daily discovery push (no browser): resubmit sitemaps to Google via the Search Console API, and send
+// new URLs (not sent before) to IndexNow (Bing, Yahoo, Yandex, Seznam...). Key file served by the site worker.
+const INDEXNOW_KEY="e27e938bdeef37a44f985b08b6a67619";
+async function ping(env){
+  const out={sitemaps:[],indexnow:0};const t=await token(env);
+  for(const sm of["https://yourbillcheck.com/sitemap.xml","https://yourbillcheck.com/sitemap-pages.xml"]){
+    const r=await fetch("https://www.googleapis.com/webmasters/v3/sites/"+encodeURIComponent(SITE_URL)+"/sitemaps/"+encodeURIComponent(sm),{method:"PUT",headers:{authorization:"Bearer "+t}});out.sitemaps.push(sm+" "+r.status)}
+  try{
+    const m=await (await fetch("https://raw.githubusercontent.com/KhalidShaikh-lgtm/FCC/main/site/pages/manifest.json?t="+Date.now())).json();
+    const sent=new Set(JSON.parse((await env.SITE.get("indexnow:sent"))||"[]"));
+    const fresh=m.filter(x=>!sent.has(x)).slice(0,1000);
+    if(fresh.length){const r=await fetch("https://api.indexnow.org/indexnow",{method:"POST",headers:{"content-type":"application/json; charset=utf-8"},body:JSON.stringify({host:"yourbillcheck.com",key:INDEXNOW_KEY,keyLocation:"https://yourbillcheck.com/"+INDEXNOW_KEY+".txt",urlList:fresh.map(x=>"https://yourbillcheck.com"+x)})});
+      out.indexnow_status=r.status;if(r.status<300){fresh.forEach(x=>sent.add(x));await env.SITE.put("indexnow:sent",JSON.stringify([...sent]));out.indexnow=fresh.length}}
+  }catch(e){out.indexnow_error=String(e)}
+  await env.SITE.put("ping:last",JSON.stringify(Object.assign({at:new Date().toISOString()},out)));
+  return out;
+}
 export default {
-  async scheduled(ev,env,ctx){ctx.waitUntil(snapshot(env))},
+  async scheduled(ev,env,ctx){ctx.waitUntil(Promise.all([snapshot(env),ping(env)]))},
   async fetch(req,env){
     const u=new URL(req.url),p=u.pathname;
     if(p==="/")return new Response("gsc-api ok",{status:200});
@@ -63,6 +80,7 @@ export default {
     }
     if(!env.GSC_REFRESH_TOKEN)return J({error:"not connected yet: visit /auth?k=KEY"},503);
     const enc=encodeURIComponent(SITE_URL);
+    if(p==="/api/ping")return J(await ping(env));
     if(p==="/api/snapshot")return J(await snapshot(env));
     if(p==="/api/sites")return g(env,"https://www.googleapis.com/webmasters/v3/sites");
     if(p==="/api/query"){
