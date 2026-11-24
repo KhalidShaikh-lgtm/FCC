@@ -1,0 +1,68 @@
+id,priority,type,path,target_query,status,notes
+0,0,fiber,/fiber/az/phoenix,fiber in phoenix az,published,pilot Nov 24
+2,1,fiber,/fiber/wa/seattle,fiber internet seattle,todo,GSC impressions Nov 2026
+3,1,city-enrich,/internet/co,internet providers in colorado,todo,state page override at /internet/<st>
+4,1,fiber,/fiber/ri/providence,fiber in providence ri,todo,GSC impressions Nov 2026
+5,1,city-enrich,/internet/wa/seattle,isp in seattle wa,todo,GSC impressions; override auto page with richer content
+6,1,fiber,/fiber/id/boise,fiber internet boise id,todo,GSC impressions Nov 2026
+7,1,city-enrich,/internet/il,illinois internet,todo,state page override at /internet/<st>
+8,1,fiber,/fiber/az/tucson,tucson fiber plans,todo,GSC impressions Nov 2026
+9,1,city-enrich,/internet/az/phoenix,isp in phoenix az,todo,GSC impressions; override auto page with richer content
+10,1,fiber,/fiber/ks/hutchinson,fiber internet hutchinson ks,todo,GSC impressions Nov 2026
+11,1,city-enrich,/internet/ri/providence,internet providers in providence ri,todo,GSC impressions; override auto page with richer content
+12,1,fiber,/fiber/ks/goddard,fiber internet goddard ks,todo,GSC impressions Nov 2026
+13,1,city-enrich,/internet/ms/jackson,internet providers in jackson ms,todo,GSC impressions; override auto page with richer content
+14,1,fiber,/fiber/ne/lincoln,fiber internet lincoln ne,todo,GSC impressions Nov 2026
+15,1,city-enrich,/internet/pa/pittsburgh,internet packages pittsburgh,todo,GSC impressions; override auto page with richer content
+16,1,fiber,/fiber/pa/scranton,fiber internet scranton,todo,GSC impressions Nov 2026
+17,1,city-enrich,/internet/id/boise,internet services in boise id,todo,GSC impressions; override auto page with richer content
+18,2,fiber,/fiber/in/fort-wayne,fiber internet fort wayne,todo,GSC impressions Nov 2026
+19,2,city-enrich,/internet/va/staunton,staunton va internet services,todo,GSC impressions; override auto page with richer content
+20,2,fiber,/fiber/ga/toccoa,fiber internet in toccoa ga,todo,GSC impressions Nov 2026
+21,2,city-enrich,/internet/nd/dickinson,internet providers dickinson nd,todo,GSC impressions; override auto page with richer content
+22,2,fiber,/fiber/ga/tifton,fiber internet in tifton,todo,GSC impressions Nov 2026
+23,2,city-enrich,/internet/ma/danvers,internet packages danvers,todo,GSC impressions; override auto page with richer content
+24,2,fiber,/fiber/pa/baden,fiber internet baden pa,todo,GSC impressions Nov 2026
+25,2,city-enrich,/internet/va/lyndhurst,lyndhurst va internet providers,todo,GSC impressions; override auto page with richer content
+26,2,fiber,/fiber/nc/trinity,fiber internet trinity nc,todo,GSC impressions Nov 2026
+27,2,city-enrich,/internet/nc/cedar-grove,cedar grove nc internet services,todo,GSC impressions; override auto page with richer content
+28,2,fiber,/fiber/ks/garden-city,fiber internet garden city kansas,todo,GSC impressions Nov 2026
+29,2,city-enrich,/internet/ga/toccoa,internet provider in toccoa ga,todo,GSC impressions; override auto page with richer content
+30,2,fiber,/fiber/co/longmont,longmont fiber,todo,GSC impressions Nov 2026
+31,2,city-enrich,/internet/ga/commerce,fastest internet in commerce ga,todo,GSC impressions; override auto page with richer content
+32,2,city-enrich,/internet/ma/worcester,internet service providers worcester ma,todo,GSC impressions; override auto page with richer content
+33,2,city-enrich,/internet/ok/oklahoma-city,oklahoma city ok internet providers,todo,GSC impressions; override auto page with richer content
+34,2,city-enrich,/internet/nv/las-vegas,las vegas nv internet providers,todo,GSC impressions; override auto page with richer content
+35,2,city-enrich,/internet/ak/anchorage,anchorage ak internet services,todo,GSC impressions; override auto page with richer content
+36,2,city-enrich,/internet/mn/mankato,internet providers mankato mn,todo,GSC impressions; override auto page with richer content
+37,3,plan-sheet,/bills/optimum-bill-went-up,why did my optimum bill go up,todo,Wave 2: Why Did My Optimum Bill Go Up?
+38,3,plan-sheet,/bills/directv-bill-went-up,why did my directv bill go up,todo,Wave 2: Why Did My DirecTV Bill Go Up?
+39,3,plan-sheet,/bills/verizon-wireless-bill-went-up,verizon bill went up,todo,Wave 2: Why Did My Verizon Wireless Bill Go Up?
+40,3,plan-sheet,/bills/t-mobile-bill-went-up,t-mobile bill went up,todo,Wave 2: Why Did My T-Mobile Bill Go Up?
+41,3,plan-sheet,/fees/att-administrative-fee,at&t administrative fee,todo,Wave 2: AT&T Wireless Administrative Fee Explained
+42,3,plan-sheet,/fees/early-termination-fee,internet early termination fee,todo,Wave 2: Early Termination Fees: How to Switch Without Paying
+43,3,plan-sheet,/fees/late-and-paper-bill-fees,paper bill fee,todo,Wave 2: Late Payment & Paper Bill Fees: How to Stop Paying Them
+44,3,plan-sheet,/save/lower-att-internet-bill,lower at&t internet bill,todo,Wave 2: How to Lower Your AT&T Internet Bill
+45,3,plan-sheet,/save/lower-cox-bill,lower cox bill,todo,Wave 2: How to Lower Your Cox Bill
+46,3,plan-sheet,/save/lower-optimum-bill,lower optimum bill,todo,Wave 2: How to Lower Your Optimum Bill
+47,3,plan-sheet,/save/lower-directv-bill,lower directv bill,todo,Wave 2: How to Lower Your DirecTV Bill
+48,3,plan-sheet,/save/negotiate-internet-bill,negotiate internet bill,todo,Wave 2: How to Negotiate Your Internet Bill (Call Script Included)
+49,3,plan-sheet,/guides/average-cable-bill,average cable bill,todo,Wave 2: Average Cable TV Bill 2026 (and How to Cut It)
+50,3,plan-sheet,/guides/average-cell-phone-bill,average cell phone bill,todo,Wave 2: Average Cell Phone Bill 2026
+51,3,plan-sheet,/bills/read-xfinity-bill,xfinity bill explained,todo,"Wave 2: How to Read Your Xfinity Bill, Line by Line"
+52,3,plan-sheet,/bills/read-spectrum-bill,spectrum bill explained,todo,Wave 3: How to Read Your Spectrum Bill
+53,3,plan-sheet,/bills/read-att-bill,at&t bill explained,todo,Wave 3: How to Read Your AT&T Bill
+54,3,plan-sheet,/bills/read-verizon-bill,verizon bill explained,todo,Wave 3: How to Read Your Verizon Wireless Bill
+55,3,plan-sheet,/bills/read-t-mobile-bill,t-mobile bill explained,todo,Wave 3: How to Read Your T-Mobile Bill
+56,3,plan-sheet,/bills/read-directv-bill,directv bill explained,todo,Wave 3: How to Read Your DirecTV Bill
+57,3,plan-sheet,/save/lower-verizon-fios-bill,lower verizon fios bill,todo,Wave 3: How to Lower Your Verizon Fios Bill
+58,3,plan-sheet,/save/lower-dish-bill,lower dish bill,todo,Wave 3: How to Lower Your Dish Bill
+59,3,plan-sheet,/save/lower-verizon-wireless-bill,lower verizon wireless bill,todo,Wave 3: How to Lower Your Verizon Wireless Bill
+60,3,plan-sheet,/save/lower-t-mobile-bill,lower t-mobile bill,todo,Wave 3: How to Lower Your T-Mobile Bill
+61,3,plan-sheet,/save/lower-att-wireless-bill,lower at&t wireless bill,todo,Wave 3: How to Lower Your AT&T Wireless Bill
+62,3,plan-sheet,/save/low-income-internet,low income internet,todo,Wave 3: Low-Income & Senior Internet Discounts: Every Program Compared
+63,3,plan-sheet,/guides/bundle-vs-separate,internet and tv bundle worth it,todo,Wave 3: Internet + TV Bundle vs. Separate: Which Is Cheaper?
+64,3,plan-sheet,/guides/cord-cutting-savings,cancel cable save money,todo,Wave 3: Cutting the Cord: How Much You'll Actually Save
+65,3,plan-sheet,/guides/moving-internet-setup,set up internet new home,todo,Wave 3: Moving? Set Up Internet & TV at Your New Home (Checklist)
+66,3,plan-sheet,/guides/transfer-internet-moving,transfer internet service moving,todo,Wave 3: Transferring Internet Service When You Move
+67,3,plan-sheet,/bill-checker,internet bill checker,todo,Wave 3: Free Internet & TV Bill Checker: How It Works
