@@ -1,5 +1,7 @@
 # SEO run log (newest first)
 
+- 2026-11-25 CHECK: live URL check for the 10 new pages could not run (WebFetch permission prompt unanswered in the unattended run). Verified instead on main after merge: all 10 in manifest.json, one H1 each, author Khalid Shaikh and (888) 491-5666 present. Re-check live in the next run.
+
 - 2026-11-25 WRITE: 10 pages published: 8 small towns (/internet/va/staunton, ga/toccoa, va/lyndhurst, nc/cedar-grove, ga/commerce, nd/dickinson, mn/mankato, ma/danvers) + /fiber/wa/seattle, /fiber/ri/providence. Each = own FCC ZIP table + researched local notes + separate fact-check pass (all FAILs fixed). Skipped #42 /internet/co (would replace auto state page and its city links; do as a guide). Notes: Cox is now Spectrum (Charter close Aug 20, 2026), Quantum Fiber now AT&T; Dickinson FCC fiber filer = Consolidated Telcom co-op address, not Fidium. Cloudflare KV daily read limit hit, so GSC snapshot not read this run (queue had 95 todo).
 
 - 2026-11-25 CHANGE: pruning is now staged: day 30 index fixes, day 60 improve/merge (both in Monday PLAN), day 90 noindex (monthly). Set by Khalid.
