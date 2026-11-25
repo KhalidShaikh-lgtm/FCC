@@ -1,5 +1,7 @@
 # SEO run log (newest first)
 
+- 2026-11-25 CHANGE: pruning is now staged: day 30 index fixes, day 60 improve/merge (both in Monday PLAN), day 90 noindex (monthly). Set by Khalid.
+
 - 2026-11-25 CHANGE: writing raised to 10 per day (8 towns + 2 cities), max 70 per week.
 
 - 2026-11-25 CHANGE: focus moved to small towns first (80%), big cities 20%. Queue reordered: 40 small-town items at priority 1.
