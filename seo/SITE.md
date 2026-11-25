@@ -19,7 +19,7 @@ if that skill is not available, follow `seo/PLAYBOOK.md` in this repo, which is 
   4. brand + place ("xtream by mediacom", "xfinity delaware", "windstream jasper ga")  5. "cheap internet [place]".
 - Current focus (set by Khalid, Nov 25): SMALL TOWNS FIRST (~80% of effort), big cities ~20%. Low competition ranks
   fastest (same pattern that made dbi-infomatics.com rank in weeks). The call center can sell anywhere, rural included,
-  so every town is sellable. Each WRITE run of 5: 4 priority-1 small-town items + 1 priority-2 item (bigger city). Pick towns already getting GSC impressions; add new ones from the snapshot weekly. Bill/fee pages (Wave 1) went live Nov 24; judge them from mid-December.
+  so every town is sellable. Each WRITE run of 10: 8 priority-1 small-town items + 2 priority-2 items (bigger cities). Pick towns already getting GSC impressions; add new ones from the snapshot weekly. Bill/fee pages (Wave 1) went live Nov 24; judge them from mid-December.
 
 ## How to publish on this site
 - Repo: KhalidShaikh-lgtm/FCC. Pages build from Python in `site/`. Live site = Cloudflare Worker reading
@@ -42,7 +42,7 @@ if that skill is not available, follow `seo/PLAYBOOK.md` in this repo, which is 
   Only touch the worker if a page type needs a new prefix; roll back by re-uploading the previous version.
 
 ## Hard limits
-- Max 5 new pages per writing run (daily), max 35 per week (set by Khalid, Nov 24). Skip any page that would be thin.
+- Max 10 new pages per writing run (daily), max 70 per week (set by Khalid, Nov 25). Skip any page that would be thin.
 - No emails, posts, directory submissions or account changes without Khalid's approval. Off-page work produces
   drafts and lists only.
 - Never delete pages. Weak pages are handled by the pruning rules in PLAYBOOK.md (improve, merge with 301, or noindex), never by deletion. Never change the phone number, author, or legal/footer text.
