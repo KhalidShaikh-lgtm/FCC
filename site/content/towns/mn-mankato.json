@@ -1,0 +1,208 @@
+{
+ "path": "/internet/mn/mankato",
+ "title": "Internet Providers in Mankato, MN: Fidium, Spectrum, GigFire",
+ "description": "Internet providers in Mankato, MN (56001, 56003): Fidium fiber up to 2 Gig, Spectrum cable, GigFire wireless, 5G and satellite, with prices and FCC data.",
+ "h1": "Internet providers in Mankato, MN",
+ "lead": "Who serves each side of Mankato, what the plans cost, and why the 56001 and 56003 ZIP codes are so different.",
+ "short_answer": "In Mankato's 56001 ZIP code you can usually choose Fidium fiber, with symmetrical plans up to 2 Gig, or Spectrum cable up to 1 Gig. The 56003 ZIP code has no cable or fiber in the FCC data and relies on Consolidated DSL, GigFire and other fixed wireless, 5G home internet and satellite.",
+ "chips": [
+  "Local guide",
+  "FCC data",
+  "Sources listed"
+ ],
+ "crumbs": [
+  [
+   "Home",
+   "/"
+  ],
+  [
+   "Internet in Minnesota",
+   "/internet/mn"
+  ],
+  [
+   "Mankato",
+   "/internet/mn/mankato"
+  ]
+ ],
+ "sections": [
+  {
+   "h2": "56001 vs 56003",
+   "body_html": "<p>Our FCC data shows a clear split. In <b>56001</b>, Spectrum cable covers most of the area and Fidium fiber a large part. In <b>56003</b>, neither reports service. There the widest options are Consolidated DSL (up to 100 Mbps), GigFire fixed wireless (up to 150 Mbps down and 130 Mbps up), Midco and T-Mobile wireless, and Nuvera wireless in a large part of the area.</p>"
+  },
+  {
+   "h2": "Fidium fiber",
+   "body_html": "<p>Fidium is the fiber brand of Consolidated Communications, which became privately owned by Searchlight Capital and BCI in December 2024. It launched in Mankato, North Mankato and Eagle Lake in April 2022 and was reported in August 2026 to reach more than 30,000 homes and businesses across southern Minnesota. Its Mankato page on November 25, 2026 listed:</p><ul><li>300 Mbps both ways: $30 a month (regular $50)</li><li>1 Gig both ways: $50 (regular $70)</li><li>2 Gig both ways: $60 (regular $80)</li></ul><p>Promotional prices last the first year for new customers and require bank-account autopay and paperless billing. Fidium lists no data limits and no contracts, and includes its WiFi gateway on 1 Gig and faster plans.</p>"
+  },
+  {
+   "h2": "Spectrum cable",
+   "body_html": "<p>Spectrum's Mankato page on November 25, 2026 listed Internet 100 at $30, 500 Mbps at $40 and 1 Gig at $60 a month, each for one year for new customers, with standard rates after that; check whether the price assumes autopay. The modem is free, there are no data caps or contracts, installation costs extra, and Advanced WiFi is $10 a month on the 100 and 500 plans. Cable uploads are much slower than fiber: up to 50 Mbps in the FCC data.</p>"
+  },
+  {
+   "h2": "Every provider reporting service in Mankato (56001, 56003)",
+   "table": {
+    "head": [
+     "Provider",
+     "Type",
+     "Top speed (down / up)",
+     "Reported footprint"
+    ],
+    "rows": [
+     [
+      "<b>Fidium Fiber</b>",
+      "Fiber",
+      "2 Gbps / 2 Gbps",
+      "56001: a large part; 56003: not reported"
+     ],
+     [
+      "<b>Spectrum</b>",
+      "Cable",
+      "1 Gbps / 50 Mbps",
+      "56001: most of the area; 56003: not reported"
+     ],
+     [
+      "<b>Consolidated Communications</b>",
+      "DSL",
+      "100 Mbps / 15 Mbps",
+      "56001: part of the area; 56003: most of the area"
+     ],
+     [
+      "<b>Verizon</b>",
+      "5G/LTE home internet",
+      "300 Mbps / 20 Mbps",
+      "56001: most of the area; 56003: a large part"
+     ],
+     [
+      "<b>MVTV Wireless</b>",
+      "Fixed wireless",
+      "200 Mbps / 20 Mbps",
+      "56001: not reported; 56003: a small part"
+     ],
+     [
+      "<b>GigFire</b>",
+      "Fixed wireless",
+      "150 Mbps / 130 Mbps",
+      "56001: part of the area; 56003: most of the area"
+     ],
+     [
+      "<b>Midco</b>",
+      "Fixed wireless (licensed)",
+      "100 Mbps / 20 Mbps",
+      "56001: most of the area; 56003: most of the area"
+     ],
+     [
+      "<b>T-Mobile</b>",
+      "5G/LTE home internet",
+      "100 Mbps / 20 Mbps",
+      "56001: most of the area; 56003: a large part"
+     ],
+     [
+      "<b>Nuvera Communications</b>",
+      "5G/LTE home internet",
+      "100 Mbps / 20 Mbps",
+      "56001: not reported; 56003: a large part"
+     ],
+     [
+      "<b>Nuvera Communications</b>",
+      "Fixed wireless",
+      "60 Mbps / 3 Mbps",
+      "56001: not reported; 56003: a small part"
+     ],
+     [
+      "<b>MVTV Wireless</b>",
+      "Fixed wireless",
+      "50 Mbps / 20 Mbps",
+      "56001: not reported; 56003: a small part"
+     ],
+     [
+      "<b>AT&amp;T</b>",
+      "5G/LTE home internet",
+      "25 Mbps / 3 Mbps",
+      "56001: part of the area; 56003: a small part"
+     ],
+     [
+      "<b>Starlink</b>",
+      "Satellite (low orbit)",
+      "280 Mbps / 30 Mbps",
+      "Whole area (needs clear sky view)"
+     ],
+     [
+      "<b>Viasat</b>",
+      "Satellite",
+      "100 Mbps / 3 Mbps",
+      "Whole area (needs clear sky view)"
+     ],
+     [
+      "<b>HughesNet</b>",
+      "Satellite",
+      "100 Mbps / 5 Mbps",
+      "Whole area (needs clear sky view)"
+     ]
+    ]
+   },
+   "body_html": ""
+  },
+  {
+   "h2": "",
+   "body_html": "<p style=\"font-size:14px;color:#58697a\">Source: FCC Broadband Data Collection, June 30, 2026, matched to ZIP codes by YourBillCheck. Footprint compares each provider's reported locations with the widest land-based (wired or fixed wireless) provider near that ZIP code, so it is a guide, not a promise for your street.</p>"
+  },
+  {
+   "h2": "GigFire and other wireless options",
+   "body_html": "<p>GigFire sells fixed wireless in Mankato, not fiber, despite the name. Its Mankato page lists Spark at 150/50 Mbps for $70 a month with a $99 install, and Fire at 500/250 Mbps for $110 with a $199 install, with mesh WiFi, no caps and month-to-month terms. Verizon 5G reaches most of 56001 and a large part of 56003 at up to 300 Mbps. Starlink reports up to 280 Mbps everywhere with a clear sky view.</p>"
+  },
+  {
+   "h2": "Internet near Mankato",
+   "body_html": "<p><a href=\"/internet/mn/eagle-lake\">Eagle Lake</a> · <a href=\"/internet/mn/saint-peter\">Saint Peter</a> · <a href=\"/internet/mn\">All Minnesota internet providers</a> · <a href=\"/speed-test\">Test your current speed</a></p>"
+  }
+ ],
+ "faq": [
+  [
+   "What is the best internet provider in Mankato, MN?",
+   "If Fidium fiber reaches your address, it offers equal upload and download speeds up to 2 Gig. Spectrum covers more of the 56001 ZIP code. In 56003 the choice is mostly DSL, fixed wireless, 5G or satellite."
+  ],
+  [
+   "How much is Fidium in Mankato?",
+   "Fidium listed 300 Mbps at $30, 1 Gig at $50 and 2 Gig at $60 a month for the first year with autopay and paperless billing on November 25, 2026. Prices rise by $20 after the promotion."
+  ],
+  [
+   "Is GigFire fiber or wireless?",
+   "In Mankato GigFire sells fixed wireless, with plans of 150/50 Mbps and 500/250 Mbps."
+  ],
+  [
+   "Does Spectrum have data caps in Mankato?",
+   "No. Spectrum's Mankato page says there are no data caps and no contracts."
+  ]
+ ],
+ "sources": [
+  [
+   "FCC Broadband Data Collection (June 30, 2026), Mankato ZIP 56001, 56003",
+   "https://broadbandmap.fcc.gov/"
+  ],
+  [
+   "Fidium Fiber: Mankato, MN",
+   "https://www.fidiumfiber.com/fiber-internet/minnesota/mankato"
+  ],
+  [
+   "Consolidated Communications: Fidium launch in Greater Mankato (Apr 2022)",
+   "https://consolidated.com/about-us/news/article-detail/id/852/greater-mankato-residents-can-now-sign-up-for-consolidated-communications-new-competitive-gig-speed-fiber-internet-service-fidium-fiber"
+  ],
+  [
+   "Consolidated Communications: investor relations (private ownership)",
+   "https://consolidated.com/About-Us/Investor-Relations"
+  ],
+  [
+   "Blandin on Broadband: Fidium serves 30,000 in southern Minnesota (Aug 2026)",
+   "https://blandinonbroadband.org/2026/08/27/fidium-now-serves-30000-homes-and-businesses-in-southern-minnesota-blue-earth-nicollet-and-le-sueur-counties/"
+  ],
+  [
+   "Spectrum: internet in Mankato, MN",
+   "https://www.spectrum.com/internet-service/minnesota/mankato"
+  ],
+  [
+   "GigFire: Mankato, MN",
+   "https://gigfire.com/internet/minnesota/mankato"
+  ]
+ ],
+ "checked": "November 25, 2026",
+ "date": "2026-11-25",
+ "cta_provider": "internet"
+}

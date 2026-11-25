@@ -1,0 +1,44 @@
+{
+  "path": "/fiber/ri/providence",
+  "title": "Fiber Internet in Providence, RI: Verizon Fios vs Spectrum",
+  "description": "Fiber in Providence, RI: Verizon Fios reports fiber across nearly all of ZIPs 02903-02909. Plans, prices, price locks, and how Cox, now Spectrum, compares.",
+  "h1": "Fiber internet in Providence, RI",
+  "lead": "Who offers fiber in Providence, what Fios costs, and what changed now that Cox has become Spectrum.",
+  "short_answer": "Verizon Fios is the fiber provider in Providence. In the June 2026 FCC data it reaches most of every one of the seven Providence ZIP codes we track, 02903 to 02909. Verizon advertises plans from 300 Mbps at $30 a month up to 5 Gig, with taxes and fees included. Cox, which became Spectrum in 2026, runs a cable network instead.",
+  "chips": ["Local guide", "FCC data", "Sources listed"],
+  "crumbs": [["Home", "/"], ["Internet in Rhode Island", "/internet/ri"], ["Providence", "/internet/ri/providence"], ["Fiber in Providence", "/fiber/ri/providence"]],
+  "sections": [
+    {"h2": "Fiber and cable in Providence by ZIP code", "table": {"head": ["Provider", "Providence ZIP codes", "Top speed in FCC data", "Reported footprint"], "rows": [
+      ["<b>Verizon Fios</b> (fiber)", "7 of 7", "940 Mbps down / 880 Mbps up", "Most of the area in all 7 ZIP codes"],
+      ["<b>Cox, now Spectrum</b> (cable)", "7 of 7", "2 Gbps down / 100 Mbps up", "Most of the area in all 7 ZIP codes"]]},
+     "body_html": "<p style=\"font-size:14px;color:#58697a\">FCC Broadband Data Collection, June 30, 2026, ZIP codes 02903, 02904, 02905, 02906, 02907, 02908 and 02909. No other fiber provider reported home service in these ZIP codes. The FCC filing shows Fios at up to 940/880 Mbps, but Verizon now advertises faster 2 Gig and 5 Gig plans in Providence.</p>"},
+    {"h2": "Verizon Fios plans in Providence", "table": {"head": ["Plan", "Speed", "Price"], "rows": [
+      ["Fios 300 Mbps", "300 / 300 Mbps", "$30/mo"],
+      ["Fios 500 Mbps", "500 / 500 Mbps", "$65/mo"],
+      ["Fios 1 Gig", "Up to 940 / 880 Mbps", "$80/mo"],
+      ["Fios 2 Gig", "Average 1.5-2.3 Gbps both ways (wired)", "$90/mo"],
+      ["Fios 5 Gig", "Average 4.5-5.3 Gbps both ways (wired)", "$100/mo"]]},
+     "body_html": "<p>From Verizon's Providence page on November 25, 2026. Prices include a $10 Auto Pay discount. Verizon says Fios prices include taxes and fees, plans come with a 3-, 4- or 5-year price guarantee depending on the plan, a WiFi router is included, there is no annual contract and no data caps (subject to its terms). Installation may cost extra if your home is not already wired for Fios. Ask which guarantee length applies to the plan you pick.</p>"},
+    {"h2": "Cox is now Spectrum", "body_html": "<p>Charter completed its purchase of Cox on August 20, 2026, and Cox markets, including Rhode Island, were moved to the Spectrum brand from mid-September 2026. Our June 2026 FCC data still lists the network as Cox. It is a cable network: fiber runs into the neighborhood, then coaxial cable into the home. That is why its uploads top out at 100 Mbps in the FCC data while Fios is close to the same speed both ways. Spectrum's pricing and plans now apply in former Cox areas, so get a fresh quote for your address rather than relying on old Cox prices.</p>"},
+    {"h2": "Fios or Spectrum?", "body_html": "<ol class=\"steps\"><li><b>Uploads:</b> pick Fios if you upload a lot: video calls, cloud backup, streaming, or working from home with big files.</li><li><b>Total bill:</b> Fios prices include taxes and fees, so compare them with Spectrum's price plus taxes, equipment and fees.</li><li><b>Price after the promotion:</b> Fios lists a multi-year price guarantee. Ask Spectrum what the price is in month 13.</li></ol><p>Renters in larger buildings should check whether the building is wired for Fios before signing a lease. See the <a href=\"/internet/ri/providence\">full list of Providence internet providers</a>, <a href=\"/internet/ri\">internet in Rhode Island</a>, compare with <a href=\"/fiber/wa/seattle\">fiber in Seattle</a>, or <a href=\"/speed-test\">test your current speed</a>.</p>"},
+    {"h2": "Wireless options", "body_html": "<p>T-Mobile 5G home internet reports service across most of Providence in the FCC data, at up to 25 Mbps in most ZIP codes and up to 100 Mbps in 02909, and AT&amp;T wireless reaches a large part of the city at lower speeds. Verizon also lists 5G Home in Providence from $50 a month, though the FCC data shows it reaching only a small part of the city. Starlink, HughesNet and Viasat satellite are available but rarely the best choice in the city.</p>"}
+  ],
+  "faq": [
+    ["Is Verizon Fios available in Providence, RI?", "Yes. Verizon Fios reports fiber across most of all seven Providence ZIP codes we track, 02903 to 02909, in the June 2026 FCC data. Check your exact address to confirm."],
+    ["Who has fiber internet in Providence?", "Verizon Fios is the only fiber provider reporting home service in Providence's 02903-02909 ZIP codes in the June 2026 FCC data."],
+    ["Is Cox now Spectrum in Rhode Island?", "Yes. Charter completed its purchase of Cox on August 20, 2026, and former Cox areas, including Rhode Island, moved to the Spectrum brand from mid-September 2026."],
+    ["What is the fastest internet in Providence?", "Verizon advertises a Fios 5 Gig plan in Providence. Spectrum's cable network reports downloads up to 2 Gbps in the FCC data, with much slower uploads."],
+    ["How much is Verizon Fios in Providence?", "On November 25, 2026 Verizon listed Fios from $30 a month for 300 Mbps to $100 a month for 5 Gig, with Auto Pay, including taxes and fees."]
+  ],
+  "sources": [
+    ["YourBillCheck: Providence internet providers (FCC Broadband Data Collection, June 30, 2026)", "https://yourbillcheck.com/internet/ri/providence"],
+    ["Verizon: Fios internet in Providence, RI", "https://www.verizon.com/home/internet/near-me/providence-rhode-island/"],
+    ["Turnto10: Charter completes deal for Cox Communications (Aug 2026)", "https://turnto10.com/news/local/charter-completes-34-billion-deal-for-cox-communications-spectrum-internet-mobile-phones-cable-television-august-20-2026"],
+    ["Light Reading: Charter-Cox deal is a wrap (Aug 2026)", "https://www.lightreading.com/cable-technology/charter-cox-deal-is-a-wrap-with-spectrum-brand-to-take-over-within-a-year"],
+    ["Cox: Providence, RI (now Spectrum)", "https://www.cox.com/local/residential/ri/providence"],
+    ["BroadbandNow: internet providers in Providence, RI", "https://broadbandnow.com/rhode-island/providence"]
+  ],
+  "checked": "November 25, 2026",
+  "date": "2026-11-25",
+  "cta_provider": "internet"
+}

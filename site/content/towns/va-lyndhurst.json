@@ -1,0 +1,166 @@
+{
+ "path": "/internet/va/lyndhurst",
+ "title": "Lyndhurst, VA Internet Providers: Lumos Fiber, Xfinity",
+ "description": "Internet providers in Lyndhurst, VA (22952): Lumos fiber up to 5 Gig, Xfinity cable, 5G home internet and satellite, from FCC data checked November 2026.",
+ "h1": "Internet providers in Lyndhurst, VA",
+ "lead": "Who serves Lyndhurst and the 22952 ZIP code in Augusta County, and what to check before you sign up.",
+ "short_answer": "Lumos fiber reports the widest coverage in Lyndhurst (22952), with symmetrical plans up to 5 Gig in the FCC data, and Xfinity cable covers most of the area with downloads up to 2 Gbps. Verizon and T-Mobile 5G reach only part of the area. Starlink, Viasat and HughesNet satellite cover the rural roads the wires miss.",
+ "chips": [
+  "Local guide",
+  "FCC data",
+  "Sources listed"
+ ],
+ "crumbs": [
+  [
+   "Home",
+   "/"
+  ],
+  [
+   "Internet in Virginia",
+   "/internet/va"
+  ],
+  [
+   "Lyndhurst",
+   "/internet/va/lyndhurst"
+  ]
+ ],
+ "sections": [
+  {
+   "h2": "Lumos fiber, now part of T-Mobile Fiber",
+   "body_html": "<p>Lumos is based in nearby Waynesboro and began a fast fiber build across Waynesboro, Augusta County and Stuarts Draft in 2021-2022. In the June 2026 FCC data it reports fiber across most of the 22952 area, the widest footprint of any provider, at up to 5 Gbps both ways. A small amount of old Lumos DSL (10 Mbps) is still reported.</p><p>In April 2025 T-Mobile and the investment firm EQT closed a joint venture to buy Lumos, and T-Mobile said many Lumos customers will become T-Mobile Fiber customers. Lumos's Lyndhurst page still uses the Lumos name and advertises fiber \"as little as $40 per month\" with equal upload and download speeds. T-Mobile Fiber's national plans page lists no data caps, no annual contract, included installation and a router, but its prices are not specific to Lyndhurst, so confirm the price at your address.</p>"
+  },
+  {
+   "h2": "Xfinity cable in Lyndhurst",
+   "body_html": "<p>Xfinity reports cable across most of the area, with downloads up to 2 Gbps and uploads up to 250 Mbps. Xfinity's Lyndhurst page on November 25, 2026 listed 300 Mbps at $45 a month with a 5-year price guarantee (everyday price $75) and 500 Mbps at $60 (everyday $85), for new customers using autopay from a bank account and paperless billing, or $10 a month more. The offer was dated to end November 30. Unlimited data and WiFi equipment are included; installation, taxes and fees are extra.</p>"
+  },
+  {
+   "h2": "Every provider reporting service in Lyndhurst (22952)",
+   "table": {
+    "head": [
+     "Provider",
+     "Type",
+     "Top speed (down / up)",
+     "Reported footprint"
+    ],
+    "rows": [
+     [
+      "<b>Lumos</b>",
+      "Fiber",
+      "5 Gbps / 5 Gbps",
+      "most of the area"
+     ],
+     [
+      "<b>Xfinity</b>",
+      "Cable",
+      "2 Gbps / 250 Mbps",
+      "most of the area"
+     ],
+     [
+      "<b>Lumos</b>",
+      "DSL",
+      "10 Mbps / 1 Mbps",
+      "a small part"
+     ],
+     [
+      "<b>Verizon</b>",
+      "5G/LTE home internet",
+      "300 Mbps / 6 Mbps",
+      "part of the area"
+     ],
+     [
+      "<b>T-Mobile</b>",
+      "5G/LTE home internet",
+      "25 Mbps / 3 Mbps",
+      "part of the area"
+     ],
+     [
+      "<b>Starlink</b>",
+      "Satellite (low orbit)",
+      "280 Mbps / 30 Mbps",
+      "Whole area (needs clear sky view)"
+     ],
+     [
+      "<b>Viasat</b>",
+      "Satellite",
+      "150 Mbps / 5 Mbps",
+      "Whole area (needs clear sky view)"
+     ],
+     [
+      "<b>HughesNet</b>",
+      "Satellite",
+      "50 Mbps / 5 Mbps",
+      "Whole area (needs clear sky view)"
+     ]
+    ]
+   },
+   "body_html": ""
+  },
+  {
+   "h2": "",
+   "body_html": "<p style=\"font-size:14px;color:#58697a\">Source: FCC Broadband Data Collection, June 30, 2026, matched to ZIP codes by YourBillCheck. Footprint compares each provider's reported locations with the widest land-based (wired or fixed wireless) provider near that ZIP code, so it is a guide, not a promise for your street.</p>"
+  },
+  {
+   "h2": "If you live outside the fiber and cable lines",
+   "body_html": "<p>Lyndhurst is rural once you leave the main roads. Verizon 5G home internet (up to 300 Mbps) and T-Mobile (up to 25 Mbps here) each reach only part of the area in the FCC data. Starlink reports up to 280 Mbps anywhere with a clear view of the sky, which makes it the usual fallback; Viasat and HughesNet are slower. Augusta County says it does not own a network or sell service, but it backs state VATI grant projects and an All Points Broadband fiber project with pre-registration, so check the county broadband page if no wired provider reaches your home.</p>"
+  },
+  {
+   "h2": "Internet near Lyndhurst",
+   "body_html": "<p><a href=\"/internet/va/waynesboro\">Waynesboro</a> · <a href=\"/internet/va/stuarts-draft\">Stuarts Draft</a> · <a href=\"/internet/va/staunton\">Staunton</a> · <a href=\"/internet/va/fishersville\">Fishersville</a> · <a href=\"/internet/va\">All Virginia internet providers</a> · <a href=\"/speed-test\">Test your current speed</a></p>"
+  }
+ ],
+ "faq": [
+  [
+   "Is Lumos fiber available in Lyndhurst, VA?",
+   "Yes. Lumos reports fiber across most of the 22952 ZIP code, the widest footprint of any provider, in the June 2026 FCC data, with speeds up to 5 Gbps. Check your address to confirm."
+  ],
+  [
+   "Is Lumos now T-Mobile Fiber?",
+   "Lumos is owned by a T-Mobile and EQT joint venture that closed in April 2025. T-Mobile said many Lumos customers will become T-Mobile Fiber customers, but the Lyndhurst page still uses the Lumos name."
+  ],
+  [
+   "Does Xfinity serve Lyndhurst?",
+   "Yes. Xfinity reports cable across most of the 22952 area, with downloads up to 2 Gbps."
+  ],
+  [
+   "What internet works on rural roads near Lyndhurst?",
+   "Where fiber and cable stop, the choices are 5G home internet if the signal is good, or satellite. Starlink is the fastest satellite option in the FCC data."
+  ]
+ ],
+ "sources": [
+  [
+   "FCC Broadband Data Collection (June 30, 2026), Lyndhurst ZIP 22952",
+   "https://broadbandmap.fcc.gov/"
+  ],
+  [
+   "Lumos: Lyndhurst, VA",
+   "https://www.lumosfiber.com/?p=63510"
+  ],
+  [
+   "Xfinity: internet in Lyndhurst, VA",
+   "https://www.xfinity.com/local/va/lyndhurst"
+  ],
+  [
+   "T-Mobile Fiber plans",
+   "https://t-mobile.com/home-internet/fiber/plans"
+  ],
+  [
+   "Augusta Free Press: Lumos partners with T-Mobile (Apr 2025)",
+   "https://augustafreepress.com/news/lumos-partners-with-t-mobile-to-deliver-fiber-to-more-households/"
+  ],
+  [
+   "IEEE ComSoc Techblog: T-Mobile and EQT close Lumos JV",
+   "https://techblog.comsoc.org/2025/04/01/t%e2%80%91mobile-and-eqt-close-jv-to-acquire-ftth-network-provider-lumos/"
+  ],
+  [
+   "Lumos: Virginia fiber expansion (Dec 2021)",
+   "https://www.lumosfiber.com/blog/2021/12/07/lumos-fiber-to-rapidly-expand-its-ultra-fast-100-fiber-optic-network-across-virginia/"
+  ],
+  [
+   "Augusta County: broadband",
+   "https://augusta.prod-as.govaccess.org/residents/county-projects/broadband-broadband-committee"
+  ]
+ ],
+ "checked": "November 25, 2026",
+ "date": "2026-11-25",
+ "cta_provider": "internet"
+}

@@ -1,0 +1,168 @@
+{
+ "path": "/internet/nc/cedar-grove",
+ "title": "Cedar Grove, NC Internet Services: Lumos and Spectrum Fiber",
+ "description": "Internet services in Cedar Grove, NC (27231): Lumos fiber up to 5 Gig, Spectrum fiber up to 1 Gig, Brightspeed DSL, 5G and satellite, with local build history.",
+ "h1": "Internet services in Cedar Grove, NC",
+ "lead": "How rural Cedar Grove in northern Orange County went from DSL to two fiber networks, and how to choose between them.",
+ "short_answer": "Cedar Grove (27231) now has two fiber networks, and both reach most of the area in the FCC data. Lumos, helped by a $10 million Orange County partnership, reports symmetrical fiber up to 5 Gig. Spectrum reports fiber up to 1 Gig after a federally funded rural build began in 2023. Brightspeed DSL, 5G and satellite fill the gaps.",
+ "chips": [
+  "Local guide",
+  "FCC data",
+  "Sources listed"
+ ],
+ "crumbs": [
+  [
+   "Home",
+   "/"
+  ],
+  [
+   "Internet in North Carolina",
+   "/internet/nc"
+  ],
+  [
+   "Cedar Grove",
+   "/internet/nc/cedar-grove"
+  ]
+ ],
+ "sections": [
+  {
+   "h2": "How Cedar Grove got fiber",
+   "body_html": "<p>Until recently thousands of addresses in rural Orange County were unserved or underserved, according to the county. Two projects changed that:</p><ol class=\"steps\"><li><b>Lumos and Orange County:</b> the county signed a partnership with Lumos in April 2022 using $10 million in federal ARPA funds, aimed at about 6,370 unserved or underserved addresses. The first residential areas were completed in August 2023. By September 2026 the county reported all $10 million spent, about 5,963 addresses covered, and a construction and activation deadline of November 1, 2026. Lumos added its own money to extend the build further.</li><li><b>Spectrum's rural build:</b> in April 2023 Spectrum launched gigabit service to more than 200 homes and small businesses in Orange County as part of its federally funded RDOF expansion. In the June 2026 FCC data Spectrum reports fiber, not cable, in 27231.</li></ol><p>The county's page does not list addresses by town, so check your own address with both providers.</p>"
+  },
+  {
+   "h2": "Lumos vs Spectrum in Cedar Grove",
+   "body_html": "<p><b>Lumos</b> reports up to 5 Gbps download and upload. Its Cedar Grove page lists tiers from 500 Mbps to 8 Gig with equal upload and download, and fiber \"as little as $50 per month\".</p><p><b>Spectrum</b> reports up to 1 Gbps both ways here. Its Cedar Grove page on November 25, 2026 listed Internet 100 at $30, 500 Mbps at $40 and 1 Gig at $60 a month, each for one year, for eligible new customers; Spectrum's fine print says prices include a $10 Auto Pay discount. The page also showed a separate $50 offer for 500 Mbps. Standard rates apply after the first year. Spectrum lists no data caps, no contracts and a free modem; installation costs extra and Advanced WiFi is $10 a month on the 100 and 500 plans.</p>"
+  },
+  {
+   "h2": "Every provider reporting service in Cedar Grove (27231)",
+   "table": {
+    "head": [
+     "Provider",
+     "Type",
+     "Top speed (down / up)",
+     "Reported footprint"
+    ],
+    "rows": [
+     [
+      "<b>Lumos</b>",
+      "Fiber",
+      "5 Gbps / 5 Gbps",
+      "most of the area"
+     ],
+     [
+      "<b>Spectrum</b>",
+      "Fiber",
+      "1 Gbps / 1 Gbps",
+      "most of the area"
+     ],
+     [
+      "<b>Brightspeed</b>",
+      "DSL",
+      "80 Mbps / 20 Mbps",
+      "most of the area"
+     ],
+     [
+      "<b>Verizon</b>",
+      "5G/LTE home internet",
+      "300 Mbps / 6 Mbps",
+      "part of the area"
+     ],
+     [
+      "<b>T-Mobile</b>",
+      "5G/LTE home internet",
+      "100 Mbps / 20 Mbps",
+      "a large part"
+     ],
+     [
+      "<b>AT&amp;T</b>",
+      "5G/LTE home internet",
+      "25 Mbps / 3 Mbps",
+      "part of the area"
+     ],
+     [
+      "<b>Starlink</b>",
+      "Satellite (low orbit)",
+      "280 Mbps / 30 Mbps",
+      "Whole area (needs clear sky view)"
+     ],
+     [
+      "<b>Viasat</b>",
+      "Satellite",
+      "150 Mbps / 6 Mbps",
+      "Whole area (needs clear sky view)"
+     ],
+     [
+      "<b>HughesNet</b>",
+      "Satellite",
+      "50 Mbps / 5 Mbps",
+      "Whole area (needs clear sky view)"
+     ]
+    ]
+   },
+   "body_html": ""
+  },
+  {
+   "h2": "",
+   "body_html": "<p style=\"font-size:14px;color:#58697a\">Source: FCC Broadband Data Collection, June 30, 2026, matched to ZIP codes by YourBillCheck. Footprint compares each provider's reported locations with the widest land-based (wired or fixed wireless) provider near that ZIP code, so it is a guide, not a promise for your street.</p>"
+  },
+  {
+   "h2": "If fiber has not reached you yet",
+   "body_html": "<p>Brightspeed DSL (up to 80 Mbps in the FCC data) still reaches most of the area. T-Mobile 5G home internet reaches a large part, and Verizon and AT&amp;T smaller parts. Starlink reports up to 280 Mbps anywhere with a clear sky view. Orange County says some remaining unserved locations are covered by state Stop Gap grants (Lumos and Brightspeed) and federal BEAD funding.</p>"
+  },
+  {
+   "h2": "Internet near Cedar Grove",
+   "body_html": "<p><a href=\"/internet/nc/hillsborough\">Hillsborough</a> · <a href=\"/internet/nc/efland\">Efland</a> · <a href=\"/internet/nc/mebane\">Mebane</a> · <a href=\"/internet/nc\">All North Carolina internet providers</a> · <a href=\"/speed-test\">Test your current speed</a></p>"
+  }
+ ],
+ "faq": [
+  [
+   "Who provides internet in Cedar Grove, NC?",
+   "Lumos and Spectrum both report fiber across most of the 27231 ZIP code in the June 2026 FCC data. Brightspeed DSL, T-Mobile, Verizon and AT&T wireless, and satellite are also available."
+  ],
+  [
+   "Is Lumos fiber available in Cedar Grove?",
+   "Yes. Lumos reports fiber up to 5 Gbps across most of 27231 and has a Cedar Grove page. Its build is part of Orange County's ARPA-funded partnership."
+  ],
+  [
+   "Does Spectrum serve Cedar Grove, NC?",
+   "Yes. Spectrum reports fiber up to 1 Gbps across most of 27231. Spectrum began a federally funded rural expansion in Orange County in 2023."
+  ],
+  [
+   "What is the cheapest internet in Cedar Grove?",
+   "Spectrum listed Internet 100 at $30 a month for the first year with autopay on November 25, 2026. Prices rise after the promotion, so compare year-two prices too."
+  ]
+ ],
+ "sources": [
+  [
+   "FCC Broadband Data Collection (June 30, 2026), Cedar Grove ZIP 27231",
+   "https://broadbandmap.fcc.gov/"
+  ],
+  [
+   "Orange County NC: Lumos ARPA broadband project",
+   "https://orangecountync.gov/2924/LumosARPA-Broadband-Project"
+  ],
+  [
+   "Orange County NC: Lumos presentation notes",
+   "https://www.orangecountync.gov/DocumentCenter/View/36176/LUMOS-Presentation-Notes"
+  ],
+  [
+   "Lightwave: Lumos brings fiber to Orange County (Aug 2023)",
+   "https://www.lightwaveonline.com/broadband/article/55031422/lumos-brings-fiber-broadband-to-orange-county-north-carolina"
+  ],
+  [
+   "Charter: Spectrum launches gigabit broadband in Orange County (Apr 2023)",
+   "https://corporate.charter.com/newsroom/spectrum-launches-gigabit-broadband-in-orange-county-north-carolina"
+  ],
+  [
+   "Spectrum: internet in Cedar Grove, NC",
+   "https://www.spectrum.com/internet-service/north-carolina/cedar-grove"
+  ],
+  [
+   "Lumos: Cedar Grove",
+   "https://lumosfiber.com/?p=65990"
+  ]
+ ],
+ "checked": "November 25, 2026",
+ "date": "2026-11-25",
+ "cta_provider": "internet"
+}

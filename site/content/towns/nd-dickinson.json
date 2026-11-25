@@ -1,0 +1,187 @@
+{
+ "path": "/internet/nd/dickinson",
+ "title": "Internet Providers in Dickinson, ND: Fiber, Cable and 5G",
+ "description": "Internet providers in Dickinson, ND (58601): Consolidated Telcom fiber, Midco, 5G home internet and satellite, with FCC data and real local prices.",
+ "h1": "Internet providers in Dickinson, ND",
+ "lead": "Who actually serves Dickinson, which local company is which, and what fiber costs here.",
+ "short_answer": "Dickinson's widest wired network in the FCC data is fiber filed by a company that shares its headquarters with Consolidated Telcom, the local telephone cooperative, with plans up to 1 Gig both ways from $79.95 a month including taxes. Midco also markets service here. Verizon 5G reaches a large part of 58601, and satellite covers the rest.",
+ "chips": [
+  "Local guide",
+  "FCC data",
+  "Sources listed"
+ ],
+ "crumbs": [
+  [
+   "Home",
+   "/"
+  ],
+  [
+   "Internet in North Dakota",
+   "/internet/nd"
+  ],
+  [
+   "Dickinson",
+   "/internet/nd/dickinson"
+  ]
+ ],
+ "sections": [
+  {
+   "h2": "Consolidated Telcom: the local co-op, not Fidium",
+   "body_html": "<p>The fiber in Dickinson's FCC filings is reported under the name Consolidated Communications Networks, Inc. The North Dakota Public Service Commission lists that company at 507 S. Main in Dickinson, the same address as Consolidated Telcom, the telephone cooperative formed in 1961. At least one national comparison site (BroadbandNow) lists Fidium, the fiber brand of Consolidated Communications, in Dickinson; that company does not appear in the June 2026 FCC data for 58601. In the FCC data this network covers more of the 58601 area than any other wired provider.</p><p>Consolidated Telcom says it entered the Dickinson market in 1997-98, bought the Dickinson cable TV system in 2000, is now 100% fiber to the home in its cooperative exchanges, and is moving Dickinson customers from coax to fiber.</p>"
+  },
+  {
+   "h2": "Consolidated Telcom fiber plans",
+   "table": {
+    "head": [
+     "Plan",
+     "Typical speed (down / up)",
+     "Price"
+    ],
+    "rows": [
+     [
+      "Fiber 300",
+      "305 / 305 Mbps",
+      "$79.95/mo"
+     ],
+     [
+      "Fiber 500",
+      "505 / 505 Mbps",
+      "$99.95/mo"
+     ],
+     [
+      "Fiber 1,000",
+      "1,000 / 1,000 Mbps",
+      "$119.95/mo"
+     ],
+     [
+      "Gamer Gig",
+      "1,000 / 1,000 Mbps",
+      "$139.95/mo"
+     ]
+    ]
+   },
+   "body_html": "<p>From the co-op's broadband label page (last updated June 1, 2026). It says these are not introductory rates, include taxes, have no contract and unlimited data. A one-time $150 activation fee applies, plus an \"aid to construction\" fee that varies by location. A WiFi extender is optional at $4.95 a month. The page does not name service areas, so check your address.</p>"
+  },
+  {
+   "h2": "Every provider reporting service in Dickinson (58601)",
+   "table": {
+    "head": [
+     "Provider",
+     "Type",
+     "Top speed (down / up)",
+     "Reported footprint"
+    ],
+    "rows": [
+     [
+      "<b>Consolidated Telcom network (filed as Consolidated Communications Networks, Inc.)</b>",
+      "Fiber",
+      "1 Gbps / 1 Gbps",
+      "most of the area"
+     ],
+     [
+      "<b>CenturyLink</b>",
+      "DSL",
+      "not stated",
+      "a large part"
+     ],
+     [
+      "<b>Verizon</b>",
+      "5G/LTE home internet",
+      "300 Mbps / 20 Mbps",
+      "a large part"
+     ],
+     [
+      "<b>T-Mobile</b>",
+      "5G/LTE home internet",
+      "25 Mbps / 3 Mbps",
+      "part of the area"
+     ],
+     [
+      "<b>AT&amp;T</b>",
+      "5G/LTE home internet",
+      "not stated",
+      "a small part"
+     ],
+     [
+      "<b>Starlink</b>",
+      "Satellite (low orbit)",
+      "280 Mbps / 30 Mbps",
+      "Whole area (needs clear sky view)"
+     ],
+     [
+      "<b>HughesNet</b>",
+      "Satellite",
+      "100 Mbps / 5 Mbps",
+      "Whole area (needs clear sky view)"
+     ],
+     [
+      "<b>Viasat</b>",
+      "Satellite",
+      "50 Mbps / 3 Mbps",
+      "Whole area (needs clear sky view)"
+     ]
+    ]
+   },
+   "body_html": ""
+  },
+  {
+   "h2": "",
+   "body_html": "<p style=\"font-size:14px;color:#58697a\">Source: FCC Broadband Data Collection, June 30, 2026, matched to ZIP codes by YourBillCheck. Footprint compares each provider's reported locations with the widest land-based (wired or fixed wireless) provider near that ZIP code, so it is a guide, not a promise for your street.</p>"
+  },
+  {
+   "h2": "Midco and other options",
+   "body_html": "<p><b>Midco</b> has a Dickinson page promoting Midco Fiber, saying fiber runs to the home in some areas and deep into the neighborhood in others. Its Dickinson page lists no prices (pricing is by address) and says no contract is needed for residential service. Midco did not report wired service in the 58601 ZIP code in the June 2026 FCC data we use, so ask Midco directly whether your address is served and whether it is fiber or cable.</p><p><b>5G home internet:</b> Verizon reports up to 300 Mbps across a large part of the ZIP code; T-Mobile reaches part of it at lower speeds. <b>CenturyLink DSL</b> is reported in a large part of town but with no speed given. <b>Satellite:</b> Starlink reports up to 280 Mbps, HughesNet up to 100 Mbps and Viasat up to 50 Mbps, useful outside town where wired networks stop.</p>"
+  },
+  {
+   "h2": "Internet near Dickinson",
+   "body_html": "<p><a href=\"/internet/nd/belfield\">Belfield</a> · <a href=\"/internet/nd/south-heart\">South Heart</a> · <a href=\"/internet/nd/richardton\">Richardton</a> · <a href=\"/internet/nd\">All North Dakota internet providers</a> · <a href=\"/speed-test\">Test your current speed</a></p>"
+  }
+ ],
+ "faq": [
+  [
+   "Who is the main internet provider in Dickinson, ND?",
+   "Consolidated Telcom's network (filed with the FCC as Consolidated Communications Networks, Inc.) reports the widest wired coverage in the 58601 ZIP code, with fiber up to 1 Gbps both ways. Midco also markets service in Dickinson."
+  ],
+  [
+   "How much is Consolidated Telcom fiber?",
+   "Its published plans run from $79.95 a month for Fiber 300 to $119.95 for Fiber 1,000, including taxes, plus a $150 activation fee."
+  ],
+  [
+   "Is Consolidated Telcom the same as Fidium?",
+   "No. The Dickinson fiber provider shares its address with the local telephone cooperative. Fidium is the fiber brand of Consolidated Communications, a separate company that does not appear in the FCC data for 58601."
+  ],
+  [
+   "Does Midco offer fiber in Dickinson?",
+   "Midco's Dickinson page promotes Midco Fiber and says fiber reaches the home in some areas. Ask Midco to confirm what your address can get."
+  ]
+ ],
+ "sources": [
+  [
+   "FCC Broadband Data Collection (June 30, 2026), Dickinson ZIP 58601",
+   "https://broadbandmap.fcc.gov/"
+  ],
+  [
+   "Consolidated Telcom: about us",
+   "https://consolidatednd.com/about/"
+  ],
+  [
+   "Consolidated Telcom: fiber plans and broadband labels",
+   "https://www.consolidated.coop/?p=3093"
+  ],
+  [
+   "North Dakota PSC: telecom company registry",
+   "https://psc.nd.gov/telecom/8.html"
+  ],
+  [
+   "Midco: Dickinson",
+   "https://midco.com/dickinson"
+  ],
+  [
+   "BroadbandNow: internet providers in Dickinson, ND",
+   "https://broadbandnow.com/North-Dakota/Dickinson"
+  ]
+ ],
+ "checked": "November 25, 2026",
+ "date": "2026-11-25",
+ "cta_provider": "internet"
+}

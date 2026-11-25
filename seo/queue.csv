@@ -1,13 +1,13 @@
 id,priority,type,path,target_query,status,notes
 0,0,fiber,/fiber/az/phoenix,fiber in phoenix az,published,pilot Nov 24
-1,1,town,/internet/va/staunton,staunton va internet services,todo,small town with GSC impressions; low competition; override auto page with richer local content
-2,1,town,/internet/ga/toccoa,fastest internet in toccoa ga,todo,small town with GSC impressions; low competition; override auto page with richer local content
-3,1,town,/internet/va/lyndhurst,lyndhurst va internet providers,todo,small town with GSC impressions; low competition; override auto page with richer local content
-4,1,town,/internet/nc/cedar-grove,cedar grove nc internet services,todo,small town with GSC impressions; low competition; override auto page with richer local content
-5,1,town,/internet/ga/commerce,fastest internet in commerce ga,todo,small town with GSC impressions; low competition; override auto page with richer local content
-6,1,town,/internet/nd/dickinson,internet providers dickinson nd,todo,small town with GSC impressions; low competition; override auto page with richer local content
-7,1,town,/internet/mn/mankato,internet providers mankato mn,todo,small town with GSC impressions; low competition; override auto page with richer local content
-8,1,town,/internet/ma/danvers,internet packages danvers,todo,small town with GSC impressions; low competition; override auto page with richer local content
+1,1,town,/internet/va/staunton,staunton va internet services,published,small town with GSC impressions; low competition; override auto page with richer local content; published 2026-11-25
+2,1,town,/internet/ga/toccoa,fastest internet in toccoa ga,published,small town with GSC impressions; low competition; override auto page with richer local content; published 2026-11-25
+3,1,town,/internet/va/lyndhurst,lyndhurst va internet providers,published,small town with GSC impressions; low competition; override auto page with richer local content; published 2026-11-25
+4,1,town,/internet/nc/cedar-grove,cedar grove nc internet services,published,small town with GSC impressions; low competition; override auto page with richer local content; published 2026-11-25
+5,1,town,/internet/ga/commerce,fastest internet in commerce ga,published,small town with GSC impressions; low competition; override auto page with richer local content; published 2026-11-25
+6,1,town,/internet/nd/dickinson,internet providers dickinson nd,published,small town with GSC impressions; low competition; override auto page with richer local content; published 2026-11-25
+7,1,town,/internet/mn/mankato,internet providers mankato mn,published,small town with GSC impressions; low competition; override auto page with richer local content; published 2026-11-25
+8,1,town,/internet/ma/danvers,internet packages danvers,published,small town with GSC impressions; low competition; override auto page with richer local content; published 2026-11-25
 9,1,town,/internet/ks/tribune,best internet providers in tribune,todo,small town with GSC impressions; low competition; override auto page with richer local content
 10,1,town,/internet/va/fincastle,internet providers in fincastle va,todo,small town with GSC impressions; low competition; override auto page with richer local content
 11,1,town,/internet/nc/trinity,isp in trinity nc,todo,small town with GSC impressions; low competition; override auto page with richer local content
@@ -40,9 +40,9 @@ id,priority,type,path,target_query,status,notes
 38,1,town,/internet/id/pocatello,internet providers pocatello,todo,small town with GSC impressions; low competition; override auto page with richer local content
 39,1,town,/internet/ga/jasper,windstream jasper ga,todo,small town with GSC impressions; low competition; override auto page with richer local content
 40,1,fiber,/fiber/ga/toccoa,fiber internet in toccoa ga,todo,small town with GSC impressions; low competition; override auto page with richer local content
-41,2,fiber,/fiber/wa/seattle,fiber internet seattle,todo,GSC impressions Nov 2026
-42,2,city-enrich,/internet/co,internet providers in colorado,todo,state page override at /internet/<st>
-43,2,fiber,/fiber/ri/providence,fiber in providence ri,todo,GSC impressions Nov 2026
+41,2,fiber,/fiber/wa/seattle,fiber internet seattle,published,GSC impressions Nov 2026; published 2026-11-25
+42,2,city-enrich,/internet/co,internet providers in colorado,skipped,state page override at /internet/<st>; skipped 2026-11-25: overriding /internet/co would replace the auto state page and drop its links to ~300 Colorado city pages; build as /guides/colorado-internet instead (Colorado research notes kept in the PR description)
+43,2,fiber,/fiber/ri/providence,fiber in providence ri,published,GSC impressions Nov 2026; published 2026-11-25
 44,2,city-enrich,/internet/wa/seattle,isp in seattle wa,todo,GSC impressions; override auto page with richer content
 45,2,fiber,/fiber/id/boise,fiber internet boise id,todo,GSC impressions Nov 2026
 46,2,city-enrich,/internet/il,illinois internet,todo,state page override at /internet/<st>

@@ -1,0 +1,210 @@
+{
+ "path": "/internet/ga/commerce",
+ "title": "Fastest Internet in Commerce, GA: Fiber Options Compared",
+ "description": "Fastest internet in Commerce, GA (30529, 30530): TruVista fiber up to 5 Gig, Xfinity and Kinetic up to 2 Gig, plus the city network sale, from FCC data.",
+ "h1": "Fastest internet in Commerce, GA",
+ "lead": "Which fiber network is fastest in each Commerce ZIP code, and what the 2026 sale of the city's own network means for customers.",
+ "short_answer": "TruVista fiber has the top speed in Commerce, up to 5 Gig both ways, and reaches most of the 30529 area. In 30530, Xfinity fiber at up to 2 Gig reaches the most homes. Kinetic by Windstream also reports 2 Gig fiber in both ZIP codes. In April 2026 TruVista agreed to buy the City of Commerce's fiber network.",
+ "chips": [
+  "Local guide",
+  "FCC data",
+  "Sources listed"
+ ],
+ "crumbs": [
+  [
+   "Home",
+   "/"
+  ],
+  [
+   "Internet in Georgia",
+   "/internet/ga"
+  ],
+  [
+   "Commerce",
+   "/internet/ga/commerce"
+  ]
+ ],
+ "sections": [
+  {
+   "h2": "Fastest provider by ZIP code",
+   "table": {
+    "head": [
+     "ZIP code",
+     "Fastest wired option",
+     "Widest fiber",
+     "Notes"
+    ],
+    "rows": [
+     [
+      "30529",
+      "TruVista fiber, 5 Gbps / 5 Gbps",
+      "TruVista (most of the area)",
+      "Xfinity cable up to 2 Gbps down / 35 Mbps up covers a large part"
+     ],
+     [
+      "30530",
+      "TruVista fiber, 5 Gbps / 5 Gbps (small part)",
+      "Xfinity fiber, 2 Gbps / 2 Gbps (most of the area)",
+      "Kinetic fiber 2 Gbps reaches part of the area"
+     ]
+    ]
+   },
+   "body_html": ""
+  },
+  {
+   "h2": "The city network is becoming TruVista Fiber",
+   "body_html": "<p>Commerce has run its own telecom network. On April 21, 2026, TruVista announced it would buy the City of Commerce's network. After closing, the network is to run as TruVista Fiber and TruVista says it will upgrade all of it. Current Commerce fiber customers were told they do not need to do anything and should see little or no disruption. The price, closing date and any plan changes were not announced.</p><p>TruVista first expanded into Commerce in 2021, planning fiber to about 3,000 homes and businesses and an office at 15 Bolton Drive, and partnered with Jackson EMC in 2022 to bring fiber to rural Jackson, Banks and Madison counties. Its plans now run from 250 Mbps to 5 Gig with no annual contracts. TruVista does not publish prices online; BroadbandNow reports TruVista fiber plans starting at $105 a month.</p>"
+  },
+  {
+   "h2": "Xfinity and Kinetic",
+   "body_html": "<p><b>Xfinity</b> reports two networks here: fiber with equal 2 Gbps upload and download, mainly in 30530, and cable with 2 Gbps down but only 35 Mbps up, in a large part of 30529. Ask which one serves your address. Xfinity's Commerce page on November 25, 2026 listed 300 Mbps at $45 a month with a 5-year price guarantee (everyday $75) and 500 Mbps at $60 (everyday $85), for new customers with autopay from a bank account and paperless billing, or $10 a month more; the offer was dated to end November 30.</p><p><b>Kinetic by Windstream</b> reports fiber up to 2 Gbps in part of both ZIP codes, a 1 Gbps / 25 Mbps service filed as cable across most of 30529, and DSL up to 50 Mbps. HighSpeedInternet.com reported Kinetic promotional prices in August 2026 of $39.99 a month for 1 Gig and $59.99 for 2 Gig with autopay; the 1 Gig plan adds a $10.99 monthly gateway fee unless you use your own router, while 2 Gig includes the router. Treat these as reported, not guaranteed.</p>"
+  },
+  {
+   "h2": "Every provider reporting service in Commerce (30529, 30530)",
+   "table": {
+    "head": [
+     "Provider",
+     "Type",
+     "Top speed (down / up)",
+     "Reported footprint"
+    ],
+    "rows": [
+     [
+      "<b>TruVista</b>",
+      "Fiber",
+      "5 Gbps / 5 Gbps",
+      "30529: most of the area; 30530: a small part"
+     ],
+     [
+      "<b>Kinetic (Windstream)</b>",
+      "Fiber",
+      "2 Gbps / 2 Gbps",
+      "30529: part of the area; 30530: part of the area"
+     ],
+     [
+      "<b>Xfinity</b>",
+      "Fiber",
+      "2 Gbps / 2 Gbps",
+      "30529: a small part; 30530: most of the area"
+     ],
+     [
+      "<b>Xfinity</b>",
+      "Cable",
+      "2 Gbps / 35 Mbps",
+      "30529: a large part; 30530: not reported"
+     ],
+     [
+      "<b>Kinetic (Windstream)</b>",
+      "Cable (as filed with the FCC)",
+      "1 Gbps / 25 Mbps",
+      "30529: most of the area; 30530: a small part"
+     ],
+     [
+      "<b>Kinetic (Windstream)</b>",
+      "DSL",
+      "50 Mbps / 20 Mbps",
+      "30529: a large part; 30530: a large part"
+     ],
+     [
+      "<b>Verizon</b>",
+      "5G/LTE home internet",
+      "300 Mbps / 20 Mbps",
+      "30529: most of the area; 30530: a large part"
+     ],
+     [
+      "<b>T-Mobile</b>",
+      "5G/LTE home internet",
+      "100 Mbps / 20 Mbps",
+      "30529: most of the area; 30530: a large part"
+     ],
+     [
+      "<b>AT&amp;T</b>",
+      "5G/LTE home internet",
+      "25 Mbps / 3 Mbps",
+      "30529: part of the area; 30530: a small part"
+     ],
+     [
+      "<b>Starlink</b>",
+      "Satellite (low orbit)",
+      "280 Mbps / 30 Mbps",
+      "Whole area (needs clear sky view)"
+     ],
+     [
+      "<b>HughesNet</b>",
+      "Satellite",
+      "50 Mbps / 5 Mbps",
+      "Whole area (needs clear sky view)"
+     ]
+    ]
+   },
+   "body_html": ""
+  },
+  {
+   "h2": "",
+   "body_html": "<p style=\"font-size:14px;color:#58697a\">Source: FCC Broadband Data Collection, June 30, 2026, matched to ZIP codes by YourBillCheck. Footprint compares each provider's reported locations with the widest land-based (wired or fixed wireless) provider near that ZIP code, so it is a guide, not a promise for your street.</p>"
+  },
+  {
+   "h2": "Wireless and satellite",
+   "body_html": "<p>Verizon 5G home internet (up to 300 Mbps) and T-Mobile (up to 100 Mbps) each reach at least a large part of Commerce. Starlink reports up to 280 Mbps across the whole area. These matter mostly on rural roads outside town where no fiber reaches.</p>"
+  },
+  {
+   "h2": "Internet near Commerce",
+   "body_html": "<p><a href=\"/internet/ga/jefferson\">Jefferson</a> · <a href=\"/internet/ga/maysville\">Maysville</a> · <a href=\"/internet/ga/toccoa\">Toccoa</a> · <a href=\"/internet/ga/cornelia\">Cornelia</a> · <a href=\"/internet/ga\">All Georgia internet providers</a> · <a href=\"/speed-test\">Test your current speed</a></p>"
+  }
+ ],
+ "faq": [
+  [
+   "What is the fastest internet in Commerce, GA?",
+   "TruVista fiber, at up to 5 Gig both ways. It covers most of the 30529 ZIP code but only a small part of 30530, where Xfinity fiber up to 2 Gig is the widest fiber option."
+  ],
+  [
+   "Who bought the City of Commerce internet network?",
+   "TruVista announced on April 21, 2026 that it would buy the city's telecom network and run it as TruVista Fiber. The closing date was not announced."
+  ],
+  [
+   "Does Xfinity have fiber in Commerce?",
+   "Yes. Xfinity reports fiber with equal 2 Gbps upload and download across most of the 30530 ZIP code, plus cable in a large part of 30529."
+  ],
+  [
+   "Is Kinetic fiber available in Commerce?",
+   "Kinetic reports fiber up to 2 Gbps in part of both Commerce ZIP codes, a 1 Gbps / 25 Mbps service filed as cable across most of 30529, and DSL up to 50 Mbps."
+  ]
+ ],
+ "sources": [
+  [
+   "FCC Broadband Data Collection (June 30, 2026), Commerce ZIP 30529, 30530",
+   "https://broadbandmap.fcc.gov/"
+  ],
+  [
+   "PR Newswire: TruVista Fiber to acquire City of Commerce telecom network (Apr 2026)",
+   "https://www.prnewswire.com/news-releases/truvista-fiber-to-acquire-city-of-commerce-telecom-network-302748912.html"
+  ],
+  [
+   "TruVista: expanding fiber to Commerce (2021)",
+   "https://www.truvista.net/article/name/truvista-expanding-fiber-optic-service-to-resident-of-commerce-georgia"
+  ],
+  [
+   "Office of Gov. Kemp: Jackson EMC and TruVista (Feb 2022)",
+   "https://gov.georgia.gov/press-releases/2022-02-03/gov-kemp-applauds-jackson-emc-and-truvista-expanding-broadband-access"
+  ],
+  [
+   "TruVista: internet plans",
+   "https://www.truvista.net/internet"
+  ],
+  [
+   "Xfinity: internet in Commerce, GA",
+   "https://www.xfinity.com/local/ga/commerce"
+  ],
+  [
+   "HighSpeedInternet.com: Kinetic real costs (Aug 2026)",
+   "https://www.highspeedinternet.com/resources/kinetic-real-costs"
+  ],
+  [
+   "BroadbandNow: internet providers in Commerce, GA",
+   "https://broadbandnow.com/Georgia/Commerce"
+  ]
+ ],
+ "checked": "November 25, 2026",
+ "date": "2026-11-25",
+ "cta_provider": "internet"
+}
