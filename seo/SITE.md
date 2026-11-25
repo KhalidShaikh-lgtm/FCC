@@ -17,8 +17,9 @@ if that skill is not available, follow `seo/PLAYBOOK.md` in this repo, which is 
 - Nov 24, 2026: impressions almost all on city/state/ZIP pages. Query clusters, biggest first:
   1. "internet providers in [city/state]"  2. "fiber internet in [city]"  3. "near me / at my address"
   4. brand + place ("xtream by mediacom", "xfinity delaware", "windstream jasper ga")  5. "cheap internet [place]".
-- Current focus (set by Khalid, Nov 24): LOCAL. Fiber-by-city pages and richer city pages for places that already
-  get impressions. Bill/fee pages (Wave 1) went live Nov 24; judge them from mid-December.
+- Current focus (set by Khalid, Nov 25): SMALL TOWNS FIRST (~80% of effort), big cities ~20%. Low competition ranks
+  fastest (same pattern that made dbi-infomatics.com rank in weeks). The call center can sell anywhere, rural included,
+  so every town is sellable. Each WRITE run of 5: 4 priority-1 small-town items + 1 priority-2 item (bigger city). Pick towns already getting GSC impressions; add new ones from the snapshot weekly. Bill/fee pages (Wave 1) went live Nov 24; judge them from mid-December.
 
 ## How to publish on this site
 - Repo: KhalidShaikh-lgtm/FCC. Pages build from Python in `site/`. Live site = Cloudflare Worker reading
