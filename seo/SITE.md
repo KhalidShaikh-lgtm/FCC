@@ -43,6 +43,12 @@ if that skill is not available, follow `seo/PLAYBOOK.md` in this repo, which is 
 
 - When a page goes live, write `published YYYY-MM-DD` in its queue.csv notes (pruning stages use this date).
 
+- Queue items whose notes say `not before YYYY-MM-DD` must be skipped (left as todo) until that date.
+- Freshness: the sitemap uses each page's real dateModified (site/pages/lastmod.json, built from the page's `date`).
+  Only change a page's `date`/`checked` when its facts were actually re-verified or content materially changed.
+- Year in titles: in the first REFRESH run of each year (and from mid-December for next-year pages), update year
+  references in titles/H1s of evergreen guides to the current year, only where the content is re-verified.
+
 ## Hard limits
 - Max 10 new pages per writing run (daily), max 70 per week (set by Khalid, Nov 25). Skip any page that would be thin.
 - No emails, posts, directory submissions or account changes without Khalid's approval. Off-page work produces

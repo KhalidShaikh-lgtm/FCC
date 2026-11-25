@@ -98,7 +98,11 @@ def page(path, title, desc, h1, lead, body, faq=None, crumbs=None, chips=None, s
     return ui.shell(path, title, desc, h1, lead, body, faq, crumbs, chips, script=script, checked=CHECKED)
 
 manifest = []
+lastmod = {}
+import re as _re
 def save(path, html_):
+    m = _re.search(r'"dateModified":\s*"(\d{4}-\d{2}-\d{2})', html_)
+    lastmod[path] = m.group(1) if m else "2026-11-22"
     fn = os.path.join(OUT, (path.strip("/") or "index") + ".html")
     os.makedirs(os.path.dirname(fn), exist_ok=True)
     open(fn, "w").write(html_)
@@ -522,4 +526,5 @@ build_extra.build_speed(ST_BODY, save)
 import chrome
 open(os.path.join(OUT,"_chrome.html"),"w").write(chrome.bundle())
 json.dump(sorted(set(manifest)), open(os.path.join(OUT, "manifest.json"), "w"), indent=0)
+json.dump(dict(sorted(lastmod.items())), open(os.path.join(OUT, "lastmod.json"), "w"), indent=0)
 print(len(manifest), "pages;", TOTAL, "zips")
