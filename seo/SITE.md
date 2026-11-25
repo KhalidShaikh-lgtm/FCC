@@ -41,8 +41,10 @@ if that skill is not available, follow `seo/PLAYBOOK.md` in this repo, which is 
 - Worker changes (new URL prefixes, redirects): see `site/README.md`; current worker = KV `worker.v45.js`.
   Only touch the worker if a page type needs a new prefix; roll back by re-uploading the previous version.
 
+- When a page goes live, write `published YYYY-MM-DD` in its queue.csv notes (pruning stages use this date).
+
 ## Hard limits
 - Max 10 new pages per writing run (daily), max 70 per week (set by Khalid, Nov 25). Skip any page that would be thin.
 - No emails, posts, directory submissions or account changes without Khalid's approval. Off-page work produces
   drafts and lists only.
-- Never delete pages. Weak pages are handled by the pruning rules in PLAYBOOK.md (improve, merge with 301, or noindex), never by deletion. Never change the phone number, author, or legal/footer text.
+- Never delete pages. Weak pages are handled by the staged 30/60/90-day rules in PLAYBOOK.md (PRUNE) (improve, merge with 301, or noindex), never by deletion. Never change the phone number, author, or legal/footer text.
