@@ -1,0 +1,208 @@
+{
+ "path": "/internet/ma/danvers",
+ "title": "Internet Packages in Danvers, MA: Xfinity vs Verizon Fios",
+ "description": "Internet packages in Danvers, MA (01923): Xfinity and Verizon Fios prices, price locks, autopay rules and fees compared, plus FCC coverage data.",
+ "h1": "Internet packages in Danvers, MA",
+ "lead": "The two packages most Danvers homes choose between, and the fine print that changes what you really pay.",
+ "short_answer": "Most Danvers homes choose between Xfinity cable, which reaches most of the 01923 ZIP code with up to 2 Gbps download, and Verizon Fios fiber, which reaches most of it with near-equal upload and download. Astound reaches only a small part. Compare price-lock length, autopay rules and whether taxes are included, not just the headline price.",
+ "chips": [
+  "Local guide",
+  "FCC data",
+  "Sources listed"
+ ],
+ "crumbs": [
+  [
+   "Home",
+   "/"
+  ],
+  [
+   "Internet in Massachusetts",
+   "/internet/ma"
+  ],
+  [
+   "Danvers",
+   "/internet/ma/danvers"
+  ]
+ ],
+ "sections": [
+  {
+   "h2": "Xfinity vs Verizon Fios packages",
+   "table": {
+    "head": [
+     "",
+     "Xfinity",
+     "Verizon Fios"
+    ],
+    "rows": [
+     [
+      "Entry plan",
+      "300 Mbps, $45/mo (everyday $75)",
+      "300 Mbps, $30/mo"
+     ],
+     [
+      "Mid plan",
+      "500 Mbps, $60/mo (everyday $85)",
+      "500 Mbps, $65/mo"
+     ],
+     [
+      "Gig plan",
+      "Up to 2 Gbps download in the FCC data",
+      "1 Gig (940 down / 880 up), $80/mo"
+     ],
+     [
+      "Price lock",
+      "5-year price guarantee on 300 Mbps and up",
+      "3, 4 or 5 years depending on plan"
+     ],
+     [
+      "Autopay rule",
+      "Autopay from a bank account plus paperless billing, or $10/mo more",
+      "Prices include a $10 Auto Pay discount"
+     ],
+     [
+      "Taxes and fees",
+      "Extra, plus installation",
+      "Verizon says Fios prices include taxes and fees"
+     ],
+     [
+      "Data and equipment",
+      "Unlimited data, WiFi equipment included",
+      "No data caps, router included"
+     ]
+    ]
+   },
+   "body_html": "<p style=\"font-size:14px;color:#58697a\">Xfinity prices are from its Danvers page on November 25, 2026 (new customers; offer dated to end November 30). Fios prices are from Verizon's Massachusetts page, which does not name Danvers, so confirm at your address. Neither is a guaranteed quote.</p>"
+  },
+  {
+   "h2": "Bundles: mobile, TV and streaming",
+   "body_html": "<p>Both companies discount internet when you add their mobile service. Verizon says bundling Fios with a Verizon mobile plan saves up to $15 a month. Xfinity's Danvers page lists Xfinity Mobile from $30 a month with Xfinity Internet and its StreamSaver streaming bundle at $18 a month. A bundle only saves money if you would buy those services anyway, so price the internet plan alone first.</p>"
+  },
+  {
+   "h2": "Fios in Danvers is backed by a town license",
+   "body_html": "<p>The Danvers Select Board renewed Verizon's cable TV license for August 2024 to August 2029. It covers the entire town, with limited exceptions, and Verizon must connect homes within 150 feet of its fiber network at its own cost. That is the TV license, but Fios internet runs on the same fiber network, and Fios reaches most of the town in the FCC data.</p>"
+  },
+  {
+   "h2": "Every provider reporting service in Danvers (01923)",
+   "table": {
+    "head": [
+     "Provider",
+     "Type",
+     "Top speed (down / up)",
+     "Reported footprint"
+    ],
+    "rows": [
+     [
+      "<b>Verizon</b>",
+      "Fiber",
+      "940 Mbps / 880 Mbps",
+      "most of the area"
+     ],
+     [
+      "<b>Xfinity</b>",
+      "Cable",
+      "2 Gbps / 250 Mbps",
+      "most of the area"
+     ],
+     [
+      "<b>Astound Broadband</b>",
+      "Cable",
+      "1.5 Gbps / 50 Mbps",
+      "a small part"
+     ],
+     [
+      "<b>Verizon</b>",
+      "5G/LTE home internet",
+      "300 Mbps / 20 Mbps",
+      "a small part"
+     ],
+     [
+      "<b>AT&amp;T</b>",
+      "5G/LTE home internet",
+      "100 Mbps / 20 Mbps",
+      "part of the area"
+     ],
+     [
+      "<b>T-Mobile</b>",
+      "5G/LTE home internet",
+      "25 Mbps / 3 Mbps",
+      "a large part"
+     ],
+     [
+      "<b>Starlink</b>",
+      "Satellite (low orbit)",
+      "280 Mbps / 30 Mbps",
+      "Whole area (needs clear sky view)"
+     ],
+     [
+      "<b>HughesNet</b>",
+      "Satellite",
+      "100 Mbps / 5 Mbps",
+      "Whole area (needs clear sky view)"
+     ],
+     [
+      "<b>Viasat</b>",
+      "Satellite",
+      "50 Mbps / 3 Mbps",
+      "Whole area (needs clear sky view)"
+     ]
+    ]
+   },
+   "body_html": ""
+  },
+  {
+   "h2": "",
+   "body_html": "<p style=\"font-size:14px;color:#58697a\">Source: FCC Broadband Data Collection, June 30, 2026, matched to ZIP codes by YourBillCheck. Footprint compares each provider's reported locations with the widest land-based (wired or fixed wireless) provider near that ZIP code, so it is a guide, not a promise for your street.</p>"
+  },
+  {
+   "h2": "Other choices in Danvers",
+   "body_html": "<p><b>Astound</b> reports cable up to 1.5 Gbps in only a small part of the ZIP code. <b>5G home internet:</b> T-Mobile reaches a large part of town in the FCC data but at up to 25 Mbps; AT&amp;T and Verizon wireless reach smaller parts. <b>Starlink</b> reports up to 280 Mbps; with two wired networks covering most of Danvers, few homes need it.</p>"
+  },
+  {
+   "h2": "Internet near Danvers",
+   "body_html": "<p><a href=\"/internet/ma/peabody\">Peabody</a> · <a href=\"/internet/ma/beverly\">Beverly</a> · <a href=\"/internet/ma/salem\">Salem</a> · <a href=\"/internet/ma\">All Massachusetts internet providers</a> · <a href=\"/speed-test\">Test your current speed</a></p>"
+  }
+ ],
+ "faq": [
+  [
+   "What internet providers are available in Danvers, MA?",
+   "Xfinity cable and Verizon Fios fiber cover most of the 01923 ZIP code. Astound cable reaches a small part. T-Mobile, AT&T and Verizon wireless and satellite are also available."
+  ],
+  [
+   "Does Danvers have Verizon Fios?",
+   "Yes. Verizon reports fiber across most of 01923 with speeds up to 940 Mbps down and 880 Mbps up, and holds a town-wide cable license through August 2029."
+  ],
+  [
+   "What is the cheapest internet package in Danvers?",
+   "On November 25, 2026, Verizon listed Fios 300 Mbps at $30 a month with Auto Pay on its Massachusetts page, and Xfinity listed 300 Mbps at $45 a month with autopay and paperless billing."
+  ],
+  [
+   "Is Xfinity or Verizon Fios better in Danvers?",
+   "Fios has much faster uploads and Verizon says its prices include taxes and fees. Xfinity reports up to 2 Gbps download in the FCC data and offers a 5-year price guarantee; Verizon also markets 2 Gig and 5 Gig Fios plans in Massachusetts. Compare both at your address."
+  ]
+ ],
+ "sources": [
+  [
+   "FCC Broadband Data Collection (June 30, 2026), Danvers ZIP 01923",
+   "https://broadbandmap.fcc.gov/"
+  ],
+  [
+   "Xfinity: internet in Danvers, MA",
+   "https://www.xfinity.com/local/ma/danvers"
+  ],
+  [
+   "Verizon: Fios internet in Massachusetts",
+   "https://www.verizon.com/home/internet/near-me/boston-massachusetts/"
+  ],
+  [
+   "Mass.gov: Danvers-Verizon cable license 2024-2029",
+   "https://www.mass.gov/doc/danvers-verizon-cable-license-2024-2029/download"
+  ],
+  [
+   "BroadbandNow: internet providers in Danvers, MA",
+   "https://broadbandnow.com/Massachusetts/Danvers"
+  ]
+ ],
+ "checked": "November 25, 2026",
+ "date": "2026-11-25",
+ "cta_provider": "internet"
+}

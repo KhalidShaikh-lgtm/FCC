@@ -1,0 +1,174 @@
+{
+ "path": "/internet/va/staunton",
+ "title": "Staunton, VA Internet Services: Glo Fiber, Xfinity and More",
+ "description": "Internet services in Staunton, VA (24401): Glo Fiber up to 8 Gig, Xfinity cable, 5G home internet and satellite, with FCC coverage data and price terms.",
+ "h1": "Internet services in Staunton, VA",
+ "lead": "Who serves Staunton's 24401 ZIP code, how far each network reaches, and what the current offers really include.",
+ "short_answer": "Most Staunton homes can choose between Glo Fiber, Shentel's fiber service with symmetrical plans up to 8 Gig, and Xfinity cable up to 2 Gbps. Verizon and T-Mobile 5G home internet also cover much of the city. Lingo fiber reaches only a small part of town. Starlink, Viasat and HughesNet are the fallback for rural edges.",
+ "chips": [
+  "Local guide",
+  "FCC data",
+  "Sources listed"
+ ],
+ "crumbs": [
+  [
+   "Home",
+   "/"
+  ],
+  [
+   "Internet in Virginia",
+   "/internet/va"
+  ],
+  [
+   "Staunton",
+   "/internet/va/staunton"
+  ]
+ ],
+ "sections": [
+  {
+   "h2": "The two main wired choices",
+   "body_html": "<p><b>Glo Fiber</b> is the fiber brand of Shentel. It started building residential fiber in the Shenandoah Valley in 2019, with Staunton planned to follow Harrisonburg in early 2020. In the FCC data it now reports service across most of the 24401 area. Glo Fiber's Staunton page lists speeds up to 8 Gig with equal upload and download, prices \"as low as $40 per month\" including a $5 autopay and paperless billing discount, a 5-year price guarantee on select plans, no data caps and no annual contract. It also lists a store at 32 S New St in downtown Staunton.</p><p><b>Xfinity</b> cable has the widest wired footprint in the city, with download speeds up to 2 Gbps but uploads up to 250 Mbps. Xfinity's local page on November 25, 2026 listed 300 Mbps at $45 a month with a 5-year price guarantee (everyday price $75) and 500 Mbps at $60 (everyday $85). The offer requires autopay from a bank account and paperless billing, or $10 a month more, is for new customers, and was dated to end November 30. Unlimited data and WiFi equipment are included; installation, taxes and fees are extra.</p>"
+  },
+  {
+   "h2": "Fiber or cable in Staunton?",
+   "body_html": "<ol class=\"steps\"><li><b>Uploads:</b> Glo Fiber plans are symmetrical. Xfinity's top upload in our data is 250 Mbps, which is fine for most homes but slower for big uploads, cloud backup and live streaming.</li><li><b>Price after the promotion:</b> both advertise long price guarantees, but on select plans only. Ask which tier the guarantee covers and what the price is in year 2 and after the guarantee ends.</li><li><b>Coverage:</b> neither network reaches every street. Check your exact address with both before deciding.</li></ol>"
+  },
+  {
+   "h2": "Every provider reporting service in Staunton (24401)",
+   "table": {
+    "head": [
+     "Provider",
+     "Type",
+     "Top speed (down / up)",
+     "Reported footprint"
+    ],
+    "rows": [
+     [
+      "<b>Glo Fiber</b>",
+      "Fiber",
+      "8 Gbps / 8 Gbps",
+      "most of the area"
+     ],
+     [
+      "<b>Lingo</b>",
+      "Fiber",
+      "2 Gbps / 2 Gbps",
+      "a small part"
+     ],
+     [
+      "<b>Xfinity</b>",
+      "Cable",
+      "2 Gbps / 250 Mbps",
+      "most of the area"
+     ],
+     [
+      "<b>Verizon</b>",
+      "5G/LTE home internet",
+      "300 Mbps / 6 Mbps",
+      "most of the area"
+     ],
+     [
+      "<b>T-Mobile</b>",
+      "5G/LTE home internet",
+      "100 Mbps / 20 Mbps",
+      "most of the area"
+     ],
+     [
+      "<b>AT&amp;T</b>",
+      "5G/LTE home internet",
+      "25 Mbps / 3 Mbps",
+      "most of the area"
+     ],
+     [
+      "<b>Lingo</b>",
+      "Fixed wireless",
+      "25 Mbps / 5 Mbps",
+      "a small part"
+     ],
+     [
+      "<b>Starlink</b>",
+      "Satellite (low orbit)",
+      "280 Mbps / 30 Mbps",
+      "Whole area (needs clear sky view)"
+     ],
+     [
+      "<b>Viasat</b>",
+      "Satellite",
+      "150 Mbps / 5 Mbps",
+      "Whole area (needs clear sky view)"
+     ],
+     [
+      "<b>HughesNet</b>",
+      "Satellite",
+      "100 Mbps / 5 Mbps",
+      "Whole area (needs clear sky view)"
+     ]
+    ]
+   },
+   "body_html": ""
+  },
+  {
+   "h2": "",
+   "body_html": "<p style=\"font-size:14px;color:#58697a\">Source: FCC Broadband Data Collection, June 30, 2026, matched to ZIP codes by YourBillCheck. Footprint compares each provider's reported locations with the widest land-based (wired or fixed wireless) provider near that ZIP code, so it is a guide, not a promise for your street.</p>"
+  },
+  {
+   "h2": "Other options in and around Staunton",
+   "body_html": "<p><b>5G home internet:</b> Verizon (up to 300 Mbps in the FCC data) and T-Mobile (up to 100 Mbps) both report service across most of the city. They suit renters and light to medium users, but speeds vary with signal and network load. <b>Lingo</b> reports fiber up to 2 Gbps in only a small part of the ZIP code. <b>Satellite:</b> Starlink reports up to 280 Mbps everywhere with a clear view of the sky; HughesNet and Viasat are slower.</p><p>Lumos, the Waynesboro-based fiber company that is now part of T-Mobile Fiber, did not report any service in the 24401 ZIP code in the June 2026 FCC data.</p>"
+  },
+  {
+   "h2": "Internet near Staunton",
+   "body_html": "<p><a href=\"/internet/va/waynesboro\">Waynesboro</a> · <a href=\"/internet/va/verona\">Verona</a> · <a href=\"/internet/va/fishersville\">Fishersville</a> · <a href=\"/internet/va/lyndhurst\">Lyndhurst</a> · <a href=\"/internet/va\">All Virginia internet providers</a> · <a href=\"/speed-test\">Test your current speed</a></p>"
+  }
+ ],
+ "faq": [
+  [
+   "Is Glo Fiber available in Staunton, VA?",
+   "Yes. Glo Fiber reports fiber service across most of Staunton's 24401 ZIP code in the June 2026 FCC data and has a store at 32 S New St. Check your exact address, because coverage is not street-by-street complete."
+  ],
+  [
+   "What is the fastest internet in Staunton?",
+   "Glo Fiber lists speeds up to 8 Gig with equal upload and download. Xfinity's fastest plan in our data is 2 Gbps download."
+  ],
+  [
+   "Does Xfinity serve Staunton, VA?",
+   "Yes. Xfinity cable reports the widest wired coverage in Staunton, with downloads up to 2 Gbps."
+  ],
+  [
+   "What is the cheapest internet in Staunton?",
+   "Glo Fiber advertises plans from $40 a month and Xfinity 300 Mbps from $45 a month, both with autopay and paperless billing. Prices change often, so confirm at your address."
+  ],
+  [
+   "Is Lumos or T-Mobile Fiber in Staunton?",
+   "Lumos, now part of T-Mobile Fiber, reported no service in the 24401 ZIP code in the June 2026 FCC data. Check T-Mobile Fiber's address checker for future availability."
+  ]
+ ],
+ "sources": [
+  [
+   "FCC Broadband Data Collection (June 30, 2026), Staunton ZIP 24401",
+   "https://broadbandmap.fcc.gov/"
+  ],
+  [
+   "Glo Fiber: internet in Staunton, VA",
+   "https://www.glofiber.com/en/local/va/staunton"
+  ],
+  [
+   "Xfinity: internet in Staunton, VA",
+   "https://www.xfinity.com/local/va/staunton"
+  ],
+  [
+   "Virginia Business: Shentel installs residential fiber across the Valley (Jan 2020)",
+   "https://virginiabusiness.com/shentel-installs-residential-fiber-optic-across-valley/"
+  ],
+  [
+   "Telecompetitor: Shentel continues Glo Fiber expansion (May 2021)",
+   "https://www.telecompetitor.com/with-wireless-sale-behind-it-shentel-continues-glo-fiber-expansion/"
+  ],
+  [
+   "BroadbandNow: internet providers in Staunton, VA",
+   "https://broadbandnow.com/Virginia/Staunton"
+  ]
+ ],
+ "checked": "November 25, 2026",
+ "date": "2026-11-25",
+ "cta_provider": "internet"
+}

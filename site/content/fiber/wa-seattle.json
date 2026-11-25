@@ -1,0 +1,51 @@
+{
+  "path": "/fiber/wa/seattle",
+  "title": "Fiber Internet in Seattle: Quantum, AT&T, Astound, Ziply",
+  "description": "Fiber internet in Seattle: who offers it in each of 41 ZIP codes, Quantum Fiber and AT&T Fiber prices, Astound and Ziply coverage, and what to check first.",
+  "h1": "Fiber internet in Seattle, WA",
+  "lead": "Who offers fiber in Seattle, how widely, what it costs now that Quantum Fiber belongs to AT&T, and how to confirm it at your address.",
+  "short_answer": "Quantum Fiber, now owned by AT&T, is Seattle's main fiber provider and reports service in all 41 Seattle ZIP codes we track, with symmetrical plans up to 8 Gbps. Astound has fiber in parts of 22 ZIP codes, usually a small or partial share of each. Ziply Fiber reaches only the north edge of the city. Fiber in a ZIP code does not mean fiber on every street.",
+  "chips": ["Local guide", "FCC data", "Sources listed"],
+  "crumbs": [["Home", "/"], ["Internet in Washington", "/internet/wa"], ["Seattle", "/internet/wa/seattle"], ["Fiber in Seattle", "/fiber/wa/seattle"]],
+  "sections": [
+    {"h2": "Fiber providers in Seattle", "table": {"head": ["Provider", "Seattle ZIP codes with fiber", "Top speed", "Notes"], "rows": [
+      ["<b>Quantum Fiber (AT&amp;T)</b>", "41 of 41", "8 Gbps / 8 Gbps", "Reaches most of the area in 13 ZIP codes and a large part in 25. Weakest in 98177, 98198 and 98121."],
+      ["<b>Astound Broadband</b>", "22 of 41", "2 Gbps / 2 Gbps", "Fiber covers only part or a small part of the area in 21 of these 22 ZIP codes. Astound also runs cable in 21 ZIP codes, so ask which you would get."],
+      ["<b>Ziply Fiber</b>", "3 of 41", "6 Gbps / 6 Gbps", "98177, 98133 and 98155 only, on the north edge of the city."],
+      ["<b>Ezee Fiber</b>", "1 of 41", "8 Gbps / 8 Gbps", "A small part of 98198 only."]]},
+     "body_html": "<p style=\"font-size:14px;color:#58697a\">FCC Broadband Data Collection, June 30, 2026. Our Seattle list includes every ZIP code with a Seattle postal address, so it reaches a few areas outside city limits.</p>"},
+    {"h2": "Quantum Fiber is now part of AT&T", "body_html": "<p>AT&amp;T bought Lumen's consumer fiber business, including Quantum Fiber, for $5.75 billion. The deal closed on February 2, 2026, and AT&amp;T named Seattle among the major metro areas it gained. As of mid-2026 AT&amp;T was still moving customers market by market, so you will see both a Quantum Fiber page and an AT&amp;T Fiber page for Seattle, with different prices. Quantum Fiber tells existing customers their plan, speed and unlimited data are unchanged for now, and that AT&amp;T terms apply 30 days after they are notified.</p>"},
+    {"h2": "What fiber costs in Seattle", "table": {"head": ["Plan", "Quantum Fiber page", "AT&amp;T Fiber page"], "rows": [
+      ["300 Mbps", "Not listed", "$35/mo for 12 months"],
+      ["500 Mbps", "$50/mo", "$50/mo for 12 months"],
+      ["1 Gig", "$50/mo", "$60/mo for 12 months"],
+      ["2 Gig (1 Gig up)", "$70/mo", "Not listed"],
+      ["3 Gig", "$70/mo", "Not listed"],
+      ["8 Gig", "$165/mo, limited availability", "Not listed"]]},
+     "body_html": "<p>Prices as shown on November 25, 2026. Quantum's prices include a $5 discount for bank-account autopay plus paperless billing, and its 1, 2 and 3 Gig prices also include new-customer savings of $25 to $30 a month (1 Gig is $75 before savings); taxes and fees are extra, and no price lock or end date for the savings is stated. AT&amp;T's prices include an autopay discount, are plus taxes and fees, and installation can cost up to $99. Both say there is no annual contract. Since the same network sits behind both brands, check both at your address and take the lower price in writing.</p>"},
+    {"h2": "Astound, Ziply and the cable alternative", "body_html": "<ol class=\"steps\"><li><b>Astound:</b> serves Washington homes by coaxial cable or fiber depending on location. Its Washington page lists 300 Mbps from $30 a month for 12 months, but with a 400 GB data allowance on that plan; data is unlimited on 1 Gig and up.</li><li><b>Ziply Fiber:</b> based in Kirkland and bought by Canada's BCE in August 2025. In Seattle it only reaches the north edge of the city, mainly 98177.</li><li><b>Xfinity:</b> reports cable in all 41 ZIP codes with up to 2 Gbps both ways in our data. Its Seattle page listed 300 Mbps at $45 a month with a 5-year price guarantee on November 25, 2026, with autopay from a bank account and paperless billing, for new customers (offer listed as ending November 30).</li></ol>"},
+    {"h2": "Before you switch", "body_html": "<p>Check three things: whether fiber reaches your building, not just your ZIP code; the price in month 13; and, for apartments, whether your building has its own provider deal. See the <a href=\"/internet/wa/seattle\">full list of Seattle internet providers</a>, compare with <a href=\"/fiber/az/phoenix\">fiber in Phoenix</a>, or <a href=\"/speed-test\">test your current speed</a> first. All Washington providers are at <a href=\"/internet/wa\">internet in Washington</a>.</p>"}
+  ],
+  "faq": [
+    ["Does Seattle have fiber internet?", "Yes. Quantum Fiber, now owned by AT&T, reports fiber in all 41 Seattle ZIP codes we track, but coverage within each ZIP code is partial, so check your address."],
+    ["Is Quantum Fiber now AT&T Fiber in Seattle?", "AT&T completed its purchase of Lumen's consumer fiber business, including Quantum Fiber, on February 2, 2026. Both brand names were still in use in Seattle in late 2026."],
+    ["What is the fastest internet in Seattle?", "Quantum Fiber lists an 8 Gig symmetrical plan in limited areas. Ziply Fiber reports up to 6 Gbps in a few north Seattle ZIP codes."],
+    ["Is Astound fiber or cable in Seattle?", "Both. Astound reports fiber in parts of 22 Seattle ZIP codes and cable in 21, and says the connection depends on location."],
+    ["Is Ziply Fiber available in Seattle?", "Only on the north edge of the city. Ziply reports fiber in 3 of 41 Seattle ZIP codes, mainly 98177."]
+  ],
+  "sources": [
+    ["YourBillCheck: Seattle internet providers (FCC Broadband Data Collection, June 30, 2026)", "https://yourbillcheck.com/internet/wa/seattle"],
+    ["Quantum Fiber: Seattle, WA", "https://www.quantumfiber.com/local/wa/seattle"],
+    ["AT&T Fiber: Seattle, WA", "https://www.att.com/local/fiber/washington/seattle"],
+    ["AT&T: AT&T completes acquisition of Lumen's Mass Markets fiber business (Feb 2026)", "https://about.att.com/story/2026/att-lumen-deal-close.html"],
+    ["Business Wire: Lumen completes sale of consumer fiber business to AT&T (Feb 2026)", "https://www.businesswire.com/news/home/20260201658367/en/Lumen-Completes-Sale-of-Consumer-Fiber-to-the-Home-Business-to-ATT/"],
+    ["Fierce Network: AT&T converting Lumen fiber customers (Jul 2026)", "https://www.fierce-network.com/broadband/att-backend-converting-lumen-fiber-customers-att-fiber"],
+    ["Quantum Fiber: AT&T transition FAQ", "https://www.quantumfiber.com/instant-internet-att-faqs.html"],
+    ["Astound: Washington internet", "https://www.astound.com/washington/internet/"],
+    ["Searchlight: BCE completes acquisition of Ziply Fiber (Aug 2025)", "https://searchlightcap.com/news/bce-completes-acquisition-of-ziply-fiber-accelerating-its-fiber-growth-strategy/"],
+    ["Xfinity: internet in Seattle, WA", "https://www.xfinity.com/local/wa/seattle"]
+  ],
+  "checked": "November 25, 2026",
+  "date": "2026-11-25",
+  "cta_provider": "internet"
+}
