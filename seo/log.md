@@ -1,5 +1,7 @@
 # SEO run log (newest first)
 
+- 2026-11-26 CHANGE: sitemap lastmod now real per-page dates (lastmod.json); 2027 guides queued (not before Dec 1 / Dec 15); off-page now also drafts Reddit/forum answers.
+
 - 2026-11-25 OFFPAGE: 10 outreach drafts saved to seo/offpage/2026-11-25.md (3 broken-link/outdated resource pages: Pima County Library, Menlo Park, Plymouth MI; 4 gov/consumer pages: Minneapolis, CT OCC, Haywood Co NC, Wilton NH; 3 press: Wisevoter + TheStreet on Xfinity Dec 2026 hike, 24/7 Wall St). No unlinked mentions found. Next asset proposed: Internet Bill Fee Index 2026 (FCC broadband labels). Nothing sent; awaiting Khalid's approval.
 
 - 2026-11-25 CHECK: live URL check for the 10 new pages could not run (WebFetch permission prompt unanswered in the unattended run). Verified instead on main after merge: all 10 in manifest.json, one H1 each, author Khalid Shaikh and (888) 491-5666 present. Re-check live in the next run.

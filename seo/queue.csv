@@ -1,4 +1,6 @@
 id,priority,type,path,target_query,status,notes
+96,1,guide,/guides/internet-price-increases-2027,internet price increases 2027,todo,"not before 2026-12-01. Tracker of announced/reported 2027 price changes by provider (confirmed vs reported), links to the 2026 tracker; refresh monthly"
+97,1,guide,/guides/best-cheap-internet-2027,cheapest internet plans 2027,todo,"not before 2026-12-15. Real current cheapest plans by major provider + low-income programs, price after promo; refresh monthly"
 0,0,fiber,/fiber/az/phoenix,fiber in phoenix az,published,pilot Nov 24
 1,1,town,/internet/va/staunton,staunton va internet services,published,small town with GSC impressions; low competition; override auto page with richer local content; published 2026-11-25
 2,1,town,/internet/ga/toccoa,fastest internet in toccoa ga,published,small town with GSC impressions; low competition; override auto page with richer local content; published 2026-11-25
