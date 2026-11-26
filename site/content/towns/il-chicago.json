@@ -1,0 +1,144 @@
+{
+ "path": "/internet/il/chicago",
+ "title": "Internet in Chicago, IL: Providers, Fiber, Cable, 5G (2026)",
+ "description": "Internet in Chicago, IL: Xfinity cable, AT&T Fiber and 5G home by ZIP code, from FCC data. See who reaches you and what to ask before signing up.",
+ "h1": "Internet in Chicago, IL",
+ "lead": "Who serves Chicago, where fiber has reached, and how cable and 5G compare, by ZIP code.",
+ "short_answer": "In June 2026 FCC data, Xfinity cable reaches most homes in all of Chicago's 58 ZIP codes and AT&T Fiber in 4. Verizon and T-Mobile 5G home internet reach most homes in 28 and 51. See who serves your ZIP code and what to ask before you sign up.",
+ "chips": [
+  "Local guide",
+  "FCC data",
+  "Sources listed"
+ ],
+ "crumbs": [
+  [
+   "Home",
+   "/"
+  ],
+  [
+   "Internet in Illinois",
+   "/internet/il"
+  ],
+  [
+   "Chicago",
+   "/internet/il/chicago"
+  ]
+ ],
+ "sections": [
+  {
+   "h2": "Every provider reporting service in Chicago (58 ZIP codes)",
+   "table": {
+    "head": [
+     "Provider",
+     "Connection",
+     "Top speed (download)",
+     "Chicago ZIP codes served (of 58)"
+    ],
+    "rows": [
+     [
+      "<b>AT&amp;T</b>",
+      "Fiber + DSL + 5G Home",
+      "5 Gbps",
+      "58"
+     ],
+     [
+      "<b>Xfinity</b>",
+      "Cable",
+      "2 Gbps",
+      "58"
+     ],
+     [
+      "<b>Astound Broadband</b>",
+      "Fiber + Cable",
+      "1.5 Gbps",
+      "44"
+     ],
+     [
+      "<b>T-Mobile</b>",
+      "5G Home",
+      "100 Mbps",
+      "58"
+     ],
+     [
+      "<b>Verizon</b>",
+      "5G Home",
+      "1 Gbps",
+      "58"
+     ],
+     [
+      "<b>HughesNet</b>",
+      "Satellite",
+      "100 Mbps",
+      "Almost everywhere"
+     ],
+     [
+      "<b>Starlink</b>",
+      "Satellite",
+      "280 Mbps",
+      "Almost everywhere"
+     ],
+     [
+      "<b>Viasat Inc</b>",
+      "Satellite",
+      "100 Mbps",
+      "Almost everywhere"
+     ]
+    ]
+   }
+  },
+  {
+   "body_html": "<p style=\"font-size:14px;color:#58697a\">Source: FCC Broadband Data Collection, June 30, 2026, matched to ZIP codes by YourBillCheck. \"ZIP codes served\" counts the 58 ZIP codes with a Chicago postal address where each provider reports service to at least 10% of locations, so it includes a few areas outside city limits and is a guide, not a promise for your street. Top speed is the fastest plan the provider reports in the city, and many homes cannot get it.</p>"
+  },
+  {
+   "h2": "Cable, fiber or 5G: how Chicago's networks compare",
+   "body_html": "<p>Chicago is mainly a cable market: Xfinity covers most homes in all 58 ZIP codes, while AT&T Fiber reports service in 47 but reaches most homes in only 4 of them.</p><p><b>Cable:</b> Xfinity reports cable in 58 Chicago ZIP codes and covers most homes in all of them, with top speeds of 2 Gbps.</p><p><b>Fiber:</b> AT&amp;T reports fiber in 47 ZIP codes and covers most homes in 4. AT&amp;T's own Chicago page lists plans from 300 Mbps to 1 Gig and speeds up to 5 Gbps where available, depending on address. Astound Broadband reports cable in 38 ZIP codes and fiber in 24, but with partial coverage in each.</p><p><b>5G home internet:</b> Verizon reaches most homes in 28 ZIP codes and T-Mobile in 51. Speeds are lower and vary more than wired plans (T-Mobile reports up to 100 Mbps and Verizon up to 1 Gbps here). These plans are worth a look if you want no contract and a simple bill, and they are the main alternative where fiber is missing.</p>"
+  },
+  {
+   "h2": "Where fiber reaches in Chicago",
+   "body_html": "<p>In just 4 of 58 Chicago ZIP codes does at least one fiber network reach most homes (75% or more of locations): 60630, 60631, 60634, 60641. In the other 54, fiber is partial or absent, so cable or 5G are the realistic choices for many homes.</p><p>Partial means your street may still have fiber while your neighbor's does not. Enter your address on the provider's site, or use our <a href=\"/tools/fiber-checker\">fiber checker</a>, before assuming either way.</p>"
+  },
+  {
+   "h2": "What to ask before you sign up",
+   "body_html": "<ol class=\"steps\"><li>Is my exact address on fiber or cable? Providers report coverage by area, and availability differs street by street.</li><li>What is the price after the promotion, and is there a price lock? Compare the price in month 13, not month 1.</li><li>Is there a data allowance, installation fee or equipment charge?</li><li>For 5G home internet: what speed does my address get, and is there a trial period?</li></ol><p>Run a <a href=\"/speed-test\">speed test</a> on your current plan first, and use the <a href=\"/tools/low-income-internet-checker\">low-income internet checker</a> if you may qualify for a discount. If your bill has crept up, read <a href=\"/guides/why-internet-bill-went-up\">why your internet bill went up</a> and our <a href=\"/fees\">guide to internet fees</a>.</p>"
+  },
+  {
+   "h2": "Internet near Chicago",
+   "body_html": "<p>See every Chicago-area provider and ZIP code on our <a href=\"/internet/il/chicago\">Chicago provider list</a>, or the <a href=\"/internet/il\">Illinois overview</a>. Or run the <a href=\"/tools/internet-availability-checker\">availability checker</a> with your ZIP code.</p>"
+  }
+ ],
+ "faq": [
+  [
+   "What is the main internet provider in Chicago?",
+   "Xfinity cable is the most widely available wired network, covering most homes in 58 of 58 Chicago ZIP codes in June 2026 FCC data. AT&T Fiber reports service in 47 ZIP codes and covers most homes in 4."
+  ],
+  [
+   "Does Chicago have fiber internet?",
+   "Yes. AT&T Fiber covers most homes in 4 of 58 Chicago ZIP codes. In 4 ZIP codes at least one fiber network reaches most homes, and in 54 fiber is partial or absent. Check your address."
+  ],
+  [
+   "Can I get 5G home internet in Chicago?",
+   "Yes. Verizon reports 5G home internet reaching most homes in 28 of 58 Chicago ZIP codes and T-Mobile in 51. Speeds vary by address, so use each provider's address check."
+  ],
+  [
+   "Is satellite internet available in Chicago?",
+   "Starlink reports service across Chicago, and HughesNet and Viasat may also report service. For most Chicago homes a wired or 5G plan is faster and cheaper, so satellite is a last resort."
+  ]
+ ],
+ "sources": [
+  [
+   "FCC Broadband Data Collection (June 30, 2026), Chicago ZIP codes, via YourBillCheck",
+   "https://yourbillcheck.com/internet/il/chicago"
+  ],
+  [
+   "AT&T Fiber: Chicago, IL",
+   "https://www.att.com/local/fiber/illinois/chicago"
+  ],
+  [
+   "Xfinity: internet in Chicago, IL",
+   "https://www.xfinity.com/local/il/chicago"
+  ]
+ ],
+ "checked": "November 27, 2026",
+ "date": "2026-11-27",
+ "cta_provider": "internet"
+}

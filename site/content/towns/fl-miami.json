@@ -1,0 +1,168 @@
+{
+ "path": "/internet/fl/miami",
+ "title": "Internet in Miami, FL: Providers, Fiber, Cable, 5G (2026)",
+ "description": "Internet in Miami, FL: Xfinity cable, AT&T Fiber and 5G home by ZIP code, from FCC data. See who reaches you and what to ask before signing up.",
+ "h1": "Internet in Miami, FL",
+ "lead": "Who serves Miami, where fiber has reached, and how cable and 5G compare, by ZIP code.",
+ "short_answer": "In June 2026 FCC data, Xfinity cable reaches most homes in 55 of Miami's 57 ZIP codes and AT&T Fiber in 40. Verizon and T-Mobile 5G home internet reach most homes in 48 and 41. See who serves your ZIP code and what to ask before you sign up.",
+ "chips": [
+  "Local guide",
+  "FCC data",
+  "Sources listed"
+ ],
+ "crumbs": [
+  [
+   "Home",
+   "/"
+  ],
+  [
+   "Internet in Florida",
+   "/internet/fl"
+  ],
+  [
+   "Miami",
+   "/internet/fl/miami"
+  ]
+ ],
+ "sections": [
+  {
+   "h2": "Every provider reporting service in Miami (57 ZIP codes)",
+   "table": {
+    "head": [
+     "Provider",
+     "Connection",
+     "Top speed (download)",
+     "Miami ZIP codes served (of 57)"
+    ],
+    "rows": [
+     [
+      "<b>AT&amp;T</b>",
+      "Fiber + DSL + 5G Home",
+      "5 Gbps",
+      "57"
+     ],
+     [
+      "<b>Xfinity</b>",
+      "Fiber + Cable",
+      "2 Gbps",
+      "57"
+     ],
+     [
+      "<b>Breezeline</b>",
+      "Cable",
+      "2.5 Gbps",
+      "11"
+     ],
+     [
+      "<b>Hotwire Communications</b>",
+      "Fiber",
+      "8 Gbps",
+      "1"
+     ],
+     [
+      "<b>Tillman Fiber</b>",
+      "Fiber",
+      "2 Gbps",
+      "1"
+     ],
+     [
+      "<b>T-Mobile</b>",
+      "5G Home",
+      "100 Mbps",
+      "57"
+     ],
+     [
+      "<b>Verizon</b>",
+      "5G Home",
+      "1 Gbps",
+      "57"
+     ],
+     [
+      "<b>SkyNet360</b>",
+      "Fixed wireless",
+      "160 Mbps",
+      "8"
+     ],
+     [
+      "<b>US New Era Internet Corp</b>",
+      "Fixed wireless",
+      "154 Mbps",
+      "3"
+     ],
+     [
+      "<b>HughesNet</b>",
+      "Satellite",
+      "100 Mbps",
+      "Almost everywhere"
+     ],
+     [
+      "<b>Starlink</b>",
+      "Satellite",
+      "280 Mbps",
+      "Almost everywhere"
+     ],
+     [
+      "<b>Viasat Carrier Services Inc</b>",
+      "Satellite",
+      "25 Mbps",
+      "14"
+     ]
+    ]
+   }
+  },
+  {
+   "body_html": "<p style=\"font-size:14px;color:#58697a\">Source: FCC Broadband Data Collection, June 30, 2026, matched to ZIP codes by YourBillCheck. \"ZIP codes served\" counts the 57 ZIP codes with a Miami postal address where each provider reports service to at least 10% of locations, so it includes a few areas outside city limits and is a guide, not a promise for your street. Top speed is the fastest plan the provider reports in the city, and many homes cannot get it.</p>"
+  },
+  {
+   "h2": "Cable, fiber or 5G: how Miami's networks compare",
+   "body_html": "<p>Xfinity cable and AT&T Fiber are the two networks that reach almost every Miami address. Fiber is not everywhere yet, so check your ZIP code.</p><p><b>Cable:</b> Xfinity reports cable in 57 Miami ZIP codes and covers most homes in 55 of them, with top speeds of 2 Gbps.</p><p><b>Fiber:</b> AT&amp;T reports fiber in 57 ZIP codes and covers most homes in 40. AT&amp;T's own Miami page lists plans from 300 Mbps to 1 Gig and speeds up to 5 Gbps where available, depending on address. Breezeline reports cable in 11 ZIP codes and Hotwire reports fiber in one, so a few buildings and neighborhoods have an extra choice.</p><p><b>5G home internet:</b> Verizon reaches most homes in 48 ZIP codes and T-Mobile in 41. Speeds are lower and vary more than wired plans (T-Mobile reports up to 100 Mbps and Verizon up to 1 Gbps here). These plans are worth a look if you want no contract and a simple bill, and they are the main alternative where fiber is missing.</p>"
+  },
+  {
+   "h2": "Where fiber reaches in Miami",
+   "body_html": "<p>In 40 of 57 Miami ZIP codes, at least one fiber network reaches most homes (75% or more of locations). In the other 17, fiber is partial or absent, so cable, 5G or a partial fiber build are the realistic choices: 33125, 33127, 33128, 33129, 33130, 33131, 33132, 33136, 33137, 33138, 33150, 33170, 33180, 33187, 33194, 33195, 33198.</p><p>Partial means your street may still have fiber while your neighbor's does not. Enter your address on the provider's site, or use our <a href=\"/tools/fiber-checker\">fiber checker</a>, before assuming either way.</p>"
+  },
+  {
+   "h2": "What to ask before you sign up",
+   "body_html": "<ol class=\"steps\"><li>Is my exact address on fiber or cable? Providers report coverage by area, and availability differs street by street.</li><li>What is the price after the promotion, and is there a price lock? Compare the price in month 13, not month 1.</li><li>Is there a data allowance, installation fee or equipment charge?</li><li>For 5G home internet: what speed does my address get, and is there a trial period?</li></ol><p>Run a <a href=\"/speed-test\">speed test</a> on your current plan first, and use the <a href=\"/tools/low-income-internet-checker\">low-income internet checker</a> if you may qualify for a discount. If your bill has crept up, read <a href=\"/guides/why-internet-bill-went-up\">why your internet bill went up</a> and our <a href=\"/fees\">guide to internet fees</a>.</p>"
+  },
+  {
+   "h2": "Internet near Miami",
+   "body_html": "<p>See every Miami-area provider and ZIP code on our <a href=\"/internet/fl/miami\">Miami provider list</a>, or the <a href=\"/internet/fl\">Florida overview</a>. Or run the <a href=\"/tools/internet-availability-checker\">availability checker</a> with your ZIP code.</p>"
+  }
+ ],
+ "faq": [
+  [
+   "What is the main internet provider in Miami?",
+   "Xfinity cable is the most widely available wired network, covering most homes in 55 of 57 Miami ZIP codes in June 2026 FCC data. AT&T Fiber reports service in 57 ZIP codes and covers most homes in 40."
+  ],
+  [
+   "Does Miami have fiber internet?",
+   "Yes. AT&T Fiber covers most homes in 40 of 57 Miami ZIP codes. In 40 ZIP codes at least one fiber network reaches most homes, and in 17 fiber is partial or absent. Check your address."
+  ],
+  [
+   "Can I get 5G home internet in Miami?",
+   "Yes. Verizon reports 5G home internet reaching most homes in 48 of 57 Miami ZIP codes and T-Mobile in 41. Speeds vary by address, so use each provider's address check."
+  ],
+  [
+   "Is satellite internet available in Miami?",
+   "Starlink reports service across Miami, and HughesNet and Viasat may also report service. For most Miami homes a wired or 5G plan is faster and cheaper, so satellite is a last resort."
+  ]
+ ],
+ "sources": [
+  [
+   "FCC Broadband Data Collection (June 30, 2026), Miami ZIP codes, via YourBillCheck",
+   "https://yourbillcheck.com/internet/fl/miami"
+  ],
+  [
+   "AT&T Fiber: Miami, FL",
+   "https://www.att.com/local/fiber/florida/miami"
+  ],
+  [
+   "Xfinity: internet in Miami, FL",
+   "https://www.xfinity.com/local/fl/miami"
+  ]
+ ],
+ "checked": "November 27, 2026",
+ "date": "2026-11-27",
+ "cta_provider": "internet"
+}

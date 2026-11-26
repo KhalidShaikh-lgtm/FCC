@@ -1,0 +1,162 @@
+{
+ "path": "/internet/tx/houston",
+ "title": "Internet in Houston, TX: Providers, Fiber, Cable, 5G (2026)",
+ "description": "Internet in Houston, TX: Xfinity cable, AT&T Fiber and 5G home by ZIP code, from FCC data. See who reaches you and what to ask before signing up.",
+ "h1": "Internet in Houston, TX",
+ "lead": "Who serves Houston, where fiber has reached, and how cable and 5G compare, by ZIP code.",
+ "short_answer": "In June 2026 FCC data, Xfinity cable reaches most homes in all of Houston's 98 ZIP codes and AT&T Fiber in 85. Verizon and T-Mobile 5G home internet reach most homes in 74 and 72. See who serves your ZIP code and what to ask before you sign up.",
+ "chips": [
+  "Local guide",
+  "FCC data",
+  "Sources listed"
+ ],
+ "crumbs": [
+  [
+   "Home",
+   "/"
+  ],
+  [
+   "Internet in Texas",
+   "/internet/tx"
+  ],
+  [
+   "Houston",
+   "/internet/tx/houston"
+  ]
+ ],
+ "sections": [
+  {
+   "h2": "Every provider reporting service in Houston (98 ZIP codes)",
+   "table": {
+    "head": [
+     "Provider",
+     "Connection",
+     "Top speed (download)",
+     "Houston ZIP codes served (of 98)"
+    ],
+    "rows": [
+     [
+      "<b>AT&amp;T</b>",
+      "Fiber + DSL + 5G Home",
+      "5 Gbps",
+      "98"
+     ],
+     [
+      "<b>Xfinity</b>",
+      "Cable",
+      "2 Gbps",
+      "98"
+     ],
+     [
+      "<b>Ezee Fiber</b>",
+      "Fiber",
+      "8 Gbps",
+      "24"
+     ],
+     [
+      "<b>Spectrum</b>",
+      "Cable",
+      "1 Gbps",
+      "2"
+     ],
+     [
+      "<b>Windstream Sugar Land, Inc.</b>",
+      "Fiber",
+      "2 Gbps",
+      "1"
+     ],
+     [
+      "<b>T-Mobile</b>",
+      "5G Home",
+      "100 Mbps",
+      "98"
+     ],
+     [
+      "<b>Verizon</b>",
+      "5G Home",
+      "1 Gbps",
+      "98"
+     ],
+     [
+      "<b>Rural Telecommunications of America</b>",
+      "Fixed wireless",
+      "300 Mbps",
+      "3"
+     ],
+     [
+      "<b>HughesNet</b>",
+      "Satellite",
+      "50 Mbps",
+      "Almost everywhere"
+     ],
+     [
+      "<b>Starlink</b>",
+      "Satellite",
+      "280 Mbps",
+      "Almost everywhere"
+     ],
+     [
+      "<b>Viasat Inc</b>",
+      "Satellite",
+      "150 Mbps",
+      "Almost everywhere"
+     ]
+    ]
+   }
+  },
+  {
+   "body_html": "<p style=\"font-size:14px;color:#58697a\">Source: FCC Broadband Data Collection, June 30, 2026, matched to ZIP codes by YourBillCheck. \"ZIP codes served\" counts the 98 ZIP codes with a Houston postal address where each provider reports service to at least 10% of locations, so it includes a few areas outside city limits and is a guide, not a promise for your street. Top speed is the fastest plan the provider reports in the city, and many homes cannot get it.</p>"
+  },
+  {
+   "h2": "Cable, fiber or 5G: how Houston's networks compare",
+   "body_html": "<p>AT&T Fiber reaches most homes in the large majority of Houston ZIP codes, and Xfinity cable covers every one, so many Houston addresses can compare a fiber and a cable plan.</p><p><b>Cable:</b> Xfinity reports cable in 98 Houston ZIP codes and covers most homes in all of them, with top speeds of 2 Gbps.</p><p><b>Fiber:</b> AT&amp;T reports fiber in 98 ZIP codes and covers most homes in 85. AT&amp;T's own Houston page lists plans from 300 Mbps to 1 Gig and speeds up to 5 Gbps where available, depending on address. Ezee Fiber reports fiber in 24 ZIP codes, a third option in part of the city.</p><p><b>5G home internet:</b> Verizon reaches most homes in 74 ZIP codes and T-Mobile in 72. Speeds are lower and vary more than wired plans (T-Mobile reports up to 100 Mbps and Verizon up to 1 Gbps here). These plans are worth a look if you want no contract and a simple bill, and they are the main alternative where fiber is missing.</p>"
+  },
+  {
+   "h2": "Where fiber reaches in Houston",
+   "body_html": "<p>In 85 of 98 Houston ZIP codes, at least one fiber network reaches most homes (75% or more of locations). In the other 13, fiber is partial or absent, so cable, 5G or a partial fiber build are the realistic choices: 77030, 77031, 77032, 77036, 77042, 77050, 77054, 77056, 77057, 77060, 77063, 77079, 77083.</p><p>Partial means your street may still have fiber while your neighbor's does not. Enter your address on the provider's site, or use our <a href=\"/tools/fiber-checker\">fiber checker</a>, before assuming either way.</p>"
+  },
+  {
+   "h2": "What to ask before you sign up",
+   "body_html": "<ol class=\"steps\"><li>Is my exact address on fiber or cable? Providers report coverage by area, and availability differs street by street.</li><li>What is the price after the promotion, and is there a price lock? Compare the price in month 13, not month 1.</li><li>Is there a data allowance, installation fee or equipment charge?</li><li>For 5G home internet: what speed does my address get, and is there a trial period?</li></ol><p>Run a <a href=\"/speed-test\">speed test</a> on your current plan first, and use the <a href=\"/tools/low-income-internet-checker\">low-income internet checker</a> if you may qualify for a discount. If your bill has crept up, read <a href=\"/guides/why-internet-bill-went-up\">why your internet bill went up</a> and our <a href=\"/fees\">guide to internet fees</a>.</p>"
+  },
+  {
+   "h2": "Internet near Houston",
+   "body_html": "<p>See every Houston-area provider and ZIP code on our <a href=\"/internet/tx/houston\">Houston provider list</a>, or the <a href=\"/internet/tx\">Texas overview</a>. Or run the <a href=\"/tools/internet-availability-checker\">availability checker</a> with your ZIP code.</p>"
+  }
+ ],
+ "faq": [
+  [
+   "What is the main internet provider in Houston?",
+   "Xfinity cable is the most widely available wired network, covering most homes in 98 of 98 Houston ZIP codes in June 2026 FCC data. AT&T Fiber reports service in 98 ZIP codes and covers most homes in 85."
+  ],
+  [
+   "Does Houston have fiber internet?",
+   "Yes. AT&T Fiber covers most homes in 85 of 98 Houston ZIP codes. In 85 ZIP codes at least one fiber network reaches most homes, and in 13 fiber is partial or absent. Check your address."
+  ],
+  [
+   "Can I get 5G home internet in Houston?",
+   "Yes. Verizon reports 5G home internet reaching most homes in 74 of 98 Houston ZIP codes and T-Mobile in 72. Speeds vary by address, so use each provider's address check."
+  ],
+  [
+   "Is satellite internet available in Houston?",
+   "Starlink reports service across Houston, and HughesNet and Viasat may also report service. For most Houston homes a wired or 5G plan is faster and cheaper, so satellite is a last resort."
+  ]
+ ],
+ "sources": [
+  [
+   "FCC Broadband Data Collection (June 30, 2026), Houston ZIP codes, via YourBillCheck",
+   "https://yourbillcheck.com/internet/tx/houston"
+  ],
+  [
+   "AT&T Fiber: Houston, TX",
+   "https://www.att.com/local/fiber/texas/houston"
+  ],
+  [
+   "Xfinity: internet in Houston, TX",
+   "https://www.xfinity.com/local/tx/houston"
+  ]
+ ],
+ "checked": "November 27, 2026",
+ "date": "2026-11-27",
+ "cta_provider": "internet"
+}

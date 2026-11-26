@@ -1,0 +1,145 @@
+{
+ "path": "/guides/amazon-leo-vs-starlink",
+ "title": "Amazon Leo vs Starlink: Launch Status, Speeds, Price (2026)",
+ "description": "Amazon Leo has no consumer service or price yet. See where it stands, how its speeds compare with Starlink, and what to do about home internet today.",
+ "h1": "Amazon Leo vs Starlink: where things stand",
+ "lead": "Amazon's satellite internet is not open to homes yet. Here is what is confirmed, what is reported, and what to do until it is.",
+ "short_answer": "As of November 27, 2026, Amazon Leo (formerly Project Kuiper) is not open to home customers and has announced no monthly price. Amazon says initial service will begin later in 2026. Starlink is available now. If you need internet today, choose from the providers that reach your address.",
+ "chips": [
+  "Satellite internet",
+  "Sources listed"
+ ],
+ "crumbs": [
+  [
+   "Home",
+   "/"
+  ],
+  [
+   "Guides",
+   "/guides"
+  ],
+  [
+   "Amazon Leo vs Starlink",
+   "/guides/amazon-leo-vs-starlink"
+  ]
+ ],
+ "sections": [
+  {
+   "h2": "Status: what is confirmed and what is not",
+   "body_html": "<ul><li><b>Name.</b> Amazon renamed Project Kuiper to Amazon Leo in November 2025.</li><li><b>Testing.</b> Select business customers have been testing the network, and an enterprise beta was reported to begin on April 8, 2026. It is not a home service.</li><li><b>Launch date.</b> Amazon's CEO pointed to mid-2026 in his April shareholder letter. That date passed without a consumer launch. In July, Amazon said it had launched enough satellites to start commercial service later this year.</li><li><b>Where first.</b> A third-party tracker reports that initial service is planned for the US, UK, France, Germany and Canada, and that a waitlist is open. We could not confirm this on an Amazon page, so treat it as reported.</li><li><b>Price.</b> No monthly price or equipment price has been announced. Amazon has said it expects to build the Leo Pro terminal for under $400. That is a build cost, not a retail price.</li></ul>"
+  },
+  {
+   "h2": "Amazon Leo vs Starlink side by side",
+   "table": {
+    "head": [
+     "",
+     "Amazon Leo",
+     "Starlink"
+    ],
+    "rows": [
+     [
+      "Home service open?",
+      "<b>No</b> (initial service expected later in 2026, per Amazon)",
+      "<b>Yes</b>"
+     ],
+     [
+      "Speeds (maximum, not guaranteed)",
+      "Nano up to 100 Mbps, Pro up to 400 Mbps, Ultra up to 1 Gbps (business and government)",
+      "Typically 45 to 280 Mbps download, per press reports"
+     ],
+     [
+      "Monthly price",
+      "Not announced",
+      "Reported US list prices of $55, $85 and $130 for three residential tiers (a tracker's figures, checked November 6; confirm on starlink.com)"
+     ],
+     [
+      "Equipment",
+      "Not announced; Pro build cost under $400",
+      "Rented or bought depending on the offer; confirm on starlink.com"
+     ],
+     [
+      "Satellites in orbit (reported)",
+      "About 390 active",
+      "About 9,700 active"
+     ],
+     [
+      "Best for today",
+      "Waiting and watching",
+      "Homes with no good wired option and a clear view of the sky"
+     ]
+    ]
+   }
+  },
+  {
+   "h2": "Why the size gap matters",
+   "body_html": "<p>Starlink has operated for years with thousands of satellites. Amazon Leo has fewer than 400 active satellites against a licence for 3,232 first-generation satellites. In June 2026 the FCC granted a conditional waiver after Amazon missed its July 2026 milestone of 1,616 satellites. All 3,232 are still due by July 30, 2029, according to a third-party tracker.</p><p>What this means for you: early Leo service is likely to be limited in capacity and area. Satellite internet speeds also depend on how many people share each beam, so published maximums are a ceiling, not a promise. Independent speed tests will only exist once real customers are online.</p>"
+  },
+  {
+   "h2": "Should you wait for Amazon Leo?",
+   "body_html": "<p>For most homes, no. Check what already reaches your address first. Satellite is mainly worth considering where wired options are poor or missing, and our FCC data shows that is a small share of the country:</p><ul><li>About <b>5.1%</b> of US ZIP codes (1,504 of 29,663) have no meaningful wired internet provider.</li><li>About <b>34.1%</b> have only one. See the <a href=\"/guides/one-internet-provider-zip-codes-study\">full study with every state</a>.</li></ul><p>If you live in one of those areas, satellite and 5G home internet are the realistic alternatives today. Try the <a href=\"/tools/rural-internet-finder\">rural internet finder</a>, the <a href=\"/tools/internet-availability-checker\">availability checker</a> or the <a href=\"/tools/fiber-checker\">fiber checker</a> with your ZIP code. If you already have a wired provider and your bill went up, see <a href=\"/guides/why-internet-bill-went-up\">why internet bills go up</a>.</p>"
+  },
+  {
+   "h2": "What to watch for when Leo opens",
+   "body_html": "<ul><li><b>Your ZIP code.</b> Coverage is expected to start in limited regions and grow as satellites are added.</li><li><b>Monthly price and any equipment fee.</b> Compare the total over 12 months, not only the headline price.</li><li><b>Data limits and throttling.</b> Ask whether speeds slow after a set amount of data.</li><li><b>Contract and return terms.</b> Check the cancellation and equipment return rules before ordering.</li><li><b>Independent speed tests</b> from real customers, once they exist.</li></ul><p>We will update this page when Amazon publishes pricing and availability. We are an independent comparison site and are not affiliated with Amazon or Starlink.</p>"
+  }
+ ],
+ "faq": [
+  [
+   "When will Amazon Leo launch for homes?",
+   "Amazon said in July 2026 that it had enough satellites to begin initial commercial service later this year. As of November 27, 2026, we found no confirmed consumer start date, and a third-party tracker lists service as not yet open."
+  ],
+  [
+   "How much will Amazon Leo cost?",
+   "Amazon has not announced a monthly price or an equipment price. It has said it expects to build the Leo Pro terminal for under $400, which is a production cost and not a retail price."
+  ],
+  [
+   "Is Amazon Leo faster than Starlink?",
+   "Not proven yet. Amazon lists maximum speeds of up to 100 Mbps (Nano), 400 Mbps (Pro) and 1 Gbps (Ultra, for businesses and government). Real home speeds will only be known once customers are online."
+  ],
+  [
+   "Is Starlink available now?",
+   "Yes. Starlink serves homes today in most of the US. Plans and prices change often, so confirm current offers on starlink.com."
+  ],
+  [
+   "Should I wait for Amazon Leo instead of signing up for internet now?",
+   "Usually not. Check which wired, fixed wireless and 5G home internet providers reach your address first. Waiting makes sense only if you have no good option and Leo is announced for your area."
+  ]
+ ],
+ "sources": [
+  [
+   "Engadget: Amazon's satellite internet service is scheduled for mid-2026 availability (Apr 2026)",
+   "https://engadget.com/big-tech/amazons-satellite-internet-service-is-scheduled-for-mid-2026-availability-164046305.html"
+  ],
+  [
+   "The Next Web: Amazon Leo targets mid-2026 commercial launch as enterprise beta goes live (Apr 10, 2026)",
+   "https://thenextweb.com/news/amazon-leo-satellite-internet-mid-2026"
+  ],
+  [
+   "PYMNTS: Amazon to begin consumer internet service later this year (Jul 2, 2026)",
+   "https://www.pymnts.com/amazon/2026/amazon-to-begin-consumer-internet-service-later-this-year/"
+  ],
+  [
+   "Euronews: Amazon set to launch Leo later this year (Jul 3, 2026)",
+   "https://www.euronews.com/next/2026/07/03/amazon-set-to-launch-leo-its-rival-to-spacexs-starlink-internet-later-this-year"
+  ],
+  [
+   "Aviation Week: Amazon rebrands Project Kuiper to Amazon Leo (Nov 2025)",
+   "https://aviationweek.com/space/satellites/amazon-rebrands-project-kuiper-amazon-leo"
+  ],
+  [
+   "Orbital Radar: Starlink vs Amazon Leo (third-party tracker, figures as of Nov 26, 2026)",
+   "https://orbitalradar.com/satellite-internet/starlink-vs-kuiper"
+  ],
+  [
+   "HighSpeedInternet.com: How much will Amazon Leo cost?",
+   "https://highspeedinternet.com/resources/amazon-leo-cost"
+  ],
+  [
+   "YourBillCheck: 1 in 3 US ZIP codes has only one wired internet provider (FCC BDC, June 30, 2026)",
+   "https://yourbillcheck.com/guides/one-internet-provider-zip-codes-study"
+  ]
+ ],
+ "checked": "November 27, 2026",
+ "date": "2026-11-27",
+ "cta_provider": "internet"
+}
