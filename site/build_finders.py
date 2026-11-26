@@ -93,7 +93,7 @@ def build(save):
          [("What is the best internet for rural areas?", "Fiber or cable if they reach you. If not, 5G home or fixed wireless where the signal is good, then satellite. Starlink usually beats older satellite on speed and lag."),
           ("Can I get internet with no cable lines?", "Yes. 5G home, fixed wireless and satellite need no cable lines.")], wrap(r), "Rural internet finder")
     # 4 compare
-    r = ('function(z,d){var rs=d.rows;var opts=rs.map(function(r,i){return "<option value="+i+">"+r.n+" ("+r.tl+")</option>"}).join("");'
+    r = ('function(z,d){var rs=d.rows.slice().sort(function(a,b){return (a.t>=60&&a.t<=61)-(b.t>=60&&b.t<=61)||b.cov-a.cov||b.dn-a.dn});var opts=rs.map(function(r,i){return "<option value="+i+">"+r.n+" ("+r.tl+")</option>"}).join("");'
          'setTimeout(function(){var a=$("pa"),b=$("pb");if(!a)return;b.selectedIndex=Math.min(1,rs.length-1);function c(){var x=rs[a.value],y=rs[b.value];'
          'function w(p,q,v){return p>q?" class=yes":p<q?" class=no":""}$("cmp").innerHTML="<table><tr><th></th><th>"+x.n+"</th><th>"+y.n+"</th></tr><tr><td>Type</td><td>"+x.tl+"</td><td>"+y.tl+"</td></tr><tr><td>Top download</td><td"+w(x.dn,y.dn)+">"+sp(x.dn)+"</td><td"+w(y.dn,x.dn)+">"+sp(y.dn)+"</td></tr><tr><td>Top upload</td><td"+w(x.up,y.up)+">"+sp(x.up)+"</td><td"+w(y.up,x.up)+">"+sp(y.up)+"</td></tr><tr><td>ZIP covered</td><td>"+x.cov+"%</td><td>"+y.cov+"%</td></tr></table>"}a.onchange=c;b.onchange=c;c()},0);'
          'return "<span class=\\"big\\">Compare providers in "+z+"</span><p><select id=pa>"+opts+"</select> vs <select id=pb>"+opts+"</select></p><div id=cmp></div><p>Prices depend on your address and current offers."+CALL+"</p>"}')
