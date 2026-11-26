@@ -28,10 +28,12 @@ function headExtras(url,title,desc,full,type){
 }
 
 /* ---------- state / city / ZIP pages (built by shell) ---------- */
+const BILLG=[["Xfinity","/bills/xfinity-bill-went-up"],["Spectrum","/bills/spectrum-bill-went-up"],["AT&amp;T","/bills/att-bill-went-up"],["Verizon","/bills/verizon-fios-bill-went-up"],["Cox","/bills/cox-bill-went-up"],["Optimum","/bills/optimum"],["Frontier","/bills/frontier"],["CenturyLink","/bills/centurylink"],["T-Mobile","/bills/t-mobile"],["Starlink","/bills/starlink"]];
+function billLinks(html){const f=BILLG.filter(function(g){return html.indexOf(">"+g[0])>-1||html.indexOf(g[0]+" ")>-1}).slice(0,6);if(!f.length)return "";return '<p style="font-size:.95rem;margin:0 0 14px"><b>Already have one of these providers?</b> See why bills go up and how to pay less: '+f.map(function(g){return '<a href="'+g[1]+'">'+g[0]+' bill guide</a>'}).join(" · ")+' · <a href="/fees">hidden fees explained</a></p>'}
 function decorate(html,o){
   if(!/property="og:url"/.test(html))html=html.replace("</head>",headExtras(o.url,o.title,o.desc,false)+"</head>");
   html=html.replace(FOOTRE,'$1<p style="margin:0 0 10px;font-size:.9rem">'+NAVL+"</p>");
-  html=html.replace('<section class="seo"><div class="wrap">','<section class="seo"><div class="wrap"><p style="font-size:.88rem;color:var(--muted);margin:0 0 12px">'+UPD+' · Availability: FCC data as of June 30, 2026 · Prices: Nov 2026 · <a href="/methodology">How we get our data</a></p>');
+  html=html.replace('<section class="seo"><div class="wrap">','<section class="seo"><div class="wrap"><p style="font-size:.88rem;color:var(--muted);margin:0 0 12px">'+UPD+' · Availability: FCC data as of June 30, 2026 · Prices: Nov 2026 · <a href="/methodology">How we get our data</a></p>'+billLinks(html));
   return html;
 }
 

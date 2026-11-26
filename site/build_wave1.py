@@ -186,6 +186,14 @@ WENT = {
         ("CableTV.com: internet provider data caps", "https://www.cabletv.com/internet/brand-data-caps")]),
 }
 
+def LOCAL(n):
+    st = [("tx","Texas"),("ca","California"),("fl","Florida"),("ny","New York"),("ga","Georgia"),("pa","Pennsylvania"),("il","Illinois"),("oh","Ohio")]
+    return (f"<h2>Check if a cheaper provider serves you</h2><p>If {esc(n)} keeps raising your price, see who else offers internet at your address. "
+            "Enter your ZIP code, or pick your state.</p>"
+            '<form class="yf-zip" style="max-width:360px;margin:0 0 12px" onsubmit="var z=this.z.value.trim();if(/^\\d{5}$/.test(z)){location.href=\'/internet/\'+z}return false">'
+            '<input name="z" inputmode="numeric" maxlength="5" placeholder="Enter ZIP code" aria-label="ZIP code"> <button type="submit">Check providers</button></form>'
+            "<p>" + " · ".join(f'<a href="/internet/{c}">{s} internet providers</a>' for c, s in st) + ' · <a href="/internet">All states</a></p>')
+
 def build_went(save):
     for k, d in WENT.items():
         n = d["name"]; path = "/bills/" + d["slug"]
@@ -196,7 +204,7 @@ def build_went(save):
                 + f"<h2>How to find out why your {esc(n)} bill went up</h2>" + steps([esc(s) for s in d["find"]])
                 + f"<h2>What you can do about it</h2><ol class=\"steps\">" + "".join(f"<li>{esc(t)}</li>" for t in BB.B[k]["tips"]) + "</ol>"
                 + f'<p>Ready to act? <a href="{d["save"]}">Step-by-step: lower your {esc(n)} bill</a> · <a href="{d["bill"]}">Full {esc(n)} fee guide</a> · <a href="/guides/internet-price-increases-2026">2026 price increase tracker</a></p>'
-                + f"<h2>Related charges</h2><p>{links}</p>" + BB.call_cta(n) + src(d["src"]))
+                + f"<h2>Related charges</h2><p>{links}</p>" + LOCAL(n) + BB.call_cta(n) + src(d["src"]))
         TITLE_OVERRIDE = {"spectrum": "Spectrum Bill Went Up? Why and How to Lower It (2026)",
                           "att": "AT&T Bill Went Up? Why and How to Lower It (2026)"}
         title = TITLE_OVERRIDE.get(k, f"Why Did My {n} Bill Go Up? What Changed in 2026")
