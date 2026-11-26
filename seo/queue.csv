@@ -97,3 +97,7 @@ id,priority,type,path,target_query,status,notes
 93,3,plan-sheet,/guides/moving-internet-setup,set up internet new home,todo,Wave 3: Moving? Set Up Internet & TV at Your New Home (Checklist)
 94,3,plan-sheet,/guides/transfer-internet-moving,transfer internet service moving,todo,Wave 3: Transferring Internet Service When You Move
 95,3,plan-sheet,/bill-checker,internet bill checker,todo,Wave 3: Free Internet & TV Bill Checker: How It Works
+98,1,guide,/guides/rocket-money-bill-negotiation-alternatives,rocket money bill negotiation alternatives,published,published 2026-11-26. From competitor teardown; refresh fees monthly
+99,1,guide,/guides/billshark-vs-switching-internet-providers,is billshark worth it,published,published 2026-11-26. From competitor teardown; refresh fees monthly
+100,1,guide,/guides/do-bill-negotiation-services-work,do bill negotiation services work,published,published 2026-11-26. From competitor teardown; refresh fees monthly
+101,1,guide,/guides/bill-negotiation-fee-worth-it,bill negotiation fee worth it,published,published 2026-11-26. From competitor teardown; refresh fees monthly

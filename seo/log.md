@@ -1,5 +1,7 @@
 # SEO run log (newest first)
 
+- 2026-11-26 WRITE (competitor teardown, approved by Khalid): 4 comparison guides published: /guides/rocket-money-bill-negotiation-alternatives, /guides/billshark-vs-switching-internet-providers, /guides/do-bill-negotiation-services-work, /guides/bill-negotiation-fee-worth-it. Separate fact-check pass (7 FAIL, 11 UNVERIFIED, all fixed or reworded). Fees are time-sensitive: re-verify in each monthly REFRESH. Also: homepage KV index.html got a 'free, no cut of what you save' line under the checker heading and in the 'really free?' FAQ (backup key index.html.bak-20261126).
+
 - 2026-11-26 OUTREACH SENT (approved by Khalid) from khalid@yourbillcheck.com: #4 Minneapolis 311, #5 CT OCC, #7 Haywood Co NC, #6 24/7 Wall St (Jake FitzGerald). Pending: #1 Pima, #2 Menlo Park, #3 Wisevoter, #8 Plymouth (contact forms); #9 Wilton (phone/letter); #10 TheStreet (no email found). Do not re-pitch these within 60 days.
 
 - 2026-11-26 CHANGE: sitemap lastmod now real per-page dates (lastmod.json); 2027 guides queued (not before Dec 1 / Dec 15); off-page now also drafts Reddit/forum answers.
