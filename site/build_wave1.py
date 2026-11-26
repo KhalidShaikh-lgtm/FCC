@@ -197,7 +197,9 @@ def build_went(save):
                 + f"<h2>What you can do about it</h2><ol class=\"steps\">" + "".join(f"<li>{esc(t)}</li>" for t in BB.B[k]["tips"]) + "</ol>"
                 + f'<p>Ready to act? <a href="{d["save"]}">Step-by-step: lower your {esc(n)} bill</a> · <a href="{d["bill"]}">Full {esc(n)} fee guide</a> · <a href="/guides/internet-price-increases-2026">2026 price increase tracker</a></p>'
                 + f"<h2>Related charges</h2><p>{links}</p>" + BB.call_cta(n) + src(d["src"]))
-        title = f"Why Did My {n} Bill Go Up? What Changed in 2026"
+        TITLE_OVERRIDE = {"spectrum": "Spectrum Bill Went Up? Why and How to Lower It (2026)",
+                          "att": "AT&T Bill Went Up? Why and How to Lower It (2026)"}
+        title = TITLE_OVERRIDE.get(k, f"Why Did My {n} Bill Go Up? What Changed in 2026")
         save(path, page(path, title, f"Why your {n} bill went up: price increases, promotions ending, fees and lost discounts, with dates and sources. Checked {CHECKED}.",
              f"Why did my {n} bill go up?", f"What changed on {esc(n)} bills, how to find the line that rose, and what to do about it.", body, faqs(d["faq"]),
              [("Home", SITE + "/"), ("Lower your bill", SITE + "/bills"), (f"{n} bill went up", SITE + path)], ["Bill increase", "Sources listed"]))
@@ -337,7 +339,7 @@ def build_guides(save):
                                            ("Verizon: about taxes, fees and mobile surcharges", "https://www.verizon.com/support/surcharges"), ("The Next Web: Starlink price changes", "https://thenextweb.com/news/starlink-price-increase-standby-mode-roam-residential"),
                                            ("Utah PSC: CenturyLink voice feature notice, 2026", "https://pscdocs.utah.gov/telecom/26docs/26049P02/343967Att1CstmrNtc2-19-2026.pdf")]))
     p = "/guides/internet-price-increases-2026"
-    save(p, page(p, "Internet Price Increases 2026: Provider-by-Provider Tracker", f"Which internet providers raised prices in 2026, by how much and when, with confirmed and reported changes labeled. Checked {CHECKED}.",
+    save(p, page(p, "Internet Price Increases 2026: Who Raised Rates and When", f"Which internet providers raised prices in 2026, by how much and when, with confirmed and reported changes labeled. Checked {CHECKED}.",
          "Internet price increases in 2026", "A provider-by-provider tracker, with confirmed and reported changes labeled.", body,
          faqs([("Which internet provider raised prices the most in 2026?", "It depends on the plan. Spectrum's $10 on legacy plans is the largest confirmed monthly increase we found among the big providers. Xfinity has said more increases start in December 2026."),
                ("Is Xfinity raising prices in December 2026?", "Xfinity says some prices will increase starting December 2026 and has not published amounts."),
