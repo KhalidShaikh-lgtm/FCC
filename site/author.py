@@ -23,10 +23,14 @@ def avatar(size=52):
         return f'<img class="av" src="{PHOTO}" width="{size}" height="{size}" alt="{esc(NAME)}">'
     return '<span class="av" aria-hidden="true">KS</span>'
 
+BYL_CSS = ('<style>.byl{display:flex;flex-wrap:wrap;align-items:center;gap:6px 10px;margin:0 0 22px;font-size:14px;color:var(--muted)}'
+           '.byl .av{width:28px;height:28px;border-radius:50%;display:grid;place-items:center;background:var(--mint);color:#fff;font:800 11px var(--fd);object-fit:cover}'
+           '.byl b{color:var(--ink)}.byl a{font-weight:600}</style>')
+
 def box(checked):
-    return (CSS + f'<div class="auth">{avatar()}<div><b>By <a href="{PATH}">{esc(NAME)}</a></b>'
-            f'<span>{esc(TITLE)} · Checked {esc(checked)}</span>'
-            f'<a href="{LINKEDIN}" rel="noopener me" target="_blank">LinkedIn</a></div></div>')
+    av = (f'<img class="av" src="{PHOTO}" width="28" height="28" alt="">' if PHOTO else '<span class="av" aria-hidden="true">KS</span>')
+    return (BYL_CSS + f'<p class="byl">{av}<span>By <b><a href="{PATH}">{esc(NAME)}</a></b>, Head of Business Development</span>'
+            f'<span>· Checked {esc(checked)}</span><span>· <a href="{LINKEDIN}" rel="noopener me" target="_blank">LinkedIn</a></span></p>')
 
 def build(save, shell):
     body = (CSS + f'<div class="auth">{avatar()}<div><b>{esc(NAME)}</b><span>{esc(TITLE)}</span>'
