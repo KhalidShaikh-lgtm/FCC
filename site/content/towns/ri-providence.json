@@ -1,0 +1,220 @@
+{
+ "path": "/internet/ri/providence",
+ "title": "Internet Providers in Providence, RI: Fios, Spectrum, 5G",
+ "description": "Internet providers in Providence, RI: Verizon Fios, Cox now Spectrum, T-Mobile and AT&T 5G and satellite in ZIPs 02903-02909, with prices and low-income plans.",
+ "h1": "Internet providers in Providence, RI",
+ "lead": "Who serves Providence's seven ZIP codes, what changed when Cox became Spectrum, the cheapest plans, and low-income options.",
+ "short_answer": "Providence has two wired networks: Verizon Fios fiber and the former Cox cable network, now Spectrum. Both report service across all seven ZIP codes, 02903 to 02909, in June 2026 FCC data. T-Mobile and AT&T 5G home internet are the main alternatives. Fios 300 Mbps and Spectrum Internet 100 are both listed at $30 a month.",
+ "chips": [
+  "Local guide",
+  "FCC data",
+  "Sources listed"
+ ],
+ "crumbs": [
+  [
+   "Home",
+   "/"
+  ],
+  [
+   "Internet in Rhode Island",
+   "/internet/ri"
+  ],
+  [
+   "Providence",
+   "/internet/ri/providence"
+  ]
+ ],
+ "sections": [
+  {
+   "h2": "Every provider reporting service in Providence (7 ZIP codes)",
+   "table": {
+    "head": [
+     "Provider",
+     "Connection",
+     "Top speed (download)",
+     "Providence ZIP codes served (of 7)"
+    ],
+    "rows": [
+     [
+      "<b>Verizon</b>",
+      "Fiber + 5G Home",
+      "1 Gbps",
+      "7"
+     ],
+     [
+      "<b>Cox Communications (now Spectrum)</b>",
+      "Cable",
+      "2 Gbps",
+      "7"
+     ],
+     [
+      "<b>AT&amp;T</b>",
+      "5G Home",
+      "25 Mbps",
+      "7"
+     ],
+     [
+      "<b>T-Mobile</b>",
+      "5G Home",
+      "100 Mbps",
+      "7"
+     ],
+     [
+      "<b>HughesNet</b>",
+      "Satellite",
+      "100 Mbps",
+      "Almost everywhere"
+     ],
+     [
+      "<b>Starlink</b>",
+      "Satellite",
+      "280 Mbps",
+      "Almost everywhere"
+     ],
+     [
+      "<b>Viasat</b>",
+      "Satellite",
+      "50 Mbps",
+      "Almost everywhere"
+     ]
+    ]
+   },
+   "body_html": ""
+  },
+  {
+   "h2": "",
+   "body_html": "<p style=\"font-size:14px;color:#58697a\">Source: FCC Broadband Data Collection, June 30, 2026, matched to ZIP codes by YourBillCheck. \"ZIP codes served\" counts the Providence ZIP codes 02903 to 02909 where each provider reports any service, so it is a guide, not a promise for your street.</p>"
+  },
+  {
+   "h2": "Fiber, cable or 5G in Providence",
+   "body_html": "<p><b>Fiber (Verizon Fios):</b> In the FCC data Fios reaches nearly every home in all seven ZIP codes, at up to 940 Mbps down and 880 Mbps up as filed, while Verizon now advertises 2 Gig and 5 Gig plans in Providence. BroadbandNow reports Fios is spotty between Franklin Street and the Providence River, and that fiber is more limited near Brown University, Rhode Island College and Providence College. Plans, prices and price guarantees are on our <a href=\"/fiber/ri/providence\">fiber internet in Providence</a> page.</p><p><b>Cable (Cox, now Spectrum):</b> The former Cox network reports service across the whole of every Providence ZIP code, with downloads up to 2 Gbps but uploads of no more than 100 Mbps. BroadbandNow reports it has broad coverage on Federal Hill and along the Seekonk River, and can fill gaps where Fios is thin.</p><p><b>5G home internet:</b> T-Mobile reports service across most of six ZIP codes and a large part of 02904, at up to 25 Mbps in most and up to 100 Mbps in 02909, as filed. AT&amp;T's wireless service reaches about half the homes at up to 25 Mbps. Verizon's 5G Home is filed at up to 1 Gbps, but in only a small part of the city. Speeds depend on signal at your address.</p><p><b>Satellite:</b> Starlink, HughesNet and Viasat cover the city but are rarely the best value where cable and fiber are available.</p>"
+  },
+  {
+   "h2": "Cox is now Spectrum: what changed",
+   "body_html": "<p>Charter completed its $34.5 billion purchase of Cox on August 20, 2026. On September 16, 2026, which Charter called Spectrum Day, former Cox customers, Providence among the named markets, could switch to Spectrum's plans and pricing. Cox's Providence web page now redirects to Spectrum. Light Reading reported that Charter plans to move Cox customer service fully to U.S.-based staff over 18 months and to give credits for outages longer than two hours.</p><p>Our June 2026 FCC data still lists the network as Cox. If you are still on an old Cox plan, compare it with Spectrum's current Providence prices below; a new-customer price may be lower than what you pay. See our <a href=\"/bills/cox\">Cox bill guide</a> and <a href=\"/bills/spectrum\">Spectrum bill guide</a>.</p>"
+  },
+  {
+   "h2": "Cheapest internet in Providence",
+   "table": {
+    "head": [
+     "Plan",
+     "Speed",
+     "Listed price",
+     "Main condition"
+    ],
+    "rows": [
+     [
+      "<b>Verizon Fios 300</b>",
+      "300 / 300 Mbps",
+      "$30/mo",
+      "With Auto Pay; taxes and fees included; 3- to 5-year price guarantee"
+     ],
+     [
+      "<b>Spectrum Internet 100</b>",
+      "100 Mbps",
+      "$30/mo for 1 year",
+      "New customers; standard rates after 1 year; install extra"
+     ],
+     [
+      "<b>Spectrum Internet 500</b>",
+      "500 Mbps",
+      "$40/mo for 1 year",
+      "New customers; Advanced WiFi $10/mo extra"
+     ],
+     [
+      "<b>T-Mobile 5G Home</b>",
+      "Varies by signal",
+      "From $30/mo (reported)",
+      "With a T-Mobile voice line and AutoPay"
+     ],
+     [
+      "<b>Verizon 5G Home</b>",
+      "100 Mbps to 1 Gbps",
+      "From $50/mo",
+      "With Auto Pay; limited coverage in Providence"
+     ]
+    ]
+   },
+   "body_html": "<p>Prices from Verizon's and Spectrum's Providence pages on November 26, 2026, except T-Mobile, which is as reported by HighSpeedInternet.com. The main difference is what happens after year one: Verizon says Fios prices include taxes and fees and come with a 3-, 4- or 5-year price guarantee depending on plan, while Spectrum's prices are for 1 year and then standard rates apply, plus taxes and fees. Spectrum lists no data caps and no contracts; Verizon lists no annual contract and no data caps.</p>"
+  },
+  {
+   "h2": "Low-income internet plans in Providence",
+   "body_html": "<ol class=\"steps\"><li><b>Spectrum Internet Assist:</b> HighSpeedInternet.com reports $25 a month for up to 50 Mbps, with a free modem, for households in the National School Lunch Program or receiving SSI at 65 or older. Ask whether it is offered at your address now that former Cox areas use Spectrum plans.</li><li><b>Verizon Forward:</b> HighSpeedInternet.com reports a bill credit of up to $30 a month on eligible Fios and 5G Home plans for households on Lifeline or WIC, or with a recent Pell Grant.</li><li><b>Access from AT&amp;T:</b> for households on SNAP, SSI or with income below 200% of federal poverty guidelines. Since April 2026 it gives $25 a month off AT&amp;T Internet Air, AT&amp;T's 5G home service, the AT&amp;T option reported in Providence.</li></ol><p>Even without a discount program, Fios 300 at $30 a month with taxes and fees included is one of the lowest regular prices in the city.</p>"
+  },
+  {
+   "h2": "What to ask before you sign up",
+   "body_html": "<ol class=\"steps\"><li>Is my building wired for Fios? If not, Verizon says installation may cost extra.</li><li>For Spectrum: what is the price in month 13, and is WiFi equipment extra on my plan?</li><li>For 5G: what speed does my exact address get?</li></ol><p>Run a <a href=\"/speed-test\">speed test</a> first. If your bill has gone up, see <a href=\"/guides/why-internet-bill-went-up\">why your internet bill went up</a> and the <a href=\"/bills/verizon\">Verizon bill guide</a>.</p>"
+  },
+  {
+   "h2": "Internet near Providence",
+   "body_html": "<p><a href=\"/internet/ri/cranston\">Cranston</a> · <a href=\"/internet/ri/pawtucket\">Pawtucket</a> · <a href=\"/internet/ri/east-providence\">East Providence</a> · <a href=\"/internet/ri/north-providence\">North Providence</a> · <a href=\"/internet/ri/johnston\">Johnston</a> · <a href=\"/fiber/ri/providence\">Fiber internet in Providence</a> · <a href=\"/internet/ri\">All Rhode Island internet providers</a> · <a href=\"/speed-test\">Test your current speed</a></p>"
+  }
+ ],
+ "faq": [
+  [
+   "What internet providers are in Providence, RI?",
+   "Verizon Fios fiber and Spectrum, the former Cox cable network, both report service across all seven Providence ZIP codes, 02903 to 02909. T-Mobile and AT&T offer 5G home internet, and Starlink, HughesNet and Viasat offer satellite."
+  ],
+  [
+   "Is Cox now Spectrum in Providence?",
+   "Yes. Charter completed its purchase of Cox on August 20, 2026, and former Cox customers in Providence could switch to Spectrum plans and pricing from September 16, 2026."
+  ],
+  [
+   "What is the cheapest internet in Providence?",
+   "Verizon lists Fios 300 Mbps at $30 a month with Auto Pay, including taxes and fees. Spectrum lists Internet 100 at $30 a month for one year for new customers. T-Mobile 5G is reported from $30 with a voice line."
+  ],
+  [
+   "Is there low-income internet in Providence?",
+   "Yes. Spectrum Internet Assist is reported at $25 a month, Verizon Forward gives a bill credit of up to $30 a month, and Access from AT&T takes $25 a month off AT&T Internet Air for eligible households."
+  ]
+ ],
+ "sources": [
+  [
+   "FCC Broadband Data Collection (June 30, 2026), Providence ZIP codes, via YourBillCheck",
+   "https://yourbillcheck.com/internet/ri/providence"
+  ],
+  [
+   "Verizon: home internet in Providence, RI",
+   "https://www.verizon.com/home/internet/near-me/providence-rhode-island/"
+  ],
+  [
+   "Spectrum: internet service in Providence, RI",
+   "https://www.spectrum.com/locations/internet-wifi-service/providence-ri-i50375"
+  ],
+  [
+   "Turnto10: Charter completes $34.5B deal for Cox (Aug 2026)",
+   "https://turnto10.com/news/local/charter-completes-34-billion-deal-for-cox-communications-spectrum-internet-mobile-phones-cable-television-august-20-2026"
+  ],
+  [
+   "Light Reading: Spectrum Day is underway in former Cox markets (Sep 2026)",
+   "https://lightreading.com/cable-technology/-spectrum-day-is-underway-in-former-cox-markets"
+  ],
+  [
+   "HighSpeedInternet.com: Spectrum low-income internet (Sep 2026)",
+   "https://highspeedinternet.com/resources/spectrum-low-income-internet"
+  ],
+  [
+   "HighSpeedInternet.com: Verizon low-income internet",
+   "https://highspeedinternet.com/resources/verizon-low-income-internet"
+  ],
+  [
+   "AT&T: Access from AT&T",
+   "https://www.att.com/shop/internet/access/index.html"
+  ],
+  [
+   "AT&T: Access discount extended to Internet Air (Apr 2026)",
+   "https://about.att.com/story/2026/access-aia-discount.html"
+  ],
+  [
+   "BroadbandNow: internet providers in Providence, RI",
+   "https://broadbandnow.com/rhode-island/providence"
+  ],
+  [
+   "HighSpeedInternet.com: internet providers in Providence, RI",
+   "https://highspeedinternet.com/RI/providence"
+  ]
+ ],
+ "checked": "November 26, 2026",
+ "date": "2026-11-26",
+ "cta_provider": "internet"
+}

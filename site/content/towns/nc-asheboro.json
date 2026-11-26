@@ -1,0 +1,230 @@
+{
+ "path": "/internet/nc/asheboro",
+ "title": "Internet Providers in Asheboro, NC: Fiber, Cable and 5G",
+ "description": "Internet providers in Asheboro, NC (27203, 27205): Brightspeed and Lumos fiber, RTMC co-op fiber, Spectrum cable, 5G and satellite, with FCC data and prices.",
+ "h1": "Internet providers in Asheboro, NC",
+ "lead": "Asheboro has three fiber networks, a cable network and a local telephone co-op. Here is who reaches which ZIP code and what they charge.",
+ "short_answer": "Spectrum cable (up to 1 Gbps) covers most of both Asheboro ZIP codes in June 2026 FCC data. In 27203, Lumos (up to 5 Gbps) and Brightspeed (up to 8 Gbps) fiber each reach most of the area. In 27205, fiber is patchier: Randolph Communications, the local co-op, reaches part of it, and Brightspeed DSL a large part.",
+ "chips": [
+  "Local guide",
+  "FCC data",
+  "Sources listed"
+ ],
+ "crumbs": [
+  [
+   "Home",
+   "/"
+  ],
+  [
+   "Internet in North Carolina",
+   "/internet/nc"
+  ],
+  [
+   "Asheboro",
+   "/internet/nc/asheboro"
+  ]
+ ],
+ "sections": [
+  {
+   "h2": "Fiber in Asheboro: Lumos, Brightspeed and Randolph Communications",
+   "body_html": "<p><b>Lumos (now T-Mobile Fiber).</b> In August 2022, NorthState, the company behind Lumos, announced fiber for about 15,000 homes in Randolph County, saying it would bring nearly 100% fiber coverage to Asheboro, Franklinville and Ramseur. In the June 2026 FCC data, Lumos reports up to 5 Gbps both ways across most of 27203 but only a small part of 27205. T-Mobile and EQT closed their deal to buy Lumos on April 1, 2025.</p><p><b>Brightspeed.</b> Brightspeed held a launch event in Asheboro in March 2024 for fiber to more than 18,000 homes and businesses in and around Asheboro and Randolph County. It reports fiber up to 8 Gbps across most of 27203 and a small part of 27205. Its Asheboro page lists 200 Mbps, 500 Mbps, 1 Gig and 2 Gig plans with no annual contract, but no monthly prices, so ask for the price at your address.</p><p><b>Randolph Communications (RTMC).</b> Randolph Telephone Membership Corporation is a member-owned telephone cooperative chartered in 1954, now doing business as Randolph Communications, with its headquarters on East Dixie Drive in Asheboro. It set a goal in 2013 of fiber to every customer. In the FCC data its fiber (filed under the co-op and its subsidiary, Randolph Telephone Telecommunications) reaches part of 27205 and is not reported in 27203.</p>"
+  },
+  {
+   "h2": "Randolph Communications fiber prices",
+   "table": {
+    "head": [
+     "Plan",
+     "Speed (down / up)",
+     "Listed price"
+    ],
+    "rows": [
+     [
+      "Ultimate",
+      "300 / 300 Mbps",
+      "$69.95/mo"
+     ],
+     [
+      "Extreme",
+      "600 / 600 Mbps",
+      "$79.95/mo"
+     ],
+     [
+      "Supersonic",
+      "1 Gig (940 / 940 Mbps typical)",
+      "$109.95/mo"
+     ]
+    ]
+   },
+   "body_html": "<p>From the co-op's internet page and 2025 broadband label. Installation is $90 one time, and its MyHome Wi-Fi, which the co-op lists as required with any internet package, is $4.99 a month. The label says members pay no early termination fee, while non-members get a 12-month introductory rate and a fee if they leave early. Internet and phone bundles are listed for $8 more a month.</p>"
+  },
+  {
+   "h2": "Spectrum cable",
+   "body_html": "<p>Spectrum reports cable service up to 1 Gbps down and 50 Mbps up across most of both Asheboro ZIP codes, the widest wired network here. HighSpeedInternet.com reported a limited-time Spectrum offer of 1 Gig for $60 a month for one year (page updated August 2026). Ask what the price is after the first year. If you already have Spectrum, see our <a href=\"/bills/spectrum\">Spectrum bill explainer</a> and <a href=\"/bills/spectrum-bill-went-up\">Spectrum bill went up guide</a>.</p>"
+  },
+  {
+   "h2": "Every provider reporting service in Asheboro (27203, 27205)",
+   "table": {
+    "head": [
+     "Provider",
+     "Type",
+     "Top speed (down / up)",
+     "Reported footprint"
+    ],
+    "rows": [
+     [
+      "<b>Brightspeed</b>",
+      "Fiber",
+      "8 Gbps / 8 Gbps",
+      "27203: most of the area; 27205: a small part"
+     ],
+     [
+      "<b>Lumos</b>",
+      "Fiber",
+      "5 Gbps / 5 Gbps",
+      "27203: most of the area; 27205: a small part"
+     ],
+     [
+      "<b>Randolph Telephone Telecommunications (Randolph Communications)</b>",
+      "Fiber",
+      "1 Gbps / 1 Gbps",
+      "27203: not reported; 27205: part of the area"
+     ],
+     [
+      "<b>Randolph Telephone Membership Corp. (Randolph Communications)</b>",
+      "Fiber",
+      "1 Gbps / 1 Gbps",
+      "27203: not reported; 27205: a small part"
+     ],
+     [
+      "<b>Spectrum</b>",
+      "Cable",
+      "1 Gbps / 50 Mbps",
+      "27203: most of the area; 27205: most of the area"
+     ],
+     [
+      "<b>Brightspeed</b>",
+      "DSL",
+      "27203: 80 Mbps / 20 Mbps; 27205: 80 Mbps / 10 Mbps",
+      "27203: a small part; 27205: a large part"
+     ],
+     [
+      "<b>Verizon</b>",
+      "5G/LTE home internet",
+      "300 Mbps / 6 Mbps",
+      "27203: most of the area; 27205: part of the area"
+     ],
+     [
+      "<b>T-Mobile</b>",
+      "5G/LTE home internet",
+      "27203: 100 Mbps / 20 Mbps; 27205: 25 Mbps / 3 Mbps",
+      "27203: a large part; 27205: part of the area"
+     ],
+     [
+      "<b>AT&amp;T</b>",
+      "5G/LTE home internet",
+      "25 Mbps / 3 Mbps",
+      "27203: a small part; 27205: part of the area"
+     ],
+     [
+      "<b>Starlink</b>",
+      "Satellite (low orbit)",
+      "280 Mbps / 30 Mbps",
+      "Whole area (needs clear sky view)"
+     ],
+     [
+      "<b>HughesNet</b>",
+      "Satellite",
+      "100 Mbps / 5 Mbps",
+      "Whole area (needs clear sky view)"
+     ],
+     [
+      "<b>Viasat</b>",
+      "Satellite",
+      "150 Mbps / 5 Mbps",
+      "27205 (needs clear sky view)"
+     ]
+    ]
+   },
+   "body_html": ""
+  },
+  {
+   "h2": "",
+   "body_html": "<p style=\"font-size:14px;color:#58697a\">Source: FCC Broadband Data Collection, June 30, 2026, matched to ZIP codes by YourBillCheck. Footprint compares each provider's reported locations with the widest land-based (wired or fixed wireless) provider near that ZIP code, so it is a guide, not a promise for your street.</p>"
+  },
+  {
+   "h2": "27203 or 27205: why your options differ",
+   "body_html": "<p>In 27203, Lumos fiber, Brightspeed fiber and Spectrum cable each report service across most of the area, so many homes there can choose between three wired networks. In 27205, Spectrum still reaches most of the area, but fiber is spread across Randolph Communications, Brightspeed and Lumos in smaller pieces, and many homes rely on Brightspeed DSL at up to 80 Mbps. Where nothing wired reaches, Starlink is the fastest satellite option at up to 280 Mbps.</p>"
+  },
+  {
+   "h2": "What to ask before you order",
+   "body_html": "<ul><li>Which fiber network, if any, is at my address: Lumos, Brightspeed or Randolph Communications?</li><li>Is the quoted Brightspeed service fiber or DSL?</li><li>What is the price after any 12-month discount or bill credit?</li><li>Is there an installation fee, and is the Wi-Fi router extra?</li></ul><p>See also <a href=\"/guides/internet-price-increases-2026\">internet price increases in 2026</a>, <a href=\"/fees\">common internet fees</a> and our <a href=\"/speed-test\">speed test</a>.</p>"
+  },
+  {
+   "h2": "Internet near Asheboro",
+   "body_html": "<p><a href=\"/internet/nc/randleman\">Randleman</a> · <a href=\"/internet/nc/ramseur\">Ramseur</a> · <a href=\"/internet/nc/franklinville\">Franklinville</a> · <a href=\"/internet/nc/seagrove\">Seagrove</a> · <a href=\"/internet/nc/siler-city\">Siler City</a> · <a href=\"/internet/27203\">ZIP 27203</a> · <a href=\"/internet/27205\">ZIP 27205</a> · <a href=\"/internet/nc\">All North Carolina internet providers</a> · <a href=\"/speed-test\">Test your current speed</a></p>"
+  }
+ ],
+ "faq": [
+  [
+   "Is there fiber internet in Asheboro, NC?",
+   "Yes. In the June 2026 FCC data, Lumos (up to 5 Gbps) and Brightspeed (up to 8 Gbps) each report fiber across most of 27203. In 27205, Randolph Communications fiber reaches part of the area and Lumos and Brightspeed a small part."
+  ],
+  [
+   "What is the cheapest fiber in Asheboro?",
+   "Prices depend on the address. Randolph Communications lists 300 Mbps for $69.95 a month. Brightspeed does not list monthly prices on its Asheboro page, so ask Brightspeed and Lumos for a quote at your address."
+  ],
+  [
+   "Who is RTMC?",
+   "Randolph Telephone Membership Corporation, a member-owned telephone cooperative chartered in 1954 and based on East Dixie Drive in Asheboro. It does business as Randolph Communications and sells fiber internet up to 1 Gig."
+  ],
+  [
+   "Does Spectrum serve Asheboro?",
+   "Yes. Spectrum reports cable service up to 1 Gbps download and 50 Mbps upload across most of both Asheboro ZIP codes in the June 2026 FCC data."
+  ]
+ ],
+ "sources": [
+  [
+   "FCC Broadband Data Collection (June 30, 2026), Asheboro ZIPs 27203 and 27205",
+   "https://broadbandmap.fcc.gov/"
+  ],
+  [
+   "Lumos: NorthState to bring fiber to Forsyth and Randolph counties (Aug 2022)",
+   "https://www.lumosfiber.com/blog/2022/08/09/northstate-to-bring-fiber-to-forsyth-randolph-counties/"
+  ],
+  [
+   "T-Mobile: T-Mobile and EQT close Lumos fiber joint venture (Apr 2025)",
+   "https://www.t-mobile.com/news/business/t-mobile-eqt-close-lumos-fiber-jv"
+  ],
+  [
+   "Brightspeed: fiber launch in Asheboro (Mar 2024)",
+   "https://www.brightspeed.com/brightspeed-news/Brightspeed_Fires_Up_High-speedFiberConnectivity_in_Asheboro/"
+  ],
+  [
+   "Brightspeed: fiber in Asheboro, NC",
+   "https://brightspeed.com/local/nc/asheboro"
+  ],
+  [
+   "Randolph Communications (RTMC): internet plans",
+   "https://rtmc.net/internet"
+  ],
+  [
+   "Randolph Communications: residential broadband label (2025)",
+   "https://rtmc.net/wp-content/uploads/2025/04/all_residential2025.pdf"
+  ],
+  [
+   "Randolph Communications: about RTMC",
+   "https://rtmc.net/about"
+  ],
+  [
+   "HighSpeedInternet.com: internet providers in Asheboro, NC",
+   "https://www.highspeedinternet.com/nc/asheboro"
+  ],
+  [
+   "BroadbandNow: internet providers in Asheboro, NC",
+   "https://broadbandnow.com/North-Carolina/Asheboro"
+  ]
+ ],
+ "checked": "November 26, 2026",
+ "date": "2026-11-26",
+ "cta_provider": "internet"
+}

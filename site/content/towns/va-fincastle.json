@@ -1,0 +1,206 @@
+{
+ "path": "/internet/va/fincastle",
+ "title": "Internet Providers in Fincastle, VA: Lumos Fiber and Xfinity",
+ "description": "Internet providers in Fincastle, VA (24090): Lumos fiber up to 5 Gig from the Botetourt build, Xfinity cable, 5G home internet and satellite, per FCC data.",
+ "h1": "Internet providers in Fincastle, VA",
+ "lead": "How Fincastle and the 24090 area got fiber, who else serves it, and what to ask before you order.",
+ "short_answer": "Lumos, now part of T-Mobile Fiber, reports fiber up to 5 Gbps both ways across most of Fincastle's 24090 ZIP code in June 2026 FCC data, much of it built with state and county grant funds. Xfinity cable reaches a large part at up to 1.2 Gbps. Verizon and T-Mobile 5G home internet and satellite are the other options.",
+ "chips": [
+  "Local guide",
+  "FCC data",
+  "Sources listed"
+ ],
+ "crumbs": [
+  [
+   "Home",
+   "/"
+  ],
+  [
+   "Internet in Virginia",
+   "/internet/va"
+  ],
+  [
+   "Fincastle",
+   "/internet/va/fincastle"
+  ]
+ ],
+ "sections": [
+  {
+   "h2": "How Fincastle got fiber: the Botetourt County and Lumos build",
+   "body_html": "<p>Botetourt County has worked with Lumos for years to bring fiber to unserved homes. A 2017 county survey found about 30% of homes had no high-speed broadband. In January 2021 the county and Lumos won a $1,364,337 Virginia Telecommunication Initiative (VATI) grant to bring fiber to 548 addresses, including 30 businesses, in areas east of the Town of Fincastle. A second VATI project, with a $3,084,796 state grant, set out to reach 1,901 more addresses, including around the towns of Buchanan and Fincastle, with a goal of universal coverage in the county by spring 2024.</p><p>The Fincastle Herald reported in December 2023 that Lumos had brought fiber to 1,239 grant-funded homes since 2021 and that the county's $2,602,514 share of the project was paid from American Rescue Plan Act funds. In the June 2026 FCC data, Lumos fiber covers most of the 24090 area, more than any other wired provider.</p>"
+  },
+  {
+   "h2": "Lumos is now T-Mobile Fiber",
+   "body_html": "<p>T-Mobile and the investment firm EQT closed their joint venture to buy Lumos on April 1, 2025, and Lumos's website now says it is part of the T-Mobile Fiber family. Lumos reports up to 5 Gbps download and upload in 24090. CableTV.com reported these T-Mobile Fiber prices in November 2026, with autopay, plus taxes and fees:</p>"
+  },
+  {
+   "h2": "T-Mobile Fiber prices reported in November 2026",
+   "table": {
+    "head": [
+     "Plan",
+     "Speed (down / up)",
+     "Reported price with autopay",
+     "Reported price without discounts"
+    ],
+    "rows": [
+     [
+      "Fiber 300",
+      "300 / 300 Mbps",
+      "$35/mo",
+      "$55/mo"
+     ],
+     [
+      "Fiber 1 Gig",
+      "1,000 / 1,000 Mbps",
+      "$55/mo",
+      "$70/mo"
+     ],
+     [
+      "Fiber 2 Gig",
+      "2,000 / 2,000 Mbps",
+      "$70/mo",
+      "$80/mo"
+     ],
+     [
+      "Fiber 5 Gig",
+      "5,000 / 5,000 Mbps",
+      "$90/mo",
+      "$100/mo"
+     ]
+    ]
+   },
+   "body_html": "<p>CableTV.com reports no annual contract and an extra $10 a month off with an eligible T-Mobile phone plan. These are national T-Mobile Fiber prices; former Lumos areas may still show different plan names, so check the price at your Fincastle address.</p>"
+  },
+  {
+   "h2": "Xfinity cable in the 24090 area",
+   "body_html": "<p>Xfinity reports cable service up to 1.2 Gbps download and 35 Mbps upload across a large part of 24090. The upload speed is much lower than on fiber, which matters for video calls and backups. If you already have Xfinity, see our <a href=\"/bills/xfinity\">Xfinity bill explainer</a> and <a href=\"/bills/xfinity-bill-went-up\">why Xfinity bills go up</a>.</p>"
+  },
+  {
+   "h2": "Every provider reporting service in Fincastle (24090)",
+   "table": {
+    "head": [
+     "Provider",
+     "Type",
+     "Top speed (down / up)",
+     "Reported footprint"
+    ],
+    "rows": [
+     [
+      "<b>Lumos (T-Mobile Fiber)</b>",
+      "Fiber",
+      "5 Gbps / 5 Gbps",
+      "most of the area"
+     ],
+     [
+      "<b>Xfinity</b>",
+      "Cable",
+      "1.2 Gbps / 35 Mbps",
+      "a large part"
+     ],
+     [
+      "<b>Verizon</b>",
+      "5G/LTE home internet",
+      "300 Mbps / 20 Mbps",
+      "most of the area"
+     ],
+     [
+      "<b>T-Mobile</b>",
+      "5G/LTE home internet",
+      "25 Mbps / 3 Mbps",
+      "most of the area"
+     ],
+     [
+      "<b>Starlink</b>",
+      "Satellite (low orbit)",
+      "280 Mbps / 30 Mbps",
+      "Whole area (needs clear sky view)"
+     ],
+     [
+      "<b>Viasat</b>",
+      "Satellite",
+      "150 Mbps / 4 Mbps",
+      "Whole area (needs clear sky view)"
+     ],
+     [
+      "<b>HughesNet</b>",
+      "Satellite",
+      "50 Mbps / 5 Mbps",
+      "Whole area (needs clear sky view)"
+     ]
+    ]
+   },
+   "body_html": ""
+  },
+  {
+   "h2": "",
+   "body_html": "<p style=\"font-size:14px;color:#58697a\">Source: FCC Broadband Data Collection, June 30, 2026, matched to ZIP codes by YourBillCheck. Footprint compares each provider's reported locations with the widest land-based (wired or fixed wireless) provider near that ZIP code, so it is a guide, not a promise for your street.</p>"
+  },
+  {
+   "h2": "If fiber has not reached your road",
+   "body_html": "<p>Verizon 5G home internet reports up to 300 Mbps across most of 24090. T-Mobile also reaches most of the area, but its reported top speed here is only 25 Mbps. Wireless signal can vary from house to house, so ask about a trial. Starlink, the fastest satellite option in the FCC data at up to 280 Mbps, works anywhere with a clear view of the sky. Run a <a href=\"/speed-test\">speed test</a> on what you have now before you switch.</p>"
+  },
+  {
+   "h2": "What to ask before you order",
+   "body_html": "<ul><li>Is my address already lit for Lumos / T-Mobile Fiber, or only planned?</li><li>Is there an installation or construction charge for a long driveway?</li><li>What is the price after any promotion, and is autopay required?</li><li>For Xfinity: what is the upload speed on the plan you are quoting?</li></ul><p>See also <a href=\"/guides/why-internet-bill-went-up\">why internet bills go up</a> and <a href=\"/fees\">common internet fees</a>.</p>"
+  },
+  {
+   "h2": "Internet near Fincastle",
+   "body_html": "<p><a href=\"/internet/va/daleville\">Daleville</a> · <a href=\"/internet/va/troutville\">Troutville</a> · <a href=\"/internet/va/buchanan\">Buchanan</a> · <a href=\"/internet/va/roanoke\">Roanoke</a> · <a href=\"/internet/24090\">ZIP 24090</a> · <a href=\"/internet/va\">All Virginia internet providers</a> · <a href=\"/speed-test\">Test your current speed</a></p>"
+  }
+ ],
+ "faq": [
+  [
+   "Is there fiber internet in Fincastle, VA?",
+   "Yes. Lumos, now part of T-Mobile Fiber, reports fiber up to 5 Gbps both ways across most of the 24090 ZIP code in the June 2026 FCC data. Much of it was built with Botetourt County and state VATI grants."
+  ],
+  [
+   "Does Xfinity serve Fincastle?",
+   "Xfinity reports cable up to 1.2 Gbps download and 35 Mbps upload across a large part of 24090. Check your address, since it does not reach every road."
+  ],
+  [
+   "How much is fiber internet in Fincastle?",
+   "CableTV.com reported T-Mobile Fiber prices in November 2026 from $35 a month for 300 Mbps to $90 for 5 Gig with autopay, plus taxes and fees. Confirm the price at your address."
+  ],
+  [
+   "What are the options for rural homes near Fincastle without fiber?",
+   "Verizon 5G home internet reaches most of 24090 at up to 300 Mbps in FCC data. Starlink, Viasat and HughesNet satellite cover the whole area with a clear sky view."
+  ]
+ ],
+ "sources": [
+  [
+   "FCC Broadband Data Collection (June 30, 2026), Fincastle ZIP 24090",
+   "https://broadbandmap.fcc.gov/"
+  ],
+  [
+   "Botetourt County: Lumos broadband partnership summary (VACo, 2023)",
+   "https://www.vaco.org/wp-content/uploads/2023/07/BotetourtBOCOLUMOSBroadbandPartnership23.pdf"
+  ],
+  [
+   "Fincastle Herald: board approves budget amendment on broadband expansion (Dec 2023)",
+   "https://fincastleherald.com/?p=92246"
+  ],
+  [
+   "Fincastle Herald: VATI2 broadband build launch",
+   "https://fincastleherald.com/?p=87077"
+  ],
+  [
+   "T-Mobile: T-Mobile and EQT close Lumos fiber joint venture (Apr 2025)",
+   "https://www.t-mobile.com/news/business/t-mobile-eqt-close-lumos-fiber-jv"
+  ],
+  [
+   "Lumos: now part of the T-Mobile Fiber family",
+   "https://lumosfiber.com/local/va/fincastle"
+  ],
+  [
+   "CableTV.com: T-Mobile Fiber plans (verified Nov 4, 2026)",
+   "https://www.cabletv.com/tmobile/fiber/plans"
+  ],
+  [
+   "BroadbandNow: internet providers in Fincastle, VA",
+   "https://broadbandnow.com/Virginia/Fincastle"
+  ]
+ ],
+ "checked": "November 26, 2026",
+ "date": "2026-11-26",
+ "cta_provider": "internet"
+}

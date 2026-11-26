@@ -1,0 +1,338 @@
+{
+ "path": "/internet/wa/seattle",
+ "title": "Internet Providers in Seattle, WA: 14 ISPs Compared",
+ "description": "Internet providers in Seattle, WA: Xfinity, Quantum Fiber (now AT&T), Astound, Ziply, 5G and satellite across 41 ZIP codes, plus cheapest and low-income plans.",
+ "h1": "Internet providers in Seattle, WA",
+ "lead": "Every ISP reporting service in Seattle's 41 ZIP codes, how cable, fiber and 5G compare here, the cheapest plans, and the city's low-income options.",
+ "short_answer": "Xfinity cable and Quantum Fiber, now owned by AT&T, both report service in all 41 Seattle ZIP codes in June 2026 FCC data. Astound offers cable and fiber in 24 of them, and Ziply Fiber only on the north edge. Verizon, T-Mobile and AT&T 5G home internet cover the city, and low-income plans start near $10 a month.",
+ "chips": [
+  "Local guide",
+  "FCC data",
+  "Sources listed"
+ ],
+ "crumbs": [
+  [
+   "Home",
+   "/"
+  ],
+  [
+   "Internet in Washington",
+   "/internet/wa"
+  ],
+  [
+   "Seattle",
+   "/internet/wa/seattle"
+  ]
+ ],
+ "sections": [
+  {
+   "h2": "Every provider reporting service in Seattle (41 ZIP codes)",
+   "table": {
+    "head": [
+     "Provider",
+     "Connection",
+     "Top speed (download)",
+     "Seattle ZIP codes served (of 41)"
+    ],
+    "rows": [
+     [
+      "<b>Quantum Fiber (now AT&amp;T)</b>",
+      "Fiber",
+      "8 Gbps",
+      "41"
+     ],
+     [
+      "<b>Astound Broadband</b>",
+      "DSL + Cable + Fiber",
+      "2 Gbps",
+      "24"
+     ],
+     [
+      "<b>Ziply Fiber</b>",
+      "Fiber",
+      "6 Gbps",
+      "3"
+     ],
+     [
+      "<b>Ezee Fiber</b>",
+      "Fiber",
+      "8 Gbps",
+      "1"
+     ],
+     [
+      "<b>Xfinity</b>",
+      "Cable",
+      "2 Gbps",
+      "41"
+     ],
+     [
+      "<b>AT&amp;T</b>",
+      "5G Home",
+      "100 Mbps",
+      "41"
+     ],
+     [
+      "<b>T-Mobile</b>",
+      "5G Home",
+      "100 Mbps",
+      "41"
+     ],
+     [
+      "<b>Verizon</b>",
+      "5G Home",
+      "1 Gbps",
+      "41"
+     ],
+     [
+      "<b>Webpass</b>",
+      "Fixed wireless",
+      "1 Gbps",
+      "6"
+     ],
+     [
+      "<b>CenturyLink</b>",
+      "DSL",
+      "140 Mbps",
+      "39"
+     ],
+     [
+      "<b>HughesNet</b>",
+      "Satellite",
+      "50 Mbps",
+      "Almost everywhere"
+     ],
+     [
+      "<b>Starlink</b>",
+      "Satellite",
+      "280 Mbps",
+      "Almost everywhere"
+     ],
+     [
+      "<b>Viasat</b>",
+      "Satellite",
+      "100 Mbps",
+      "Almost everywhere"
+     ],
+     [
+      "<b>Viasat Carrier Services</b>",
+      "Satellite",
+      "25 Mbps",
+      "16"
+     ]
+    ]
+   },
+   "body_html": ""
+  },
+  {
+   "h2": "",
+   "body_html": "<p style=\"font-size:14px;color:#58697a\">Source: FCC Broadband Data Collection, June 30, 2026, matched to ZIP codes by YourBillCheck. \"ZIP codes served\" counts the 41 ZIP codes with a Seattle postal address where each provider reports any service, so it includes a few areas outside city limits and is a guide, not a promise for your street.</p>"
+  },
+  {
+   "h2": "Cable, fiber or 5G: how Seattle's networks compare",
+   "body_html": "<p><b>Cable:</b> Xfinity is the one wired network almost every Seattle home can get. In the FCC data it reports cable in all 41 ZIP codes, covering most of the area in each, with top speeds of 2 Gbps. BroadbandNow puts Xfinity's Seattle coverage at about 97%. Astound also runs cable, mostly south of the Ship Canal and Lake Union, from Queen Anne and Capitol Hill down to Georgetown and the Rainier Valley, according to BroadbandNow.</p><p><b>Fiber:</b> Quantum Fiber, now owned by AT&amp;T, reports fiber in all 41 ZIP codes, covering most of the area in 13 of them and a large part in most of the rest. BroadbandNow reports its coverage is strong in West Seattle, Delridge, Rainier Beach, Columbia City, most of Capitol Hill, Queen Anne, Magnolia and north of the University of Washington, and limited in Georgetown, SoDo, Downtown and Belltown. Astound reports fiber in parts of 22 ZIP codes, Ziply Fiber in 3 on the north edge, and Ezee Fiber in a small part of 98198. For plans and prices on each fiber network, see our <a href=\"/fiber/wa/seattle\">fiber internet in Seattle</a> guide.</p><p><b>5G home internet:</b> Verizon, T-Mobile and AT&amp;T all report fixed wireless in every Seattle ZIP code. Verizon reports the highest top speed, up to 1 Gbps. T-Mobile reaches most of the area in 33 of the 41 ZIP codes and Verizon in 24; AT&amp;T reaches a smaller share, under 60% of each ZIP code. 5G is a fair choice for renters or light users, but speeds depend on signal at your home.</p><p><b>Apartments:</b> Seattle IT also lists Atlas Networks and GFiber as providers that serve apartment and condo buildings, and Salmon Bay Wireless as a wireless option. Ask your building manager which providers are wired in before you sign a lease.</p>"
+  },
+  {
+   "h2": "Cheapest internet in Seattle",
+   "table": {
+    "head": [
+     "Plan",
+     "Speed",
+     "Listed price",
+     "Main condition"
+    ],
+    "rows": [
+     [
+      "<b>Astound 300 Mbps</b>",
+      "300 Mbps",
+      "From $30/mo",
+      "400 GB data allowance; 1-year price lock in Washington"
+     ],
+     [
+      "<b>AT&amp;T Fiber 300</b>",
+      "300 Mbps both ways",
+      "$35/mo for 12 months",
+      "Plus taxes and fees; $10/mo off with eligible autopay and paperless billing; up to $99 install"
+     ],
+     [
+      "<b>Xfinity 300 Mbps</b>",
+      "300 Mbps",
+      "$45/mo for 5 years",
+      "Autopay from a bank account and paperless billing; $75 everyday price"
+     ],
+     [
+      "<b>Xfinity 500 Mbps</b>",
+      "500 Mbps",
+      "$60/mo",
+      "$85 everyday price"
+     ],
+     [
+      "<b>T-Mobile 5G Home</b>",
+      "Varies by signal",
+      "From $30/mo (reported)",
+      "With a T-Mobile voice line and AutoPay"
+     ]
+    ]
+   },
+   "body_html": "<p>Prices from each provider's Seattle or Washington page on November 26, 2026, except T-Mobile, which is as reported by HighSpeedInternet.com. Taxes and fees are extra unless stated. Promotional prices change often and are not guaranteed, so confirm the price for your address. Astound's cheapest plan has a 400 GB monthly data allowance; data is unlimited on its 1 Gig and faster plans. Always compare the price in month 13, not month 1.</p>"
+  },
+  {
+   "h2": "Low-income internet plans in Seattle",
+   "table": {
+    "head": [
+     "Program",
+     "Price",
+     "Speed",
+     "Who qualifies (summary)"
+    ],
+    "rows": [
+     [
+      "<b>Astound Internet First</b>",
+      "$9.95/mo (50 Mbps) or $19.95/mo (150 Mbps)",
+      "Up to 150 Mbps",
+      "Seattle Utilities Discount Program, subsidized housing, or a child in free or reduced school lunch"
+     ],
+     [
+      "<b>Xfinity Internet Essentials</b>",
+      "$14.95/mo; Essentials Plus $29.99/mo",
+      "Up to 75 Mbps (Essentials)",
+      "SNAP, school lunch, public housing, Medicaid/SSI and similar; no Xfinity internet in last 90 days"
+     ],
+     [
+      "<b>Access from AT&amp;T</b>",
+      "Depends on address; $25/mo off Internet Air",
+      "Fiber or Internet Air",
+      "SNAP, SSI or household income below 200% of federal poverty guidelines"
+     ],
+     [
+      "<b>Verizon Forward</b>",
+      "As low as $20/mo",
+      "5G Home",
+      "Lifeline, WIC, or a Pell Grant in the past year"
+     ],
+     [
+      "<b>Lifeline</b>",
+      "Up to $9.25/mo off",
+      "Any participating service",
+      "Income up to 135% of federal poverty guidelines, or SNAP, Medicaid and similar"
+     ]
+    ]
+   },
+   "body_html": "<p>From the City of Seattle's low-cost internet page, Astound's Washington page and AT&amp;T's Access pages. Astound says Internet First households get the first three months free. Seattle residents can apply for Astound Internet First through the city's online form, and the city's digital equity line, (206) 684-8498, answers questions about these programs.</p>"
+  },
+  {
+   "h2": "Who's who: CenturyLink, Quantum, AT&T, Wave, Astound and Ziply",
+   "body_html": "<ol class=\"steps\"><li><b>Quantum Fiber is now AT&amp;T.</b> AT&amp;T closed its $5.75 billion purchase of Lumen's consumer fiber business, including Quantum Fiber, on February 2, 2026, and named Seattle as one of its new major metro areas. In July 2026 AT&amp;T said it was converting former Lumen fiber customers market by market; some still got CenturyLink or Quantum Fiber bills. Lumen kept its copper-based consumer services. CenturyLink DSL still appears separately in the FCC data, in 39 Seattle ZIP codes at up to 140 Mbps.</li><li><b>Astound is the old Wave.</b> Wave Broadband started in the Seattle area and was based in Kirkland. It took the Astound Broadband name in January 2022. In March 2026 Stonepeak and Alphabet agreed to combine Astound with GFiber (Google Fiber), with closing expected in the fourth quarter of 2026. GFiber's CEO said the merger will not affect current service.</li><li><b>Ziply Fiber</b> is based in Kirkland and was bought by Canada's BCE in August 2025. In Seattle it reports fiber only in 98177, 98133 and 98155.</li><li><b>Webpass</b> reports fixed wireless at up to 1 Gbps in a small part of six Seattle ZIP codes in the FCC data.</li></ol><p>If your bill comes from one of these companies, see the <a href=\"/bills/att\">AT&amp;T bill guide</a>, <a href=\"/bills/centurylink\">CenturyLink bill guide</a> or <a href=\"/bills/xfinity\">Xfinity bill guide</a>.</p>"
+  },
+  {
+   "h2": "Does Seattle have city-run broadband?",
+   "body_html": "<p>No. Seattle studied building its own gigabit fiber network. A 2015 consultant's study, reported by GeekWire, put the cost at $480 million to $665 million and said it would need 43% of single-family homes to subscribe at $75 a month to break even. City officials called that too risky to fund alone. Seattle City Light, which was already building its own fiber system, told the city that adding a broadband service would not make sense. Today the city's role is information and discount programs, not running an ISP.</p>"
+  },
+  {
+   "h2": "What to ask before you sign up",
+   "body_html": "<ol class=\"steps\"><li>Is my address on fiber or cable? Astound serves some homes by fiber and others by coax, and Quantum/AT&amp;T fiber does not reach every street.</li><li>What is the price after the promotion, and is there a price lock?</li><li>Is there a data allowance, install fee or equipment charge?</li><li>For 5G: what speed does my exact address get, and is there a trial period?</li></ol><p>Run a <a href=\"/speed-test\">speed test</a> on your current plan first. If your bill has crept up, read <a href=\"/guides/why-internet-bill-went-up\">why your internet bill went up</a> and our <a href=\"/fees\">guide to internet fees</a>.</p>"
+  },
+  {
+   "h2": "Internet near Seattle",
+   "body_html": "<p><a href=\"/internet/wa/bellevue\">Bellevue</a> · <a href=\"/internet/wa/renton\">Renton</a> · <a href=\"/internet/wa/kirkland\">Kirkland</a> · <a href=\"/internet/wa/mercer-island\">Mercer Island</a> · <a href=\"/internet/wa/edmonds\">Edmonds</a> · <a href=\"/fiber/wa/seattle\">Fiber internet in Seattle</a> · <a href=\"/internet/wa\">All Washington internet providers</a> · <a href=\"/speed-test\">Test your current speed</a></p>"
+  }
+ ],
+ "faq": [
+  [
+   "What is the main internet provider in Seattle?",
+   "Xfinity cable is the most widely available wired network, covering most of the area in all 41 Seattle ZIP codes in June 2026 FCC data. Quantum Fiber, now owned by AT&T, also reports service in all 41, covering most of the area in 13 and a large part in most of the rest."
+  ],
+  [
+   "What is the cheapest internet in Seattle?",
+   "Among standard plans, Astound lists 300 Mbps from $30 a month and AT&T Fiber lists 300 Mbps at $35 a month for 12 months. Low-income households may qualify for Astound Internet First at $9.95 a month or Xfinity Internet Essentials at $14.95 a month."
+  ],
+  [
+   "Is Quantum Fiber the same as AT&T Fiber in Seattle?",
+   "Yes, it is now the same company. AT&T bought Lumen's consumer fiber business, including Quantum Fiber, on February 2, 2026, and is moving customers to the AT&T Fiber brand market by market."
+  ],
+  [
+   "Is Astound the same as Wave in Seattle?",
+   "Yes. Wave Broadband, founded in the Seattle area, took the Astound Broadband name in 2022. Astound agreed in March 2026 to combine with GFiber, with the deal expected to close in late 2026."
+  ],
+  [
+   "Does Seattle have municipal broadband?",
+   "No. A 2015 city study put the cost of a city-built fiber network at $480 million to $665 million, and officials judged it too risky to build alone. The city runs low-cost internet sign-ups and information instead."
+  ]
+ ],
+ "sources": [
+  [
+   "FCC Broadband Data Collection (June 30, 2026), Seattle ZIP codes, via YourBillCheck",
+   "https://yourbillcheck.com/internet/wa/seattle"
+  ],
+  [
+   "City of Seattle: low-cost internet",
+   "https://seattle.gov/tech/internet-and-devices/low-cost-internet"
+  ],
+  [
+   "City of Seattle: internet availability",
+   "https://seattle.gov/tech/internet-and-devices/internet-availability"
+  ],
+  [
+   "Xfinity: internet in Seattle, WA",
+   "https://www.xfinity.com/local/wa/seattle"
+  ],
+  [
+   "Astound: Washington internet",
+   "https://www.astound.com/washington/internet/"
+  ],
+  [
+   "AT&T Fiber: Seattle, WA",
+   "https://www.att.com/local/fiber/washington/seattle"
+  ],
+  [
+   "AT&T: Access from AT&T",
+   "https://www.att.com/shop/internet/access/index.html"
+  ],
+  [
+   "AT&T: Access discount extended to Internet Air (Apr 2026)",
+   "https://about.att.com/story/2026/access-aia-discount.html"
+  ],
+  [
+   "AT&T: AT&T completes acquisition of Lumen's Mass Markets fiber business (Feb 2026)",
+   "https://about.att.com/story/2026/att-lumen-deal-close.html"
+  ],
+  [
+   "Business Wire: Lumen completes sale of consumer fiber business to AT&T (Feb 2026)",
+   "https://www.businesswire.com/news/home/20260201658367/en/Lumen-Completes-Sale-of-Consumer-Fiber-to-the-Home-Business-to-ATT/"
+  ],
+  [
+   "Fierce Network: AT&T converting Lumen fiber customers (Jul 2026)",
+   "https://www.fierce-network.com/broadband/att-backend-converting-lumen-fiber-customers-att-fiber"
+  ],
+  [
+   "GeekWire: Wave name returns to Astound (Jan 2022)",
+   "https://www.geekwire.com/2022/wave-of-change-for-a-seattle-born-brand-astound-comes-back-around-in-latest-telco-naming-twist/"
+  ],
+  [
+   "GeekWire: Astound Broadband merging with GFiber (Mar 2026)",
+   "https://www.geekwire.com/2026/born-as-wave-in-the-seattle-area-astound-broadband-is-merging-with-gfiber-as-new-internet-provider/"
+  ],
+  [
+   "Broadband Breakfast: GFiber drops 'Google' from name as Astound merger nears (Mar 2026)",
+   "https://broadbandbreakfast.com/gfiber-drops-google-from-name-as-astound-merger-nears/"
+  ],
+  [
+   "Searchlight: BCE completes acquisition of Ziply Fiber (Aug 2025)",
+   "https://searchlightcap.com/news/bce-completes-acquisition-of-ziply-fiber-accelerating-its-fiber-growth-strategy/"
+  ],
+  [
+   "GeekWire: Seattle officials say municipal broadband too risky to build alone (Jun 2015)",
+   "https://www.geekwire.com/2015/seattle-officials-municipal-broadband-too-risky-and-expensive-for-city-to-build-alone/"
+  ],
+  [
+   "BroadbandNow: internet providers in Seattle, WA",
+   "https://broadbandnow.com/Washington/Seattle"
+  ],
+  [
+   "HighSpeedInternet.com: internet providers in Seattle, WA",
+   "https://highspeedinternet.com/wa/seattle"
+  ]
+ ],
+ "checked": "November 26, 2026",
+ "date": "2026-11-26",
+ "cta_provider": "internet"
+}

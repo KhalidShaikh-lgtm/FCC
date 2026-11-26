@@ -1,0 +1,189 @@
+{
+ "path": "/internet/nc/trinity",
+ "title": "ISP in Trinity, NC: Lumos Fiber, Spectrum and 5G Options",
+ "description": "Internet providers in Trinity, NC (27370): Lumos fiber up to 5 Gig (now T-Mobile Fiber), Spectrum cable, 5G home internet and satellite, from FCC data.",
+ "h1": "Internet providers (ISPs) in Trinity, NC",
+ "lead": "Which ISPs serve Trinity and the 27370 ZIP code, how Lumos and T-Mobile Fiber are related, and what to ask before ordering.",
+ "short_answer": "Trinity (27370) has two wired ISPs that each reach most of the area in FCC data: Lumos fiber, up to 5 Gbps both ways, and Spectrum cable, up to 1 Gbps down. Lumos is now co-owned by T-Mobile, which says many Lumos customers will become T-Mobile Fiber customers. T-Mobile, Verizon and AT&T 5G cover parts of town.",
+ "chips": [
+  "Local guide",
+  "FCC data",
+  "Sources listed"
+ ],
+ "crumbs": [
+  [
+   "Home",
+   "/"
+  ],
+  [
+   "Internet in North Carolina",
+   "/internet/nc"
+  ],
+  [
+   "Trinity",
+   "/internet/nc/trinity"
+  ]
+ ],
+ "sections": [
+  {
+   "h2": "Two wired ISPs: Lumos fiber and Spectrum cable",
+   "table": {
+    "head": [
+     "Provider",
+     "Top speed (down / up)",
+     "How far it reaches in 27370"
+    ],
+    "rows": [
+     [
+      "<b>Lumos (T-Mobile Fiber)</b>",
+      "5 Gbps / 5 Gbps",
+      "Most of the area"
+     ],
+     [
+      "<b>Spectrum cable</b>",
+      "1 Gbps / 50 Mbps",
+      "Most of the area"
+     ],
+     [
+      "<b>Verizon 5G home</b>",
+      "300 Mbps / 6 Mbps",
+      "Part of the area"
+     ],
+     [
+      "<b>Starlink</b>",
+      "280 Mbps / 30 Mbps",
+      "Whole area (needs clear sky view)"
+     ]
+    ]
+   },
+   "body_html": ""
+  },
+  {
+   "h2": "Lumos, North State and T-Mobile Fiber: who is who",
+   "body_html": "<p>Trinity was part of the North State telephone service area. North State started in 1895 as the High Point Telephone Exchange, and Trinity was one of the communities in its service area. North State joined Lumos in a merger that took effect in August 2022, and the combined company uses the Lumos name. In April 2025, T-Mobile and the investment firm EQT closed a joint venture to buy Lumos, and T-Mobile said many Lumos customers will become T-Mobile Fiber customers. So if you see \"T-Mobile Fiber\" listed for Trinity on comparison sites, it is the same network.</p><p>Lumos' Trinity page lists symmetrical plans of 500 Mbps, 1 Gig, 2 Gig, 5 Gig and 8 Gig in select locations, unlimited data, and prices from \"as little as $50 per month.\" HighSpeedInternet.com reports T-Mobile Fiber in Trinity starting at $45 a month with autopay, plus taxes and fees. The FCC data reports up to 5 Gbps in 27370, so ask whether 8 Gig is offered at your address.</p>"
+  },
+  {
+   "h2": "Spectrum cable",
+   "body_html": "<p>Spectrum reports cable internet across most of 27370 at up to 1 Gbps down and 50 Mbps up. HighSpeedInternet.com reports a promotional Spectrum Gig plan at $60 a month for one year. The price goes up after the promotion, so ask what month 13 will cost. Our <a href=\"/bills/spectrum\">Spectrum bill guide</a> explains common charges. The main difference from fiber is upload: 50 Mbps on Spectrum versus equal upload and download on Lumos.</p>"
+  },
+  {
+   "h2": "Every provider reporting service in Trinity (27370)",
+   "table": {
+    "head": [
+     "Provider",
+     "Type",
+     "Top speed (down / up)",
+     "Reported footprint"
+    ],
+    "rows": [
+     [
+      "<b>Lumos</b>",
+      "Fiber",
+      "5 Gbps / 5 Gbps",
+      "most of the area"
+     ],
+     [
+      "<b>Spectrum</b>",
+      "Cable",
+      "1 Gbps / 50 Mbps",
+      "most of the area"
+     ],
+     [
+      "<b>T-Mobile</b>",
+      "5G/LTE home internet",
+      "100 Mbps / 20 Mbps",
+      "a large part"
+     ],
+     [
+      "<b>Verizon</b>",
+      "5G/LTE home internet",
+      "300 Mbps / 6 Mbps",
+      "part of the area"
+     ],
+     [
+      "<b>AT&amp;T</b>",
+      "5G/LTE home internet",
+      "25 Mbps / 3 Mbps",
+      "part of the area"
+     ],
+     [
+      "<b>Starlink</b>",
+      "Satellite (low orbit)",
+      "280 Mbps / 30 Mbps",
+      "Whole area (needs clear sky view)"
+     ],
+     [
+      "<b>HughesNet</b>",
+      "Satellite",
+      "100 Mbps / 5 Mbps",
+      "Whole area (needs clear sky view)"
+     ]
+    ]
+   },
+   "body_html": ""
+  },
+  {
+   "h2": "",
+   "body_html": "<p style=\"font-size:14px;color:#58697a\">Source: FCC Broadband Data Collection, June 30, 2026, matched to ZIP codes by YourBillCheck. Footprint compares each provider's reported locations with the widest land-based (wired or fixed wireless) provider near that ZIP code, so it is a guide, not a promise for your street.</p>"
+  },
+  {
+   "h2": "5G home internet and satellite in Trinity",
+   "body_html": "<p>T-Mobile 5G home internet reports up to 100 Mbps across a large part of 27370. Verizon reports up to 300 Mbps and AT&amp;T up to 25 Mbps, each in part of the area. These can work as a backup or for homes off the wired lines. Starlink reports up to 280 Mbps anywhere with a clear sky view. Some national comparison sites also list DSL or other fiber companies in Trinity; those do not appear in the June 2026 FCC data for 27370, so confirm before you count on them.</p>"
+  },
+  {
+   "h2": "What to ask before you switch",
+   "body_html": "<ul><li>Is my street on Lumos fiber, and will my account move to T-Mobile Fiber?</li><li>What is the price after any promotion, and are equipment or install fees extra?</li><li>What upload speed comes with the plan?</li></ul><p>Run a <a href=\"/speed-test\">speed test</a> first. If your bill has crept up, see <a href=\"/guides/internet-price-increases-2026\">internet price increases in 2026</a> and our <a href=\"/fees\">fee guides</a>.</p>"
+  },
+  {
+   "h2": "Internet near Trinity",
+   "body_html": "<p><a href=\"/internet/nc/thomasville\">Thomasville</a> · <a href=\"/internet/nc/high-point\">High Point</a> · <a href=\"/internet/nc/sophia\">Sophia</a> · <a href=\"/internet/nc/randleman\">Randleman</a> · <a href=\"/internet/nc/asheboro\">Asheboro</a> · <a href=\"/internet/nc\">All North Carolina internet providers</a> · <a href=\"/speed-test\">Test your current speed</a></p>"
+  }
+ ],
+ "faq": [
+  [
+   "What internet providers are in Trinity, NC?",
+   "FCC data for 27370 shows Lumos fiber and Spectrum cable each reaching most of the area, plus T-Mobile, Verizon and AT&T 5G home internet and Starlink and HughesNet satellite."
+  ],
+  [
+   "Is Lumos the same as T-Mobile Fiber?",
+   "Yes, the network is the same. T-Mobile and EQT bought Lumos in April 2025, and T-Mobile said many Lumos customers will become T-Mobile Fiber customers."
+  ],
+  [
+   "Does Trinity, NC have fiber internet?",
+   "Yes. Lumos reports fiber up to 5 Gbps both ways across most of the 27370 ZIP code in the June 2026 FCC data."
+  ],
+  [
+   "How much is Lumos fiber in Trinity?",
+   "Lumos says plans start at as little as $50 a month. HighSpeedInternet.com reports T-Mobile Fiber from $45 a month with autopay. Confirm the price at your address."
+  ]
+ ],
+ "sources": [
+  [
+   "FCC Broadband Data Collection (June 30, 2026), Trinity ZIP 27370",
+   "https://broadbandmap.fcc.gov/"
+  ],
+  [
+   "Lumos: fiber internet in Trinity, NC",
+   "https://www.lumosfiber.com/?p=61949"
+  ],
+  [
+   "T-Mobile: T-Mobile and EQT close Lumos fiber joint venture (April 2025)",
+   "https://www.t-mobile.com/news/business/t-mobile-eqt-close-lumos-fiber-jv"
+  ],
+  [
+   "Wikipedia: Lumos Networks (North State history)",
+   "https://en.wikipedia.org/wiki/Lumos_Networks"
+  ],
+  [
+   "HighSpeedInternet.com: internet providers in Trinity, NC",
+   "https://www.highspeedinternet.com/nc/trinity"
+  ],
+  [
+   "BroadbandNow: internet providers in Trinity, NC",
+   "https://broadbandnow.com/North-Carolina/Trinity"
+  ]
+ ],
+ "checked": "November 26, 2026",
+ "date": "2026-11-26",
+ "cta_provider": "internet"
+}

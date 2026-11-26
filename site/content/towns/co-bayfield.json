@@ -1,0 +1,231 @@
+{
+ "path": "/internet/co/bayfield",
+ "title": "Internet in Bayfield, CO: Clearnetworx Fiber, Zito, Wireless",
+ "description": "Internet in Bayfield, CO (81122): Clearnetworx fiber up to 2 Gig, Zito Media cable, CenturyLink DSL, local fixed wireless, 5G and satellite, from FCC data.",
+ "h1": "Internet in Bayfield, CO",
+ "lead": "Who serves Bayfield and the 81122 ZIP code, where fiber has reached, and what rural homes can get.",
+ "short_answer": "Bayfield (81122) has Clearnetworx fiber at up to 2 Gbps both ways and Zito Media cable at up to 1 Gbps, each reaching a large part of the area in FCC data. CenturyLink DSL, AlignTec and Visionary Broadband fixed wireless, and Verizon 5G each reach most of the ZIP code. Satellite covers the rest.",
+ "chips": [
+  "Local guide",
+  "FCC data",
+  "Sources listed"
+ ],
+ "crumbs": [
+  [
+   "Home",
+   "/"
+  ],
+  [
+   "Internet in Colorado",
+   "/internet/co"
+  ],
+  [
+   "Bayfield",
+   "/internet/co/bayfield"
+  ]
+ ],
+ "sections": [
+  {
+   "h2": "The fastest options in Bayfield, ranked by top speed",
+   "table": {
+    "head": [
+     "Provider",
+     "Top speed (down / up)",
+     "How far it reaches in 81122"
+    ],
+    "rows": [
+     [
+      "<b>Clearnetworx fiber</b>",
+      "2 Gbps / 2 Gbps",
+      "A large part"
+     ],
+     [
+      "<b>Zito Media cable</b>",
+      "1 Gbps / 25 Mbps",
+      "A large part"
+     ],
+     [
+      "<b>Verizon 5G home</b>",
+      "300 Mbps / 20 Mbps",
+      "Most of the area"
+     ],
+     [
+      "<b>Starlink</b>",
+      "280 Mbps / 30 Mbps",
+      "Whole area (needs clear sky view)"
+     ],
+     [
+      "<b>AlignTec fixed wireless</b>",
+      "100 Mbps / 25 Mbps",
+      "Most of the area"
+     ],
+     [
+      "<b>Visionary Broadband fixed wireless</b>",
+      "100 Mbps / 20 Mbps",
+      "Most of the area"
+     ]
+    ]
+   },
+   "body_html": ""
+  },
+  {
+   "h2": "Clearnetworx fiber in Bayfield",
+   "body_html": "<p>Clearnetworx is a fiber provider headquartered in Montrose, Colorado, founded in 2012. It started a full fiber-to-the-home build in Bayfield in 2023. In November 2023, La Plata Electric Association announced it had sold its broadband company, FastTrack Communications, to Clearnetworx. The Durango Herald reported that Bayfield's fiber connection started in November 2023, that Bayfield has only one network connection from the south, and that a new route north toward Forest Lakes and Vallecito is meant to add a backup path.</p><p>Clearnetworx does not post prices on its Bayfield page. It says it has no contracts, no hidden fees and no pre-order fees. BroadbandNow reports Clearnetworx plans in Bayfield starting at $49.95 a month. In the June 2026 FCC data, its fiber reaches a large part of 81122, so check your address.</p>"
+  },
+  {
+   "h2": "Zito Media cable",
+   "body_html": "<p>Zito Media's Bayfield page lists cable internet (not fiber) with speeds up to 1 Gig, depending on the address. The FCC data shows Zito cable up to 1 Gbps down and 25 Mbps up across a large part of 81122. Zito says plans and promotions vary by address and that equipment rental, taxes and fees may be extra. BroadbandNow reports Zito from $25 a month. Ask for the full monthly price, including equipment, and what it will be after any promotion.</p>"
+  },
+  {
+   "h2": "Every provider reporting service in Bayfield (81122)",
+   "table": {
+    "head": [
+     "Provider",
+     "Type",
+     "Top speed (down / up)",
+     "Reported footprint"
+    ],
+    "rows": [
+     [
+      "<b>Clearnetworx</b>",
+      "Fiber",
+      "2 Gbps / 2 Gbps",
+      "a large part"
+     ],
+     [
+      "<b>Zito Media</b>",
+      "Cable",
+      "1 Gbps / 25 Mbps",
+      "a large part"
+     ],
+     [
+      "<b>CenturyLink</b>",
+      "DSL",
+      "60 Mbps / 60 Mbps",
+      "most of the area"
+     ],
+     [
+      "<b>AlignTec</b>",
+      "Fixed wireless",
+      "100 Mbps / 25 Mbps",
+      "most of the area"
+     ],
+     [
+      "<b>Visionary Broadband</b>",
+      "Fixed wireless",
+      "100 Mbps / 20 Mbps",
+      "most of the area"
+     ],
+     [
+      "<b>Visionary Broadband</b>",
+      "Fixed wireless (second network)",
+      "600 Mbps / 100 Mbps",
+      "a small part"
+     ],
+     [
+      "<b>Verizon</b>",
+      "5G/LTE home internet",
+      "300 Mbps / 20 Mbps",
+      "most of the area"
+     ],
+     [
+      "<b>T-Mobile</b>",
+      "5G/LTE home internet",
+      "100 Mbps / 20 Mbps",
+      "a large part"
+     ],
+     [
+      "<b>Starlink</b>",
+      "Satellite (low orbit)",
+      "280 Mbps / 30 Mbps",
+      "Whole area (needs clear sky view)"
+     ],
+     [
+      "<b>Viasat</b>",
+      "Satellite",
+      "50 Mbps / 5 Mbps",
+      "Whole area (needs clear sky view)"
+     ],
+     [
+      "<b>HughesNet</b>",
+      "Satellite",
+      "50 Mbps / 5 Mbps",
+      "Whole area (needs clear sky view)"
+     ]
+    ]
+   },
+   "body_html": ""
+  },
+  {
+   "h2": "",
+   "body_html": "<p style=\"font-size:14px;color:#58697a\">Source: FCC Broadband Data Collection, June 30, 2026, matched to ZIP codes by YourBillCheck. Footprint compares each provider's reported locations with the widest land-based (wired or fixed wireless) provider near that ZIP code, so it is a guide, not a promise for your street.</p>"
+  },
+  {
+   "h2": "Rural Bayfield: DSL, fixed wireless and satellite",
+   "body_html": "<p>Outside the fiber and cable lines, most homes in 81122 have several choices in the FCC data. <b>CenturyLink DSL</b> reports up to 60 Mbps across most of the area; BroadbandNow reports it from $55 a month (see our <a href=\"/bills/centurylink\">CenturyLink bill guide</a>). <b>AlignTec</b> is a small local provider; the Durango Herald reported it won a $593,000 state grant to bring fiber to the Deer Valley subdivision east of Bayfield, linked to a microwave feed. <b>Visionary Broadband</b> fixed wireless reports up to 100 Mbps across most of the ZIP code. <b>Verizon 5G</b> reports up to 300 Mbps across most of the area, and <b>Starlink</b> up to 280 Mbps with a clear sky view.</p>"
+  },
+  {
+   "h2": "What to ask before you order",
+   "body_html": "<ul><li>Is my address live on Clearnetworx fiber, or still waiting on construction?</li><li>What is the price after any promotion, and is equipment extra?</li><li>For cable, DSL or wireless: what upload speed will I get?</li></ul><p>Run a <a href=\"/speed-test\">speed test</a> on your current service first. If your bill keeps climbing, read <a href=\"/guides/why-internet-bill-went-up\">why internet bills go up</a>.</p>"
+  },
+  {
+   "h2": "Internet near Bayfield",
+   "body_html": "<p><a href=\"/internet/co/durango\">Durango</a> · <a href=\"/internet/co/ignacio\">Ignacio</a> · <a href=\"/internet/co/pagosa-springs\">Pagosa Springs</a> · <a href=\"/internet/co/hesperus\">Hesperus</a> · <a href=\"/internet/co\">All Colorado internet providers</a> · <a href=\"/speed-test\">Test your current speed</a></p>"
+  }
+ ],
+ "faq": [
+  [
+   "Is there fiber internet in Bayfield, CO?",
+   "Yes. Clearnetworx began building fiber to homes in Bayfield in 2023 and reports speeds up to 2 Gbps both ways across a large part of 81122 in June 2026 FCC data."
+  ],
+  [
+   "What internet providers serve Bayfield, CO?",
+   "FCC data for 81122 shows Clearnetworx fiber, Zito Media cable, CenturyLink DSL, AlignTec and Visionary Broadband fixed wireless, Verizon and T-Mobile 5G, and Starlink, Viasat and HughesNet satellite."
+  ],
+  [
+   "How much is Clearnetworx in Bayfield?",
+   "Clearnetworx does not list prices on its Bayfield page. BroadbandNow reports plans starting at $49.95 a month. Confirm the price at your address."
+  ],
+  [
+   "Who bought FastTrack Communications?",
+   "Clearnetworx. La Plata Electric Association announced the sale of FastTrack Communications to Clearnetworx in November 2023."
+  ]
+ ],
+ "sources": [
+  [
+   "FCC Broadband Data Collection (June 30, 2026), Bayfield ZIP 81122",
+   "https://broadbandmap.fcc.gov/"
+  ],
+  [
+   "Clearnetworx: Bayfield",
+   "https://clearnetworx.com/?p=1793"
+  ],
+  [
+   "Clearnetworx: about",
+   "https://clearnetworx.com/about/"
+  ],
+  [
+   "Pagosa Daily Post: LPEA sells FastTrack Communications to Clearnetworx (Nov 2023)",
+   "https://pagosadailypost.com/?p=111237"
+  ],
+  [
+   "Durango Herald: Clearnetworx Forest Lakes fiber expansion",
+   "https://dh.durangoherald.com/?p=124752"
+  ],
+  [
+   "Durango Herald: AlignTec Deer Valley grant",
+   "https://tj.durangoherald.com/?p=101101"
+  ],
+  [
+   "Zito Media: Bayfield, CO",
+   "https://www.zitomedia.net/national/colorado/bayfield/"
+  ],
+  [
+   "BroadbandNow: internet providers in Bayfield, CO",
+   "https://broadbandnow.com/Colorado/Bayfield"
+  ]
+ ],
+ "checked": "November 26, 2026",
+ "date": "2026-11-26",
+ "cta_provider": "internet"
+}

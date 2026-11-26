@@ -1,0 +1,163 @@
+{
+ "path": "/bills/t-mobile-bill-went-up",
+ "title": "T-Mobile Bill Went Up? Why and How to Lower It (2026)",
+ "description": "Why your T-Mobile bill went up: the October 2026 fee increase, legacy plan moves, Home Internet changes and lost AutoPay discounts, with dates and sources.",
+ "h1": "Why did my T-Mobile bill go up?",
+ "lead": "What changed on T-Mobile phone and Home Internet bills, how to find the line that rose, and what to do about it.",
+ "short_answer": "Most T-Mobile bills went up because the Regulatory Programs & Telco Recovery Fee rose on October 12, 2026, to $5.49 per voice line and $2.60 per mobile internet line, after a January increase. Customers moved off legacy plans from mid-July 2026 also saw increases T-Mobile says average $4 per line.",
+ "crumbs": [
+  [
+   "Home",
+   "/"
+  ],
+  [
+   "Lower your bill",
+   "/bills"
+  ],
+  [
+   "T-Mobile bill went up",
+   "/bills/t-mobile-bill-went-up"
+  ]
+ ],
+ "cta_provider": "T-Mobile",
+ "sections": [
+  {
+   "h2": "What changed on T-Mobile bills",
+   "body_html": "<p>The last column shows whether a change applies to wireless (phone, tablet, watch lines), to T-Mobile Home Internet, or both.</p>",
+   "table": {
+    "head": [
+     "When",
+     "What changed",
+     "Who it affects",
+     "Source"
+    ],
+    "rows": [
+     [
+      "<b>October 12, 2026</b>",
+      "The Regulatory Programs &amp; Telco Recovery Fee rose from $4.49 to $5.49 per voice line and from $2.10 to $2.60 per mobile internet line. T-Mobile says it is not a government tax. T-Mobile's broadband labels for current Home Internet plans list the same $2.60 fee.",
+      "Both: plans that bill taxes and fees on top of the price, including Experience plans. Older plans with taxes and fees included are reported unaffected.",
+      "T-Mobile, Droid Life"
+     ],
+     [
+      "<b>January 21, 2026</b>",
+      "The same fee rose from $3.99 to $4.49 per voice line and from $1.60 to $2.10 per mobile internet line.",
+      "Wireless, on plans that do not include taxes and fees",
+      "Reported (TheStreet via Yahoo Finance, Droid Life)"
+     ],
+     [
+      "<b>Mid-July 2026</b>",
+      "T-Mobile began moving customers off its oldest plans to current plans. T-Mobile said the average adjustment is $4 per line and some customers see no change. Reports put voice lines up $6 and 5G Home Internet lines up $6; T-Mobile did not confirm those figures.",
+      "Both: legacy wireless plans; some legacy Home Internet plans were reported moved too",
+      "T-Mobile statement via Android Authority; other figures reported"
+     ],
+     [
+      "<b>Early June 2026</b>",
+      "Home Internet prices rose $5 on all three tiers for new sign-ups, and the AutoPay discount rose $5. With AutoPay and a T-Mobile voice line, prices stayed at $35, $45 and $55. Rely got a 354 Mbps speed cap for new customers.",
+      "Home Internet, new customers only. Existing customers are reported grandfathered.",
+      "Reported (Tech Times, PhoneArena)"
+     ],
+     [
+      "<b>October 2025</b>",
+      "T-Mobile began telling customers they would lose the AutoPay discount if they made early payments with a credit card.",
+      "Wireless customers using AutoPay",
+      "Reported (TheStreet via Yahoo Finance)"
+     ],
+     [
+      "<b>August 2025</b>",
+      "Advertised Home Internet prices stopped including taxes and fees, which now show as separate bill lines depending on when service started.",
+      "Home Internet customers who signed up since",
+      "Reported (HighSpeedInternet.com)"
+     ],
+     [
+      "<b>April 2025</b>",
+      "The Regulatory Programs &amp; Telco Recovery Fee rose from $3.49 to $3.99 per voice line.",
+      "Wireless",
+      "Reported (Droid Life, TheStreet via Yahoo Finance)"
+     ]
+    ]
+   }
+  },
+  {
+   "h2": "How to find out why your T-Mobile bill went up",
+   "body_html": "<ol class=\"steps\"><li>Open your bill and go to Bill details. The Regulatory Programs &amp; Telco Recovery Fee is listed there, not in the plan price.</li><li>Multiply the fee change by your lines. Since January 2026 the fee is up $1.50 per voice line and $1.00 per tablet or other mobile internet line, so a four-line account pays $6 more a month from the voice-line fee alone.</li><li>Check your plan name. If it changed from a plan such as Simple Choice, ONE or Magenta to a current plan, the increase likely came from the legacy plan move.</li><li>Check whether AutoPay is still applied. A credit card early payment, a changed payment method or a due-date change can drop or prorate the discount.</li><li>If this is your first Home Internet bill, look for a one-time device connection charge (reported at $35 on some plans) and prorated charges from the day the gateway shipped.</li></ol>"
+  },
+  {
+   "h2": "What you can do about it",
+   "body_html": "<ol class=\"steps\"><li>Check your notice to see whether your plan pays the Telco Recovery Fee or includes taxes and fees.</li><li>If you have a T-Mobile phone line, ask for the Home Internet price with a voice line.</li><li>Before changing plans, ask whether the change ends your price guarantee. T-Mobile's 5-year guarantee covers the base price, not taxes and fees.</li><li>If you were moved off a legacy plan that came with a price commitment, ask T-Mobile to honor it. T-Mobile says customers with price commitments are not affected by the moves.</li><li>If coverage is weak at your address, a wired provider may give more speed for the same money. Compare providers in your ZIP code.</li></ol><p>Ready to act? <a href=\"/bills/t-mobile\">Full T-Mobile fee guide</a> · <a href=\"/guides/internet-price-increases-2026\">2026 price increase tracker</a> · <a href=\"/guides/why-internet-bill-went-up\">Why internet bills go up</a></p>"
+  },
+  {
+   "h2": "Related charges",
+   "body_html": "<p><a href=\"/fees/recovery-and-regulatory-fees\">Recovery and regulatory fees</a> · <a href=\"/fees/installation-and-activation-fee\">Installation and activation fees</a> · <a href=\"/fees/unreturned-equipment-fee\">Unreturned equipment fee</a></p>"
+  },
+  {
+   "h2": "Check if a cheaper provider serves you",
+   "body_html": "<p>If T-Mobile keeps raising your price, see who else offers internet at your address. Enter your ZIP code, or pick your state.</p><form class=\"yf-zip\" style=\"max-width:360px;margin:0 0 12px\" onsubmit=\"var z=this.z.value.trim();if(/^\\d{5}$/.test(z)){location.href='/internet/'+z}return false\"><input name=\"z\" inputmode=\"numeric\" maxlength=\"5\" placeholder=\"Enter ZIP code\" aria-label=\"ZIP code\"> <button type=\"submit\">Check providers</button></form><p><a href=\"/internet/tx\">Texas internet providers</a> · <a href=\"/internet/ca\">California internet providers</a> · <a href=\"/internet/fl\">Florida internet providers</a> · <a href=\"/internet/ny\">New York internet providers</a> · <a href=\"/internet/ga\">Georgia internet providers</a> · <a href=\"/internet/pa\">Pennsylvania internet providers</a> · <a href=\"/internet/il\">Illinois internet providers</a> · <a href=\"/internet/oh\">Ohio internet providers</a> · <a href=\"/internet\">All states</a></p>"
+  }
+ ],
+ "faq": [
+  [
+   "Why did my T-Mobile bill go up in October 2026?",
+   "T-Mobile raised its Regulatory Programs & Telco Recovery Fee on October 12, 2026 to $5.49 per voice line and $2.60 per mobile internet line. It applies to plans that bill taxes and fees separately, and the price lock does not cover it."
+  ],
+  [
+   "Did T-Mobile Home Internet go up?",
+   "T-Mobile's labels for current Home Internet plans list the $2.60 per-line fee. New-customer prices rose $5 in June 2026, but existing customers are reported grandfathered. Some legacy Home Internet plans were reported moved to newer plans in July 2026."
+  ],
+  [
+   "Is the Telco Recovery Fee a tax?",
+   "No. T-Mobile says the fee is not a government tax or imposed by the government. T-Mobile keeps it to recover costs."
+  ],
+  [
+   "Does the T-Mobile price guarantee stop my bill from going up?",
+   "For Home Internet, reviewers say it keeps the base plan price for five years on plans activated since May 2025. Taxes, fees and some promotions are excluded, so the bill can still rise."
+  ]
+ ],
+ "sources": [
+  [
+   "T-Mobile: what's impacting your bill (fee amounts)",
+   "https://www.t-mobile.com/support/account/whats-impacting-your-bill"
+  ],
+  [
+   "T-Mobile: bill support, taxes and fees",
+   "https://www.t-mobile.com/support/account/bill-support"
+  ],
+  [
+   "T-Mobile: FCC broadband facts labels",
+   "https://www.t-mobile.com/landing-pages/broadband-facts/t-mobile-fcc-broadband-facts"
+  ],
+  [
+   "Droid Life: T-Mobile fee increase, October 12, 2026",
+   "https://www.droid-life.com/2026/10/12/t-mobile-fee-increase-your-bill-is-going-up-today/"
+  ],
+  [
+   "Droid Life: many T-Mobile bills increase, January 21, 2026",
+   "https://www.droid-life.com/2026/01/21/many-t-mobile-bills-will-increase-starting-today/"
+  ],
+  [
+   "Yahoo Finance (TheStreet): T-Mobile fee change and AutoPay rule (Jan 2026)",
+   "https://finance.yahoo.com/news/t-mobile-makes-harsh-change-013700289.html"
+  ],
+  [
+   "Android Authority: T-Mobile retires old plans (June 29, 2026)",
+   "https://androidauthority.com/t-mobile-retires-old-plans-forces-migration-3682298/"
+  ],
+  [
+   "PhoneArena: FCC complaint over T-Mobile plan migration",
+   "https://www.phonearena.com/news/t-mobile-plan-migration_id181869"
+  ],
+  [
+   "Tech Times: T-Mobile Home Internet price and Rely speed cap (June 2026)",
+   "https://www.techtimes.com/articles/317976/20260608/t-mobile-5g-home-internet-rely-plan-gets-speed-cap-354-mbps-first-time.htm"
+  ],
+  [
+   "HighSpeedInternet.com: what you actually pay for T-Mobile Home Internet",
+   "https://highspeedinternet.com/resources/t-mobile-real-costs"
+  ]
+ ],
+ "chips": [
+  "Bill increase",
+  "Sources listed"
+ ],
+ "checked": "November 26, 2026",
+ "date": "2026-11-26"
+}
