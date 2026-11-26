@@ -36,7 +36,7 @@ def build(save, shell):
             'Each guide lists its sources and the date it was checked. Read <a href="/methodology">how we get our data</a>.</p>'
             '<ul><li><a href="/bills">Why is my internet bill so high?</a></li><li><a href="/bills/xfinity">Xfinity bill guide</a></li>'
             '<li><a href="/bills/spectrum">Spectrum bill guide</a></li><li><a href="/bills/att">AT&amp;T bill guide</a></li></ul>'
-            "<h2>Who runs YourBillCheck</h2><p><b>Vivek Budhiraja</b>, Founder. <b>Khalid Shaikh</b>, Head of Business Development. See <a href=\"/about\">About YourBillCheck</a>.</p>"
+            "<h2>Who runs YourBillCheck</h2><p><b><a href=\"https://www.linkedin.com/in/vivek-budhiraja-47520847\" rel=\"noopener me\" target=\"_blank\">Vivek Budhiraja</a></b>, Founder. <b>Khalid Shaikh</b>, Head of Business Development. See <a href=\"/about\">About YourBillCheck</a>.</p>"
             "<h2>Independence</h2><p>YourBillCheck may earn a commission when you switch through us, at no cost to you. That never changes what a guide says about a provider. "
             '<a href="/about">How we make money</a>.</p>')
     ld = [dict(PERSON, **{"@type": "Person", "description": BIO})]

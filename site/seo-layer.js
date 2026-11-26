@@ -10,7 +10,7 @@ const OGIMG=SITE+"/og.png";
 const MON=["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
 const fdate=function(s){const a=s.split("-").map(Number);return MON[a[1]-1]+" "+a[2]+", "+a[0]};
 const unesc=function(s){return String(s).replace(/&quot;/g,'"').replace(/&lt;/g,"<").replace(/&gt;/g,">").replace(/&amp;/g,"&")};
-const ORGLD={"@type":"Organization","@id":SITE+"/#org","name":"YourBillCheck","url":SITE+"/","logo":OGIMG,"founder":{"@type":"Person","name":"Vivek Budhiraja","jobTitle":"Founder"},"employee":{"@type":"Person","name":"Khalid Shaikh","jobTitle":"Head of Business Development","url":SITE+"/authors/khalid-shaikh"},"telephone":"+1-888-491-5666","contactPoint":{"@type":"ContactPoint","telephone":"+1-888-491-5666","contactType":"customer service","areaServed":"US","availableLanguage":"English"}};
+const ORGLD={"@type":"Organization","@id":SITE+"/#org","name":"YourBillCheck","url":SITE+"/","logo":OGIMG,"founder":{"@type":"Person","name":"Vivek Budhiraja","jobTitle":"Founder","sameAs":["https://www.linkedin.com/in/vivek-budhiraja-47520847"]},"employee":{"@type":"Person","name":"Khalid Shaikh","jobTitle":"Head of Business Development","url":SITE+"/authors/khalid-shaikh"},"telephone":"+1-888-491-5666","contactPoint":{"@type":"ContactPoint","telephone":"+1-888-491-5666","contactType":"customer service","areaServed":"US","availableLanguage":"English"}};
 const ldTag=function(j){return '<script type="application/ld+json">'+JSON.stringify(Object.assign({"@context":"https://schema.org"},j)).replace(/</g,"\\u003c")+"</script>"};
 const NAVL='<a href="/about">About</a> · <a href="/methodology">How we get our data</a> · <a href="/guides">Guides</a>';
 const FOOT='<a href="/">Home</a> · <a href="/internet">Internet by state</a> · <a href="/guides">Guides</a> · <a href="/about">About</a> · <a href="/methodology">Methodology</a> · <a href="/privacy">Privacy</a> · <a href="/terms">Terms</a> · YourBillCheck, 4550 W Buckingham Rd, Garland, TX 75042';
@@ -95,7 +95,7 @@ const METH=[
 ["Corrections","If something on the site looks wrong, call (888) 491-5666 and we will review it."]
 ];
 const ABOUT=[
-["Who runs YourBillCheck","Vivek Budhiraja is the founder of YourBillCheck. Khalid Shaikh is Head of Business Development and writes and reviews our bill guides. Read more <a href=\"/authors/khalid-shaikh\">about Khalid</a>."],
+["Who runs YourBillCheck","<a href=\"https://www.linkedin.com/in/vivek-budhiraja-47520847\" rel=\"noopener me\" target=\"_blank\">Vivek Budhiraja</a> is the founder of YourBillCheck. Khalid Shaikh is Head of Business Development and writes and reviews our bill guides. Read more <a href=\"/authors/khalid-shaikh\">about Khalid</a>."],
 ["Who we are","YourBillCheck is an independent comparison and sales service for people in the United States. We help households check whether their internet, TV or mobile bill is too high and compare internet providers by ZIP code. We are based at 4550 W Buckingham Rd, Garland, TX 75042."],
 ["What you can do here","Upload your bill, or enter your provider and monthly total, and see what you pay in a year and how much you could save. Browse internet providers by <a href=\"/internet\">state</a>, city and ZIP code, with top speeds, coverage and typical starting prices. If you want help, a specialist can confirm what is available at your exact address and help you sign up."],
 ["How we make money","YourBillCheck is free to use. We may earn a commission from providers when you sign up through us, at no cost to you and without changing your price."],
