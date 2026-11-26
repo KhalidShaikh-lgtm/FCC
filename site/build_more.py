@@ -82,7 +82,7 @@ def build(save):
             '<p>More help: <a href="/moving">moving guides</a> · <a href="/moving/transfer-internet-to-new-address">transfer internet to a new address</a> · <a href="/help/move-internet-service">move your service</a></p>'
             '<div class="cta"><div><h3>Let us set up internet at your new place</h3><p>Call ' + PHONE + ' and we will check providers at your new address and book the install.</p></div><a class="btn alt" href="tel:+18884915666">Call (888) 491-5666</a></div>')
     js = ('<script>(function(){' + BF.CORE +
-          'function d(dt,n){var x=new Date(dt.getTime()+n*864e5);return x.toLocaleDateString("en-US",{weekday:"short",month:"short",day:"numeric"})}'
+          'function d(dt,n){var x=new Date(dt.getTime()+n*864e5),t=new Date();t.setHours(0,0,0,0);return x<t?"Now (as soon as possible)":x.toLocaleDateString("en-US",{weekday:"short",month:"short",day:"numeric"})}'
           'document.getElementById("go").onclick=function(){var z=$("zz").value.trim(),v=$("md").value,o=$("out");if(!/^\\d{5}$/.test(z)||!v){o.innerHTML="Enter the new ZIP code and your move-in date.";return}'
           'var m=new Date(v+"T12:00:00");var steps=[[-28,"Check providers at the new address (below) and compare prices after any promo."],[-21,"Call your current provider: ask whether you can transfer service and what fees apply. Ask about any contract or early termination fee."],'
           '[-14,"Order service at the new address and book the install for move-in day or the day before. Write down the order number."],[-7,"Confirm the install appointment. Plan to cancel or transfer the old service the day after you move out."],'
