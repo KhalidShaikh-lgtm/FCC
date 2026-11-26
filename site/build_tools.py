@@ -38,6 +38,7 @@ def page(save, path, title, desc, h1, lead, body, faq, script, name):
                         jsonld_extra=app_ld(path, name, desc), date=DATE, script=script, checked=CHECKED, author=author.PERSON))
 
 TOOLS = [
+    ("/outages", "Is my internet down?", "Live outage reports for 10 providers, plus fix steps."),
     ("/tools/promo-price-calculator", "Promo price calculator", "See what your internet bill becomes when the promotion ends, and what it costs over a year."),
     ("/tools/internet-speed-calculator", "Internet speed calculator", "Work out how much download speed your household needs."),
     ("/tools/data-usage-calculator", "Data usage calculator", "Estimate your monthly data and check it against a data cap."),
@@ -177,7 +178,7 @@ def build(save):
     # ---------- hub ----------
     p = "/tools"
     cards = "".join(f'<a class="card" href="{u}"><b>{esc(n)}</b><span>{esc(d)}</span></a>' for u, n, d in TOOLS)
-    body = ('<div class="grid">' + cards + '</div><p>More tools are on the way: outage checker, fiber finder, low-income internet checker and more. '
+    body = ('<div class="grid">' + cards + '</div><p>More tools are on the way: fiber finder, low-income internet checker and more. '
             'All tools are free, and nothing you type is stored.</p>' + zipcta("Ready to compare providers?"))
     save(p, ui.shell(p, "Free Internet Tools: Speed, Data, Promo Price and Bill Calculators | YourBillCheck",
                      "Free internet tools: speed test, speed and data calculators, promo price calculator, streaming vs cable and a Wi-Fi problem checker.",

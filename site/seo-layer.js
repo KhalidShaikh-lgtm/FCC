@@ -196,7 +196,7 @@ function notFound(){
 
 /* ---------- robots, llms.txt, sitemap ---------- */
 const BOTS=["GPTBot","OAI-SearchBot","ChatGPT-User","ClaudeBot","Claude-SearchBot","Claude-User","PerplexityBot","Perplexity-User","Google-Extended","Applebot-Extended","CCBot"];
-const ROBOTS2="User-agent: *\nAllow: /\n\n"+BOTS.map(function(b){return "User-agent: "+b+"\nAllow: /\n"}).join("\n")+"\nSitemap: "+SITE+"/sitemap.xml\nSitemap: "+SITE+"/sitemap-us.xml\n";
+const ROBOTS2="User-agent: *\nAllow: /\nDisallow: /api/\n\n"+BOTS.map(function(b){return "User-agent: "+b+"\nAllow: /\nDisallow: /api/\n"+(["ClaudeBot","GPTBot","CCBot","PerplexityBot"].indexOf(b)>-1?"Crawl-delay: 5\n":"")}).join("\n")+"\nSitemap: "+SITE+"/sitemap.xml\nSitemap: "+SITE+"/sitemap-us.xml\n";
 const LLMS2="# YourBillCheck\n\n> YourBillCheck is a free US comparison service. Enter a ZIP code to see which internet providers report service there, their top speeds, coverage and typical new-customer starting prices, and check whether your internet, TV or mobile bill is too high.\n\nLast updated: "+UPDATED+"\n\n## Key pages\n"+
  "- ["+SITE+"/]("+SITE+"/): ZIP finder and bill check\n"+
  "- ["+SITE+"/internet]("+SITE+"/internet): internet providers by state (every state is at /internet/{state}, every ZIP with FCC data at /internet/{zip})\n"+
