@@ -1,0 +1,522 @@
+{
+ "path": "/guides/one-internet-provider-zip-codes-study",
+ "title": "1 in 3 US ZIP Codes Has One Wired Internet Provider (2026)",
+ "description": "We checked FCC data for 29,663 US ZIP codes. About 34% have only one wired internet provider. See the rate for every state and the providers involved.",
+ "h1": "1 in 3 US ZIP codes has only one wired internet provider",
+ "lead": "Our analysis of FCC broadband data for 29,663 ZIP codes, with the rate for every state.",
+ "short_answer": "In our analysis of FCC data for 29,663 US ZIP codes, 34.1% (10,113) have only one wired internet provider with meaningful reach. Another 5.1% have none. North Dakota, South Dakota and Montana have the highest rates, and Spectrum and Xfinity are the sole wired option in the most ZIP codes.",
+ "chips": [
+  "Data study",
+  "Sources listed"
+ ],
+ "crumbs": [
+  [
+   "Home",
+   "/"
+  ],
+  [
+   "Guides",
+   "/guides"
+  ],
+  [
+   "Wired internet competition study",
+   "/guides/one-internet-provider-zip-codes-study"
+  ]
+ ],
+ "sections": [
+  {
+   "h2": "The main findings",
+   "body_html": "<ul><li><b>34.1% of ZIP codes (10,113 of 29,663) have exactly one wired provider</b> with meaningful reach. That is about 1 in 3.</li><li><b>5.1% (1,504) have no meaningful wired provider.</b> Homes there rely on satellite, fixed wireless or cellular home internet.</li><li><b>48.0% (14,234) have two,</b> and <b>12.9% (3,812) have three or more.</b></li><li><b>37.6% of ZIP codes (11,146) have no meaningful fiber.</b></li><li>Where there is one wired provider, it is fiber in 47.2% of ZIP codes (4,769), cable in 35.7% (3,610) and DSL in 17.1% (1,734).</li><li>In 13.8% of the one-provider ZIP codes (1,397), that provider's top advertised download speed is under 100 Mbps.</li></ul><p>One wired provider does not mean a poor service. In nearly half of these ZIP codes the only provider is fiber. It does mean a household has no wired provider to switch to if the price rises or the service falls short.</p>"
+  },
+  {
+   "h2": "How we measured it",
+   "body_html": "<p>We used the FCC's National Broadband Map data (Broadband Data Collection, June 30, 2026 release) for residential locations in all 50 states and DC. For each ZIP code we looked at the area around its center point, roughly a 1.5-mile radius, and counted wired providers: DSL, cable and fiber.</p><p>A provider counts only if it reaches at least half as many homes as the most widespread land-based provider in that area. This keeps a provider that serves a handful of addresses from being counted as a real choice. Satellite and fixed wireless are not counted as wired providers.</p><p><b>The threshold matters.</b> At a 25% cutoff, 27.0% of ZIP codes have one wired provider. At 80%, it is 54.9%. We use 50% as the middle setting.</p>"
+  },
+  {
+   "h2": "One-provider ZIP codes by state",
+   "body_html": "<p>Sorted by the share of ZIP codes in each state with exactly one wired provider. The last column counts ZIP codes with no meaningful wired provider.</p>"
+  },
+  {
+   "table": {
+    "head": [
+     "State",
+     "ZIP codes analysed",
+     "One wired provider",
+     "Share",
+     "No wired provider"
+    ],
+    "rows": [
+     [
+      "North Dakota",
+      "378",
+      "296",
+      "78.3%",
+      "2"
+     ],
+     [
+      "South Dakota",
+      "348",
+      "250",
+      "71.8%",
+      "9"
+     ],
+     [
+      "Montana",
+      "299",
+      "195",
+      "65.2%",
+      "34"
+     ],
+     [
+      "Kansas",
+      "679",
+      "351",
+      "51.7%",
+      "32"
+     ],
+     [
+      "Massachusetts",
+      "494",
+      "241",
+      "48.8%",
+      "2"
+     ],
+     [
+      "West Virginia",
+      "609",
+      "297",
+      "48.8%",
+      "18"
+     ],
+     [
+      "New Mexico",
+      "247",
+      "120",
+      "48.6%",
+      "30"
+     ],
+     [
+      "Oklahoma",
+      "595",
+      "289",
+      "48.6%",
+      "94"
+     ],
+     [
+      "Delaware",
+      "60",
+      "29",
+      "48.3%",
+      "0"
+     ],
+     [
+      "Kentucky",
+      "732",
+      "352",
+      "48.1%",
+      "13"
+     ],
+     [
+      "Arkansas",
+      "530",
+      "254",
+      "47.9%",
+      "16"
+     ],
+     [
+      "Iowa",
+      "901",
+      "431",
+      "47.8%",
+      "18"
+     ],
+     [
+      "Nebraska",
+      "560",
+      "267",
+      "47.7%",
+      "22"
+     ],
+     [
+      "Wyoming",
+      "128",
+      "56",
+      "43.8%",
+      "36"
+     ],
+     [
+      "Virginia",
+      "862",
+      "372",
+      "43.2%",
+      "38"
+     ],
+     [
+      "New York",
+      "1,667",
+      "678",
+      "40.7%",
+      "1"
+     ],
+     [
+      "Pennsylvania",
+      "1,463",
+      "578",
+      "39.5%",
+      "21"
+     ],
+     [
+      "Missouri",
+      "977",
+      "383",
+      "39.2%",
+      "101"
+     ],
+     [
+      "Maryland",
+      "425",
+      "165",
+      "38.8%",
+      "9"
+     ],
+     [
+      "Michigan",
+      "909",
+      "339",
+      "37.3%",
+      "33"
+     ],
+     [
+      "Idaho",
+      "241",
+      "88",
+      "36.5%",
+      "58"
+     ],
+     [
+      "Mississippi",
+      "380",
+      "137",
+      "36.1%",
+      "36"
+     ],
+     [
+      "Washington",
+      "529",
+      "183",
+      "34.6%",
+      "54"
+     ],
+     [
+      "Utah",
+      "216",
+      "74",
+      "34.3%",
+      "13"
+     ],
+     [
+      "Alaska",
+      "41",
+      "14",
+      "34.1%",
+      "11"
+     ],
+     [
+      "Minnesota",
+      "833",
+      "284",
+      "34.1%",
+      "15"
+     ],
+     [
+      "Wisconsin",
+      "721",
+      "239",
+      "33.1%",
+      "18"
+     ],
+     [
+      "Louisiana",
+      "474",
+      "152",
+      "32.1%",
+      "44"
+     ],
+     [
+      "Alabama",
+      "597",
+      "185",
+      "31.0%",
+      "26"
+     ],
+     [
+      "Oregon",
+      "381",
+      "114",
+      "29.9%",
+      "31"
+     ],
+     [
+      "Texas",
+      "1,738",
+      "496",
+      "28.5%",
+      "177"
+     ],
+     [
+      "Illinois",
+      "1,259",
+      "333",
+      "26.4%",
+      "93"
+     ],
+     [
+      "South Carolina",
+      "377",
+      "98",
+      "26.0%",
+      "1"
+     ],
+     [
+      "New Jersey",
+      "560",
+      "143",
+      "25.5%",
+      "1"
+     ],
+     [
+      "Indiana",
+      "700",
+      "178",
+      "25.4%",
+      "13"
+     ],
+     [
+      "Colorado",
+      "436",
+      "109",
+      "25.0%",
+      "56"
+     ],
+     [
+      "Nevada",
+      "128",
+      "32",
+      "25.0%",
+      "19"
+     ],
+     [
+      "Georgia",
+      "683",
+      "168",
+      "24.6%",
+      "8"
+     ],
+     [
+      "Maine",
+      "387",
+      "95",
+      "24.5%",
+      "6"
+     ],
+     [
+      "Ohio",
+      "1,018",
+      "241",
+      "23.7%",
+      "23"
+     ],
+     [
+      "Tennessee",
+      "607",
+      "131",
+      "21.6%",
+      "4"
+     ],
+     [
+      "Arizona",
+      "321",
+      "61",
+      "19.0%",
+      "49"
+     ],
+     [
+      "North Carolina",
+      "750",
+      "142",
+      "18.9%",
+      "3"
+     ],
+     [
+      "California",
+      "1,579",
+      "274",
+      "17.4%",
+      "199"
+     ],
+     [
+      "Vermont",
+      "244",
+      "39",
+      "16.0%",
+      "5"
+     ],
+     [
+      "Florida",
+      "928",
+      "127",
+      "13.7%",
+      "10"
+     ],
+     [
+      "Rhode Island",
+      "73",
+      "7",
+      "9.6%",
+      "0"
+     ],
+     [
+      "New Hampshire",
+      "232",
+      "20",
+      "8.6%",
+      "0"
+     ],
+     [
+      "Hawaii",
+      "64",
+      "3",
+      "4.7%",
+      "2"
+     ],
+     [
+      "Connecticut",
+      "273",
+      "3",
+      "1.1%",
+      "0"
+     ],
+     [
+      "District of Columbia",
+      "30",
+      "0",
+      "0.0%",
+      "0"
+     ]
+    ]
+   }
+  },
+  {
+   "h2": "Which providers are the only wired option",
+   "body_html": "<p>The providers below are the only wired option in the most ZIP codes. Names are as the FCC lists them.</p>"
+  },
+  {
+   "table": {
+    "head": [
+     "Provider",
+     "ZIP codes where it is the only wired option",
+     "Share of one-provider ZIP codes"
+    ],
+    "rows": [
+     [
+      "Spectrum",
+      "1,594",
+      "15.8%"
+     ],
+     [
+      "Xfinity",
+      "1,178",
+      "11.6%"
+     ],
+     [
+      "Frontier",
+      "380",
+      "3.8%"
+     ],
+     [
+      "Brightspeed",
+      "331",
+      "3.3%"
+     ],
+     [
+      "CenturyLink",
+      "302",
+      "3.0%"
+     ],
+     [
+      "Optimum",
+      "240",
+      "2.4%"
+     ],
+     [
+      "Cox Communications",
+      "131",
+      "1.3%"
+     ],
+     [
+      "Breezeline",
+      "130",
+      "1.3%"
+     ],
+     [
+      "TDS Telecom",
+      "94",
+      "0.9%"
+     ],
+     [
+      "Windstream Iowa Communications, Inc.",
+      "93",
+      "0.9%"
+     ]
+    ]
+   }
+  },
+  {
+   "h2": "What stands out",
+   "body_html": "<ul><li><b>The Plains and Mountain West lead.</b> North Dakota (78.3%), South Dakota (71.8%) and Montana (65.2%) have the highest shares, followed by Kansas (51.7%).</li><li><b>By raw count, New York, Pennsylvania and Texas lead,</b> with 678, 578 and 496 one-provider ZIP codes.</li><li><b>Two cable companies account for over a quarter.</b> Spectrum is the only wired option in 1,594 ZIP codes and Xfinity in 1,178, together 27.4% of the one-provider ZIP codes.</li><li><b>The District of Columbia and Connecticut are the most competitive</b> in this measure, at 0.0% and 1.1%.</li></ul>"
+  },
+  {
+   "h2": "What to do if you live in one",
+   "body_html": "<p>Check what else reaches your address before assuming you are stuck. ZIP-level data is an average, and a neighbor a few streets away can have a different choice. Start with our <a href=\"/tools/internet-availability-checker\">internet availability checker</a> or <a href=\"/tools/fiber-checker\">fiber checker</a>. If you are outside a town, try the <a href=\"/tools/rural-internet-finder\">rural internet finder</a>.</p><p>If a promotional price has ended, see <a href=\"/guides/why-internet-bill-went-up\">why your internet bill went up</a>. With one provider, the main lever is calling to ask for a retention offer. Fixed wireless home internet and satellite are the usual alternatives where no second wired provider exists.</p>"
+  },
+  {
+   "h2": "Limits of this analysis",
+   "body_html": "<ul><li>The FCC map is based on <b>availability reported by providers</b>, not independently measured service. Reported coverage can be higher or lower than what a household gets.</li><li>We looked at the area around each ZIP center, not the whole ZIP code. Large rural ZIP codes can differ at their edges.</li><li>Fixed wireless and satellite are excluded from the count, so the figures show wired competition only.</li><li>Provider names follow the FCC listing, so a company that operates under two brands can appear twice.</li><li>The data covers ZIP codes in our dataset. It is not a household-weighted figure, so it does not say what share of people are affected.</li></ul>"
+  }
+ ],
+ "faq": [
+  [
+   "How many US ZIP codes have only one internet provider?",
+   "In our analysis of FCC data, 34.1% of 29,663 ZIP codes (10,113) have exactly one wired provider with meaningful reach. The share changes with the cutoff: 27.0% at a 25% cutoff and 54.9% at 80%."
+  ],
+  [
+   "Which states have the least internet competition?",
+   "By share of ZIP codes with one wired provider, North Dakota (78.3%), South Dakota (71.8%) and Montana (65.2%) are highest. New York has the most such ZIP codes by count (678)."
+  ],
+  [
+   "Does one provider mean slow internet?",
+   "Not always. In 47.2% of one-provider ZIP codes the only wired provider is fiber. In 13.8% the top advertised download speed is under 100 Mbps."
+  ],
+  [
+   "How can I see which providers serve my address?",
+   "Use our availability checker or the FCC's National Broadband Map, and enter your full address. ZIP-level numbers are an average and can differ from your street."
+  ]
+ ],
+ "sources": [
+  [
+   "FCC National Broadband Map",
+   "https://broadbandmap.fcc.gov"
+  ],
+  [
+   "FCC Broadband Data Collection (BDC) program",
+   "https://www.fcc.gov/BroadbandData"
+  ],
+  [
+   "FCC BDC public data downloads",
+   "https://bdc.fcc.gov/"
+  ]
+ ],
+ "checked": "November 27, 2026",
+ "date": "2026-11-27",
+ "cta_provider": "internet"
+}
