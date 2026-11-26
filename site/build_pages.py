@@ -530,6 +530,8 @@ import build_outages
 build_outages.build(save)
 import build_finders
 build_finders.build(save)
+import build_more
+build_more.build(save)
 build_extra.build_speed(ST_BODY, save)
 import chrome
 open(os.path.join(OUT,"_chrome.html"),"w").write(chrome.bundle())

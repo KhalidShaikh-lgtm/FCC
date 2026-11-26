@@ -49,6 +49,10 @@ TOOLS = [
     ("/tools/rural-internet-finder", "Rural internet finder", "Best options where cable and fiber do not reach."),
     ("/tools/compare-providers", "Compare two providers", "Side-by-side speeds and coverage at your ZIP code."),
     ("/tools/business-internet-finder", "Business internet finder", "Providers that can serve a business at your ZIP code."),
+    ("/tools/low-income-internet-checker", "Low-income internet checker", "Programs and discounts you may qualify for."),
+    ("/tools/moving-internet-setup", "Moving internet planner", "Dated checklist and providers at your new address."),
+    ("/tools/bundle-savings-calculator", "Bundle savings calculator", "Is an internet and mobile bundle worth it?"),
+    ("/tools/promo-end-reminder", "Promo end reminder", "Get a call before your price goes up."),
     ("/speed-test", "Internet speed test", "Test your download and upload speed in about 30 seconds."),
 ]
 
@@ -183,7 +187,7 @@ def build(save):
     # ---------- hub ----------
     p = "/tools"
     cards = "".join(f'<a class="card" href="{u}"><b>{esc(n)}</b><span>{esc(d)}</span></a>' for u, n, d in TOOLS)
-    body = ('<div class="grid">' + cards + '</div><p>More tools are on the way: low-income internet checker, cancel and switch helper, and more. '
+    body = ('<div class="grid">' + cards + '</div><p>More guides are on the way: cancel and switch help for each provider, senior and student discounts, and a monthly internet price index. '
             'All tools are free, and nothing you type is stored.</p>' + zipcta("Ready to compare providers?"))
     save(p, ui.shell(p, "Free Internet Tools: Speed, Data, Promo Price and Bill Calculators | YourBillCheck",
                      "Free internet tools: speed test, speed and data calculators, promo price calculator, streaming vs cable and a Wi-Fi problem checker.",
