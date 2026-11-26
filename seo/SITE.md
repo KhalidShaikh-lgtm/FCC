@@ -54,3 +54,9 @@ if that skill is not available, follow `seo/PLAYBOOK.md` in this repo, which is 
 - No emails, posts, directory submissions or account changes without Khalid's approval. Off-page work produces
   drafts and lists only.
 - Never delete pages. Weak pages are handled by the staged 30/60/90-day rules in PLAYBOOK.md (PRUNE) (improve, merge with 301, or noindex), never by deletion. Never change the phone number, author, or legal/footer text.
+
+## Conversions (since 2026-11-27)
+Cloudflare KV key `ev:<YYYY-MM-DD>` (UTC day) holds daily totals from the site: `{"t":{event:count},"p":{path:{event:count}},"s":{source:{event:count}}}`.
+Events: `call` (tap on a phone number), `lead` (bill-check or other form sent to the CRM), `reminder` (promo-end reminder signup), `zip` (ZIP check on a city/ZIP page), `report` (outage report).
+Sources: google, bing, other-search, ai, social, direct, internal, other. No personal data is stored.
+Use it: rank pages and topics by calls + leads, not only clicks. Write more of what produces calls; fix pages with traffic but no calls (CTA, intent match). Counts start at zero; judge after 2 weeks.
