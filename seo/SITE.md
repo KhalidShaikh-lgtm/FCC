@@ -7,7 +7,7 @@ if that skill is not available, follow `seo/PLAYBOOK.md` in this repo, which is 
 - What it is: independent US internet comparison + bill-check site. Revenue = inbound calls to our call center,
   which sells internet plans (commission). Primary CTA: call (888) 491-5666. Secondary: ZIP search.
 - Audience: US households choosing or switching internet, or upset about a bill.
-- Author on every page: Khalid Shaikh, Director (author.py handles the box and schema). Never invent other authors,
+- Author on every page: Khalid Shaikh, Head of Business Development (company founder: Vivek Budhiraja, About page only) (author.py handles the box and schema). Never invent other authors,
   reviews, testimonials or ratings.
 - Tone: plain, short sentences, no hype, no "best ever". Say "reported" when a fact comes from a third party
   rather than the provider. Every page lists sources and a "checked" date.
