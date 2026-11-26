@@ -1,0 +1,131 @@
+{
+ "path": "/guides/billshark-vs-switching-internet-providers",
+ "title": "Billshark vs Switching Providers: Which Saves More?",
+ "description": "Billshark charges 40% of what it saves on your internet bill. See the math against switching providers, which is free, and when each option makes sense.",
+ "h1": "Billshark vs switching internet providers",
+ "lead": "What Billshark charges, what you keep, and when a switch leaves more money in your pocket.",
+ "short_answer": "Billshark negotiates with your current provider and charges a one-time fee of 40% of the savings, with no fee if it saves nothing. Switching to another provider at your address carries no fee on your savings, though installation charges may apply. Billshark fits when you cannot or will not switch. Switching often wins when a second provider serves your address.",
+ "chips": [
+  "Comparison",
+  "Fee math",
+  "Sources listed"
+ ],
+ "crumbs": [
+  [
+   "Home",
+   "/"
+  ],
+  [
+   "Guides",
+   "/guides"
+  ],
+  [
+   "Billshark vs switching",
+   "/guides/billshark-vs-switching-internet-providers"
+  ]
+ ],
+ "sections": [
+  {
+   "h2": "How Billshark works",
+   "body_html": "<p>You upload a bill and Billshark's negotiators contact your provider for you. Billshark says no provider password is needed to start. It lists internet, wireless, pay TV, satellite radio and home security among the bills it handles.</p><p>The fee is a one-time 40% of the savings, and there is no fee when nothing is saved. BestMoney reports that the savings are counted over up to 24 months. Billshark advertises a 90% success rate and an average of $450 saved per successful bill. Those are the company's own figures and are not broken out for internet bills.</p>"
+  },
+  {
+   "h2": "The math on a typical saving",
+   "table": {
+    "head": [
+     "Monthly discount",
+     "Saved in 12 months",
+     "Billshark fee at 40%",
+     "You keep",
+     "You keep if you switch for the same saving"
+    ],
+    "rows": [
+     [
+      "$10",
+      "$120",
+      "$48",
+      "$72",
+      "$120"
+     ],
+     [
+      "$20",
+      "$240",
+      "$96",
+      "$144",
+      "$240"
+     ],
+     [
+      "$30",
+      "$360",
+      "$144",
+      "$216",
+      "$360"
+     ],
+     [
+      "$50",
+      "$600",
+      "$240",
+      "$360",
+      "$600"
+     ]
+    ]
+   },
+   "body_html": "<p style=\"font-size:14px;color:#58697a\">Our arithmetic on a 12-month discount. If the fee is counted over 24 months of savings, the fee would be twice these figures. Ask Billshark when it is billed.</p>"
+  },
+  {
+   "h2": "When Billshark makes sense",
+   "body_html": "<ul><li>Only one wired provider serves your address, so you cannot switch.</li><li>You are happy with the service and only the price bothers you.</li><li>You will not make the call yourself. If you will, our free scripts for <a href=\"/save/lower-xfinity-bill\">Xfinity</a>, <a href=\"/save/lower-spectrum-bill\">Spectrum</a>, <a href=\"/save/lower-att-internet-bill\">AT&amp;T</a> and <a href=\"/save/lower-cox-bill\">Cox</a> keep the whole saving with you.</li></ul>"
+  },
+  {
+   "h2": "When switching makes more sense",
+   "body_html": "<ul><li>Another provider serves your address. Providers often keep their lowest prices for new customers, which is one reason <a href=\"/guides/internet-promo-ended\">bills jump when a promotion ends</a>.</li><li>You want a different speed or technology, such as fiber in place of cable.</li><li>You do not want a fee tied to a discount that may expire.</li></ul><p>Switching has costs of its own: an installation visit, returning equipment, and possibly an early termination fee if you are under contract. Check those before you decide.</p>"
+  },
+  {
+   "h2": "What customers complain about",
+   "body_html": "<p>Billshark is BBB accredited with an A+ rating. The BBB page shows 27 complaints in the last three years. The recurring themes in the complaints shown are fees customers say they did not expect, savings figures they dispute, and discounts that did not appear on the bill. Billshark's replies say customers accepted the terms at signup, and in some cases it corrected the invoice. BBB notes that the complaints shown may not be all that were filed. If you use any negotiation service, ask for the new price in writing and check your next two bills.</p>"
+  },
+  {
+   "h2": "How YourBillCheck fits in",
+   "body_html": "<p>We are a comparison service, not a negotiator. <a href=\"/\">Check your bill free</a> and we show what other providers charge at your address. If you switch through us, the provider may pay us a commission. You pay nothing and we take no share of your savings.</p>"
+  }
+ ],
+ "faq": [
+  [
+   "How much does Billshark charge?",
+   "Billshark charges a one-time fee of 40% of the savings it negotiates, and no fee if it saves nothing. BestMoney reports the savings are counted over up to 24 months."
+  ],
+  [
+   "Is Billshark worth it for an internet bill?",
+   "It can be if you cannot switch providers and will not call yourself. If another provider serves your address, switching is free and you keep the whole saving."
+  ],
+  [
+   "Does Billshark need my provider password?",
+   "Billshark says no provider password is needed to start. You upload a copy of your bill."
+  ],
+  [
+   "Is switching internet providers free?",
+   "Comparing and ordering through YourBillCheck is free. The new provider may charge installation, and your old provider may charge an early termination fee if you are under contract."
+  ]
+ ],
+ "sources": [
+  [
+   "Billshark: service overview and fee",
+   "https://www.billshark.com/"
+  ],
+  [
+   "BestMoney: Best Bill Negotiation Services and Apps of 2026 (November 18, 2026)",
+   "https://www.bestmoney.com/financial-advisor/learn-more/bill-negotiation-services"
+  ],
+  [
+   "Better Business Bureau: Billshark complaints",
+   "https://www.bbb.org/us/ma/hopkinton/profile/billing-services/billshark-0021-146034/complaints"
+  ],
+  [
+   "YourBillCheck: How we make money",
+   "https://yourbillcheck.com/about"
+  ]
+ ],
+ "checked": "November 26, 2026",
+ "date": "2026-11-26",
+ "cta_provider": "internet"
+}

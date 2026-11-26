@@ -1,0 +1,145 @@
+{
+ "path": "/guides/do-bill-negotiation-services-work",
+ "title": "Do Bill Negotiation Services Work on Internet Bills?",
+ "description": "Bill negotiation services can lower a cable internet bill after a promo ends, but they do less on flat-price fiber and 5G plans. What they can and cannot do.",
+ "h1": "Do bill negotiation services work on internet bills?",
+ "lead": "Where a negotiator can get your price down, where there is little to negotiate, and what to do then.",
+ "short_answer": "Sometimes. A negotiation service works best when your price rose after a promotion ended and your provider has a retention offer to give. It does less on flat-price plans, where there is little room to discount. If another provider serves your address, switching can save more, with no fee on your savings.",
+ "chips": [
+  "Explainer",
+  "Sources listed"
+ ],
+ "crumbs": [
+  [
+   "Home",
+   "/"
+  ],
+  [
+   "Guides",
+   "/guides"
+  ],
+  [
+   "Do negotiation services work?",
+   "/guides/do-bill-negotiation-services-work"
+  ]
+ ],
+ "sections": [
+  {
+   "h2": "What a negotiation service actually does",
+   "body_html": "<p>A negotiator calls your provider, usually the retention team, and asks for a lower price on your behalf. That is the same call you can make yourself. The service saves you the time on the phone and, in return, takes a fee or a membership charge.</p><p>It cannot create a discount the provider does not offer. Any new price is usually another promotion that runs for a set number of months.</p>"
+  },
+  {
+   "h2": "Where it tends to work",
+   "body_html": "<ul><li><b>Your promotional price has ended.</b> In our experience this is a common reason an <a href=\"/guides/why-internet-bill-went-up\">internet bill goes up</a>, and it is where providers tend to have retention offers.</li><li><b>You have a bundle</b> with TV or phone, where there are more line items to adjust.</li><li><b>You have been a customer for years</b> and have never asked for a better rate.</li></ul>"
+  },
+  {
+   "h2": "Where it does less",
+   "body_html": "<ul><li><b>Flat-price plans.</b> CompareInternet.com reports that negotiation apps are weaker on fiber and 5G home internet plans, which are often sold at one standing price with little promotional discount to renew.</li><li><b>Fees and taxes.</b> In our experience, charges such as a <a href=\"/fees/broadcast-tv-fee\">broadcast TV fee</a> are rarely reduced on a retention call.</li><li><b>Small discounts.</b> A $10 monthly cut is $120 a year. At a 40% fee you keep $72.</li></ul>"
+  },
+  {
+   "h2": "What the services cost",
+   "table": {
+    "head": [
+     "Service",
+     "What you pay",
+     "If nothing is saved",
+     "Source"
+    ],
+    "rows": [
+     [
+      "<b>Rocket Money</b>",
+      "$15 a month plus tax for Premium+, which includes bill negotiation with no added success fee",
+      "The membership fee still applies",
+      "Rocket Money Help Center"
+     ],
+     [
+      "<b>Billshark</b>",
+      "40% of the savings, as a one-time fee. Reported as counted over up to 24 months of savings",
+      "No fee",
+      "Billshark; BestMoney"
+     ],
+     [
+      "<b>BillCutterz</b>",
+      "50% of the savings, with 10% off the fee if you pay it in full",
+      "No charge",
+      "BillCutterz FAQ"
+     ],
+     [
+      "<b>Experian BillFixer</b>",
+      "Included with eligible paid Experian memberships. You keep 100% of the savings",
+      "The membership fee still applies",
+      "Experian"
+     ],
+     [
+      "<b>Switching through YourBillCheck</b>",
+      "Nothing. We take no share of what you save. The provider may pay us a commission",
+      "Nothing",
+      "YourBillCheck"
+     ],
+     [
+      "<b>Calling your provider yourself</b>",
+      "Nothing but your time",
+      "Nothing",
+      ""
+     ]
+    ]
+   },
+   "body_html": "<p style=\"font-size:14px;color:#58697a\">Fees as published by each company or reported by the named reviewer, checked November 26, 2026.</p>"
+  },
+  {
+   "h2": "What to do if negotiation will not help",
+   "body_html": "<p>Check whether another provider serves your address. New-customer pricing is often lower than a long-time customer's rate, and a switch is not limited by what your current provider is willing to give. You can <a href=\"/\">check your bill free</a> and see the offers at your ZIP code. We take no share of what you save. If you would rather stay, use our free call scripts, starting with <a href=\"/save/lower-xfinity-bill\">how to lower an Xfinity bill</a>.</p>"
+  }
+ ],
+ "faq": [
+  [
+   "Do bill negotiation services really lower internet bills?",
+   "They can, mostly when a promotional price has ended and the provider has a retention offer. They do less on flat-price plans, and they cannot remove most fees and taxes."
+  ],
+  [
+   "Can I negotiate my internet bill myself?",
+   "Yes. Call your provider, ask for the retention or loyalty team, and say you are comparing other offers. It costs nothing and you keep the whole saving."
+  ],
+  [
+   "How long does a negotiated internet price last?",
+   "Usually for a set promotional period, sometimes under a year. Ask the provider when the new price ends and note the date."
+  ],
+  [
+   "Is switching better than negotiating?",
+   "If another provider serves your address, switching can save more because new-customer offers are often lower. Check installation costs and any early termination fee first."
+  ]
+ ],
+ "sources": [
+  [
+   "CompareInternet.com: Do Bill Negotiation Apps Work on Internet Bills?",
+   "https://www.compareinternet.com/blog/do-bill-negotiation-apps-work-on-internet-bills/"
+  ],
+  [
+   "Billshark: service overview and fee",
+   "https://www.billshark.com/"
+  ],
+  [
+   "Rocket Money Help Center: How much does Rocket Money cost?",
+   "https://help.rocketmoney.com/en/articles/2217739-how-much-does-rocket-money-cost"
+  ],
+  [
+   "BillCutterz: Frequently asked questions",
+   "https://billcutterz.com/faq/"
+  ],
+  [
+   "Experian: What Is Experian BillFixer? (published August 20, 2026)",
+   "https://www.experian.com/blogs/ask-experian/what-is-experian-billfixer/"
+  ],
+  [
+   "BestMoney: Best Bill Negotiation Services and Apps of 2026 (November 18, 2026)",
+   "https://www.bestmoney.com/financial-advisor/learn-more/bill-negotiation-services"
+  ],
+  [
+   "YourBillCheck: How we make money",
+   "https://yourbillcheck.com/about"
+  ]
+ ],
+ "checked": "November 26, 2026",
+ "date": "2026-11-26",
+ "cta_provider": "internet"
+}

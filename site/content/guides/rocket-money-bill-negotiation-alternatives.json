@@ -1,0 +1,154 @@
+{
+ "path": "/guides/rocket-money-bill-negotiation-alternatives",
+ "title": "Rocket Money Bill Negotiation Alternatives (Nov 2026)",
+ "description": "Rocket Money moved bill negotiation to its $15-a-month Premium+ plan on November 2, 2026. Here is what the other options cost and when switching saves more.",
+ "h1": "Rocket Money bill negotiation alternatives",
+ "lead": "What changed on November 2, 2026, what the other services charge, and the two options that cost nothing.",
+ "short_answer": "Since November 2, 2026, Rocket Money only negotiates bills for Premium+ members at $15 a month plus tax, with no added success fee. The main alternatives are Billshark (40% of savings), BillCutterz (50%), Experian BillFixer (included in a paid membership), calling your provider yourself, or switching providers, which carries no fee on your savings.",
+ "chips": [
+  "Comparison",
+  "Fees checked",
+  "Sources listed"
+ ],
+ "crumbs": [
+  [
+   "Home",
+   "/"
+  ],
+  [
+   "Guides",
+   "/guides"
+  ],
+  [
+   "Rocket Money alternatives",
+   "/guides/rocket-money-bill-negotiation-alternatives"
+  ]
+ ],
+ "sections": [
+  {
+   "h2": "What changed at Rocket Money",
+   "body_html": "<p>Rocket Money's help center says that as of November 2, 2026, bill negotiation is available only to members on Premium+, a fixed $15 a month plus tax. In return there is no added success fee on negotiations you submit as a Premium+ member. You can have one negotiation in progress at a time.</p><p>Before the change, Rocket Money charged a success fee on each lowered bill. BestMoney reports the old fee as 35% to 60% of the savings. Rocket Money says negotiations submitted before November 2 finish under the old terms.</p><p>So the question is now simple: is one lowered bill worth $15 a month to you, for as long as you keep the membership?</p>"
+  },
+  {
+   "h2": "What each alternative costs",
+   "table": {
+    "head": [
+     "Service",
+     "What you pay",
+     "If nothing is saved",
+     "Source"
+    ],
+    "rows": [
+     [
+      "<b>Rocket Money</b>",
+      "$15 a month plus tax for Premium+, which includes bill negotiation with no added success fee",
+      "The membership fee still applies",
+      "Rocket Money Help Center"
+     ],
+     [
+      "<b>Billshark</b>",
+      "40% of the savings, as a one-time fee. Reported as counted over up to 24 months of savings",
+      "No fee",
+      "Billshark; BestMoney"
+     ],
+     [
+      "<b>BillCutterz</b>",
+      "50% of the savings, with 10% off the fee if you pay it in full",
+      "No charge",
+      "BillCutterz FAQ"
+     ],
+     [
+      "<b>Experian BillFixer</b>",
+      "Included with eligible paid Experian memberships. You keep 100% of the savings",
+      "The membership fee still applies",
+      "Experian"
+     ],
+     [
+      "<b>Switching through YourBillCheck</b>",
+      "Nothing. We take no share of what you save. The provider may pay us a commission",
+      "Nothing",
+      "YourBillCheck"
+     ],
+     [
+      "<b>Calling your provider yourself</b>",
+      "Nothing but your time",
+      "Nothing",
+      ""
+     ]
+    ]
+   },
+   "body_html": "<p style=\"font-size:14px;color:#58697a\">Fees as published by each company or reported by the named reviewer, checked November 26, 2026. Confirm the current terms before you sign up.</p>"
+  },
+  {
+   "h2": "Which one fits your situation",
+   "body_html": "<ul><li><b>You have several bills to negotiate this year.</b> A flat membership (Rocket Money Premium+ or Experian) can cost less than paying 40% to 50% on each bill.</li><li><b>You have one bill and do not want a subscription.</b> A pay-on-success service such as Billshark or BillCutterz charges only if it lowers the bill, but it keeps a large share of the saving.</li><li><b>Your promotional price just ended.</b> Call your provider and ask for the retention team. Our scripts for <a href=\"/save/lower-xfinity-bill\">Xfinity</a>, <a href=\"/save/lower-spectrum-bill\">Spectrum</a>, <a href=\"/save/lower-att-internet-bill\">AT&amp;T</a> and <a href=\"/save/lower-cox-bill\">Cox</a> cost nothing to use.</li><li><b>Another provider serves your address.</b> New-customer offers are often lower than a long-time customer's price, so switching can save more than a negotiated discount, and nobody takes a cut. See <a href=\"/guides/internet-promo-ended\">what to do when your promo ends</a>.</li></ul>"
+  },
+  {
+   "h2": "What to check before you hand over a bill",
+   "body_html": "<p>Complaints filed with the Better Business Bureau about negotiation services tend to repeat the same points: fees that customers did not expect, savings figures they dispute, and negotiations that complainants say they did not authorize. Both Rocket Money and Billshark hold an A+ BBB rating, and both answer complaints, but the themes are worth knowing.</p><ul><li>Ask how the saving is calculated and over how many months.</li><li>Ask whether the service may change your plan, speed or contract length.</li><li>Check whether the service will renegotiate automatically later.</li><li>Check your next two bills to confirm the new price is really there.</li></ul>"
+  },
+  {
+   "h2": "How YourBillCheck is different",
+   "body_html": "<p>We do not negotiate with your current provider. We compare what you pay with what other providers offer at your address, and our team can set up a switch by phone. You pay nothing and we take no share of what you save. If you order through us, the provider may pay us a commission. You can <a href=\"/\">check your bill free</a> first and decide later.</p>"
+  }
+ ],
+ "faq": [
+  [
+   "Is Rocket Money bill negotiation still free to try?",
+   "No. Since November 2, 2026, Rocket Money's help center says bill negotiation is available only with a Premium+ membership, which costs $15 a month plus tax."
+  ],
+  [
+   "Does Rocket Money still take a percentage of my savings?",
+   "Not on new negotiations. Rocket Money says Premium+ members pay no added success fee. Negotiations submitted before November 2, 2026 finish under the old success-fee terms."
+  ],
+  [
+   "What is the cheapest alternative to Rocket Money bill negotiation?",
+   "Calling your provider yourself or switching to another provider at your address. Neither takes a fee from your savings, though a new provider may charge for installation. Paid services charge a membership or 40% to 50% of the saving."
+  ],
+  [
+   "Does YourBillCheck negotiate my bill?",
+   "No. YourBillCheck compares your bill with offers from other providers at your address and can help you switch by phone. It is free and takes no share of your savings."
+  ]
+ ],
+ "sources": [
+  [
+   "Rocket Money Help Center: How much does Rocket Money cost?",
+   "https://help.rocketmoney.com/en/articles/2217739-how-much-does-rocket-money-cost"
+  ],
+  [
+   "Rocket Money Help Center: How to submit a Bill Negotiation",
+   "https://help.rocketmoney.com/en/articles/9744564-how-to-submit-a-bill-negotiation"
+  ],
+  [
+   "Billshark: service overview and fee",
+   "https://www.billshark.com/"
+  ],
+  [
+   "BestMoney: Best Bill Negotiation Services and Apps of 2026 (November 18, 2026)",
+   "https://www.bestmoney.com/financial-advisor/learn-more/bill-negotiation-services"
+  ],
+  [
+   "BillCutterz: Frequently asked questions",
+   "https://billcutterz.com/faq/"
+  ],
+  [
+   "Experian: What Is Experian BillFixer? (published August 20, 2026)",
+   "https://www.experian.com/blogs/ask-experian/what-is-experian-billfixer/"
+  ],
+  [
+   "Better Business Bureau: Rocket Money Inc complaints",
+   "https://www.bbb.org/us/md/silver-spring/profile/billing-services/rocket-money-inc-0241-236043013/complaints"
+  ],
+  [
+   "Better Business Bureau: Billshark complaints",
+   "https://www.bbb.org/us/ma/hopkinton/profile/billing-services/billshark-0021-146034/complaints"
+  ],
+  [
+   "YourBillCheck: How we make money",
+   "https://yourbillcheck.com/about"
+  ]
+ ],
+ "checked": "November 26, 2026",
+ "date": "2026-11-26",
+ "cta_provider": "internet"
+}

@@ -1,0 +1,135 @@
+{
+ "path": "/guides/bill-negotiation-fee-worth-it",
+ "title": "Is a 40% Bill Negotiation Fee Worth It? The Math",
+ "description": "Bill negotiation services keep 40% to 50% of what they save, or charge a monthly membership. See what you keep at each saving level, and the free options.",
+ "h1": "Is a 40% bill negotiation fee worth it?",
+ "lead": "What you keep after the fee at four saving levels, and how the free options compare.",
+ "short_answer": "A 40% fee on a $20 monthly discount costs $96 of the $240 you save in a year, so you keep $144. It is worth it only if you would never make the call yourself. Calling your provider or switching to another provider keeps the whole saving, because neither takes a fee from it, though a new provider may charge for installation.",
+ "chips": [
+  "Fee math",
+  "Sources listed"
+ ],
+ "crumbs": [
+  [
+   "Home",
+   "/"
+  ],
+  [
+   "Guides",
+   "/guides"
+  ],
+  [
+   "Is the fee worth it?",
+   "/guides/bill-negotiation-fee-worth-it"
+  ]
+ ],
+ "sections": [
+  {
+   "h2": "What you keep after the fee",
+   "table": {
+    "head": [
+     "Monthly discount",
+     "Saved in 12 months",
+     "Keep after a 40% fee",
+     "Keep after a 50% fee",
+     "Keep with a $15 monthly membership for 12 months",
+     "Keep if you call or switch yourself"
+    ],
+    "rows": [
+     [
+      "$10",
+      "$120",
+      "$72",
+      "$60",
+      "-$60",
+      "$120"
+     ],
+     [
+      "$20",
+      "$240",
+      "$144",
+      "$120",
+      "$60",
+      "$240"
+     ],
+     [
+      "$30",
+      "$360",
+      "$216",
+      "$180",
+      "$180",
+      "$360"
+     ],
+     [
+      "$50",
+      "$600",
+      "$360",
+      "$300",
+      "$420",
+      "$600"
+     ]
+    ]
+   },
+   "body_html": "<p style=\"font-size:14px;color:#58697a\">Our arithmetic. 40% is Billshark's published fee and 50% is BillCutterz's. The $15 membership is Rocket Money Premium+ kept for a full year, before tax. A membership kept for fewer months costs less, and it can cover more than one bill.</p>"
+  },
+  {
+   "h2": "Three things that change the answer",
+   "body_html": "<ul><li><b>How the saving is counted.</b> BestMoney reports that Billshark counts savings over up to 24 months. A fee on two years of savings is twice the figures above. Ask when it is billed.</li><li><b>How long the discount lasts.</b> A negotiated price is often a promotion. If it ends early or the provider raises rates, the saving you paid a fee on shrinks.</li><li><b>How many bills you have.</b> A flat membership costs the same whether it lowers one bill or four.</li></ul>"
+  },
+  {
+   "h2": "When paying the fee is reasonable",
+   "body_html": "<p>If you know you will never sit on hold with a retention team, keeping 60% of a saving beats keeping none of it. Pay-on-success services also charge nothing when they fail, so the risk is the size of the fee, not a loss.</p>"
+  },
+  {
+   "h2": "The two options with no fee",
+   "body_html": "<p><b>Call your provider.</b> One call to the retention team is the same thing a negotiator does. Use our free scripts for <a href=\"/save/lower-xfinity-bill\">Xfinity</a>, <a href=\"/save/lower-spectrum-bill\">Spectrum</a>, <a href=\"/save/lower-att-internet-bill\">AT&amp;T</a> and <a href=\"/save/lower-cox-bill\">Cox</a>.</p><p><b>Switch providers.</b> If another provider serves your address, its new-customer price may beat any retention offer. <a href=\"/\">Check your bill free</a> to see what is offered at your ZIP code. We take no share of what you save. If you order through us, the provider may pay us a commission. To see how your bill compares first, read <a href=\"/guides/average-internet-bill\">the average internet bill</a>.</p>"
+  }
+ ],
+ "faq": [
+  [
+   "How much do bill negotiation services charge?",
+   "Billshark charges 40% of the savings and BillCutterz 50%, with no fee if nothing is saved. Rocket Money includes negotiation in its $15-a-month Premium+ plan, and Experian BillFixer is included in eligible paid Experian memberships."
+  ],
+  [
+   "Is the negotiation fee charged up front?",
+   "Some services bill the fee after a successful negotiation, on the savings they expect. BillCutterz also lets you pay monthly. Ask how and when the fee is billed before you sign up."
+  ],
+  [
+   "What is the cheapest way to lower an internet bill?",
+   "Call your provider's retention team yourself, or switch to another provider at your address. Neither involves a fee on your savings."
+  ],
+  [
+   "Does YourBillCheck charge a fee?",
+   "No. YourBillCheck is free and takes no share of what you save. If you order service through it, the provider may pay it a commission."
+  ]
+ ],
+ "sources": [
+  [
+   "Billshark: service overview and fee",
+   "https://www.billshark.com/"
+  ],
+  [
+   "BillCutterz: Frequently asked questions",
+   "https://billcutterz.com/faq/"
+  ],
+  [
+   "Rocket Money Help Center: How much does Rocket Money cost?",
+   "https://help.rocketmoney.com/en/articles/2217739-how-much-does-rocket-money-cost"
+  ],
+  [
+   "Experian: What Is Experian BillFixer? (published August 20, 2026)",
+   "https://www.experian.com/blogs/ask-experian/what-is-experian-billfixer/"
+  ],
+  [
+   "BestMoney: Best Bill Negotiation Services and Apps of 2026 (November 18, 2026)",
+   "https://www.bestmoney.com/financial-advisor/learn-more/bill-negotiation-services"
+  ],
+  [
+   "YourBillCheck: How we make money",
+   "https://yourbillcheck.com/about"
+  ]
+ ],
+ "checked": "November 26, 2026",
+ "date": "2026-11-26",
+ "cta_provider": "internet"
+}
