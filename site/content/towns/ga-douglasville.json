@@ -1,0 +1,204 @@
+{
+ "path": "/internet/ga/douglasville",
+ "title": "Douglasville, GA Internet Providers: AT&T Fiber, Xfinity",
+ "description": "Douglasville, GA internet providers (30134, 30135): AT&T Fiber up to 5 Gig, Xfinity cable, 5G home internet and satellite, from FCC data and listed prices.",
+ "h1": "Internet providers in Douglasville, GA",
+ "lead": "Who reports service in Douglasville's two ZIP codes, where AT&T Fiber reaches, what Xfinity and AT&T list as prices, and what to check before you order.",
+ "short_answer": "Xfinity cable (up to 2 Gbps) covers most of both Douglasville ZIP codes, 30134 and 30135, in June 2026 FCC data. AT&T Fiber, up to 5 Gbps both ways, reaches a large part of each. Verizon and T-Mobile 5G home internet are the main wireless options, and satellite covers the rest.",
+ "chips": [
+  "Local guide",
+  "FCC data",
+  "Sources listed"
+ ],
+ "crumbs": [
+  [
+   "Home",
+   "/"
+  ],
+  [
+   "Internet in Georgia",
+   "/internet/ga"
+  ],
+  [
+   "Douglasville",
+   "/internet/ga/douglasville"
+  ]
+ ],
+ "sections": [
+  {
+   "h2": "AT&T Fiber: a large part of Douglasville, still growing",
+   "body_html": "<p>AT&amp;T reports fiber up to 5 Gbps both ways across a large part of both Douglasville ZIP codes in the June 2026 FCC data. In September 2025 AT&amp;T said fiber had reached more than 1,300 more homes and businesses in Douglas County, on top of about 36,000 locations in the county that already had it. It said 5 Gig is available only in select areas. Homes not yet on fiber can check when it is coming at att.com/notifyme.</p><p>Where fiber has not reached, AT&amp;T also files an older internet service (DSL in the FCC data) at up to 75 Mbps in 30134 and 100 Mbps in 30135. If AT&amp;T offers you service, ask which one your address gets: fiber has the same speed up and down, the older service does not.</p>"
+  },
+  {
+   "h2": "AT&T Fiber prices listed for Douglasville",
+   "table": {
+    "head": [
+     "Plan",
+     "Speed",
+     "Listed price"
+    ],
+    "rows": [
+     [
+      "AT&amp;T Internet 300",
+      "300 Mbps",
+      "$35/mo for 12 months"
+     ],
+     [
+      "AT&amp;T Internet 500",
+      "500 Mbps",
+      "$50/mo for 12 months"
+     ],
+     [
+      "AT&amp;T Internet 1000",
+      "Up to 1 Gig",
+      "$60/mo for 12 months"
+     ]
+    ]
+   },
+   "body_html": "<p>From AT&amp;T's Douglasville fiber page in November 2026. These prices include a $10 a month autopay and paperless billing discount (only $5 with a debit card, none with most credit cards) and a 12-month new-customer discount, plus taxes and fees. AT&amp;T says an installation fee of up to $99 may apply. It mentions plans up to 5 Gig where available but lists no price for them. Ask what the price will be in month 13, after the discount ends. For limited-income households, AT&amp;T has said its Access plan offers up to 100 Mbps for $30 a month plus taxes and fees.</p>"
+  },
+  {
+   "h2": "Xfinity: cable across most of Douglasville",
+   "body_html": "<p>Xfinity (Comcast) reports cable service up to 2 Gbps down and 250 Mbps up across most of 30134 and 30135, the widest wired network in the city. In November 2026 its local store page listed a promotional offer of 300 Mbps for $45 a month with a 5-year price guarantee for new customers, with autopay from a bank account and paperless billing required and taxes and fees extra. Promotions change often, so confirm the current offer and its terms before you order. There is an Xfinity Store by Comcast Branded Partner (an authorized partner, not a Comcast-run store) at 2866 Chapel Hill Road, Douglasville, GA 30135.</p><p>If you already have Xfinity and your bill went up, see our <a href=\"/bills/xfinity-bill-went-up\">Xfinity bill went up guide</a> or the <a href=\"/bills/xfinity\">Xfinity bill explainer</a>.</p>"
+  },
+  {
+   "h2": "Every provider reporting service in Douglasville (30134, 30135)",
+   "table": {
+    "head": [
+     "Provider",
+     "Type",
+     "Top speed (down / up)",
+     "Reported footprint"
+    ],
+    "rows": [
+     [
+      "<b>AT&amp;T</b>",
+      "Fiber",
+      "5 Gbps / 5 Gbps",
+      "30134: a large part; 30135: a large part"
+     ],
+     [
+      "<b>Xfinity</b>",
+      "Cable",
+      "2 Gbps / 250 Mbps",
+      "30134: most of the area; 30135: most of the area"
+     ],
+     [
+      "<b>AT&amp;T</b>",
+      "DSL",
+      "30134: 75 Mbps / 10 Mbps; 30135: 100 Mbps / 20 Mbps",
+      "30134: a large part; 30135: most of the area"
+     ],
+     [
+      "<b>Verizon</b>",
+      "5G/LTE home internet",
+      "30134: 300 Mbps / 6 Mbps; 30135: 300 Mbps / 20 Mbps",
+      "30134: most of the area; 30135: most of the area"
+     ],
+     [
+      "<b>T-Mobile</b>",
+      "5G/LTE home internet",
+      "100 Mbps / 20 Mbps",
+      "30134: a large part; 30135: a large part"
+     ],
+     [
+      "<b>AT&amp;T</b>",
+      "5G/LTE home internet",
+      "25 Mbps / 3 Mbps",
+      "30134: part of the area; 30135: a small part"
+     ],
+     [
+      "<b>Starlink</b>",
+      "Satellite (low orbit)",
+      "280 Mbps / 30 Mbps",
+      "Whole area (needs clear sky view)"
+     ],
+     [
+      "<b>Viasat</b>",
+      "Satellite",
+      "100 Mbps / 3 Mbps",
+      "Whole area (needs clear sky view)"
+     ],
+     [
+      "<b>HughesNet</b>",
+      "Satellite",
+      "50 Mbps / 5 Mbps",
+      "Whole area (needs clear sky view)"
+     ]
+    ]
+   },
+   "body_html": ""
+  },
+  {
+   "h2": "",
+   "body_html": "<p style=\"font-size:14px;color:#58697a\">Source: FCC Broadband Data Collection, June 30, 2026, matched to ZIP codes by YourBillCheck. Footprint compares each provider's reported locations with the widest land-based (wired or fixed wireless) provider near that ZIP code, so it is a guide, not a promise for your street.</p>"
+  },
+  {
+   "h2": "Is Google Fiber or Spectrum in Douglasville?",
+   "body_html": "<p>Some national comparison sites list GFiber (Google Fiber), Spectrum or Hotwire in Douglasville. None of them appears in the June 2026 FCC data for 30134 or 30135, and GFiber's Georgia page lists Atlanta-area neighborhoods such as Decatur, East Point and College Park, not Douglasville. If a site shows one of these at your address, confirm it with the provider before you cancel anything.</p>"
+  },
+  {
+   "h2": "5G home internet and satellite",
+   "body_html": "<p>Verizon 5G home internet reports up to 300 Mbps across most of both ZIP codes, and T-Mobile up to 100 Mbps across a large part. Wireless speeds depend on signal at your house, so ask about a trial period. Starlink, Viasat and HughesNet cover the whole area with a clear view of the sky; Starlink is the fastest of the three in the FCC data. Before you switch, run a <a href=\"/speed-test\">speed test</a> on your current plan.</p>"
+  },
+  {
+   "h2": "What to ask before you order",
+   "body_html": "<ul><li>Is my address on AT&amp;T fiber, or only the older AT&amp;T service or Internet Air?</li><li>What is the price after the first 12 months (AT&amp;T) or after the guarantee (Xfinity)?</li><li>Is there an installation fee, and is the router included?</li><li>Does the price need autopay, and does my card type qualify?</li></ul><p>For more on bills, see <a href=\"/bills/att\">AT&amp;T bills explained</a>, <a href=\"/guides/internet-price-increases-2026\">internet price increases in 2026</a> and <a href=\"/fees\">common internet fees</a>.</p>"
+  },
+  {
+   "h2": "Internet near Douglasville",
+   "body_html": "<p><a href=\"/internet/ga/lithia-springs\">Lithia Springs</a> · <a href=\"/internet/ga/villa-rica\">Villa Rica</a> · <a href=\"/internet/ga/austell\">Austell</a> · <a href=\"/internet/ga/powder-springs\">Powder Springs</a> · <a href=\"/internet/ga/carrollton\">Carrollton</a> · <a href=\"/internet/30134\">ZIP 30134</a> · <a href=\"/internet/30135\">ZIP 30135</a> · <a href=\"/internet/ga\">All Georgia internet providers</a> · <a href=\"/speed-test\">Test your current speed</a></p>"
+  }
+ ],
+ "faq": [
+  [
+   "Who has fiber internet in Douglasville, GA?",
+   "AT&T. It reports fiber up to 5 Gbps across a large part of both Douglasville ZIP codes (30134 and 30135) in the June 2026 FCC data. No other fiber provider appears in that data for these ZIP codes."
+  ],
+  [
+   "What is the most widely available internet in Douglasville?",
+   "Xfinity cable, which reports service across most of 30134 and 30135 at up to 2 Gbps download. Verizon 5G home internet also reaches most of both ZIP codes."
+  ],
+  [
+   "How much is AT&T Fiber in Douglasville?",
+   "In November 2026 AT&T listed 300 Mbps for $35, 500 Mbps for $50 and 1 Gig for $60 a month for 12 months, with an autopay discount, plus taxes and fees. Confirm the price for your address."
+  ],
+  [
+   "Is Google Fiber available in Douglasville, GA?",
+   "Not in the June 2026 FCC data for 30134 or 30135, and GFiber's Georgia page does not list Douglasville. Check with GFiber if a comparison site shows it at your address."
+  ]
+ ],
+ "sources": [
+  [
+   "FCC Broadband Data Collection (June 30, 2026), Douglasville ZIPs 30134 and 30135",
+   "https://broadbandmap.fcc.gov/"
+  ],
+  [
+   "AT&T: fiber internet in Douglasville, GA",
+   "https://www.att.com/local/fiber/georgia/douglasville"
+  ],
+  [
+   "Metro Atlanta CEO: AT&T expands fiber network in Douglas County (Sept 2025)",
+   "https://metroatlantaceo.com/news/2025/09/t-expands-fiber-network-douglas-county"
+  ],
+  [
+   "Xfinity: store at 2866 Chapel Hill Road, Douglasville",
+   "https://www.xfinity.com/local/ga/douglasville/2866-chapel-hill-road.html"
+  ],
+  [
+   "GFiber: Georgia service areas",
+   "https://fiber.google.com/states/georgia"
+  ],
+  [
+   "BroadbandNow: internet providers in Douglasville, GA",
+   "https://broadbandnow.com/Georgia/Douglasville"
+  ],
+  [
+   "CableTV.com: internet providers in Douglasville, GA",
+   "https://www.cabletv.com/internet-near-me/ga/douglasville"
+  ]
+ ],
+ "checked": "November 26, 2026",
+ "date": "2026-11-26",
+ "cta_provider": "internet"
+}

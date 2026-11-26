@@ -339,7 +339,7 @@ def build_guides(save):
             + "<h2>What to do when your provider raises prices</h2>" + steps(["Find the notice on your bill and write down the amount and the date it starts.",
                 "Check whether a newer plan from the same provider costs less than your current one.", "Call retention before the increase takes effect and ask for a credit or a current-plan rate.",
                 "Compare other providers at your ZIP code, including the price after any promotion."])
-            + '<p>Individual provider pages: ' + " · ".join(a("/bills/" + d["slug"], d["name"]) for d in WENT.values()) + "</p>"
+            + '<p>Individual provider pages: ' + " · ".join(a("/bills/" + d["slug"], d["name"]) for d in WENT.values()) + " · " + a("/bills/optimum-bill-went-up", "Optimum") + " · " + a("/bills/t-mobile-bill-went-up", "T-Mobile") + "</p>"
             + f"<p class=\"note\">We re-check this page monthly. Last checked {CHECKED}.</p>"
             + BB.call_cta("internet") + src([("Xfinity: price changes", "https://www.xfinity.com/pricechanges/"), ("Cord Cutters News: Spectrum $10 increase", "https://cordcuttersnews.com/another-big-price-hike-is-coming-to-spectrum-customers/"),
                                            ("AT&T: details about your internet price change", "https://www.att.com/support/article/u-verse-high-speed-internet/KM1260426/"), ("HighSpeedInternet.com: AT&T changes fiber prices", "https://highspeedinternet.com/resources/att-changes-fiber-prices"),

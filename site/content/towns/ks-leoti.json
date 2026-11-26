@@ -1,0 +1,211 @@
+{
+ "path": "/internet/ks/leoti",
+ "title": "Fast Internet Service in Leoti, Kansas: Fiber to 2.5 Gig",
+ "description": "Fast internet in Leoti, KS (67861): IdeaTek fiber up to 2.5 Gig, Pioneer cable, S&T fixed wireless, T-Mobile 5G and satellite, from FCC data.",
+ "h1": "Fast internet service in Leoti, Kansas",
+ "lead": "Who serves Leoti and Wichita County, which connection is fastest, and what to ask before you order.",
+ "short_answer": "The fastest internet in Leoti (67861) is IdeaTek fiber, with speeds up to 2.5 Gbps both ways. IdeaTek built the network in 2025 and reports it across most of town. Pioneer Communications cable reaches most homes at up to 500 Mbps. S&T fixed wireless, T-Mobile 5G and satellite cover the rest.",
+ "chips": [
+  "Local guide",
+  "FCC data",
+  "Sources listed"
+ ],
+ "crumbs": [
+  [
+   "Home",
+   "/"
+  ],
+  [
+   "Internet in Kansas",
+   "/internet/ks"
+  ],
+  [
+   "Leoti",
+   "/internet/ks/leoti"
+  ]
+ ],
+ "sections": [
+  {
+   "h2": "The fastest options in Leoti, ranked by top speed",
+   "table": {
+    "head": [
+     "Provider",
+     "Top speed (down / up)",
+     "How far it reaches in 67861"
+    ],
+    "rows": [
+     [
+      "<b>IdeaTek fiber</b>",
+      "2.5 Gbps / 2.5 Gbps",
+      "Most of the area"
+     ],
+     [
+      "<b>Pioneer Communications cable</b>",
+      "500 Mbps / 25 Mbps",
+      "Most of the area"
+     ],
+     [
+      "<b>Starlink</b>",
+      "280 Mbps / 30 Mbps",
+      "Whole area (needs clear sky view)"
+     ],
+     [
+      "<b>T-Mobile 5G home</b>",
+      "100 Mbps / 20 Mbps",
+      "Most of the area"
+     ],
+     [
+      "<b>S&amp;T Communications fixed wireless</b>",
+      "50 Mbps / 10 Mbps",
+      "Most of the area"
+     ],
+     [
+      "<b>Consolidated Communications DSL</b>",
+      "50 Mbps / 10 Mbps",
+      "A large part"
+     ]
+    ]
+   },
+   "body_html": ""
+  },
+  {
+   "h2": "IdeaTek fiber came to Leoti in 2025",
+   "body_html": "<p>IdeaTek is a fiber provider based in Buhler, Kansas. In July 2025 it announced a $2 million, company-funded fiber build for Leoti and Tribune, covering nearly 2,000 homes and businesses. It said Leoti construction was finishing and installs would start in August 2025, with Tribune following in September 2025. The network is 100% fiber with speeds up to 2.5 Gbps up and down and unlimited data.</p><p>IdeaTek's residential page lists plans from Basic (500 Mbps) to Gigabit, Super Gig (2.5 Gbps), 5 Gig and 8 Gig, with no contract. It does not show prices until you check an address. BroadbandNow reports IdeaTek plans in Leoti starting at $49.95 a month. One IdeaTek broadband label lists its Super Gig plan at $79 a month, not an introductory rate, but the label is for its Zone C pricing area and does not say whether that covers Leoti, so ask what applies at your address. Treat all prices as reported, not guaranteed.</p><p>In the June 2026 FCC data, IdeaTek fiber reaches most of the 67861 area. National sites disagree on coverage (BroadbandNow shows 72.2%), so check your exact address.</p>"
+  },
+  {
+   "h2": "Pioneer Communications: the local co-op's cable network",
+   "body_html": "<p>Pioneer Communications is a member-owned telecom cooperative based in Ulysses, Kansas. Kansas public radio reported that farmers formed it in 1950 to bring telephone service to southwest Kansas, and that most of its broadband customers are now on fiber. In Leoti, the FCC data shows Pioneer's cable network covering most of the 67861 area at up to 500 Mbps down and 25 Mbps up. BroadbandNow reports Pioneer plans starting at $59.99 a month.</p><p>The main trade-off against fiber is upload speed: 25 Mbps on Pioneer cable versus the same speed both ways on IdeaTek fiber. If you send large files or work on video calls, ask about upload speed, not just download.</p>"
+  },
+  {
+   "h2": "Every provider reporting service in Leoti (67861)",
+   "table": {
+    "head": [
+     "Provider",
+     "Type",
+     "Top speed (down / up)",
+     "Reported footprint"
+    ],
+    "rows": [
+     [
+      "<b>IdeaTek</b>",
+      "Fiber",
+      "2.5 Gbps / 2.5 Gbps",
+      "most of the area"
+     ],
+     [
+      "<b>Pioneer Communications</b>",
+      "Cable",
+      "500 Mbps / 25 Mbps",
+      "most of the area"
+     ],
+     [
+      "<b>Consolidated Communications</b>",
+      "DSL",
+      "50 Mbps / 10 Mbps",
+      "a large part"
+     ],
+     [
+      "<b>S&amp;T Communications</b>",
+      "Fixed wireless",
+      "50 Mbps / 10 Mbps",
+      "most of the area"
+     ],
+     [
+      "<b>S&amp;T Communications</b>",
+      "Fixed wireless (second network)",
+      "50 Mbps / 10 Mbps",
+      "a small part"
+     ],
+     [
+      "<b>T-Mobile</b>",
+      "5G/LTE home internet",
+      "100 Mbps / 20 Mbps",
+      "most of the area"
+     ],
+     [
+      "<b>Starlink</b>",
+      "Satellite (low orbit)",
+      "280 Mbps / 30 Mbps",
+      "Whole area (needs clear sky view)"
+     ],
+     [
+      "<b>HughesNet</b>",
+      "Satellite",
+      "100 Mbps / 5 Mbps",
+      "Whole area (needs clear sky view)"
+     ],
+     [
+      "<b>Viasat</b>",
+      "Satellite",
+      "10 Mbps / 1 Mbps",
+      "Whole area (needs clear sky view)"
+     ]
+    ]
+   },
+   "body_html": ""
+  },
+  {
+   "h2": "",
+   "body_html": "<p style=\"font-size:14px;color:#58697a\">Source: FCC Broadband Data Collection, June 30, 2026, matched to ZIP codes by YourBillCheck. Footprint compares each provider's reported locations with the widest land-based (wired or fixed wireless) provider near that ZIP code, so it is a guide, not a promise for your street.</p>"
+  },
+  {
+   "h2": "Outside town: fixed wireless, 5G and satellite",
+   "body_html": "<p>On farms and ranches around Leoti, wired lines may not reach. S&amp;T Communications fixed wireless reports up to 50 Mbps across most of the ZIP code, and T-Mobile 5G home internet up to 100 Mbps. BroadbandNow reports S&amp;T from $25 a month and T-Mobile from $20 a month (T-Mobile's lowest prices usually need a phone line and autopay). Starlink reports up to 280 Mbps anywhere with a clear view of the sky. See our <a href=\"/bills/starlink\">Starlink bill guide</a> and <a href=\"/bills/t-mobile\">T-Mobile bill guide</a> before you sign up.</p>"
+  },
+  {
+   "h2": "What to ask before you order",
+   "body_html": "<ul><li>Is my address on IdeaTek fiber now, or only planned?</li><li>What is the monthly price after any promotion ends, and is there a one-time fee?</li><li>For cable or wireless: what upload speed will I get?</li><li>Is there a data cap or a contract? IdeaTek says it has unlimited data and no contract; ask Pioneer and the wireless providers.</li></ul><p>Run a <a href=\"/speed-test\">speed test</a> on your current service first so you know what you are comparing. If your bill keeps rising, read <a href=\"/guides/why-internet-bill-went-up\">why internet bills go up</a>.</p>"
+  },
+  {
+   "h2": "Internet near Leoti",
+   "body_html": "<p><a href=\"/internet/ks/tribune\">Tribune</a> · <a href=\"/internet/ks/scott-city\">Scott City</a> · <a href=\"/internet/ks/marienthal\">Marienthal</a> · <a href=\"/internet/ks/garden-city\">Garden City</a> · <a href=\"/internet/ks\">All Kansas internet providers</a> · <a href=\"/speed-test\">Test your current speed</a></p>"
+  }
+ ],
+ "faq": [
+  [
+   "What is the fastest internet in Leoti, Kansas?",
+   "IdeaTek fiber, with speeds up to 2.5 Gbps both ways. The June 2026 FCC data shows it reaching most of the 67861 area. Check your address to confirm."
+  ],
+  [
+   "Is there fiber internet in Leoti, KS?",
+   "Yes. IdeaTek announced a 100% fiber network for Leoti in July 2025 and said installs would start in August 2025."
+  ],
+  [
+   "How much does IdeaTek cost in Leoti?",
+   "IdeaTek shows prices only after an address check. BroadbandNow reports plans starting at $49.95 a month. Confirm the price for your home."
+  ],
+  [
+   "Who provides cable internet in Leoti?",
+   "Pioneer Communications, a cooperative based in Ulysses, reports cable internet up to 500 Mbps across most of Leoti in FCC data."
+  ]
+ ],
+ "sources": [
+  [
+   "FCC Broadband Data Collection (June 30, 2026), Leoti ZIP 67861",
+   "https://broadbandmap.fcc.gov/"
+  ],
+  [
+   "IdeaTek: bringing gigabit fiber to Leoti and Tribune (July 2025)",
+   "https://ideatek.com/?p=27923"
+  ],
+  [
+   "IdeaTek: residential plans",
+   "https://ideatek.com/residential/"
+  ],
+  [
+   "IdeaTek: Super Gig Fiber broadband label",
+   "https://ideatek.com/wp-content/uploads/2024/09/003-Zone-C-Fiber-IdeaTek-Super-Gig-Fiber-2500-_-2500-MBPS-LeTUKmwcp1zh.pdf"
+  ],
+  [
+   "HPPR: how small Kansas companies bring fast internet to rural places (2022)",
+   "https://www.hppr.org/hppr-news/2022-05-02/how-small-kansas-companies-bring-fast-internet-to-rural-places-that-telecom-giants-ignore"
+  ],
+  [
+   "BroadbandNow: internet providers in Leoti, KS",
+   "https://broadbandnow.com/Kansas/Leoti"
+  ]
+ ],
+ "checked": "November 26, 2026",
+ "date": "2026-11-26",
+ "cta_provider": "internet"
+}

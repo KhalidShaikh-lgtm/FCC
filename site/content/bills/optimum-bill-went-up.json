@@ -1,0 +1,140 @@
+{
+ "path": "/bills/optimum-bill-went-up",
+ "title": "Why Did My Optimum Bill Go Up? What Changed in 2026",
+ "description": "Why your Optimum bill went up: promo step-ups, the May 2026 rate card, equipment, TV surcharges and lost Auto Pay discounts, with dates and sources.",
+ "h1": "Why did my Optimum bill go up?",
+ "lead": "What changed on Optimum bills, how to find the line that rose, and what to do about it.",
+ "short_answer": "An Optimum bill usually goes up when a promotion steps up, reported at $15 a month in year two and again in year three, or when equipment, TV surcharges or a lost Auto Pay discount hit the bill. Optimum's current rate card for customers who joined on or before January 7, 2024 took effect May 18, 2026.",
+ "crumbs": [
+  [
+   "Home",
+   "/"
+  ],
+  [
+   "Lower your bill",
+   "/bills"
+  ],
+  [
+   "Optimum bill went up",
+   "/bills/optimum-bill-went-up"
+  ]
+ ],
+ "cta_provider": "Optimum",
+ "sections": [
+  {
+   "h2": "What changed on Optimum bills",
+   "table": {
+    "head": [
+     "When",
+     "What changed",
+     "Who it affects",
+     "Source"
+    ],
+    "rows": [
+     [
+      "<b>May 18, 2026</b>",
+      "Optimum's Legacy Plus rate card took effect. It lists standard internet rates of $94.99 to $144.99 a month in most cable markets, a $6.00 Network Enhancement Fee for internet customers (select offers excluded) and a $14.00 Wireless Gateway. Optimum does not say what changed from the previous card.",
+      "Customers whose service began on or before January 7, 2024",
+      "Optimum"
+     ],
+     [
+      "<b>Year 2 and year 3 of a promotion</b>",
+      "On plans without a long price lock, the price is reported to rise $15 a month around month 13 and another $15 around month 25, for example $35, then $45, then $60, until it reaches Optimum's standard rate.",
+      "Customers who joined on a 12-month promotion",
+      "Reported (HighSpeedInternet.com, CompareInternet)"
+     ],
+     [
+      "<b>March 3, 2026</b>",
+      "Optimum launched $25 a month 300 Mbps fiber with the price locked for five years. CableTV.com reports a 5-year price lock on new internet plans, though CompareInternet lists some plans with a 1-year lock. CableTV.com says that after the lock the price can rise up to $15 a month per year.",
+      "New customers. Older accounts are not covered unless moved to a new plan.",
+      "Optimum, CableTV.com"
+     ],
+     [
+      "<b>TV surcharges</b>",
+      "Reviewers report a $9.99 broadcast TV fee and a $10.47 regional sports fee on current TV plans. The Legacy Plus card lists a $15.00 Broadcast Station Programming Surcharge and a $6.65 Sports Programming Surcharge. In December 2025 Optimum publicly opposed station fee increases of about 30% sought by TEGNA for local network stations.",
+      "TV customers",
+      "Optimum, CableTV.com, HighSpeedInternet.com"
+     ],
+     [
+      "<b>Equipment after a promotion</b>",
+      "The Legacy Plus card lists $14.00 a month for a Wireless Gateway, DOCSIS modem or TV box, $5.00 per Optimum Extender and $10.00 for Whole Home WiFi. Reviewers say new plans include the gateway at no charge.",
+      "Customers renting equipment",
+      "Optimum, HighSpeedInternet.com"
+     ],
+     [
+      "<b>Lost discounts and payment fees</b>",
+      "Promotional prices reportedly require Auto Pay and paperless billing from a checking account, worth $10 a month. Optimum also charges a $5.00 Payment Assistance Fee when you pay through an agent or by phone with a representative.",
+      "Customers who changed how they pay",
+      "Optimum, CompareInternet"
+     ]
+    ]
+   }
+  },
+  {
+   "h2": "How to find out why your Optimum bill went up",
+   "body_html": "<ol class=\"steps\"><li>Check the second page of your monthly bill. Reviewers say Optimum puts notices of standard-rate changes there.</li><li>Find your start date. If service began on or before January 7, 2024, your standard rates are on Optimum's Legacy Plus rate card at optimum.com/pricing. If it began January 8, 2024 or later, a separate New Offers rate card applies.</li><li>Count the months since you signed up. A jump around month 13 or month 25 usually means a promotion stepped up.</li><li>Compare the last two bills line by line: internet, Network Enhancement Fee, gateway and extenders, TV boxes, broadcast and sports surcharges, and any Payment Assistance Fee.</li><li>Check that Auto Pay and paperless billing are still on. If the discount dropped off, the bill rises by that amount.</li></ol>"
+  },
+  {
+   "h2": "What you can do about it",
+   "body_html": "<ol class=\"steps\"><li>If you joined before 2026, ask whether you can move to a current plan with a 5-year price lock. Optimum says moving Legacy customers to the New Offers card does not raise their price.</li><li>Look for a Network Enhancement Fee line on your bill and ask about it if it appears. Reviewers say it no longer appears on Optimum's internet broadband labels.</li><li>If you rent an Optimum gateway after the promo ended, ask whether current plans include it at no charge.</li><li>Drop TV boxes you no longer use; each box adds a monthly charge.</li><li>Pay online or through Auto Pay instead of by phone with an agent to avoid the $5.00 Payment Assistance Fee.</li></ol><p>Ready to act? <a href=\"/bills/optimum\">Full Optimum fee guide</a> · <a href=\"/guides/internet-price-increases-2026\">2026 price increase tracker</a> · <a href=\"/guides/why-internet-bill-went-up\">Why internet bills go up</a> · <a href=\"/guides/internet-promo-ended\">What to do when a promo ends</a></p>"
+  },
+  {
+   "h2": "Related charges",
+   "body_html": "<p><a href=\"/fees/broadcast-tv-fee\">Broadcast TV fee</a> · <a href=\"/fees/regional-sports-fee\">Regional sports fee</a> · <a href=\"/fees/modem-router-rental-fee\">Modem and router rental</a> · <a href=\"/fees/unreturned-equipment-fee\">Unreturned equipment fee</a> · <a href=\"/fees/installation-and-activation-fee\">Installation fee</a></p>"
+  },
+  {
+   "h2": "Check if a cheaper provider serves you",
+   "body_html": "<p>If Optimum keeps raising your price, see who else offers internet at your address. Enter your ZIP code, or pick your state.</p><form class=\"yf-zip\" style=\"max-width:360px;margin:0 0 12px\" onsubmit=\"var z=this.z.value.trim();if(/^\\d{5}$/.test(z)){location.href='/internet/'+z}return false\"><input name=\"z\" inputmode=\"numeric\" maxlength=\"5\" placeholder=\"Enter ZIP code\" aria-label=\"ZIP code\"> <button type=\"submit\">Check providers</button></form><p><a href=\"/internet/ny\">New York internet providers</a> · <a href=\"/internet/nj\">New Jersey internet providers</a> · <a href=\"/internet/ct\">Connecticut internet providers</a> · <a href=\"/internet/tx\">Texas internet providers</a> · <a href=\"/internet/wv\">West Virginia internet providers</a> · <a href=\"/internet/az\">Arizona internet providers</a> · <a href=\"/internet\">All states</a></p>"
+  }
+ ],
+ "faq": [
+  [
+   "Why did my Optimum bill go up $15?",
+   "On Optimum plans without a long price lock, reviewers report a $15 monthly increase around month 13 and another around month 25, until the standard rate is reached. Check your sign-up date and the notice on page two of your bill."
+  ],
+  [
+   "Is Optimum raising prices in 2026?",
+   "Optimum's Legacy Plus rate card for customers who started on or before January 7, 2024 took effect May 18, 2026. Optimum did not publish what changed. Optimum locks its $25 300 Mbps fiber plan for new customers for five years, and reviewers report 5-year locks on other new plans."
+  ],
+  [
+   "Does the Optimum 5-year price lock cover fees?",
+   "Optimum's March 2026 announcement does not list what the lock excludes. Ask before you switch whether taxes, the Network Enhancement Fee, equipment and TV surcharges can still change."
+  ],
+  [
+   "Can I get my old Optimum promo price back?",
+   "Not usually, but you can ask to move to a current plan. Optimum says Legacy customers moved to the New Offers rate card will not see a price increase because of the move."
+  ]
+ ],
+ "sources": [
+  [
+   "Optimum: standard pricing and packages (effective May 18, 2026)",
+   "https://optimum.com/pricing"
+  ],
+  [
+   "Optimum: 25 for 5 campaign, $25 fiber locked for five years (March 3, 2026)",
+   "https://www.optimum.com/about-us/news/articles/optimum-launches-25-5-campaign-introducing-25-fiber-internet-locked-five-full-years"
+  ],
+  [
+   "HighSpeedInternet.com: what you actually pay for Optimum (Oct 2026)",
+   "https://www.highspeedinternet.com/resources/optimum-real-costs"
+  ],
+  [
+   "CableTV.com: Optimum hidden fees and price lock (Oct 2026)",
+   "https://www.cabletv.com/optimum/hidden-fees"
+  ],
+  [
+   "CompareInternet: Optimum internet review 2026",
+   "https://www.compareinternet.com/reviews/optimum/"
+  ],
+  [
+   "Business Wire: Optimum on TEGNA fee increase demand (Dec 16, 2025)",
+   "https://www.businesswire.com/news/home/20251216477228/en/"
+  ]
+ ],
+ "chips": [
+  "Bill increase",
+  "Sources listed"
+ ],
+ "checked": "November 26, 2026",
+ "date": "2026-11-26"
+}

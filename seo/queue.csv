@@ -11,8 +11,8 @@ id,priority,type,path,target_query,status,notes
 7,1,town,/internet/mn/mankato,internet providers mankato mn,published,small town with GSC impressions; low competition; override auto page with richer local content; published 2026-11-25
 8,1,town,/internet/ma/danvers,internet packages danvers,published,small town with GSC impressions; low competition; override auto page with richer local content; published 2026-11-25
 9,1,town,/internet/ks/tribune,best internet providers in tribune,todo,small town with GSC impressions; low competition; override auto page with richer local content
-10,1,town,/internet/va/fincastle,internet providers in fincastle va,todo,small town with GSC impressions; low competition; override auto page with richer local content
-11,1,town,/internet/nc/trinity,isp in trinity nc,todo,small town with GSC impressions; low competition; override auto page with richer local content
+10,1,town,/internet/va/fincastle,internet providers in fincastle va,published,small town with GSC impressions; low competition; override auto page with richer local content; published 2026-11-26
+11,1,town,/internet/nc/trinity,isp in trinity nc,published,small town with GSC impressions; low competition; override auto page with richer local content; published 2026-11-26
 12,1,town,/internet/ga/tifton,internet provider in tifton ga,todo,small town with GSC impressions; low competition; override auto page with richer local content
 13,1,town,/internet/mn/mazeppa,mazeppa mn internet,todo,small town with GSC impressions; low competition; override auto page with richer local content
 14,1,town,/internet/id/buhl,wireless internet provider in buhl,todo,small town with GSC impressions; low competition; override auto page with richer local content
@@ -20,20 +20,20 @@ id,priority,type,path,target_query,status,notes
 16,1,town,/internet/fl/punta-gorda,punta gorda internet providers,todo,small town with GSC impressions; low competition; override auto page with richer local content
 17,1,fiber,/fiber/ks/hutchinson,fiber internet hutchinson ks,todo,small town with GSC impressions; low competition; override auto page with richer local content
 18,1,town,/internet/ks/goddard,internet providers goddard ks,todo,small town with GSC impressions; low competition; override auto page with richer local content
-19,1,town,/internet/ks/leoti,fast internet service leoti kansas,todo,small town with GSC impressions; low competition; override auto page with richer local content
-20,1,town,/internet/nc/asheboro,internet providers in asheboro nc,todo,small town with GSC impressions; low competition; override auto page with richer local content
+19,1,town,/internet/ks/leoti,fast internet service leoti kansas,published,small town with GSC impressions; low competition; override auto page with richer local content; published 2026-11-26
+20,1,town,/internet/nc/asheboro,internet providers in asheboro nc,published,small town with GSC impressions; low competition; override auto page with richer local content; published 2026-11-26
 21,1,town,/internet/nc/brevard,home internet brevard nc,todo,small town with GSC impressions; low competition; override auto page with richer local content
 22,1,town,/internet/ne/kearney,high speed internet kearney ne,todo,small town with GSC impressions; low competition; override auto page with richer local content
 23,1,town,/internet/ga/valdosta,internet providers valdosta ga,todo,small town with GSC impressions; low competition; override auto page with richer local content
 24,1,town,/internet/id/rexburg,internet providers rexburg,todo,small town with GSC impressions; low competition; override auto page with richer local content
 25,1,town,/internet/nm/alamogordo,internet providers alamogordo,todo,small town with GSC impressions; low competition; override auto page with richer local content
 26,1,town,/internet/co/gunnison,internet gunnison co,todo,small town with GSC impressions; low competition; override auto page with richer local content
-27,1,town,/internet/co/bayfield,internet bayfield co,todo,small town with GSC impressions; low competition; override auto page with richer local content
+27,1,town,/internet/co/bayfield,internet bayfield co,published,small town with GSC impressions; low competition; override auto page with richer local content; published 2026-11-26
 28,1,town,/internet/md/oakland,internet providers oakland md,todo,small town with GSC impressions; low competition; override auto page with richer local content
 29,1,town,/internet/ga/richmond-hill,internet providers richmond hill ga,todo,small town with GSC impressions; low competition; override auto page with richer local content
 30,1,town,/internet/sc/florence,internet providers florence sc,todo,small town with GSC impressions; low competition; override auto page with richer local content
 31,1,town,/internet/fl/clermont,internet providers clermont fl,todo,small town with GSC impressions; low competition; override auto page with richer local content
-32,1,town,/internet/ga/douglasville,douglasville ga internet providers,todo,small town with GSC impressions; low competition; override auto page with richer local content
+32,1,town,/internet/ga/douglasville,douglasville ga internet providers,published,small town with GSC impressions; low competition; override auto page with richer local content; published 2026-11-26
 33,1,town,/internet/pa/baden,internet providers baden pa,todo,small town with GSC impressions; low competition; override auto page with richer local content
 34,1,town,/internet/ks/andover,internet providers andover ks,todo,small town with GSC impressions; low competition; override auto page with richer local content
 35,1,fiber,/fiber/ks/garden-city,fiber internet garden city kansas,todo,small town with GSC impressions; low competition; override auto page with richer local content
@@ -45,12 +45,12 @@ id,priority,type,path,target_query,status,notes
 41,2,fiber,/fiber/wa/seattle,fiber internet seattle,published,GSC impressions Nov 2026; published 2026-11-25
 42,2,city-enrich,/internet/co,internet providers in colorado,skipped,state page override at /internet/<st>; skipped 2026-11-25: overriding /internet/co would replace the auto state page and drop its links to ~300 Colorado city pages; build as /guides/colorado-internet instead (Colorado research notes kept in the PR description)
 43,2,fiber,/fiber/ri/providence,fiber in providence ri,published,GSC impressions Nov 2026; published 2026-11-25
-44,2,city-enrich,/internet/wa/seattle,isp in seattle wa,todo,GSC impressions; override auto page with richer content
+44,2,city-enrich,/internet/wa/seattle,isp in seattle wa,published,GSC impressions; override auto page with richer content; published 2026-11-26
 45,2,fiber,/fiber/id/boise,fiber internet boise id,todo,GSC impressions Nov 2026
 46,2,city-enrich,/internet/il,illinois internet,todo,state page override at /internet/<st>
 47,2,fiber,/fiber/az/tucson,tucson fiber plans,todo,GSC impressions Nov 2026
 48,2,city-enrich,/internet/az/phoenix,isp in phoenix az,todo,GSC impressions; override auto page with richer content
-49,2,city-enrich,/internet/ri/providence,internet providers in providence ri,todo,GSC impressions; override auto page with richer content
+49,2,city-enrich,/internet/ri/providence,internet providers in providence ri,published,GSC impressions; override auto page with richer content; published 2026-11-26
 50,2,fiber,/fiber/ks/goddard,fiber internet goddard ks,todo,GSC impressions Nov 2026
 51,2,city-enrich,/internet/ms/jackson,internet providers in jackson ms,todo,GSC impressions; override auto page with richer content
 52,2,fiber,/fiber/ne/lincoln,fiber internet lincoln ne,todo,GSC impressions Nov 2026
@@ -66,10 +66,10 @@ id,priority,type,path,target_query,status,notes
 62,2,city-enrich,/internet/ok/oklahoma-city,oklahoma city ok internet providers,todo,GSC impressions; override auto page with richer content
 63,2,city-enrich,/internet/nv/las-vegas,las vegas nv internet providers,todo,GSC impressions; override auto page with richer content
 64,2,city-enrich,/internet/ak/anchorage,anchorage ak internet services,todo,GSC impressions; override auto page with richer content
-65,1,plan-sheet,/bills/optimum-bill-went-up,why did my optimum bill go up,todo,Wave 2: Why Did My Optimum Bill Go Up? | Moved up 2026-11-26: went-up pages are the only ones ranking on page 1 (positions 6-8)
+65,1,plan-sheet,/bills/optimum-bill-went-up,why did my optimum bill go up,published,Wave 2: Why Did My Optimum Bill Go Up? | Moved up 2026-11-26: went-up pages are the only ones ranking on page 1 (positions 6-8); published 2026-11-26
 66,1,plan-sheet,/bills/directv-bill-went-up,why did my directv bill go up,todo,Wave 2: Why Did My DirecTV Bill Go Up? | Moved up 2026-11-26: went-up pages are the only ones ranking on page 1 (positions 6-8)
 67,1,plan-sheet,/bills/verizon-wireless-bill-went-up,verizon bill went up,todo,Wave 2: Why Did My Verizon Wireless Bill Go Up? | Moved up 2026-11-26: went-up pages are the only ones ranking on page 1 (positions 6-8)
-68,1,plan-sheet,/bills/t-mobile-bill-went-up,t-mobile bill went up,todo,Wave 2: Why Did My T-Mobile Bill Go Up? | Moved up 2026-11-26: went-up pages are the only ones ranking on page 1 (positions 6-8)
+68,1,plan-sheet,/bills/t-mobile-bill-went-up,t-mobile bill went up,published,Wave 2: Why Did My T-Mobile Bill Go Up? | Moved up 2026-11-26: went-up pages are the only ones ranking on page 1 (positions 6-8); published 2026-11-26
 69,3,plan-sheet,/fees/att-administrative-fee,at&t administrative fee,todo,Wave 2: AT&T Wireless Administrative Fee Explained
 70,3,plan-sheet,/fees/early-termination-fee,internet early termination fee,todo,Wave 2: Early Termination Fees: How to Switch Without Paying
 71,3,plan-sheet,/fees/late-and-paper-bill-fees,paper bill fee,todo,Wave 2: Late Payment & Paper Bill Fees: How to Stop Paying Them
