@@ -182,6 +182,7 @@ canvas#spark{width:100%;height:70px;display:block;margin-top:14px;position:relat
  <div id="out">
   <div class="verdict"><b id="vt"></b><span id="vs"></span></div>
   <div class="can" id="can"></div>
+ <div id="pf" style="margin:16px auto;max-width:520px;text-align:center"><label for="pm" style="font-weight:700">What download speed do you pay for?</label><br><input id="pm" type="number" min="1" placeholder="e.g. 500" style="padding:10px 12px;border:1px solid var(--line);border-radius:10px;width:140px;font:inherit"> Mbps <button class="btn" id="pc" type="button" style="padding:10px 16px">Compare</button><p id="pr" style="margin:10px 0 0"></p></div>
   <div class="acts"><button class="btn" id="again" type="button">Test again</button><button class="btn alt" id="share" type="button" style="border:1.5px solid var(--line)">Copy result</button></div>
   <form id="zf" style="margin-top:20px;text-align:center" onsubmit="var z=document.getElementById('zi').value.trim();if(/^\d{5}$/.test(z)){location.href='/internet/'+z}else{alert('Enter a 5-digit ZIP code')}return false"><p style="margin:0 auto 8px;max-width:none"><b>Want faster or cheaper internet?</b> See who serves your address.</p><input id="zi" inputmode="numeric" maxlength="5" placeholder="Your ZIP code" style="padding:12px 14px;border:1.5px solid var(--line);border-radius:12px;font:600 16px var(--fb);width:170px"> <button class="btn" type="submit">See providers</button></form>
  </div>
@@ -225,6 +226,7 @@ async function run(){
 }
 ticks();paint();hist();
 $("go").addEventListener("click",run);$("again").addEventListener("click",()=>{window.scrollTo({top:0,behavior:"smooth"});run()});
+$("pc").addEventListener("click",()=>{const r=window._r,pm=+$("pm").value;if(!r||!pm)return;const pct=Math.round(r.d/pm*100),pr=$("pr");pr.innerHTML=pct>=80?"You are getting <b>"+pct+"%</b> of the "+pm+" Mbps you pay for. That is normal for a real-world test.":"You are getting only <b>"+pct+"%</b> of the "+pm+" Mbps you pay for. Test again with a computer plugged in by cable; if it is still low, see <a href="/tools/wifi-or-internet-problem">whether it is Wi-Fi or your service</a>, check for <a href="/outages">outages</a>, or <a href="/">see faster providers at your ZIP</a> or call <a href="tel:+18884915666">(888) 491-5666</a>."});
 $("share").addEventListener("click",()=>{const r=window._r;if(!r)return;const txt="My internet speed: "+r.d.toFixed(0)+" Mbps down, "+r.u.toFixed(0)+" Mbps up, "+Math.round(r.l)+" ms ping. Test yours: https://yourbillcheck.com/speed-test";(navigator.clipboard?navigator.clipboard.writeText(txt):Promise.reject()).then(()=>{$("share").textContent="Copied!"}).catch(()=>{$("share").textContent="Copy failed"})});
 </script>
 <p>This test measures your connection, so it works for any provider. Compare the result with the speed on your Spectrum bill. Wi-Fi often shows less than a wired connection.</p>
