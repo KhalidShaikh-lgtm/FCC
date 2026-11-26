@@ -194,11 +194,31 @@ def LOCAL(n):
             '<input name="z" inputmode="numeric" maxlength="5" placeholder="Enter ZIP code" aria-label="ZIP code"> <button type="submit">Check providers</button></form>'
             "<p>" + " · ".join(f'<a href="/internet/{c}">{s} internet providers</a>' for c, s in st) + ' · <a href="/internet">All states</a></p>')
 
+def CAUSES(n):
+    ic = lambda d: f'<svg width="28" height="28" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="#0a8f6a" stroke-width="2" stroke-linecap="round">{d}</svg>'
+    c = [(ic('<path d="M4 18l6-6 4 4 6-8"/>'), "Promo ended", "Compare this month's internet line with the month your deal started."),
+         (ic('<rect x="4" y="5" width="16" height="11" rx="2"/><path d="M8 20h8"/>'), "Fees or equipment", "Look for TV fees and the modem or gateway rental in the other charges."),
+         (ic('<rect x="3" y="6" width="18" height="12" rx="2"/><path d="M3 10h18"/>'), "Discount lost", "Check that Auto Pay and paperless billing are still on.")]
+    return ('<style>.cz{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:14px;margin:22px 0 8px}.cz div{border:1px solid var(--line);border-radius:16px;padding:18px;background:#fff}'
+            '.cz h3{margin:8px 0 6px;font-size:18px}.cz p{margin:0;font-size:15px;color:var(--muted)}</style>'
+            f'<h2>Find the line that changed on your {esc(n)} bill</h2><div class="cz">' + "".join(f"<div>{i}<h3>{t}</h3><p>{esc(x)}</p></div>" for i, t, x in c) + "</div>")
+
+MINICALC = ('<style>.mc{border:2px solid var(--ink);border-radius:18px;padding:22px 24px;margin:26px 0;background:#fff}.mc h2{margin:0 0 4px}.mc .r{display:flex;gap:12px;flex-wrap:wrap;align-items:flex-end}'
+            '.mc label{display:flex;flex-direction:column;gap:6px;font-weight:700;font-size:15px}.mc input{width:170px;padding:12px 13px;border:1px solid #c9d3dc;border-radius:12px;font:inherit;font-weight:400}'
+            '.mc button{background:var(--mint);color:#fff;border:0;border-radius:12px;padding:14px 22px;font:inherit;font-weight:700;cursor:pointer;min-height:48px}'
+            '.mc .out{margin:14px 0 0;font-size:16px}.mc .big{font:800 24px var(--fd);background:#ffd84d;padding:0 6px;border-radius:6px}</style>'
+            '<div class="mc"><h2>Work out your new price</h2><p class="hint" style="margin:0 0 14px;color:var(--muted)">Nothing you type is stored. <a href="/tools/promo-price-calculator">Full calculator</a></p>'
+            '<div class="r"><label>Promo price ($/mo)<input id="mcA" type="number" min="0" step="0.01" placeholder="e.g. 50"></label>'
+            '<label>Price after promo ($/mo)<input id="mcB" type="number" min="0" step="0.01" placeholder="e.g. 80"></label>'
+            '<button type="button" id="mcGo">Calculate</button></div><p class="out" id="mcOut" aria-live="polite"></p></div>'
+            '<script>(function(){var g=function(i){return document.getElementById(i)};g("mcGo").onclick=function(){var a=+g("mcA").value||0,b=+g("mcB").value||0,o=g("mcOut");'
+            'if(!b){o.textContent="Enter the price after the promo.";return}var d=b-a;o.innerHTML="Your bill goes "+(d>=0?"up":"down")+" by <span class=big>"+(d>=0?"+":"-")+"$"+Math.abs(d).toFixed(2)+"/mo</span> \u00b7 $"+Math.abs(d*12).toFixed(0)+" a year."+(d>0?" <a href=\'/#zipfinder\'>See cheaper providers at your ZIP</a> or call <a href=\'tel:+18884915666\'>(888) 491-5666</a>.":"")}})()</script>')
+
 def build_went(save):
     for k, d in WENT.items():
         n = d["name"]; path = "/bills/" + d["slug"]
         links = " · ".join(a(h, t) for h, t in d["more"])
-        body = (author.box(CHECKED) + short(d["short"])
+        body = (author.box(CHECKED) + short(d["short"]) + CAUSES(n) + MINICALC
                 + f"<h2>What changed on {esc(n)} bills</h2>"
                 + tbl(["When", "What changed", "Who it affects", "Source"], [(f"<b>{esc(w)}</b>", esc(x), esc(y), esc(z)) for w, x, y, z in d["rows"]])
                 + f"<h2>How to find out why your {esc(n)} bill went up</h2>" + steps([esc(s) for s in d["find"]])

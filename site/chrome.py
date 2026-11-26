@@ -23,7 +23,7 @@ def header(active=""):
             '<div class="yh-disc"><div class="yw">We may earn money when you click our links. <a href="/about">How we make money</a>'
             '<button type="button" class="yh-x" aria-label="Dismiss notice">&times;</button></div></div>'
             '<header class="yh-main"><div class="yw yh-row">'
-            '<a class="yh-logo" href="/"><img src="/header-icon.png" width="36" height="36" alt="" decoding="async">YourBillCheck</a>'
+            '<a class="yh-logo" href="/"><svg width="34" height="34" viewBox="0 0 34 34" aria-hidden="true"><rect x="5" y="3" width="24" height="28" rx="4" fill="none" stroke="#0f2233" stroke-width="2.4"/><rect x="10" y="11" width="14" height="5" fill="#ffd84d"/><path d="M10 22h9" stroke="#0f2233" stroke-width="2.4" stroke-linecap="round"/><path d="M19 24l3 3 6-7" stroke="#0a8f6a" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>YourBillCheck</a>'
             '<button type="button" class="yh-burger" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button>'
             f'<nav class="yh-nav" aria-label="Main">{dd}<a class="yh-l" href="/bills">Lower Your Bill</a><a class="yh-l" href="/moving">Moving</a></nav>'
             f'<div class="yh-right"><a class="yh-call" href="tel:{PHONE_TEL}">{PHONE}<span>{PHONE_TXT}</span></a>'

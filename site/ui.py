@@ -69,6 +69,15 @@ summary:after{content:"+";float:right;color:var(--mint-d);font-size:22px;line-he
 
 NAV = [("/speed-test", "Speed Test"), ("/help", "Troubleshoot"), ("/moving", "Moving"), ("/compare", "Compare ISPs"), ("/providers", "Support Numbers"), ("/guides", "Guides")]
 
+MBAR = ('<div class="mbar"><a class="mb-call" href="tel:+18884915666"><svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></svg>Call for a lower price</a><a class="mb-zip" href="/#zipfinder">My ZIP</a></div>')
+XCSS = ('.mbar{display:none}@media (max-width:760px){.mbar{display:flex;gap:10px;position:fixed;left:0;right:0;bottom:0;z-index:50;padding:10px 14px calc(10px + env(safe-area-inset-bottom));background:#fff;border-top:1px solid var(--line);box-shadow:0 -6px 20px rgba(15,34,51,.08)}'
+        '.mbar a{display:flex;align-items:center;justify-content:center;gap:8px;min-height:48px;border-radius:12px;font-weight:800;text-decoration:none}'
+        '.mb-call{flex:1;background:#ffd84d;color:var(--ink)}.mb-zip{padding:0 16px;border:1px solid var(--ink);color:var(--ink)}body{padding-bottom:76px}'
+        '.hero .meta{display:none}.hero{padding:22px 0 18px}main table{display:block;overflow-x:auto;max-width:100%;-webkit-overflow-scrolling:touch}.byl .av{display:none}}'
+        'a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,summary:focus-visible{outline:3px solid var(--mint);outline-offset:2px}'
+        '.call.tip{background:var(--mint-soft);border-radius:16px}.hl{background:linear-gradient(transparent 55%,#ffd84d 55%)}'
+        '.crumbs a{display:inline-block;padding:6px 0}')
+
 def shell(path, title, desc, h1, lead, body, faq=None, crumbs=None, chips=None, jsonld_extra=None, date="2026-11-22", script="", checked="November 22, 2026", author=None):
     url = SITE + path
     crumbs = crumbs or [("Home", SITE + "/"), (h1, url)]
@@ -87,7 +96,7 @@ def shell(path, title, desc, h1, lead, body, faq=None, crumbs=None, chips=None, 
     return ("<!DOCTYPE html><html lang=\"en\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">"
             f"<title>{esc(title)}</title><meta name=\"description\" content=\"{esc(desc)}\"><link rel=\"canonical\" href=\"{url}\"><meta name=\"robots\" content=\"index,follow,max-image-preview:large,max-snippet:-1\">"
             f"<meta property=\"og:title\" content=\"{esc(title)}\"><meta property=\"og:description\" content=\"{esc(desc)}\"><meta property=\"og:type\" content=\"article\"><meta property=\"og:url\" content=\"{url}\"><meta name=\"theme-color\" content=\"#0a8f6a\">"
-            f"{FONTS}<style>{CSS}{chrome.CSS}</style><script type=\"application/ld+json\">{ldj}</script></head><body>"
+            f"{FONTS}<style>{CSS}{chrome.CSS}{XCSS}</style><script type=\"application/ld+json\">{ldj}</script></head><body>"
             + chrome.header() +
             f"<section class=\"hero\"><div class=\"wrap\"><p class=\"crumbs\">{cr}</p><h1>{esc(h1)}</h1><p class=\"lead\">{lead}</p><div class=\"meta\">{chip_html}<span class=\"chip\">Checked {checked}</span></div></div></section>"
             f"<main><div class=\"wrap\">{body}{fq}"
@@ -96,7 +105,7 @@ def shell(path, title, desc, h1, lead, body, faq=None, crumbs=None, chips=None, 
             "<div class=\"cta\"><div><h3>Not sure which provider serves your address?</h3><p>Enter your ZIP code to see who reports service nearby, with speeds and starting prices.</p></div><a class=\"btn alt\" href=\"/\">Check my ZIP code</a></div>"
             "</div></main>"
             + chrome.footer() +
-            f"{script}{chrome.JS}</body></html>")
+            MBAR + f"{script}{chrome.JS}</body></html>")
 
 def dot(color, mode=""):
     return f'<span class="dot {color} {mode}"></span>'
