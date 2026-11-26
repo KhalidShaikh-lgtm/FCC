@@ -4,14 +4,14 @@ esc = lambda s: html.escape(str(s), quote=True)
 SITE = "https://yourbillcheck.com"
 
 NAME = "Khalid Shaikh"
-TITLE = "Director, YourBillCheck"
+TITLE = "Head of Business Development, YourBillCheck"
 PATH = "/authors/khalid-shaikh"
 LINKEDIN = "https://www.linkedin.com/in/khalid-shaikh-73826627/"
 PHOTO = ""  # set to "/khalid.jpg" once a headshot is uploaded; initials badge is shown until then
 BIO = ("Khalid leads a team that helps thousands of US households a month compare and switch home internet, TV and phone service. "
-       "He works in US telecom sales and compliance, including FCC and TCPA rules, and started YourBillCheck to show people what they actually pay and where they are overpaying.")
+       "He works in US telecom sales and compliance, including FCC and TCPA rules, and works on YourBillCheck to show people what they actually pay and where they are overpaying.")
 
-PERSON = {"@type": "Person", "name": NAME, "jobTitle": "Director", "url": SITE + PATH,
+PERSON = {"@type": "Person", "name": NAME, "jobTitle": "Head of Business Development", "url": SITE + PATH,
           "sameAs": [LINKEDIN], "worksFor": {"@type": "Organization", "name": "YourBillCheck", "url": SITE}}
 
 CSS = ('<style>.auth{display:flex;gap:14px;align-items:center;border:1px solid var(--line);border-radius:14px;padding:14px 16px;margin:0 0 26px;max-width:760px;background:#fff}'
@@ -36,10 +36,11 @@ def build(save, shell):
             'Each guide lists its sources and the date it was checked. Read <a href="/methodology">how we get our data</a>.</p>'
             '<ul><li><a href="/bills">Why is my internet bill so high?</a></li><li><a href="/bills/xfinity">Xfinity bill guide</a></li>'
             '<li><a href="/bills/spectrum">Spectrum bill guide</a></li><li><a href="/bills/att">AT&amp;T bill guide</a></li></ul>'
+            "<h2>Who runs YourBillCheck</h2><p><b>Vivek Budhiraja</b>, Founder. <b>Khalid Shaikh</b>, Head of Business Development. See <a href=\"/about\">About YourBillCheck</a>.</p>"
             "<h2>Independence</h2><p>YourBillCheck may earn a commission when you switch through us, at no cost to you. That never changes what a guide says about a provider. "
             '<a href="/about">How we make money</a>.</p>')
     ld = [dict(PERSON, **{"@type": "Person", "description": BIO})]
-    save(PATH, shell(PATH, f"{NAME}, {TITLE}", f"{NAME} is Director of YourBillCheck and writes its internet bill guides. " + BIO[:90],
+    save(PATH, shell(PATH, f"{NAME}, {TITLE}", f"{NAME} is Head of Business Development at YourBillCheck and writes its internet bill guides. " + BIO[:90],
                      NAME, esc(TITLE), body, None,
                      [("Home", SITE + "/"), ("Authors", SITE + "/about"), (NAME, SITE + PATH)], ["Author"],
                      jsonld_extra=ld, date="2026-11-24", checked="November 24, 2026"))
