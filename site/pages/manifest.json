@@ -149,9 +149,14 @@
 "/speed-test/xfinity",
 "/speed-test/zoom",
 "/tools",
+"/tools/business-internet-finder",
+"/tools/compare-providers",
 "/tools/data-usage-calculator",
+"/tools/fiber-checker",
+"/tools/internet-availability-checker",
 "/tools/internet-speed-calculator",
 "/tools/promo-price-calculator",
+"/tools/rural-internet-finder",
 "/tools/streaming-vs-cable-calculator",
 "/tools/wifi-or-internet-problem"
 ]

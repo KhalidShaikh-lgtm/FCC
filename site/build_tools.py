@@ -44,6 +44,11 @@ TOOLS = [
     ("/tools/data-usage-calculator", "Data usage calculator", "Estimate your monthly data and check it against a data cap."),
     ("/tools/streaming-vs-cable-calculator", "Streaming vs cable calculator", "Compare your cable TV bill with the streaming services you would use instead."),
     ("/tools/wifi-or-internet-problem", "Is it my Wi-Fi or my internet?", "Answer a few questions to find where your connection problem is."),
+    ("/tools/fiber-checker", "Fiber internet checker", "Find out if fiber internet is available in your ZIP code."),
+    ("/tools/internet-availability-checker", "Internet availability checker", "Every provider that reports service in your ZIP code."),
+    ("/tools/rural-internet-finder", "Rural internet finder", "Best options where cable and fiber do not reach."),
+    ("/tools/compare-providers", "Compare two providers", "Side-by-side speeds and coverage at your ZIP code."),
+    ("/tools/business-internet-finder", "Business internet finder", "Providers that can serve a business at your ZIP code."),
     ("/speed-test", "Internet speed test", "Test your download and upload speed in about 30 seconds."),
 ]
 
@@ -178,7 +183,7 @@ def build(save):
     # ---------- hub ----------
     p = "/tools"
     cards = "".join(f'<a class="card" href="{u}"><b>{esc(n)}</b><span>{esc(d)}</span></a>' for u, n, d in TOOLS)
-    body = ('<div class="grid">' + cards + '</div><p>More tools are on the way: fiber finder, low-income internet checker and more. '
+    body = ('<div class="grid">' + cards + '</div><p>More tools are on the way: low-income internet checker, cancel and switch helper, and more. '
             'All tools are free, and nothing you type is stored.</p>' + zipcta("Ready to compare providers?"))
     save(p, ui.shell(p, "Free Internet Tools: Speed, Data, Promo Price and Bill Calculators | YourBillCheck",
                      "Free internet tools: speed test, speed and data calculators, promo price calculator, streaming vs cable and a Wi-Fi problem checker.",

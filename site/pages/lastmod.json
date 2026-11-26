@@ -149,9 +149,14 @@
 "/speed-test/xfinity": "2026-11-22",
 "/speed-test/zoom": "2026-11-24",
 "/tools": "2026-11-26",
+"/tools/business-internet-finder": "2026-11-26",
+"/tools/compare-providers": "2026-11-26",
 "/tools/data-usage-calculator": "2026-11-26",
+"/tools/fiber-checker": "2026-11-26",
+"/tools/internet-availability-checker": "2026-11-26",
 "/tools/internet-speed-calculator": "2026-11-26",
 "/tools/promo-price-calculator": "2026-11-26",
+"/tools/rural-internet-finder": "2026-11-26",
 "/tools/streaming-vs-cable-calculator": "2026-11-26",
 "/tools/wifi-or-internet-problem": "2026-11-26"
 }
