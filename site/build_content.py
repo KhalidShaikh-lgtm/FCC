@@ -43,7 +43,7 @@ def render(d):
         if s.get("table"):
             t = s["table"]; body += BE.table(t["head"], [[c for c in r] for r in t["rows"]])
     body += BB.call_cta(d.get("cta_provider", "internet"))
-    if d.get("sources"): body += BE.srcs([tuple(x) for x in d["sources"]])
+    if d.get("sources"): body += BE.srcs([tuple(x) for x in d["sources"]], checked)
     crumbs = [(n, SITE + u) for n, u in d.get("crumbs", [["Home", "/"], [d["h1"], p]])]
     faq = [(q, esc(a)) for q, a in d.get("faq", [])] or None
     return ui.shell(p, d["title"], d["description"], d["h1"], esc(d.get("lead", "")), body, faq, crumbs,
