@@ -53,9 +53,13 @@ async function ping(env){
   try{
     const m=await (await fetch("https://raw.githubusercontent.com/KhalidShaikh-lgtm/FCC/main/site/pages/manifest.json?t="+Date.now())).json();
     const sent=new Set(JSON.parse((await env.SITE.get("indexnow:sent"))||"[]"));
-    const fresh=m.filter(x=>!sent.has(x)).slice(0,1000);
-    if(fresh.length){const r=await fetch("https://api.indexnow.org/indexnow",{method:"POST",headers:{"content-type":"application/json; charset=utf-8"},body:JSON.stringify({host:"yourbillcheck.com",key:INDEXNOW_KEY,keyLocation:"https://yourbillcheck.com/"+INDEXNOW_KEY+".txt",urlList:fresh.map(x=>"https://yourbillcheck.com"+x)})});
-      out.indexnow_status=r.status;if(r.status<300){fresh.forEach(x=>sent.add(x));await env.SITE.put("indexnow:sent",JSON.stringify([...sent]));out.indexnow=fresh.length}}
+    // newest-first, small daily batch straight to Bing (the shared endpoint answered 429 to one big batch)
+    const pri=x=>/^\/(tools|outages|bills|fees|guides|save)/.test(x)?0:1;
+    const fresh=m.filter(x=>!sent.has(x)).sort((x,y)=>pri(x)-pri(y)).slice(0,200);
+    out.indexnow_pending=m.filter(x=>!sent.has(x)).length;
+    if(fresh.length){const r=await fetch("https://www.bing.com/indexnow",{method:"POST",headers:{"content-type":"application/json; charset=utf-8"},body:JSON.stringify({host:"yourbillcheck.com",key:INDEXNOW_KEY,keyLocation:"https://yourbillcheck.com/"+INDEXNOW_KEY+".txt",urlList:fresh.map(x=>"https://yourbillcheck.com"+x)})});
+      out.indexnow_status=r.status;if(r.status>=300)out.indexnow_reply=(await r.text()).slice(0,300);
+      if(r.status<300){fresh.forEach(x=>sent.add(x));await env.SITE.put("indexnow:sent",JSON.stringify([...sent]));out.indexnow=fresh.length}}
   }catch(e){out.indexnow_error=String(e)}
   await env.SITE.put("ping:last",JSON.stringify(Object.assign({at:new Date().toISOString()},out)));
   return out;
