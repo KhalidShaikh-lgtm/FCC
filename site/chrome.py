@@ -11,7 +11,7 @@ PHONE = '<svg width="16" height="16" viewBox="0 0 20 20" aria-hidden="true"><pat
 MENUS = [
  ("Get Internet", [("/", "Check my ZIP code", "See who serves your address"), ("/compare", "Compare providers", "Xfinity vs Spectrum and more"), ("/internet", "Internet by state", "Providers in every state"), ("/moving", "Moving? Get set up", "Transfer or switch internet")]),
  ("Resources", [("/help", "Fix a problem", "Router lights, resets, outages"), ("/providers", "Support phone numbers", "Official numbers for each provider"), ("/guides", "Guides", "Plain-language internet guides"), ("/methodology", "How we get our data", "Sources and limits")]),
- ("Tools", [("/speed-test", "Internet speed test", "Free, takes about 30 seconds"), ("/help/router-red-light", "Router red light fixer", "What the lights mean"), ("/guides/how-much-internet-speed-do-you-need", "How much speed do you need?", "Match speed to your home"), ("/moving/transfer-internet-to-new-address", "Moving checklist", "A simple timeline")]),
+ ("Tools", [("/speed-test", "Internet speed test", "Free, takes about 30 seconds"), ("/tools/internet-speed-calculator", "How much speed do you need?", "Speed calculator"), ("/tools/promo-price-calculator", "Promo price calculator", "Your bill after the promo"), ("/tools/wifi-or-internet-problem", "Wi-Fi or internet problem?", "Find the cause fast"), ("/tools", "All free tools", "Calculators and checkers")]),
 ]
 
 def header(active=""):
