@@ -66,10 +66,10 @@ id,priority,type,path,target_query,status,notes
 62,2,city-enrich,/internet/ok/oklahoma-city,oklahoma city ok internet providers,todo,GSC impressions; override auto page with richer content
 63,2,city-enrich,/internet/nv/las-vegas,las vegas nv internet providers,todo,GSC impressions; override auto page with richer content
 64,2,city-enrich,/internet/ak/anchorage,anchorage ak internet services,todo,GSC impressions; override auto page with richer content
-65,3,plan-sheet,/bills/optimum-bill-went-up,why did my optimum bill go up,todo,Wave 2: Why Did My Optimum Bill Go Up?
-66,3,plan-sheet,/bills/directv-bill-went-up,why did my directv bill go up,todo,Wave 2: Why Did My DirecTV Bill Go Up?
-67,3,plan-sheet,/bills/verizon-wireless-bill-went-up,verizon bill went up,todo,Wave 2: Why Did My Verizon Wireless Bill Go Up?
-68,3,plan-sheet,/bills/t-mobile-bill-went-up,t-mobile bill went up,todo,Wave 2: Why Did My T-Mobile Bill Go Up?
+65,1,plan-sheet,/bills/optimum-bill-went-up,why did my optimum bill go up,todo,Wave 2: Why Did My Optimum Bill Go Up? | Moved up 2026-11-26: went-up pages are the only ones ranking on page 1 (positions 6-8)
+66,1,plan-sheet,/bills/directv-bill-went-up,why did my directv bill go up,todo,Wave 2: Why Did My DirecTV Bill Go Up? | Moved up 2026-11-26: went-up pages are the only ones ranking on page 1 (positions 6-8)
+67,1,plan-sheet,/bills/verizon-wireless-bill-went-up,verizon bill went up,todo,Wave 2: Why Did My Verizon Wireless Bill Go Up? | Moved up 2026-11-26: went-up pages are the only ones ranking on page 1 (positions 6-8)
+68,1,plan-sheet,/bills/t-mobile-bill-went-up,t-mobile bill went up,todo,Wave 2: Why Did My T-Mobile Bill Go Up? | Moved up 2026-11-26: went-up pages are the only ones ranking on page 1 (positions 6-8)
 69,3,plan-sheet,/fees/att-administrative-fee,at&t administrative fee,todo,Wave 2: AT&T Wireless Administrative Fee Explained
 70,3,plan-sheet,/fees/early-termination-fee,internet early termination fee,todo,Wave 2: Early Termination Fees: How to Switch Without Paying
 71,3,plan-sheet,/fees/late-and-paper-bill-fees,paper bill fee,todo,Wave 2: Late Payment & Paper Bill Fees: How to Stop Paying Them
