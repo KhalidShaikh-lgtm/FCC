@@ -20,3 +20,9 @@
 
 - 2026-11-24 CHANGE: writing runs now daily, max 5 per run and 35 per week; pruning policy added (from day 90, reversible, bulk needs approval).
 - 2026-11-24 SETUP: team created. GSC snapshot worker live (daily 00:30 UTC). build_content.py added. Pilot /fiber/az/phoenix published. Queue seeded with 66 items (local focus first, then Wave 2-3 plan pages). Wave 1 (18 pages) live; 7 indexing requests sent.
+
+## 2026-11-26
+- GSC review (export Nov 21-25): 15.7K impressions, 8 clicks, avg position ~33. Went-up pages at 6-8 (Xfinity 4 clicks). City pages 25-45.
+- Titles rewritten: Spectrum and AT&T went-up, price-increases-2026. Optimum, DirecTV, Verizon Wireless, T-Mobile went-up moved to priority 1.
+- Internal links: city/ZIP/state pages link to bill guides for providers on the page; went-up pages link to ZIP checker and top states. Worker v51.
+- gsc-api fixed: dataState=all, end=yesterday (was final-only, 2 days behind, undercounted). TLS min 1.2. Team: Vivek Budhiraja Founder, Khalid Head of Business Development.

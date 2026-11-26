@@ -19,7 +19,7 @@ if that skill is not available, follow `seo/PLAYBOOK.md` in this repo, which is 
   4. brand + place ("xtream by mediacom", "xfinity delaware", "windstream jasper ga")  5. "cheap internet [place]".
 - Current focus (set by Khalid, Nov 25): SMALL TOWNS FIRST (~80% of effort), big cities ~20%. Low competition ranks
   fastest (same pattern that made dbi-infomatics.com rank in weeks). The call center can sell anywhere, rural included,
-  so every town is sellable. Each WRITE run of 10: 8 priority-1 small-town items + 2 priority-2 items (bigger cities). Pick towns already getting GSC impressions; add new ones from the snapshot weekly. Bill/fee pages (Wave 1) went live Nov 24; judge them from mid-December.
+  so every town is sellable. Each WRITE run of 10: 8 priority-1 small-town items + 2 priority-2 items (bigger cities). Pick towns already getting GSC impressions; add new ones from the snapshot weekly. Bill/fee pages (Wave 1) went live Nov 24; judge them from mid-December. GSC Nov 21-25: "bill went up" pages rank 6-8 and earned half the clicks; city/state pages sit at 25-45. Lean the mix toward billing-problem intent (went-up, fees, lower-your-bill) while keeping small towns.
 
 ## How to publish on this site
 - Repo: KhalidShaikh-lgtm/FCC. Pages build from Python in `site/`. Live site = Cloudflare Worker reading
@@ -35,7 +35,7 @@ if that skill is not available, follow `seo/PLAYBOOK.md` in this repo, which is 
   (read with WebFetch), provider sites, broadband labels, reputable reviewers (BroadbandNow, HighSpeedInternet,
   CNET, CableTV.com, Cord Cutters News). Do not use spammy price-scraper sites.
 - Search Console data (no browser needed): Cloudflare KV namespace 946f6287fdfb4ed9b78f2377a4ab0324, key
-  `gsc:yourbillcheck.com:latest` (JSON: query_page_28, page_28, query_7, daily_28), refreshed daily 00:30 UTC by the
+  `gsc:yourbillcheck.com:latest` (JSON: query_page_28, page_28, query_7, daily_28, device_28, country_28; fresh data, ends yesterday, matches the Search Console report since 2026-11-27. Snapshots dated 2026-11-26 and earlier used final data only and undercount the last 2-3 days), refreshed daily 00:30 UTC by the
   `gsc-api` worker. Read it via the Cloudflare tool:
   GET /accounts/{accountId}/storage/kv/namespaces/946f6287fdfb4ed9b78f2377a4ab0324/values/gsc:yourbillcheck.com:latest
 - Worker changes (new URL prefixes, redirects): see `site/README.md`; current worker = KV `worker.v45.js`.
