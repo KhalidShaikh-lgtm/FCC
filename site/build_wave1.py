@@ -5,6 +5,7 @@ import html
 import ui, author
 import build_bills as BB
 import build_extra as BE
+import billrep_ui as BR
 
 esc = lambda s: html.escape(str(s), quote=True)
 SITE = "https://yourbillcheck.com"
@@ -218,7 +219,7 @@ def build_went(save):
     for k, d in WENT.items():
         n = d["name"]; path = "/bills/" + d["slug"]
         links = " · ".join(a(h, t) for h, t in d["more"])
-        body = (author.box(CHECKED) + short(d["short"]) + CAUSES(n) + MINICALC
+        body = (author.box(CHECKED) + short(d["short"]) + CAUSES(n) + MINICALC + BR.box(BR.key_from_path(path), n)
                 + f"<h2>What changed on {esc(n)} bills</h2>"
                 + tbl(["When", "What changed", "Who it affects", "Source"], [(f"<b>{esc(w)}</b>", esc(x), esc(y), esc(z)) for w, x, y, z in d["rows"]])
                 + f"<h2>How to find out why your {esc(n)} bill went up</h2>" + steps([esc(s) for s in d["find"]])
