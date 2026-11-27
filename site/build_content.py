@@ -24,6 +24,7 @@ import glob, json, os, html
 import ui, author
 import build_bills as BB
 import build_extra as BE
+import billrep_ui as BR
 
 esc = lambda s: html.escape(str(s), quote=True)
 SITE = "https://yourbillcheck.com"
@@ -37,6 +38,7 @@ def render(d):
     body = author.box(checked)
     if d.get("short_answer"):
         body += f'<div class="call tip"><b>Short answer:</b> {esc(d["short_answer"])}</div>'
+    if BR.key_from_path(p): body += BR.box(BR.key_from_path(p), d.get("provider_name") or d["h1"].split(" bill")[0].replace("Why did my ","").replace("Why Did My ",""))
     for s in d.get("sections", []):
         if s.get("h2"): body += f"<h2>{esc(s['h2'])}</h2>"
         if s.get("body_html"): body += s["body_html"]
