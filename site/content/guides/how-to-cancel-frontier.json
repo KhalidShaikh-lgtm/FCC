@@ -1,0 +1,98 @@
+{
+ "path": "/guides/how-to-cancel-frontier",
+ "title": "How to Cancel Frontier Internet: Fees, Final Bill and Equipment Return (2026)",
+ "description": "How to cancel Frontier internet: no cancellation phone number is listed, the 30-day equipment return, the up to $500 unreturned-equipment fee and the unprorated final bill. Checked November 27, 2026.",
+ "h1": "How to cancel Frontier internet",
+ "lead": "What Frontier says about disconnecting service, the fees to check and how to return equipment.",
+ "short_answer": "Frontier's disconnect page does not list a cancellation phone number or say how to start a disconnect; it points to chat for equipment and fee questions. Equipment must be returned within 30 days of the disconnect date or Frontier lists an unreturned equipment fee of up to $500. Internet is billed through the end of the billing cycle and is not prorated. An early termination fee can apply if you leave before a contract or promotion ends.",
+ "chips": [
+  "Cancel guide",
+  "Sources listed"
+ ],
+ "crumbs": [
+  [
+   "Home",
+   "/"
+  ],
+  [
+   "Lower your bill",
+   "/bills"
+  ],
+  [
+   "How to cancel Frontier",
+   "/guides/how-to-cancel-frontier"
+  ]
+ ],
+ "cta_provider": "Frontier",
+ "sections": [
+  {
+   "h2": "Before you cancel",
+   "body_html": "<p>A cancellation is final only once the disconnect date passes, so check these first. Look at your latest bill for a promotion or price guarantee end date, because Frontier says an early termination fee (ETF) can apply if you cancel before a contract or promotional period ends. It does not give the amount on its disconnect page, so ask for it before you agree to a date. If the problem is a bill that went up, read <a href=\"/bills/frontier-bill-went-up\">why your Frontier bill went up</a> first; a call or chat about a lower price takes about as long as cancelling.</p>"
+  },
+  {
+   "h2": "How to cancel, according to Frontier",
+   "body_html": "<p>Frontier's disconnect help page, which explains what to expect after disconnecting, does not list a cancellation phone number or say how to start a disconnect; it points to \"Chat with us\" for equipment and fee questions. Contact Frontier through your account, or use the number printed on your Frontier bill, and do not trust numbers from third-party sites.</p><ol class=\"steps\"><li>Pick the date you want service to end. Frontier says service stays active until the disconnect date and can end as early as 12:01 AM that day.</li><li>Contact Frontier through your account or the number on your bill and say you want to disconnect internet. Ask what the final bill will be and whether any early termination or other fee applies.</li><li>Write down the agent's name, the date, the disconnect date you were given and any confirmation number.</li><li>Set up your new provider so there is no gap, and ask about install timing before you cancel.</li></ol>"
+  },
+  {
+   "table": {
+    "head": [
+     "Fee or rule",
+     "What Frontier says",
+     "Source"
+    ],
+    "rows": [
+     [
+      "Early termination fee",
+      "Applies if you cancel before the end of a contract or promotional period. Amount not stated on the page.",
+      "Frontier"
+     ],
+     [
+      "Unreturned equipment fee",
+      "Up to $500 if equipment is not returned within 30 days.",
+      "Frontier"
+     ],
+     [
+      "Equipment restocking fee",
+      "A one-time processing fee is listed. Amount not stated on the page.",
+      "Frontier"
+     ],
+     [
+      "Final bill",
+      "Residential internet and Frontier equipment are billed in full through the end of the billing cycle and are not prorated. Up to three final bills may arrive if there are delayed charges, such as unreturned equipment or late fees.",
+      "Frontier"
+     ]
+    ]
+   }
+  },
+  {
+   "h2": "Returning Frontier equipment",
+   "body_html": "<p>Frontier says you have 30 days from the disconnect date. It lists two ways: a QR code you take to a The UPS Store, which ships the equipment at no cost and gives you a receipt with a tracking number, or a return mailer kit that Frontier says takes 5 to 7 business days to arrive and can be dropped at any location that accepts UPS packages. Keep the receipt until your final bill is clear.</p>"
+  },
+  {
+   "h2": "After you cancel",
+   "body_html": "<p>Frontier says it sends the final bill on your regular billing date and charges your Auto Pay method if it was active. Refunds under $5 or over $500 come by paper check and others by prepaid Mastercard, and Frontier says a refund can take up to three billing cycles plus 15 to 20 business days and cannot be expedited. You can sign in for up to 120 days after disconnection to view and pay the final bill. To dispute a charge, Frontier points to the MyFrontier app, then My Billing, then Get help with your bill.</p><p>Not ready to leave? See <a href=\"/guides/why-internet-bill-went-up\">why internet bills go up</a>, <a href=\"/guides/internet-price-increases-2026\">2026 internet price increases</a> and the <a href=\"/tools/promo-end-reminder\">promo-end reminder</a>. Comparing options at your address: <a href=\"/tools/compare-providers\">compare providers</a>.</p>"
+  }
+ ],
+ "faq": [
+  [
+   "How do I cancel Frontier internet?",
+   "Frontier's disconnect help page does not list a cancellation phone number or say how to start a disconnect. Contact Frontier through your account or the number on your bill."
+  ],
+  [
+   "Is there a fee to cancel Frontier?",
+   "Frontier lists an early termination fee if you cancel before a contract or promotion ends, and an unreturned equipment fee of up to $500 after 30 days. It does not state the ETF amount on the page, so ask before you commit."
+  ],
+  [
+   "Do I get a refund for the rest of the month?",
+   "Frontier says residential internet is billed through the end of the billing cycle and is not prorated."
+  ]
+ ],
+ "sources": [
+  [
+   "Frontier: what to expect after disconnecting your service",
+   "https://frontier.com/helpcenter/account/disconnecting-your-service"
+  ]
+ ],
+ "checked": "November 27, 2026",
+ "date": "2026-11-27"
+}

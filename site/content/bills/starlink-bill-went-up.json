@@ -1,0 +1,136 @@
+{
+ "path": "/bills/starlink-bill-went-up",
+ "title": "Starlink Bill Went Up? 2026 Price Increases, $5-$10 Hikes and Area Pricing",
+ "description": "Why your Starlink bill went up in 2026: the reported $5 to $10 plan increases from June 18, Standby Mode doubling to $10, and area-based pricing of up to 20% more. Checked November 27, 2026.",
+ "h1": "Why did my Starlink bill go up?",
+ "lead": "The 2026 Starlink price changes reported by news and reseller sites, what they mean for your bill, and what you can do.",
+ "short_answer": "Reported 2026 Starlink changes: Residential 100 Mbps rose from $50 to $55, 200 Mbps from $80 to $85 and Residential MAX from $120 to $130, applying to existing customers from June 18, 2026. Standby Mode went from $5 to $10. In October 2026 SatelliteInternet.com also reported location-based pricing that can raise or lower your fee by area, up to about 20% more.",
+ "chips": [
+  "Price increase",
+  "Sources listed"
+ ],
+ "crumbs": [
+  [
+   "Home",
+   "/"
+  ],
+  [
+   "Lower your bill",
+   "/bills"
+  ],
+  [
+   "Starlink",
+   "/bills/starlink-bill-went-up"
+  ]
+ ],
+ "cta_provider": "Starlink",
+ "sections": [
+  {
+   "h2": "What changed in 2026",
+   "body_html": "<p>These figures are reported by third-party sites, not confirmed by us against Starlink's own notice. Check your Starlink account for your exact price.</p>"
+  },
+  {
+   "table": {
+    "head": [
+     "Plan",
+     "Before",
+     "After",
+     "Source"
+    ],
+    "rows": [
+     [
+      "Residential 100 Mbps",
+      "$50",
+      "$55",
+      "Reported (SatelliteInternet.com, TalkAndroid, The Next Web)"
+     ],
+     [
+      "Residential 200 Mbps",
+      "$80",
+      "$85",
+      "Reported (same sources)"
+     ],
+     [
+      "Residential MAX",
+      "$120",
+      "$130",
+      "Reported (same sources)"
+     ],
+     [
+      "Standby Mode",
+      "$5",
+      "$10",
+      "Reported (SatelliteInternet.com, The Next Web)"
+     ],
+     [
+      "Roam Unlimited",
+      "$165",
+      "$175",
+      "Reported (SatelliteInternet.com, TalkAndroid, The Next Web)"
+     ],
+     [
+      "Roam 300GB",
+      "$80",
+      "$80 (unchanged)",
+      "Reported (same sources)"
+     ]
+    ]
+   }
+  },
+  {
+   "h2": "When it hit your bill",
+   "body_html": "<p>TalkAndroid (May 17, 2026) reported the changes apply to existing customers on or after June 18, 2026. The Next Web (May 18, 2026) reported they took effect immediately for new customers and from the next billing cycle on or after June 18 for existing subscribers. SatelliteInternet.com (May 28, 2026) reported they apply from a customer's June 2026 billing date and also to inactive accounts that reactivate, and that customers shared a Starlink email explaining the change. It also reported that new customers who signed up on a promotion keep promotional pricing until it ends.</p>"
+  },
+  {
+   "h2": "Equipment: no more buying the Residential dish",
+   "body_html": "<p>9to5Google (June 10, 2026) reported that Starlink appears to have removed the option to buy the Residential dish outright, that the site lists a monthly option that \"starts at $100/month\" in select markets, and that Starlink Mini can still be bought, starting at $199. Check your own order and bill to see whether you are charged for equipment.</p>"
+  },
+  {
+   "h2": "Area-based pricing (October 2026)",
+   "body_html": "<p>SatelliteInternet.com (October 29, 2026) reported Starlink rolling out location-based pricing in the US, with monthly fees rising or falling by area for current and new customers. It reported increases of up to 20%, taking a $130 Residential MAX plan to $156 a month, and one user reporting a 10% discount to $117. It quotes a Starlink email saying prices are dynamic based on supply of capacity and demand, and that Starlink will evaluate pricing quarterly. If your bill jumped without a plan change, this may be why.</p>"
+  },
+  {
+   "h2": "What to do about it",
+   "body_html": "<ol class=\"steps\"><li>Compare your last two bills and match the new price to the table above and to your area's price in your Starlink account.</li><li>Check your plan tier. If a lower tier covers your household, change plans in your account.</li><li>If you are away part of the year, Standby Mode is the pause option; it is now reported at $10 a month.</li><li>SatelliteInternet.com reported (Oct 29, 2026) that Starlink reiterated customers pay month to month and can change or cancel at any time. There is no contract to buy out, but check for equipment charges.</li><li>See what wired or fixed-wireless providers offer at your address, including the price after the promotion: <a href=\"/tools/compare-providers\">compare providers</a>. You may not need to switch if your Starlink price is acceptable.</li></ol><p>More: <a href=\"/bills/starlink\">why Starlink bills run high</a>, <a href=\"/guides/amazon-leo-vs-starlink\">Amazon Leo vs Starlink</a>, <a href=\"/guides/internet-price-increases-2026\">2026 internet price increases</a>, <a href=\"/guides/why-internet-bill-went-up\">why internet bills go up</a>.</p>"
+  }
+ ],
+ "faq": [
+  [
+   "How much did Starlink go up in 2026?",
+   "Reported US Residential increases were $5 on 100 Mbps and 200 Mbps and $10 on Residential MAX, from June 18, 2026 for existing customers, per TalkAndroid and The Next Web."
+  ],
+  [
+   "Why is my Starlink bill higher than the posted price?",
+   "SatelliteInternet.com reported location-based pricing in October 2026 that can raise a fee by up to about 20% in some areas, SatelliteInternet.com also reported that one-time demand surcharges still appear to apply in some high-demand areas."
+  ],
+  [
+   "Can I cancel Starlink any time?",
+   "SatelliteInternet.com reported (Oct 29, 2026) that Starlink reiterated customers pay month to month and can change or cancel at any time."
+  ]
+ ],
+ "sources": [
+  [
+   "SatelliteInternet.com: Starlink 2026 price increase",
+   "https://www.satelliteinternet.com/resources/starlink-2026-price-increase/"
+  ],
+  [
+   "9to5Google: Starlink drops purchase option, raises prices",
+   "https://9to5google.com/2026/06/10/starlink-drops-purchase-option-raises-prices-for-some-plans/"
+  ],
+  [
+   "TalkAndroid: Starlink raising prices starting June 18",
+   "https://www.talkandroid.com/525362-starlink-is-raising-prices-on-almost-every-plan-starting-june-18/"
+  ],
+  [
+   "SatelliteInternet.com: Starlink dynamic pricing",
+   "https://www.satelliteinternet.com/resources/starlink-introduces-dynamic-pricing/"
+  ],
+  [
+   "The Next Web: Starlink raises prices across every consumer plan",
+   "https://thenextweb.com/news/starlink-price-increase-standby-mode-roam-residential"
+  ]
+ ],
+ "checked": "November 27, 2026",
+ "date": "2026-11-27",
+ "provider_name": "Starlink"
+}
