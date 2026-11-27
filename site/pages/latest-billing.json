@@ -40,6 +40,11 @@
 "d": "2026-11-27"
 },
 {
+"p": "/bills/verizon-fios-bill-went-up",
+"t": "Why did my Verizon Fios bill go up?",
+"d": "2026-11-27"
+},
+{
 "p": "/bills/spectrum-bill-went-up",
 "t": "Why did my Spectrum bill go up?",
 "d": "2026-11-27"
@@ -50,13 +55,8 @@
 "d": "2026-11-27"
 },
 {
-"p": "/bills/att-bill-went-up",
-"t": "Why did my AT&T bill go up?",
+"p": "/bills/cox-bill-went-up",
+"t": "Why did my Cox bill go up?",
 "d": "2026-11-27"
-},
-{
-"p": "/guides/rocket-money-bill-negotiation-alternatives",
-"t": "Rocket Money bill negotiation alternatives",
-"d": "2026-11-26"
 }
 ]

@@ -159,7 +159,7 @@ WENT = {
  "verizon": dict(slug="verizon-fios-bill-went-up", name="Verizon Fios", kw="verizon fios bill went up", save="/bills/verizon", bill="/bills/verizon",
    short="A Verizon Fios bill usually rises because a promotion, price guarantee or discount ended, an Auto Pay credit shrank, a miscellaneous charge increased, or TV fees such as the Fios TV broadcast fee changed. We did not find a confirmed 2026 Fios internet price increase.",
    rows=[("January 2025", "Fios customers reported a $5 increase labeled as a miscellaneous charges increase.", "Some Fios customers", "Reported"),
-         ("Auto Pay credit", "A customer reported being told the Auto Pay credit dropped from $10 to $5 on older Fios 300 and lower plans, which raised the bill $5.", "Older low-tier plans", "Customer report"),
+         ("Auto Pay credit", "Some subscribers reported their Auto Pay discount was cut by $5, which raised the bill $5.", "Some Fios customers", "Reported (PhoneArena)"),
          ("Fios TV broadcast fee", "Verizon's glossary describes it as a monthly fee charged by local programming providers for basic channels, and says it is subject to change.", "Fios TV customers", "Verizon"),
          ("November 1, 2026", "Verizon's Regulatory Charge rose from $0.21 to $0.26 per voice line. This is a wireless-line item, not Fios internet.", "Verizon Wireless lines", "Verizon"),
          ("Bundles and discounts", "Discounts tied to Auto Pay or a mobile bundle disappear if you stop using the qualifying service, and the bill rises by that amount.", "Customers who changed mobile or payment setup", "General")],
@@ -180,7 +180,7 @@ WENT = {
          ("Promotions", "Cox promotions end into a standard rate. Compare your current rate with the new-customer price shown for your address.", "Customers on promo plans", "General"),
          ("Data cap", "Cox plans have historically carried a 1,280 GB allowance with $10 per extra 50 GB. Check your plan for a cap.", "Customers on capped plans", "CableTV.com")],
    find=["Read the notice that came with your bill. Cox customers have reported notices dated close to the billing date.",
-         "Check for a Panoramic Wifi or equipment line, reported at about $13 to $15 a month after a promotion.",
+         "Check for a Panoramic Wifi or equipment line, reported at about $15 a month (HighSpeedInternet.com).",
          "Look for a data usage or overage line on your last few bills."],
    more=[("/fees/modem-router-rental-fee", "Modem and router rental"), ("/fees/xfinity-data-overage", "Data caps by provider")],
    faq=[("Why did my Cox bill go up?", "Common reasons are a promotion ending, a reported $5 increase on 500 Mbps and 1 Gig plans in early 2026, equipment rental and data overage charges."),
@@ -188,7 +188,9 @@ WENT = {
         ("Do I have to switch to Spectrum?", "Reports say customers are not forced onto Spectrum plans, and that those who want a Spectrum plan need to call Spectrum.")],
    src=[("CableTV.com: Cox-Spectrum merger and prices", "https://www.cabletv.com/news/cox-spectrum-merger-will-price-increase"),
         ("CompareInternet: internet price increase 2026 tracker", "https://www.compareinternet.com/blog/internet-price-increase-2026/"),
-        ("CableTV.com: internet provider data caps", "https://www.cabletv.com/internet/brand-data-caps")]),
+        ("CableTV.com: internet provider data caps", "https://www.cabletv.com/internet/brand-data-caps"),
+        ("Cox: data usage", "https://www.cox.com/residential/internet/learn/data-usage.html"),
+        ("HighSpeedInternet.com: what you actually pay for Cox", "https://www.highspeedinternet.com/resources/cox-real-costs")]),
 }
 
 # ---------------------------------------------------------------- 2026-11-27 improvements: dollar-amount answers + retention scripts
@@ -305,6 +307,54 @@ WENT["frontier"] = dict(slug="frontier-bill-went-up", name="Frontier", kw="why d
         ("HighSpeedInternet.com: what you actually pay for Frontier", "https://www.highspeedinternet.com/resources/frontier-real-costs"),
         ("HighSpeedInternet.com: Verizon vs Frontier", "https://www.highspeedinternet.com/resources/verizon-vs-frontier")])
 
+# ---- 2026-11-27 IMPROVE run: Cox + Verizon Fios went-up pages (only claims already sourced on these pages)
+WENT["cox"].update(
+ checked="November 27, 2026", date="2026-11-27",
+ title="Did Cox Raise Prices in 2026? Why Your Bill Went Up",
+ desc="Cox bill went up? See the reported $5 increase on 500 Mbps and 1 Gig plans, what a promo ending means, Spectrum merger notes, and what to say when you call.",
+ extra_links=' \u00b7 <a href="/guides/internet-promo-ended">When your promo ends</a> \u00b7 <a href="/guides/why-internet-bill-went-up">Why internet bills go up</a>',
+ amounts_html=_amt(["If your bill rose by", "Most likely cause", "Source"], [
+   ("<b>$5</b>", "Price trackers report a $5 monthly increase on Cox's 500 Mbps and 1 Gig plans in early 2026. Sources disagree on the exact tiers and totals, so treat it as reported, not confirmed by Cox.", "Reported (CompareInternet)"),
+   ("<b>About $15</b>", "A Panoramic Wifi equipment rental line, reported at $15 a month once you have been a customer longer than two years.", "Reported (HighSpeedInternet.com)"),
+   ("<b>$10 per extra 50 GB</b>", "Data overage. Cox says its plans include 1.25 TB (1,280 GB) a month, with extra 50 GB blocks at $10 each, up to $100 a month.", "Cox"),
+   ("<b>$10 to $20</b>", "A promotion ending. Reviewers report about $10 to $20 a month more after a two-year promotion. Compare your new rate with the new-customer price shown for your address.", "Reported (HighSpeedInternet.com)")],
+   "We found no Cox-announced 2026 residential increase and no merger-related price change. Your bill notice is the final word on your amount."),
+ script_html=_script("Cox", [
+   "Say: \"My bill went from $___ to $___. Which lines changed?\"",
+   "Ask when your promotion ends and what the standard rate is afterward.",
+   "Ask: \"What do new customers pay at my address for the same speed, and can I get that price or a price guarantee?\"",
+   "Ask what equipment and Wi-Fi lines you are billed for, and whether using your own modem or router removes them.",
+   "Ask whether you have a data allowance and whether any overage appears on your account.",
+   "If the price is still too high, say you are comparing other providers at your address and ask whether there is an offer for customers who are thinking of leaving.",
+   "Get the new price, how many months it lasts and what is excluded before you accept, and note the agent's name and the time."],
+   "Results vary and there is no guarantee of a discount. Reports from September 2026 say Cox customers keep current pricing and equipment during the Spectrum transition and existing promotions are honored, so ask the agent to confirm yours in writing.",
+   "Use the chat, phone or sign-in options shown on your Cox bill or at cox.com. We did not find a Cox-published retention number, so we do not list one."),
+)
+WENT["cox"]["faq"] = WENT["cox"]["faq"] + [("Did Cox raise prices in 2026?", "Price trackers report a $5 monthly increase on 500 Mbps and 1 Gig plans in early 2026, but sources disagree on exact tiers. We found no Cox announcement of a new residential increase tied to the Spectrum merger."),
+    ("My Cox promo rate ended. How much more will I pay?", "Reviewers report about $10 to $20 a month more after a two-year promotion. Your exact price is the standard rate for your plan, so compare it with the new-customer price at your address and ask the retention team for a current offer.")]
+WENT["verizon"].update(
+ checked="November 27, 2026", date="2026-11-27",
+ title="Verizon Fios Bill Went Up? Why and What to Do (2026)",
+ desc="Verizon Fios bill went up $5 or more? See the common causes: ended promos, a smaller Auto Pay credit, misc. charges and TV fees, plus what to say when you call.",
+ extra_links=' \u00b7 <a href="/guides/internet-promo-ended">When your promo ends</a> \u00b7 <a href="/guides/why-internet-bill-went-up">Why internet bills go up</a>',
+ amounts_html=_amt(["If your bill rose by", "Most likely cause", "Source"], [
+   ("<b>$5</b>", "Fios customers reported a $5 increase labeled as a miscellaneous charges increase in January 2025. Some subscribers also reported their Auto Pay discount was cut by $5.", "Reported (PhoneArena)"),
+   ("<b>TV fees</b>", "The Fios TV broadcast fee covers local broadcast channels and can change. Check the TV section of your bill.", "Verizon billing glossary"),
+   ("<b>Larger jumps</b>", "A promotion, price guarantee or bundle discount ending. A mobile-bundle or Auto Pay credit disappears if you stop using the qualifying service.", "General"),
+   ("<b>Any amount, 2026</b>", "We did not find a confirmed 2026 Fios internet price increase. Verizon's November 1, 2026 Regulatory Charge change is a wireless per-line item, not Fios internet.", "Our check, Nov 27, 2026")],
+   "Your bill and the notice that came with it are the final word on your amount."),
+ script_html=_script("Verizon Fios", [
+   "Say: \"My Fios bill went from $___ to $___. Which lines changed?\"",
+   "Ask whether an Auto Pay credit, mobile-bundle discount or promotion ended, and what the credit is now.",
+   "Ask about any miscellaneous charge line and what it covers.",
+   "Ask: \"What do new customers pay at my address for the same speed, and is a price guarantee available to me?\"",
+   "If you have Fios TV, ask about the broadcast and sports fees and whether a cheaper package fits.",
+   "If the price is still too high, say you are comparing other providers at your address and ask whether there is an offer for customers who are thinking of leaving.",
+   "Get the new price, how many months it lasts and what is excluded before you accept, and note the agent's name and the time."],
+   "Results vary and there is no guarantee of a discount.",
+   "Use the chat, phone or sign-in options shown on your Verizon bill or at verizon.com. We did not find a Verizon-published Fios retention number, so we do not list one."),
+)
+
 def LOCAL(n):
     st = [("tx","Texas"),("ca","California"),("fl","Florida"),("ny","New York"),("ga","Georgia"),("pa","Pennsylvania"),("il","Illinois"),("oh","Ohio")]
     return (f"<h2>Check if a cheaper provider serves you</h2><p>If {esc(n)} keeps raising your price, see who else offers internet at your address. "
@@ -346,7 +396,7 @@ SEEN = {
     ("Promo ended, no notice seen", "$25 &rarr; $95", "Xfinity community forum", "https://forums.xfinity.com/conversations/customer-service/rapid-price-increases-with-no-warning/67fd1c6389747f592311d3c0", "Apr 2025"),
     ("2-year contract ended", "$88 &rarr; $137", "Xfinity community forum", "https://forums.xfinity.com/conversations/email/extremely-frustrated-with-xfinity-service-need-immediate-resolution/688e67eca7bb62331b9757dc", "Aug 2025"),
     ("Long-running promo ended", "$70 &rarr; $121 (+73%)", "Xfinity community forum", "https://forums.xfinity.com/conversations/billing/bill-went-up-by-50-with-no-warning/64c2854abe1840784489cbfa", "Jul 2023")]),
- "cox": ("Cox customers report jumps of $20 to $60 a month when a promotion ends, and some say their bill rose during a price guarantee.",
+ "cox": ("Reviewers report Cox bills rising about $10 to $20 a month after a two-year promotion (HighSpeedInternet.com), and some customers say their bill rose during a price guarantee.",
    [("Promo ended", "$69 &rarr; $100", "Cox community forum", "https://forums.cox.com/conversations/internet/cox-screwed-me-on-my-bill/6915e009f14c480f4edd6855", "Nov 2025"),
     ("Promotional package expired", "+$60 a month", "Cox community forum", "https://forums.cox.com/discussions/internet/frustrating-experience-with-cox-cable-poor-customer-service-and-misleading-offer/153810", "Customer report"),
     ("Internet-only plan, promo ended", "$69.99 &rarr; about double", "Cox community forum", "https://forums.cox.com/discussions/internet/rip-off/150683", "Customer report"),
@@ -446,7 +496,7 @@ SAVE = {
  "cox": dict(slug="lower-cox-bill", name="Cox", went="/bills/cox-bill-went-up", bill="/bills/cox",
    short="To lower a Cox bill, compare your rate with the new-customer price for your address, ask about equipment and data charges, and ask what changes as Cox moves into Spectrum. Existing promotions are reported to be honored.",
    asks=[("Quote the new-customer price", "Cox, like most cable providers, offers lower prices to new customers. Look up the price for your address and quote it to the retention team."),
-         ("Remove equipment rental", "Cox has billed its Panoramic Wifi gateway at about $13 to $15 a month after a promotion. A compatible modem and router you own can replace it."),
+         ("Remove equipment rental", "Cox's Panoramic Wifi equipment rental is reported at $15 a month (HighSpeedInternet.com). A compatible modem and router you own can replace it."),
          ("Check the data allowance", "Cox plans have historically had a 1,280 GB allowance with $10 per extra 50 GB. Ask whether yours does, and what unlimited costs."),
          ("Ask about the Spectrum transition", "Reports in September 2026 say Cox customers keep current pricing and equipment for now, are not forced onto Spectrum plans, and can call Spectrum to switch. Ask for the price both ways before deciding."),
          ("Keep your promotion terms", "Reports say existing promotions and commitments will be honored. Ask for your end date in writing.")],
@@ -586,6 +636,13 @@ def build_guides(save):
                 "Ask for a new promotion, or a move to a current plan with a price guarantee. Get the price, start date and length in writing.",
                 "Check Auto Pay, paperless and bundle credits. Together they are often $10 or more a month.",
                 "If the answer is no, compare other providers. Count the price after their promotion too."])
+            + "<h2>How much more will I pay when my promo ends?</h2>" + tbl(["Provider", "What is reported", "Source"], [
+                ("Xfinity", "About $20 to $55 a month more when a 12-month promotion ends.", "Reported (HighSpeedInternet.com)"),
+                ("Frontier", "Promotional jumps typically $10 to $50 a month, usually about a year in.", "Reported (HighSpeedInternet.com)"),
+                ("Cox", "About $10 to $20 a month more after a two-year promotion.", "Reported (HighSpeedInternet.com)"),
+                ("Any provider", "A bundle or Auto Pay credit ends if you drop the qualifying service, and the bill rises by that amount.", "General")])
+            + '<p class="note">Amounts vary by plan and area. Your promotion end date and standard rate are on your bill or in the provider app.</p>'
+            + '<p><b>You may not need to switch.</b> If the standard rate is acceptable, or one call gets it close to your old price, staying put is a fine result.</p>'
             + BB.SCRIPT
             + '<h2>Provider-specific plans</h2><p>' + " · ".join(a("/save/" + d["slug"], f"Lower your {d['name']} bill") for d in SAVE.values()) + '</p>'
             + '<p><a href="/guides/internet-price-increases-2026">2026 price increases</a> · <a href="/fees">Hidden fees explained</a> · <a href="/compare">Compare providers</a></p>'
@@ -593,9 +650,11 @@ def build_guides(save):
                                            ("HighSpeedInternet.com: how much will Xfinity cost after a year", "https://www.highspeedinternet.com/resources/xfinity-cost-after-one-year"),
                                            ("WhistleOut: Spectrum Internet 500 Mbps (introductory rates)", "https://www.whistleout.com/Internet/Providers/Charter-Spectrum/Fiber/Spectrum-Internet-500Mbps")]))
     p = "/guides/internet-promo-ended"
-    save(p, page(p, "What to Do When Your Internet Promo Price Ends", f"What happens when an internet promotion ends, and six steps to keep your price down: check the date, ask for a new promo, compare providers. Checked {CHECKED}.",
+    save(p, page(p, "Internet Promo Ended? What You'll Pay and How to Lower It", f"Internet promo ended? See how much more reported bills rise, what a price guarantee covers, and six steps to keep your price down. Checked {CHECKED}.",
          "What to do when your internet promo ends", "Why the price jumps, and what to do before and after.", body,
-         faqs([("What happens when my internet promotion ends?", "The plan moves to the provider's standard rate. Reviewers report increases of about $20 to $55 a month for Xfinity after a 12-month promotion."),
+         faqs([("How much more will I pay when my internet promo ends?", "Reviewers report about $20 to $55 a month more for Xfinity and $10 to $50 for Frontier. Other providers vary, so check the standard rate on your bill."),
+               ("Do bundle credits end when my promo ends?", "A bundle or Auto Pay credit ends if you stop using the qualifying service. Check your bill for the credit line and its end date."),
+               ("What happens when my internet promotion ends?", "The plan moves to the provider's standard rate. Reviewers report increases of about $20 to $55 a month for Xfinity after a 12-month promotion."),
                ("Can I get a new promotion as an existing customer?", "Often, if you ask the retention team and have a competitor's price in hand. Offers vary."),
                ("Does a price guarantee cover fees?", "No. Xfinity says taxes, fees and equipment charges may change during and after a promotional period or contract term.")]),
          [("Home", SITE + "/"), ("Guides", SITE + "/guides"), ("Internet promo ended", SITE + p)], ["Lower my bill", "Sources listed"]))
