@@ -1,0 +1,75 @@
+{
+ "path": "/guides/how-to-cancel-optimum",
+ "title": "How to Cancel Optimum Internet: Final Bill Timing and Equipment (2026)",
+ "description": "How to cancel Optimum internet without paying an extra month: bill-cycle timing, no proration, seasonal pause fees reported by CableTV.com, and equipment return. Checked November 27, 2026.",
+ "h1": "How to cancel Optimum internet",
+ "lead": "Why timing matters when you cancel Optimum, the pause option, and what to do with the equipment.",
+ "short_answer": "CableTV.com reports that Optimum does not prorate your bill after service is cancelled, so close the account and ship equipment back before the end of the billing cycle you want to be your last. Otherwise you can be billed an extra month. Optimum's terms say unreturned equipment can be charged and billing can continue until it is returned.",
+ "chips": [
+  "Cancel guide",
+  "Sources listed"
+ ],
+ "crumbs": [
+  [
+   "Home",
+   "/"
+  ],
+  [
+   "Lower your bill",
+   "/bills"
+  ],
+  [
+   "How to cancel Optimum",
+   "/guides/how-to-cancel-optimum"
+  ]
+ ],
+ "cta_provider": "Optimum",
+ "sections": [
+  {
+   "h2": "Before you cancel",
+   "body_html": "<p>Look at your bill for a promotion end date and any equipment you rent. If the issue is a price rise, read <a href=\"/bills/optimum-bill-went-up\">why your Optimum bill went up</a> first. We found no early termination fee or return deadline for residential Optimum on the pages we could read, so ask for both before you confirm.</p>"
+  },
+  {
+   "h2": "Timing is the money saver",
+   "body_html": "<p>CableTV.com reports: make sure your account is fully closed and any equipment is shipped back by the end of whatever billing cycle you want to be your last. It reports you are billed an extra month if you reach a new cycle, and that Optimum does not prorate your bill after cancellation. Treat that as reported, and confirm your cycle end date with Optimum.</p>"
+  },
+  {
+   "h2": "How to cancel",
+   "body_html": "<p>CableTV.com reports that cancelling is done by calling the regional customer service line, and lists hours of 9 a.m. to 5 p.m. ET weekdays and 9 a.m. to 1 p.m. Saturday. We do not list third-party phone numbers here. Use the number on your Optimum bill or in your account.</p><ol class=\"steps\"><li>Check your billing cycle end date on your bill.</li><li>Choose the last day you want service and call at least a few days before the cycle ends.</li><li>Ask for the final bill amount, any fee, and equipment return instructions.</li><li>Write down the agent's name, date and confirmation details.</li></ol>"
+  },
+  {
+   "h2": "Pause instead of cancel",
+   "body_html": "<p>CableTV.com reports Optimum has a seasonal pause of up to 6 months, with monthly pause fees reported at $10 for internet, $15 for cable TV and $5 for phone. If you leave town for part of the year this can cost less than a full bill, but confirm the fee with Optimum.</p>"
+  },
+  {
+   "h2": "Equipment",
+   "body_html": "<p>Optimum's (Altice's) published business terms say a subscriber must promptly return equipment, that unreturned equipment can be charged at Optimum's current schedule of charges, and that it can keep billing a monthly fee until equipment is returned. Those terms are for business accounts and may not match your residential account, so ask Optimum for your return deadline and keep your return receipt.</p><p>Not ready to leave? See <a href=\"/guides/why-internet-bill-went-up\">why internet bills go up</a>, <a href=\"/guides/internet-price-increases-2026\">2026 internet price increases</a> and the <a href=\"/tools/promo-end-reminder\">promo-end reminder</a>. Comparing options at your address: <a href=\"/tools/compare-providers\">compare providers</a>.</p>"
+  }
+ ],
+ "faq": [
+  [
+   "How do I cancel Optimum internet?",
+   "CableTV.com reports you cancel by calling the regional customer service line. Use the number on your bill."
+  ],
+  [
+   "Will I pay for a full month if I cancel mid-cycle?",
+   "CableTV.com reports Optimum does not prorate after cancellation and can bill an extra month if you hit a new cycle. Confirm your cycle end date."
+  ],
+  [
+   "Can I pause Optimum instead?",
+   "CableTV.com reports a seasonal pause of up to 6 months with a monthly pause fee, reported at $10 for internet."
+  ]
+ ],
+ "sources": [
+  [
+   "CableTV.com: change or cancel Optimum",
+   "https://www.cabletv.com/optimum/change-or-cancel"
+  ],
+  [
+   "Optimum: business general terms (equipment and early termination wording)",
+   "https://www.optimum.net/pages/terms/general-business.html"
+  ]
+ ],
+ "checked": "November 27, 2026",
+ "date": "2026-11-27"
+}

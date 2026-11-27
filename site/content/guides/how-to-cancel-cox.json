@@ -1,0 +1,106 @@
+{
+ "path": "/guides/how-to-cancel-cox",
+ "title": "How to Cancel Cox Internet Now That Cox Is Becoming Spectrum (2026)",
+ "description": "Cancelling Cox internet after Charter closed its Cox purchase on August 20, 2026: what changed, the early termination fees CableTV.com reports, and how to return equipment. Checked November 27, 2026.",
+ "h1": "How to cancel Cox internet",
+ "lead": "What changed after Charter bought Cox, the cancellation fees reported by CableTV.com, and what to check before you leave.",
+ "short_answer": "Charter closed its $34.5 billion purchase of Cox on August 20, 2026, and Cox markets are moving to the Spectrum brand. CableTV.com reports Cox early termination fees of $120 on one-year and $240 on two-year contracts, lowered by $10 for each month remaining. Check your own agreement and ask Cox or Spectrum for the exact amount before you cancel.",
+ "chips": [
+  "Cancel guide",
+  "Sources listed"
+ ],
+ "crumbs": [
+  [
+   "Home",
+   "/"
+  ],
+  [
+   "Lower your bill",
+   "/bills"
+  ],
+  [
+   "How to cancel Cox",
+   "/guides/how-to-cancel-cox"
+  ]
+ ],
+ "cta_provider": "Cox",
+ "sections": [
+  {
+   "h2": "What changed: Cox is becoming Spectrum",
+   "body_html": "<p>AZFamily and Light Reading reported that Charter closed its $34.5 billion merger with Cox on August 20, 2026. Reports say Spectrum pricing and packaging were to reach former Cox markets by mid-September, AZFamily reported bills will show the Spectrum name, and the parent company takes the Cox Communications name within a year. Neither report tells customers to take any action, and neither says existing Cox prices change. Because the brand and systems are in transition, confirm with the company which entity and plan your account is on before you cancel. See our <a href=\"/bills/cox-bill-went-up\">Cox bill went up</a> and <a href=\"/save/lower-cox-bill\">lower your Cox bill</a> guides.</p>"
+  },
+  {
+   "h2": "Before you cancel",
+   "body_html": "<p>Ask whether you can move to a current Spectrum plan at a lower price instead of leaving. If you only need a break, CableTV.com reports Cox offered a pause of 1 to 9 months at a reduced $9.99 monthly fee for each paused service. That is a reported figure from a third party, so confirm it before relying on it.</p>"
+  },
+  {
+   "h2": "How to cancel",
+   "body_html": "<p>Use the phone number on your latest bill or in your account, or visit a local store, since Cox and Spectrum contact routes are changing and we only list routes the provider itself publishes. CableTV.com reports you can also cancel at a local Cox store. Note that CableTV.com's article was first published in 2021, so its fee and pause figures may not reflect Spectrum terms after the transition.</p><ol class=\"steps\"><li>Ask for your final bill amount and the disconnect date, and whether any fee applies.</li><li>Ask for the early termination fee in writing if you are in a term agreement.</li><li>Ask where to return equipment and what the deadline is.</li><li>Write down the agent's name, date and confirmation details.</li></ol>"
+  },
+  {
+   "table": {
+    "head": [
+     "Fee or rule",
+     "What is reported",
+     "Source"
+    ],
+    "rows": [
+     [
+      "Early termination fee, one-year contract",
+      "$120",
+      "CableTV.com (reported)"
+     ],
+     [
+      "Early termination fee, two-year contract",
+      "$240",
+      "CableTV.com (reported)"
+     ],
+     [
+      "How the fee falls",
+      "Lowered by $10 for every month remaining on the contract",
+      "CableTV.com (reported)"
+     ],
+     [
+      "Equipment return",
+      "Send back at a local Cox branch or a UPS Store; no deadline or fee amount given",
+      "CableTV.com (reported)"
+     ]
+    ]
+   }
+  },
+  {
+   "h2": "If you are leaving",
+   "body_html": "<p>Keep your equipment return receipt and check your final bill. Compare other providers at your address, including the price after any promotion, before you set a disconnect date: <a href=\"/tools/compare-providers\">compare providers</a>. You may not need to switch if a plan change fixes the bill.</p><p>Not ready to leave? See <a href=\"/guides/why-internet-bill-went-up\">why internet bills go up</a>, <a href=\"/guides/internet-price-increases-2026\">2026 internet price increases</a> and the <a href=\"/tools/promo-end-reminder\">promo-end reminder</a>. Comparing options at your address: <a href=\"/tools/compare-providers\">compare providers</a>.</p>"
+  }
+ ],
+ "faq": [
+  [
+   "How do I cancel Cox internet?",
+   "Use the phone number on your latest bill or account, or visit a local store. CableTV.com also reports you can cancel at a local Cox store."
+  ],
+  [
+   "Is Cox the same as Spectrum now?",
+   "Charter closed its purchase of Cox on August 20, 2026, and Cox markets are moving to the Spectrum brand. Check your bill for which company name and plan apply to your account."
+  ],
+  [
+   "Is there a Cox early termination fee?",
+   "CableTV.com reports $120 on one-year and $240 on two-year contracts, reduced by $10 for each month remaining. Check your own agreement."
+  ]
+ ],
+ "sources": [
+  [
+   "AZFamily: Cox customers transition to Spectrum after merger",
+   "https://www.azfamily.com/2026/08/20/cox-customers-arizona-transition-spectrum-after-345b-merger/"
+  ],
+  [
+   "Light Reading: Charter-Cox deal is a wrap",
+   "https://www.lightreading.com/cable-technology/charter-cox-deal-is-a-wrap-with-spectrum-brand-to-take-over-within-a-year"
+  ],
+  [
+   "CableTV.com: how to cancel Cox",
+   "https://www.cabletv.com/cox/cancel"
+  ]
+ ],
+ "checked": "November 27, 2026",
+ "date": "2026-11-27"
+}

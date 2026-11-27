@@ -48,6 +48,10 @@
 "t": "Why is my Starlink bill so high?"
 },
 {
+"p": "/bills/starlink-bill-went-up",
+"t": "Why did my Starlink bill go up?"
+},
+{
 "p": "/bills/t-mobile",
 "t": "Why is my T-Mobile bill so high?"
 },
@@ -130,6 +134,22 @@
 {
 "p": "/guides/how-to-cancel-att",
 "t": "How to cancel AT&T internet"
+},
+{
+"p": "/guides/how-to-cancel-cox",
+"t": "How to cancel Cox internet"
+},
+{
+"p": "/guides/how-to-cancel-frontier",
+"t": "How to cancel Frontier internet"
+},
+{
+"p": "/guides/how-to-cancel-optimum",
+"t": "How to cancel Optimum internet"
+},
+{
+"p": "/guides/how-to-cancel-verizon-fios",
+"t": "How to cancel Verizon Fios internet"
 },
 {
 "p": "/guides/how-to-cancel-xfinity",

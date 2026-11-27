@@ -1,0 +1,108 @@
+{
+ "path": "/guides/how-to-cancel-verizon-fios",
+ "title": "How to Cancel Verizon Fios Internet: Equipment Return and Fees (2026)",
+ "description": "How to cancel Verizon Fios internet: you must contact Verizon to start a disconnect, return rented equipment within 30 days, and what unreturned equipment can cost. Checked November 27, 2026.",
+ "h1": "How to cancel Verizon Fios internet",
+ "lead": "What Verizon says about disconnecting Fios and returning equipment, and the fees to check first.",
+ "short_answer": "Verizon says you must contact it to start a Fios disconnect and equipment return. Rented equipment must come back within 30 days of the disconnect date, or Verizon lists an unreturned equipment fee of up to $375 per item. Per-item charges on its page include $175 for a Fios Router (G3100) and $100 for a Fios Quantum Gateway (G1100).",
+ "chips": [
+  "Cancel guide",
+  "Sources listed"
+ ],
+ "crumbs": [
+  [
+   "Home",
+   "/"
+  ],
+  [
+   "Lower your bill",
+   "/bills"
+  ],
+  [
+   "How to cancel Verizon Fios",
+   "/guides/how-to-cancel-verizon-fios"
+  ]
+ ],
+ "cta_provider": "Verizon Fios",
+ "sections": [
+  {
+   "h2": "Before you cancel",
+   "body_html": "<p>Check your latest Fios bill for a price lock or promotional end date and for any equipment you rent. If the reason is a higher bill, read <a href=\"/bills/verizon-fios-bill-went-up\">why your Fios bill went up</a> first. We could not read Verizon's own cancellation page in this check, so we do not state a cancellation fee or phone route for Fios. Ask Verizon for the exact fee, if any, on your account before you confirm a date.</p>"
+  },
+  {
+   "h2": "How to start a disconnect",
+   "body_html": "<p>Verizon's equipment return page says: contact Verizon to initiate your disconnect and return. We suggest My Verizon or the number printed on your bill. Then:</p><ol class=\"steps\"><li>Ask for your disconnect date and the final bill amount, and whether any fee applies on your account.</li><li>Ask Verizon to list every piece of rented equipment on the account (router, extenders, set-top boxes).</li><li>Write down the agent's name, the date and the confirmation details.</li><li>Line up your next provider's install date so you are not without service.</li></ol>"
+  },
+  {
+   "h2": "Equipment return deadline and fees",
+   "body_html": "<p>Verizon says to return rented equipment within 30 days of the service disconnection date to avoid an unreturned equipment fee, which it lists at up to $375 for each piece of equipment. Examples from its table:</p>"
+  },
+  {
+   "table": {
+    "head": [
+     "Equipment",
+     "Fee if not returned",
+     "Source"
+    ],
+    "rows": [
+     [
+      "Fios Quantum Gateway (G1100)",
+      "$100",
+      "Verizon"
+     ],
+     [
+      "Fios Router (G3100)",
+      "$175",
+      "Verizon"
+     ],
+     [
+      "Fios Extender (E3200)",
+      "$145",
+      "Verizon"
+     ],
+     [
+      "Verizon Router (CR1000A / CR1000B)",
+      "$200",
+      "Verizon"
+     ],
+     [
+      "Fios TV One Mini (IPC4100)",
+      "$115",
+      "Verizon"
+     ],
+     [
+      "Fios TV One (VMS4100) or Video Media Server (VMS1100)",
+      "$375",
+      "Verizon"
+     ]
+    ]
+   }
+  },
+  {
+   "h2": "How to return it",
+   "body_html": "<p>Verizon says to bring unboxed equipment and the power cord to a The UPS Store, which scans serial numbers and ships it; keep the receipt. Verizon also says residents of DC, DE, MD, MA, NJ, NY, PA, RI and VA can drop equipment at a Verizon store. If you lost your return kit or label, Verizon says you do not need to call: take the equipment to a The UPS Store. Verizon says credits can take up to 2 bill cycles after the return is complete and to contact it if you have no refund within 3 bill cycles.</p><p>Not ready to leave? See <a href=\"/guides/why-internet-bill-went-up\">why internet bills go up</a>, <a href=\"/guides/internet-price-increases-2026\">2026 internet price increases</a> and the <a href=\"/tools/promo-end-reminder\">promo-end reminder</a>. Comparing options at your address: <a href=\"/tools/compare-providers\">compare providers</a>.</p>"
+  }
+ ],
+ "faq": [
+  [
+   "How do I cancel Verizon Fios internet?",
+   "Verizon's equipment return page says to contact Verizon to initiate your disconnect and return. We suggest My Verizon or the number on your bill."
+  ],
+  [
+   "How long do I have to return Fios equipment?",
+   "Verizon says to return rented equipment within 30 days of the disconnection date to avoid an unreturned equipment fee."
+  ],
+  [
+   "What is the fee for unreturned Fios equipment?",
+   "Verizon lists up to $375 per piece of equipment, with per-item amounts such as $175 for a Fios Router (G3100)."
+  ]
+ ],
+ "sources": [
+  [
+   "Verizon: equipment return",
+   "https://www.verizon.com/support/consumer/equipmentreturn"
+  ]
+ ],
+ "checked": "November 27, 2026",
+ "date": "2026-11-27"
+}
