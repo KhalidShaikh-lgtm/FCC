@@ -24,6 +24,10 @@
 "t": "Why is my Frontier bill so high?"
 },
 {
+"p": "/bills/frontier-bill-went-up",
+"t": "Why did my Frontier bill go up?"
+},
+{
 "p": "/bills/optimum",
 "t": "Why is my Optimum bill so high?"
 },
@@ -124,6 +128,14 @@
 "t": "Do bill negotiation services work on internet bills?"
 },
 {
+"p": "/guides/how-to-cancel-att",
+"t": "How to cancel AT&T internet"
+},
+{
+"p": "/guides/how-to-cancel-xfinity",
+"t": "How to cancel Xfinity internet"
+},
+{
 "p": "/guides/internet-price-increases-2026",
 "t": "Internet price increases in 2026"
 },
@@ -140,6 +152,10 @@
 "t": "Why did my internet bill go up?"
 },
 {
+"p": "/save/att-retention-department",
+"t": "AT&T internet retention department: what to say to lower your bill"
+},
+{
 "p": "/save/lower-att-internet-bill",
 "t": "How to lower your AT&T Internet bill"
 },
@@ -154,5 +170,13 @@
 {
 "p": "/save/lower-xfinity-bill",
 "t": "How to lower your Xfinity bill"
+},
+{
+"p": "/save/spectrum-retention-department",
+"t": "Spectrum retention department: what to say to lower your bill"
+},
+{
+"p": "/save/xfinity-retention-department",
+"t": "Xfinity retention department: what to say to lower your bill"
 }
 ]

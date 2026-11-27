@@ -46,7 +46,7 @@ B = {
         ("Activation / installation", "One-time", "Sometimes", "Self-install is cheaper than a technician visit.")],
   tips=["Check your bill for an older plan name. If you are on a legacy plan, ask to move to a current plan at the same or higher speed.",
         "Replace the rented Wi-Fi router with your own if your plan charges for Advanced WiFi.",
-        "Spectrum has no data caps, so never pay for a bigger plan just to avoid overage charges.",
+        "Reviewers list unlimited data on Spectrum plans, so you should not need a bigger plan just to avoid overage charges.",
         "If you have Spectrum Mobile or could use it, ask what bundle discount applies to your internet line."],
   src=[("HighSpeedInternet.com: Spectrum cost after one year (Apr 2026)", "https://highspeedinternet.com/resources/spectrum-cost-after-one-year"),
        ("Cord Cutters News: Spectrum $10 internet price increase", "https://cordcuttersnews.com/?p=248449"),

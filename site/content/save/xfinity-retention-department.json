@@ -1,0 +1,126 @@
+{
+ "path": "/save/xfinity-retention-department",
+ "title": "Xfinity Retention Department: What to Say to Lower Your Bill (2026)",
+ "description": "How to reach Xfinity about a bill that went up, what to say, what to ask for and what to do if they say no. A call script with the 5-year price guarantee terms. Checked November 27, 2026.",
+ "h1": "Xfinity retention department: what to say to lower your bill",
+ "lead": "A plain call script for an Xfinity bill that went up, what to ask for, and what to do if the answer is no.",
+ "short_answer": "Xfinity does not publish a retention number that we found, but it lists 1-800-XFINITY (1-800-934-6489) on its cancel page, along with scheduled calls and store visits. Ask for a current plan with the 5-year price guarantee, apply the $10 paperless and autopay credit, and ask for an offer for customers who are thinking of leaving.",
+ "chips": [
+  "Call script",
+  "Sources listed"
+ ],
+ "crumbs": [
+  [
+   "Home",
+   "/"
+  ],
+  [
+   "Lower your bill",
+   "/bills"
+  ],
+  [
+   "Xfinity retention department",
+   "/save/xfinity-retention-department"
+  ]
+ ],
+ "cta_provider": "Xfinity",
+ "sections": [
+  {
+   "h2": "How to reach Xfinity",
+   "body_html": "<p>Xfinity's cancel page gives three routes: call 1-800-XFINITY (1-800-934-6489), schedule a call from your account sign-in, or visit an Xfinity Store. We did not find a separate retention or billing line published by Xfinity, and we did not find reputable reporting on what callers are offered. Say you are thinking of cancelling or comparing providers and ask what offers exist for you.</p>"
+  },
+  {
+   "h2": "Before you call",
+   "body_html": "<ol class=\"steps\"><li>Sign in and open the latest bill. Xfinity points customers to the important information section for what changed. See <a href=\"/bills/xfinity-bill-went-up\">why your Xfinity bill went up</a>.</li><li>Note when your promotion or price guarantee ends. Xfinity says the service price stays fixed during a promotional rate or minimum-term agreement, but taxes, fees and equipment charges may change.</li><li>Check the price other providers charge at your address, including after the promotion: <a href=\"/tools/compare-providers\">compare providers</a>.</li><li>Decide what you would accept and what you would walk away from.</li></ol>"
+  },
+  {
+   "h2": "What to say, step by step",
+   "body_html": "<ol class=\"steps\"><li><b>Open with the facts.</b> \"My bill went from $___ to $___. Can you explain every line that changed?\"</li><li><b>Ask about the guarantee.</b> \"I would like a current internet plan with the 5-year price guarantee. What is the monthly price, and what is excluded?\" Xfinity says the guarantee locks your base monthly home internet rate for 60 months, on plans starting at 300 Mbps with unlimited data. Taxes, fees and installation are extra and can change, and it is for new Xfinity Internet customers, so ask whether you qualify.</li><li><b>Ask about the credit.</b> \"Is paperless billing with bank autopay applied?\" Xfinity says internet customers save $10 a month this way, and Xfinity says the 5-year guarantee adds $10 a month if you do not set up autopay from a stored bank account (paperless billing is also required).</li><li><b>Ask about equipment and data.</b> \"What am I paying for the gateway? If I use my own modem and router, does it come off?\" On legacy plans, Xfinity applies a 1.2 TB data limit with $10 per 50 GB over, capped at $100 a month; ask for unlimited data.</li><li><b>Say you are comparing.</b> \"I am looking at other providers at my address. Is there an offer for customers who are thinking of leaving?\" Say it only if it is true.</li><li><b>Close the loop.</b> Repeat the price, how many months it lasts and what happens after. Note the agent's name, the date and the time.</li></ol>"
+  },
+  {
+   "table": {
+    "head": [
+     "What to ask for",
+     "What it is",
+     "Source"
+    ],
+    "rows": [
+     [
+      "5-year price guarantee",
+      "Locks the base monthly internet rate for 60 months on eligible new plans. Not taxes, fees or installation.",
+      "Xfinity"
+     ],
+     [
+      "Paperless + bank autopay credit",
+      "$10 a month for internet customers, per Xfinity.",
+      "Xfinity"
+     ],
+     [
+      "Unlimited data",
+      "Legacy plans have a 1.2 TB limit; newer plans include unlimited data.",
+      "Xfinity"
+     ],
+     [
+      "Internet Essentials",
+      "$14.95 a month for 75/10 Mbps for qualifying households (assistance programs or income at or below 200% of the federal poverty level). Not available if you had Xfinity Internet in the last 90 days or have Comcast debt under a year old.",
+      "Xfinity"
+     ]
+    ]
+   }
+  },
+  {
+   "h2": "If Xfinity says no",
+   "body_html": "<ol class=\"steps\"><li>Ask whether your agreement has a minimum term. Xfinity's community help says you may be charged an early termination fee if you end service before a minimum term is over, and that it does not apply if you downgrade or transfer service to a new Comcast address. Xfinity's 5-year guarantee page says there is no annual contract and you can cancel without penalty. We did not find the fee amount published, so ask for the exact number.</li><li>Compare other providers at your address and compare the price after promotion: <a href=\"/tools/compare-providers\">compare providers</a>.</li><li>If you decide to leave, read <a href=\"/guides/how-to-cancel-xfinity\">how to cancel Xfinity</a> first, and book the new provider's install before you cancel.</li><li>Or stay: if the new price is acceptable, staying is a fine outcome. You may not need to switch.</li></ol>"
+  },
+  {
+   "h2": "More Xfinity help",
+   "body_html": "<p><a href=\"/bills/xfinity-bill-went-up\">Why your Xfinity bill went up</a> · <a href=\"/save/lower-xfinity-bill\">Lower your Xfinity bill</a> · <a href=\"/bills/xfinity\">Xfinity fees explained</a></p><p>Related: <a href=\"/guides/internet-price-increases-2026\">2026 internet price increases</a> · <a href=\"/guides/why-internet-bill-went-up\">why your bill went up</a> · <a href=\"/guides/do-bill-negotiation-services-work\">do negotiation services work?</a> · <a href=\"/tools/promo-end-reminder\">promo-end reminder</a></p>"
+  }
+ ],
+ "faq": [
+  [
+   "Is there an Xfinity retention phone number?",
+   "Xfinity does not publish a separate retention number that we found. It lists 1-800-XFINITY (1-800-934-6489) on its cancel page. Say you are thinking of cancelling and ask what offers exist."
+  ],
+  [
+   "Does the 5-year price guarantee stop all increases?",
+   "No. Xfinity says it locks the base monthly internet rate for 60 months; taxes, fees and installation charges are extra and subject to change."
+  ],
+  [
+   "Will Xfinity lower my bill if I say I will cancel?",
+   "It can, but we did not find reputable reporting on typical offers, and a discount is not guaranteed. Only say you will cancel if you are prepared to."
+  ],
+  [
+   "Is Xfinity raising prices in December 2026?",
+   "Xfinity says some of its prices will increase starting in December 2026 and has not published amounts or an exact date."
+  ]
+ ],
+ "sources": [
+  [
+   "Xfinity: cancel service",
+   "https://www.xfinity.com/cancel"
+  ],
+  [
+   "Xfinity: 5-year price guarantee",
+   "https://www.xfinity.com/hub/internet/5-year-price-guarantee"
+  ],
+  [
+   "Xfinity: price changes",
+   "https://www.xfinity.com/pricechanges/"
+  ],
+  [
+   "Xfinity: data usage plan",
+   "https://www.xfinity.com/support/articles/data-usage-plan"
+  ],
+  [
+   "Xfinity: Internet Essentials program terms",
+   "https://www.xfinity.com/support/articles/comcast-broadband-opportunity-program"
+  ],
+  [
+   "Xfinity community: how to determine if you will be subject to early termination fees",
+   "https://forums.xfinity.com/conversations/my-account/answered-how-to-determine-if-you-will-be-subject-to-xfinity-early-termination-fees-etf/602daaa3c5375f08cd5d1de5"
+  ]
+ ],
+ "checked": "November 27, 2026",
+ "date": "2026-11-27"
+}

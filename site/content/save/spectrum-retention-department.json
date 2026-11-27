@@ -1,0 +1,130 @@
+{
+ "path": "/save/spectrum-retention-department",
+ "title": "Spectrum Retention Department: What to Say to Lower Your Bill (2026)",
+ "description": "How to reach Spectrum's retention team, what to say, what to ask for and what to do if they say no. A call script for a Spectrum bill that went up. Checked November 27, 2026.",
+ "h1": "Spectrum retention department: what to say to lower your bill",
+ "lead": "A plain call script for a Spectrum bill that went up, what customers report getting, and what to do if the answer is no.",
+ "short_answer": "Spectrum does not publish a retention phone number that we could verify, so call the number on your bill or use your Spectrum account, ask for a lower price on a current plan, and ask whether there is an offer for customers who are thinking of leaving. One reviewer reported a drop from $68 to $45 a month for a year. Results vary.",
+ "chips": [
+  "Call script",
+  "Sources listed"
+ ],
+ "crumbs": [
+  [
+   "Home",
+   "/"
+  ],
+  [
+   "Lower your bill",
+   "/bills"
+  ],
+  [
+   "Spectrum retention department",
+   "/save/spectrum-retention-department"
+  ]
+ ],
+ "cta_provider": "Spectrum",
+ "sections": [
+  {
+   "h2": "What the retention department is",
+   "body_html": "<p>Retention (also called loyalty or customer save) is the team a provider uses to handle customers who say they may leave. It can offer things a general billing agent cannot, such as a promotional rate or a plan change. Spectrum does not publish a separate retention number that we could verify, so you usually reach it through the regular customer service line by saying you are thinking of cancelling or comparing other providers. Use the phone number, chat or account sign-in on your Spectrum bill or at spectrum.com.</p>"
+  },
+  {
+   "h2": "Before you call: 5 minutes of prep",
+   "body_html": "<ol class=\"steps\"><li>Open your last two bills and write down the old and new internet price, plus any Wi-Fi or equipment lines.</li><li>Find your plan name. Legacy Flagship, Ultra and Gig plans are the ones Spectrum raised $10 a month in June to July 2026, according to Cord Cutters News. See <a href=\"/bills/spectrum-bill-went-up\">why your Spectrum bill went up</a>.</li><li>Look up what other providers charge at your address, including the price after any promotion: <a href=\"/tools/compare-providers\">compare providers</a>. Know your lowest alternative before you call.</li><li>Decide what you would accept, for example a price within $10 of your old bill, and what you would walk away from.</li><li>Have your account number or the name and address on the account ready.</li></ol>"
+  },
+  {
+   "h2": "What to say, step by step",
+   "body_html": "<ol class=\"steps\"><li><b>Open with the facts.</b> \"My internet bill went from $___ to $___. I would like to keep my service but I need a lower price.\"</li><li><b>Ask about the plan.</b> \"Am I on a legacy plan? What would a current plan cost at my address for the same or better speed?\"</li><li><b>Ask about the lock.</b> \"How long is that price guaranteed, and what is excluded?\" CableTV.com reports Spectrum price guarantees of up to three years, with the length depending on how many services you have. Ask what the guarantee does and does not cover for your plan.</li><li><b>Ask about equipment.</b> \"What am I paying for Wi-Fi equipment? If I use my own router, does that line come off?\"</li><li><b>Say you are comparing.</b> \"I am looking at other providers at my address. Is there an offer for customers who are thinking of leaving?\" Say it only if it is true.</li><li><b>Close the loop.</b> Repeat the new monthly price, the number of months it lasts, and what happens after. Ask for it in writing, or note the agent's name, the date and the time.</li></ol>"
+  },
+  {
+   "table": {
+    "head": [
+     "What to ask for",
+     "What it is",
+     "Source"
+    ],
+    "rows": [
+     [
+      "A current plan at the new-customer price",
+      "Reports say the 2026 $10 increase applied to legacy plans and not to current plans.",
+      "Cord Cutters News"
+     ],
+     [
+      "A price guarantee",
+      "Reported at up to three years, depending on how many services you have. Ask what it excludes.",
+      "CableTV.com (reported)"
+     ],
+     [
+      "Removal of the Wi-Fi equipment line",
+      "A Spectrum Wi-Fi router is billed monthly, reported at $5 to $10 depending on the plan. A router you own removes it.",
+      "HighSpeedInternet.com, WhistleOut (reported)"
+     ],
+     [
+      "A promotional credit",
+      "Not guaranteed. Some customers report receiving a temporary discount after saying they might switch.",
+      "Reported"
+     ]
+    ]
+   }
+  },
+  {
+   "h2": "What customers report getting",
+   "body_html": "<p>PCWorld's author reported that after telling Spectrum he would cancel, his bill fell from $68 to $45 a month for a full year and his speed rose from 400 to 500 Mbps (July 2025). The author notes results may vary. That is one account, not a promise, and a discount like this is usually temporary, so put the end date in your calendar. Our <a href=\"/tools/promo-end-reminder\">promo-end reminder</a> can call you before it ends.</p>"
+  },
+  {
+   "h2": "If Spectrum says no",
+   "body_html": "<ol class=\"steps\"><li>Ask once more for a supervisor or for the team that handles customers who are leaving, then thank the agent and stop. Do not agree to anything you do not understand.</li><li>CableTV.com reports that Spectrum does not charge an early termination fee when you cancel, so a customer without a term agreement can leave. Check your own agreement and bill.</li><li>Compare the other providers at your address, and compare the price after the promotion ends, not only the first-year price: <a href=\"/tools/compare-providers\">compare providers</a>.</li><li>If you qualify, Spectrum Internet Assist costs $25 a month for speeds up to 50 Mbps, based on participation in programs such as the National School Lunch Program, the Community Eligibility Provision or SSI, per Spectrum.</li><li>Or keep your plan: if the new price is acceptable, staying is a fine outcome. You may not need to switch.</li></ol>"
+  },
+  {
+   "h2": "More Spectrum help",
+   "body_html": "<p><a href=\"/bills/spectrum-bill-went-up\">Why your Spectrum bill went up</a> · <a href=\"/save/lower-spectrum-bill\">Lower your Spectrum bill</a> · <a href=\"/bills/spectrum\">Spectrum fees explained</a></p><p>Related: <a href=\"/guides/internet-price-increases-2026\">2026 internet price increases</a> · <a href=\"/guides/why-internet-bill-went-up\">why your bill went up</a> · <a href=\"/guides/do-bill-negotiation-services-work\">do negotiation services work?</a> · <a href=\"/tools/promo-end-reminder\">promo-end reminder</a></p>"
+  }
+ ],
+ "faq": [
+  [
+   "Is there a Spectrum retention department phone number?",
+   "We could not verify a Spectrum-published retention number. Use the phone number, chat or account sign-in on your bill or at spectrum.com, and ask for an offer for customers who are thinking of leaving."
+  ],
+  [
+   "Will Spectrum lower my bill if I threaten to cancel?",
+   "Sometimes. One reviewer reported a drop from $68 to $45 a month for a year, but results vary and a discount is not guaranteed. Only say you will cancel if you are prepared to."
+  ],
+  [
+   "Does Spectrum charge an early termination fee?",
+   "CableTV.com reports that Spectrum has no early termination fees when you cancel. Check your own agreement and bill."
+  ],
+  [
+   "Why did my Spectrum bill go up $10?",
+   "Spectrum raised monthly rates $10 on legacy Flagship, Ultra and Gig internet plans in June to July 2026, according to Cord Cutters News."
+  ]
+ ],
+ "sources": [
+  [
+   "Cord Cutters News: another big price hike for Spectrum customers (Jul 29, 2026)",
+   "https://cordcuttersnews.com/another-big-price-hike-is-coming-to-spectrum-customers/"
+  ],
+  [
+   "PCWorld: threatening to cancel Comcast or Spectrum (July 2025)",
+   "https://www.pcworld.com/article/2835433/got-comcast-or-spectrum-internet-nows-a-great-time-to-threaten-youll-cancel.html"
+  ],
+  [
+   "CableTV.com: change or cancel Spectrum service",
+   "https://www.cabletv.com/spectrum/change-or-cancel"
+  ],
+  [
+   "CableTV.com: Spectrum multi-year price guarantee",
+   "https://www.cabletv.com/spectrum/multi-year-price-guarantee"
+  ],
+  [
+   "HighSpeedInternet.com: what you actually pay for Spectrum",
+   "https://highspeedinternet.com/resources/spectrum-real-costs"
+  ],
+  [
+   "Spectrum: about Spectrum Internet Assist",
+   "https://www.spectrum.com/resources/internet-wifi/about-spectrum-internet-assist"
+  ]
+ ],
+ "checked": "November 27, 2026",
+ "date": "2026-11-27"
+}
