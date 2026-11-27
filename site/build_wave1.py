@@ -252,16 +252,31 @@ def SEENBOX(k, n):
                   [(esc(a_), f"<b>{b_}</b>", f'<a href="{u}" rel="nofollow noopener" target="_blank">{esc(c_)}</a>', esc(w)) for a_, b_, c_, u, w in rows])
             + '<p style="margin:10px 0 0;font-size:14px;color:var(--muted)">Individual customer reports, not official prices. Your amount depends on your plan, market and promotion. <a href="#report">Report your own increase</a>.</p></div>')
 
+
+def COMPARE(n):
+    return ('<style>.cmp{border:3px solid var(--mint);border-radius:20px;padding:22px 24px;margin:24px 0;background:#f3fdf8}.cmp h2{margin:0 0 6px}'
+            '.cmp form{display:flex;gap:10px;flex-wrap:wrap;margin:14px 0 10px}.cmp input{flex:1 1 180px;max-width:260px;padding:14px;font-size:18px;border:1px solid #c9d3dc;border-radius:12px}'
+            '.cmp button{background:var(--mint);color:#fff;border:0;border-radius:12px;padding:14px 22px;font:inherit;font-weight:800;cursor:pointer;min-height:50px}'
+            '.cmp ul{margin:8px 0 0;padding-left:20px}.cmp li{margin:2px 0}</style>'
+            f'<div class="cmp" id="compare"><h2>Don\'t just pay it: compare every provider at your address</h2>'
+            f'<p style="margin:0">New-customer prices from other providers at your address are often lower than what {esc(n)} charges you after a promotion. '
+            'Enter your ZIP to see every provider, their starting prices, and how your bill compares.</p>'
+            '<form onsubmit="var z=this.z.value.trim();if(/^\\d{5}$/.test(z)){location.href=\'/internet/\'+z+\'#billcheck\'}return false">'
+            '<input name="z" inputmode="numeric" maxlength="5" placeholder="Your ZIP code" aria-label="ZIP code"><button type="submit">Compare providers</button></form>'
+            '<ul><li>Fiber, 5G home internet and cable options in one list</li><li>Your bill graded against local prices</li><li>Free, no sign-up</li></ul>'
+            '<p style="margin:10px 0 0">Prefer to talk it through? Call <a href="tel:+18884915666"><b>(888) 491-5666</b></a> and a real person compares plans at your address with you.</p></div>')
+
 def build_went(save):
     for k, d in WENT.items():
         n = d["name"]; path = "/bills/" + d["slug"]
         links = " · ".join(a(h, t) for h, t in d["more"])
-        body = (author.box(CHECKED) + short(d["short"]) + SEENBOX(k, n) + CAUSES(n) + MINICALC + BR.box(BR.key_from_path(path), n)
+        body = (author.box(CHECKED) + short(d["short"]) + SEENBOX(k, n) + COMPARE(n) + CAUSES(n) + MINICALC
                 + f"<h2>What changed on {esc(n)} bills</h2>"
                 + tbl(["When", "What changed", "Who it affects", "Source"], [(f"<b>{esc(w)}</b>", esc(x), esc(y), esc(z)) for w, x, y, z in d["rows"]])
                 + f"<h2>How to find out why your {esc(n)} bill went up</h2>" + steps([esc(s) for s in d["find"]])
-                + f"<h2>What you can do about it</h2><ol class=\"steps\">" + "".join(f"<li>{esc(t)}</li>" for t in BB.B[k]["tips"]) + "</ol>"
-                + f'<p>Ready to act? <a href="{d["save"]}">Step-by-step: lower your {esc(n)} bill</a> · <a href="{d["bill"]}">Full {esc(n)} fee guide</a> · <a href="/guides/internet-price-increases-2026">2026 price increase tracker</a></p>'
+                + BR.box(BR.key_from_path(path), n)
+                + f"<h2>If you would rather stay with {esc(n)}</h2><p>Switching is usually where the bigger savings are, but if you want to stay, these steps can trim the bill:</p><ol class=\"steps\">" + "".join(f"<li>{esc(t)}</li>" for t in BB.B[k]["tips"]) + "</ol>"
+                + f'<p><a href="#compare">Compare providers at your address first</a> · <a href="{d["save"]}">Lower your {esc(n)} bill</a> · <a href="{d["bill"]}">Full {esc(n)} fee guide</a> · <a href="/guides/internet-price-increases-2026">2026 price increase tracker</a></p>'
                 + f"<h2>Related charges</h2><p>{links}</p>" + LOCAL(n) + BB.call_cta(n) + src(d["src"]))
         TITLE_OVERRIDE = {"spectrum": "Spectrum Bill Went Up? Why and How to Lower It (2026)",
                           "att": "AT&T Bill Went Up? Why and How to Lower It (2026)"}
