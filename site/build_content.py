@@ -36,7 +36,7 @@ def render(d):
     checked = d.get("checked", "November 24, 2026")
     body = author.box(checked)
     if d.get("short_answer"):
-        body += f'<div class="call tip"><b>Short answer</b>{esc(d["short_answer"])}</div>'
+        body += f'<div class="call tip"><b>Short answer:</b> {esc(d["short_answer"])}</div>'
     for s in d.get("sections", []):
         if s.get("h2"): body += f"<h2>{esc(s['h2'])}</h2>"
         if s.get("body_html"): body += s["body_html"]
