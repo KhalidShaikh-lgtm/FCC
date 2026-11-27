@@ -30,7 +30,7 @@ if that skill is not available, follow `seo/PLAYBOOK.md` in this repo, which is 
   - Every billing page: a direct answer to the exact search (including dollar amounts people search, e.g. "went up $15"),
     reported causes labelled "reported", a "what to say when you call" retention script, a link to the price tracker
     and alert signup, and an honest "you may not need to switch" option. Judge pages by calls + leads (ev:<date>), not clicks alone.
-  - Coverage: internet providers first (the call center sells internet, TV and mobile, internet is the priority), then mobile (Verizon, AT&T, T-Mobile, then MVNOs) and TV (DirecTV, DISH, live-TV streamers). Per provider: bill went up, lower your bill (with retention script), read your bill, cancel/switch. Only publish where real sourced facts exist; never mass-produce near-identical pages.
+  - PHASE 1 (set by Khalid, Nov 27 2026): INTERNET BILLS ONLY. Every internet provider: bill went up, price increase, lower your bill, retention, cancel, fees, real cost vs promo, switching/moving fees, discounts. ~85% of effort on these pages, ~15% on bill tools/data (reader reports, price tracker, alerts, studies). TV and mobile pages are 'parked' until Khalid confirms those providers are sellable (Phase 2 TV ~Jan, Phase 3 mobile as partners are added). Do NOT write outage, generic plan, speed-test or 'providers near me' pages.
   - Full plan and goals: seo/ROADMAP.md.
 
 ## How to publish on this site
