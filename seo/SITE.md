@@ -63,6 +63,7 @@ if that skill is not available, follow `seo/PLAYBOOK.md` in this repo, which is 
 
 ## Hard limits
 - Max 10 new pages per writing run (daily), max 70 per week (set by Khalid, Nov 25). Skip any page that would be thin.
+- Plus up to 10 IMPROVED existing pages per day in the separate evening IMPROVE run (set by Khalid, Nov 27). Improvements never change a URL and do not count toward the new-page limit.
 - No emails, posts, directory submissions or account changes without Khalid's approval. Off-page work produces
   drafts and lists only.
 - Never delete pages. Weak pages are handled by the staged 30/60/90-day rules in PLAYBOOK.md (PRUNE) (improve, merge with 301, or noindex), never by deletion. Never change the phone number, author, or legal/footer text.
