@@ -36,3 +36,12 @@ city/ZIP pages (CTR 0.03%, position 37). The big comparison sites own "providers
 - Lower / negotiate / retention: ~7,200 (spectrum retention department 2,400; xfinity 1,000; at&t 720).
 - Fees and average bill: ~5,000. Head term "internet providers near me" 110,000 but owned by the big comparison sites.
 - Plan: cancel + retention pages for the big providers at priority 1; price-increase pages updated within a day of any announcement.
+
+## Phases (locked 2026-11-27 by Khalid)
+| Phase | When | Focus | Move on when |
+|---|---|---|---|
+| 1 Internet bills | now - Jan | all bill-savings page types for every internet provider + reader reports, tracker, alerts | top 10-15 internet providers covered and calls arriving |
+| 2 TV bills | ~Jan | DirecTV, DISH, YouTube TV, Sling, cut-the-cable | Khalid confirms TV providers sellable |
+| 3 Mobile bills | when partners added | Verizon, AT&T, T-Mobile price increases, lower bill | mobile partners in place |
+| 4 Home security, utilities | month 4+ | traffic/brand builders; Texas electricity -> kilowattperhour.com | phases 1-3 on autopilot |
+Dropped from the broad plan: outages, generic plan pages, mobile plan comparisons, speed test, providers-near-me (existing pages stay live).
