@@ -261,7 +261,7 @@ def COMPARE(n):
             f'<div class="cmp" id="compare"><h2>Don\'t just pay it: compare every provider at your address</h2>'
             f'<p style="margin:0">New-customer prices from other providers at your address are often lower than what {esc(n)} charges you after a promotion. '
             'Enter your ZIP to see every provider, their starting prices, and how your bill compares.</p>'
-            '<form onsubmit="var z=this.z.value.trim();if(/^\\d{5}$/.test(z)){location.href=\'/internet/\'+z+\'#billcheck\'}return false">'
+            '<form id="zfForm" onsubmit="var z=this.z.value.trim();if(/^\\d{5}$/.test(z)){location.href=\'/internet/\'+z+\'#billcheck\'}return false">'
             '<input name="z" inputmode="numeric" maxlength="5" placeholder="Your ZIP code" aria-label="ZIP code"><button type="submit">Compare providers</button></form>'
             '<ul><li>Fiber, 5G home internet and cable options in one list</li><li>Your bill graded against local prices</li><li>Free, no sign-up</li></ul>'
             '<p style="margin:10px 0 0">Prefer to talk it through? Call <a href="tel:+18884915666"><b>(888) 491-5666</b></a> and a real person compares plans at your address with you.</p></div>')
