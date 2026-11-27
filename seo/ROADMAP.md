@@ -45,3 +45,22 @@ city/ZIP pages (CTR 0.03%, position 37). The big comparison sites own "providers
 | 3 Mobile bills | when partners added | Verizon, AT&T, T-Mobile price increases, lower bill | mobile partners in place |
 | 4 Home security, utilities | month 4+ | traffic/brand builders; Texas electricity -> kilowattperhour.com | phases 1-3 on autopilot |
 Dropped from the broad plan: outages, generic plan pages, mobile plan comparisons, speed test, providers-near-me (existing pages stay live).
+
+## Full search-group table and status (2026-11-27; volumes DataForSEO US/mo, competition = keyword difficulty 0-100; clicks are estimates)
+| Group | Searches/mo | Competition | Clicks/mo 3m | Clicks/mo 6m | Status |
+|---|---|---|---|---|---|
+| Bill went up / price increase (internet) | 10,650 + spikes | 0-9 (AT&T 22) | 500-800 | 900-1,300 | PHASE 1 ACTIVE |
+| Retention / lower / negotiate (internet) | 7,200 | 0-6 (Verizon 19) | 400-600 | 900-1,300 | PHASE 1 ACTIVE |
+| Cancel (internet) | ~40,300 (excl. DirecTV) | 0-15 | 600-900 | 1,800-2,500 | PHASE 1 ACTIVE |
+| Fees / average internet bill | ~3,700 | 0-34 | 150-250 | 300-500 | PHASE 1 ACTIVE |
+| Comparisons as real cost (Xfinity vs Spectrum, fiber vs cable) | 36,400 | 0-14 (best provider 45) | 300-700 | 1,000-2,000 | PHASE 1 ACTIVE (bill angle only) |
+| Deals: deal price vs month-13 price | 48,000 | 25-32 | 100-300 | 600-1,500 | PHASE 1 ACTIVE (bill angle only) |
+| Switching & moving fees | 10,200 | 0-18 | 200-400 | 500-900 | PHASE 1 ACTIVE |
+| Low-income / senior discounts | 11,200 | 10-61 | 100-200 | 300-600 | PHASE 1 ACTIVE |
+| TV & streaming prices, DirecTV cancel | ~117,000 | 24-71 | - | 500-1,500 later | PHASE 2 (when TV sellable) |
+| Mobile price increases / bills | ~3,500 + spikes | 0-8 | - | later | PHASE 3 (when mobile partners added) |
+| Mobile plans | 1.19M | 16-61 | - | - | DROPPED (not bill-focused) |
+| Provider plans & prices (generic) | 1.23M | 8-50 | - | - | DROPPED (covered only as "real price after promo" inside Phase 1) |
+| Outages | 1.77M spiky | 12-47 | - | - | DROPPED for new work (existing outage pages stay live) |
+| Generic head terms + city pages | 4.35M | 37-81 | - | - | DROPPED for new work (existing pages stay live) |
+| PHASE 1 TOTAL | ~167,000 | | ~2,350-4,150 | ~6,300-10,600 | |
