@@ -76,8 +76,8 @@ BE.FEES["verizon-administrative-charge"] = ("Verizon Administrative and Telco Re
 BE.TITLES["verizon-administrative-charge"] = "Verizon Administrative and Telco Recovery Charge Explained"
 
 # ---------------------------------------------------------------- helpers
-def page(path, title, desc, h1, lead, body, faq, crumbs, chips):
-    return ui.shell(path, title, desc, h1, lead, body, faq, crumbs, chips, date=DATE, checked=CHECKED, author=author.PERSON)
+def page(path, title, desc, h1, lead, body, faq, crumbs, chips, date=None, checked=None):
+    return ui.shell(path, title, desc, h1, lead, body, faq, crumbs, chips, date=date or DATE, checked=checked or CHECKED, author=author.PERSON)
 
 def faqs(lst):
     return [(q, esc(a)) for q, a in lst]
@@ -91,8 +91,8 @@ def tbl(head, rows):
 def a(href, text):
     return f'<a href="{href}">{esc(text)}</a>'
 
-def src(lst):
-    return BE.srcs(lst)
+def src(lst, checked=None):
+    return BE.srcs(lst, checked)
 
 def short(txt):
     return f'<div class="call tip"><b>Short answer:</b> {esc(txt)}</div>'
@@ -107,7 +107,7 @@ WENT = {
    rows=[("December 2026", "Xfinity says \"some of our prices will increase\" starting December 2026. The page gives no dollar amounts and says TV costs are tied to programmers' price increases.", "Some services; check your bill notice", "Xfinity"),
          ("When a promotion ends", "Reviewers report the bill can rise by about $20 to $55 a month when a 12-month promotion ends, and customers on Xfinity's forum report jumps of $40 to $70.", "Customers on 12-month promotions", "Reviewer report"),
          ("During a promotion", "Xfinity says the service price stays the same during a promotional rate or minimum-term agreement, but taxes, fees and equipment charges may change.", "Everyone on a promo or price guarantee", "Xfinity"),
-         ("Early 2026 onward", "New all-inclusive TV packages fold the Broadcast TV and Regional Sports fees into one price. Legacy TV packages keep them as separate lines.", "TV customers", "Xfinity"),
+         ("Early 2026 onward", "New all-inclusive TV packages are reported to fold the Broadcast TV and Regional Sports fees into one price. Legacy TV packages keep them as separate lines.", "TV customers", "Reported"),
          ("Paperless + Auto Pay", "Xfinity internet customers can save $10 a month with paperless billing and automatic payments from a bank account. Losing that setup raises the bill by the same amount.", "Internet customers", "Xfinity")],
    find=["Sign in to your Xfinity account, open the latest bill and read the important information section. Xfinity points customers there for what changed.",
          "Compare the last two bills line by line: internet, TV, equipment, Broadcast TV Fee, Regional Sports Fee, add-ons and taxes.",
@@ -123,7 +123,7 @@ WENT = {
    short="The biggest Spectrum jumps come from a promotion ending: customers commonly report $20 to $30 a month more, and more on TV bundles. On top of that, Spectrum added $10 a month to legacy Flagship, Ultra and Gig internet plans from June and July 2026, and Wi-Fi equipment fees add $5 to $10. Current Spectrum plans were not part of the 2026 increase.",
    rows=[("June to July 2026", "Spectrum confirmed a $10 monthly increase for customers on legacy Flagship, Ultra and Gig internet plans. Most of those customers also got faster speeds (Flagship 400 to 500 Mbps, Ultra 600 Mbps to Gig). Legacy TV Essentials rose $4, from $31 to $35.", "Legacy plan customers", "Cord Cutters News"),
          ("July 2024", "Spectrum raised internet prices about $3 a month, and about $4 on retired plans.", "Many internet customers", "The Desk"),
-         ("Promotions", "Several Spectrum tiers are introductory rates that move to a standard rate later. Spectrum has also offered price guarantees of one to three years on some plans.", "Customers on promo plans", "WhistleOut, Yahoo Finance"),
+         ("Promotions", "Several Spectrum tiers are introductory rates that move to a standard rate later. CableTV.com reports Spectrum price guarantees of one to three years depending on how many services you have.", "Customers on promo plans", "WhistleOut, CableTV.com (reported)"),
          ("Wi-Fi equipment", "A Spectrum-supplied Wi-Fi router is billed monthly, reported at $5 to $10 depending on the plan, and Wi-Fi pods are billed separately.", "Customers using Spectrum Wi-Fi", "CableTV.com, WhistleOut")],
    find=["Check your plan name on the bill. If it says Flagship, Ultra or Gig rather than a current plan name, you are on a legacy plan.",
          "Look for a bill message or notice. The June 2026 changes were communicated to customers before they took effect.",
@@ -136,22 +136,26 @@ WENT = {
         ("The Desk: Spectrum price adjustment, July 2024", "https://thedesk.net/2024/06/spectrum-tv-internet-fee-increase-july-2024/"),
         ("WhistleOut: Spectrum Internet 500 Mbps (introductory rates, Wi-Fi)", "https://www.whistleout.com/Internet/Providers/Charter-Spectrum/Fiber/Spectrum-Internet-500Mbps")]),
  "att": dict(slug="att-bill-went-up", name="AT&T", kw="at&t internet bill went up", save="/save/lower-att-internet-bill", bill="/bills/att",
-   short="AT&T has raised home internet prices by $5 a month in several rounds, including a Dec 1, 2025 increase on AT&T Fiber and AT&T Internet and a reported August 16, 2026 increase on some plans, so a $5 jump on your bill is likely one of them.",
+   short="AT&T has raised home internet prices by $5 a month in several rounds, including a reported Dec 1, 2025 increase, an August 16, 2026 increase on AT&T Fiber and AT&T Internet plans activated June 9, 2024 to July 19, 2025, and a December 1, 2026 increase of $5 on most AT&T Internet plans activated before June 2024, so a $5 jump on your bill is likely one of them.",
    rows=[("Late 2024", "A $5 monthly increase on home internet plans, reported by The Verge.", "Home internet customers", "Reported"),
-         ("December 1, 2025", "AT&T's support page says the monthly price of AT&T Fiber and AT&T Internet goes up by $5.", "AT&T Fiber and AT&T Internet", "AT&T"),
-         ("June 7, 2026", "New fiber plan tiers launched. Reports put the lowest tier at $35 a month and the 1 Gig plan at $80 alone or $60 with a wireless plan. The 5 Gig plan fell from $140 to $125.", "New and switching customers", "Broadband Breakfast, HighSpeedInternet.com"),
-         ("August 16, 2026", "Reported from internal AT&T documents: another $5 increase for fiber and copper plans started between June 2024 and July 2025, and the $15 Access from AT&T copper plan rising to $20.", "Customers on those plans", "Reported, not confirmed by AT&T")],
+         ("December 1, 2025", "A $5 monthly increase on home internet plans. Customers who joined within the past year and Access from AT&T customers were reported as not affected.", "Home internet customers", "Reported (Android Authority, Oct 2025)"),
+         ("June 7, 2026", "New fiber plan tiers launched. Reports put the entry plan at $50 a month, or $35 with bundle discounts, and the 1 Gig plan at $80 alone or $60 with a wireless plan. The 5 Gig plan fell from $140 to $125.", "New and switching customers", "Broadband Breakfast, HighSpeedInternet.com"),
+         ("August 16, 2026", "AT&T's support page says AT&T Fiber and AT&T Internet service goes up $5 for plans activated June 9, 2024 to July 19, 2025, and that AT&T Internet plans with Access from AT&T at $15 go up $5. It was first reported from leaked internal documents.", "Customers on those plans", "AT&T"),
+         ("September 28, 2026", "AT&T says AT&T Internet Air plans activated before October 2025 went up $5 a month.", "Internet Air customers", "AT&T"),
+         ("December 1, 2026", "AT&T says the monthly price for most AT&T Internet plans activated before June 2024 will go up $5 a month, over one to three bill periods. It says this does not apply to current AT&T Fiber or Internet Air plans.", "Older AT&T Internet plans", "AT&T")],
    find=["Open your bill and look in the News You Can Use section for a note about a change to your monthly plan price.",
          "Check your Auto Pay discount: AT&T has offered up to $10 off a month for bank Auto Pay and $5 for debit, applied within two bill periods after enrollment.",
          "Compare your price with the plan names AT&T sells today. A newer tier can cost less than an older one for the same speed."],
    more=[("/fees/modem-router-rental-fee", "Modem and router rental"), ("/fees/xfinity-data-overage", "Data overage by provider")],
-   faq=[("Why did my AT&T internet bill go up $5?", "AT&T raised Fiber and AT&T Internet prices by $5 starting December 1, 2025, and reports describe another $5 increase from August 16, 2026 for some plans."),
+   faq=[("Why did my AT&T internet bill go up $5?", "AT&T's support page lists a $5 increase from August 16, 2026 on AT&T Fiber and AT&T Internet plans activated June 9, 2024 to July 19, 2025, and a $5 increase on December 1, 2026 for most AT&T Internet plans activated before June 2024. An earlier $5 increase from December 1, 2025 was reported by Android Authority."),
         ("Is AT&T Fiber price locked?", "AT&T has marketed price guarantees on some plans, but customers have reported increases anyway. Read the terms of the plan you signed up for and check what the guarantee covers."),
         ("Can I get a lower AT&T bill?", "Ask about Auto Pay and paperless discounts, check whether a newer plan tier costs less, and call the loyalty department with the new-customer price you see online.")],
    src=[("AT&T: details about your internet price change", "https://www.att.com/support/article/u-verse-high-speed-internet/KM1260426/"),
         ("Broadband Breakfast: AT&T launches new fiber plans (June 2026)", "https://broadbandbreakfast.com/at-t-launches-new-fiber-plans/"),
         ("HighSpeedInternet.com: AT&T changes fiber prices", "https://highspeedinternet.com/resources/att-changes-fiber-prices"),
-        ("Android Authority: AT&T price hike, August 2026", "https://www.androidauthority.com/att-price-hike-august-2026-3689162/")]),
+        ("Android Authority: AT&T price hike, August 2026", "https://www.androidauthority.com/att-price-hike-august-2026-3689162/"),
+        ("Android Authority: AT&T home internet price hike, December 2025", "https://www.androidauthority.com/att-home-internet-price-hike-3608156"),
+        ("AT&T: AutoPay discount", "https://www.att.com/deals/autopay-discount")]),
  "verizon": dict(slug="verizon-fios-bill-went-up", name="Verizon Fios", kw="verizon fios bill went up", save="/bills/verizon", bill="/bills/verizon",
    short="A Verizon Fios bill usually rises because a promotion, price guarantee or discount ended, an Auto Pay credit shrank, a miscellaneous charge increased, or TV fees such as the Fios TV broadcast fee changed. We did not find a confirmed 2026 Fios internet price increase.",
    rows=[("January 2025", "Fios customers reported a $5 increase labeled as a miscellaneous charges increase.", "Some Fios customers", "Reported"),
@@ -186,6 +190,120 @@ WENT = {
         ("CompareInternet: internet price increase 2026 tracker", "https://www.compareinternet.com/blog/internet-price-increase-2026/"),
         ("CableTV.com: internet provider data caps", "https://www.cabletv.com/internet/brand-data-caps")]),
 }
+
+# ---------------------------------------------------------------- 2026-11-27 improvements: dollar-amount answers + retention scripts
+def _amt(head, rows, note):
+    return ('<h2>How much did it go up, and why?</h2>' + tbl(head, rows) + f'<p class="note">{note}</p>')
+
+def _script(n, steps_, outcome, route):
+    return (f"<h2>What to say when you call {esc(n)}</h2>"
+            f"<p>{route} Have your last two bills open. You are not asking for a favor; you are asking what the company will do to keep a customer who is paying more than a new customer would.</p>"
+            + steps(steps_)
+            + f"<p>{outcome}</p>"
+            f'<p><b>You may not need to switch.</b> If the new price is acceptable, or the call gets your bill back close to the old amount, staying put is a fine result. Only switch if it clearly saves money after the promotion ends. '
+            f'More on this: <a href="/guides/internet-price-increases-2026">2026 price increase tracker</a> · <a href="/guides/why-internet-bill-went-up">why bills go up</a> · <a href="/guides/do-bill-negotiation-services-work">do negotiation services work?</a></p>')
+
+WENT["att"].update(checked="November 27, 2026", date="2026-11-27")
+WENT["xfinity"].update(
+ checked="November 27, 2026", date="2026-11-27",
+ title="Xfinity Bill Went Up $10, $15 or $30? Why and What to Do (2026)",
+ desc="Xfinity bill went up? See what a $10, $15 or $30 jump usually means, the December 2026 price change notice, and what to say when you call. Checked November 27, 2026.",
+ extra_links=' · <a href="/save/xfinity-retention-department">Xfinity retention call script</a> · <a href="/guides/how-to-cancel-xfinity">How to cancel Xfinity</a>',
+ amounts_html=_amt(["If your bill rose by", "Most likely cause", "Source"], [
+   ("<b>Any amount, from December 2026</b>", "Xfinity says \"some of our prices will increase\" starting in December 2026. It has not published dollar amounts, an exact date or a list of affected services. Check the important information section of your bill after signing in.", "Xfinity"),
+   ("<b>$10</b>", "Often a lost Auto Pay or paperless credit. Xfinity says internet customers save $10 a month with paperless billing and automatic payments from a bank account. Xfinity's 5-year price guarantee also carries an extra $10 a month if you do not set up autopay from a stored bank account (paperless billing is also required). Legacy plans also add $10 for each 50 GB over a 1.2 TB limit.", "Xfinity"),
+   ("<b>$15</b>", "We found no Xfinity-announced $15 increase. The $15 a month figure we found is the Pro Gateway upgrade price, so check for a new equipment line.", "Reported (CableTV.com)"),
+   ("<b>$20 to $55</b>", "A promotion ending. Reviewers say promotional discounts of $20 to $55 a month can end after 12 months.", "Reported (HighSpeedInternet.com)"),
+   ("<b>$30</b>", "We found no Xfinity-announced $30 increase across the board. Check for an ended promotion, a new equipment line or a changed TV fee.", "Our check, Nov 27, 2026"),
+   ("<b>$40 to $70</b>", "Customer forum posts describe jumps of this size when a promotion or contract ended (examples in the table below).", "Customer reports")],
+   "Amounts vary by plan and area. Xfinity's price guarantee locks the base internet rate, not taxes, fees or equipment."),
+ script_html=_script("Xfinity", [
+   "Say: \"My bill went from $___ to $___ and I want to understand why. Can you walk me through every line that changed?\"",
+   "Ask for the end date of your current promotion or price guarantee, and what the monthly price is after it ends.",
+   "Ask: \"What is the price for a new customer at my address for the same speed? I would like a current plan with a price guarantee.\" Xfinity sells a 5-year price guarantee on eligible new internet plans that locks the base monthly rate for 60 months (taxes and fees are extra).",
+   "Ask whether paperless billing and autopay from a bank account are applied ($10 a month).",
+   "If you rent a gateway, ask what it costs and whether using your own compatible modem and router removes it.",
+   "If the price is still too high, say you are comparing other providers at your address and ask whether there is an offer for customers who are thinking of leaving. Do not threaten to cancel unless you are ready to.",
+   "Before you hang up, get the new monthly price, how many months it lasts and what is excluded. Ask for it in writing or note the agent's name and the time."],
+   "One reviewer-reported result for a cable provider (Spectrum, PCWorld, July 2025) was a drop from $68 to $45 a month for a year after the customer said they would cancel. Results vary and there is no guarantee of a discount.",
+   "Xfinity publishes 1-800-XFINITY (1-800-934-6489) on its cancel page, and you can also use the Xfinity app, chat or a store. Xfinity does not publish a separate retention number that we found."),
+)
+WENT["spectrum"].update(
+ checked="November 27, 2026", date="2026-11-27",
+ title="Spectrum Bill Went Up $10, $15 or $20? Why and How to Lower It (2026)",
+ desc="Spectrum bill went up $10, $15 or $20? What the 2026 legacy-plan increase, ended promos and Wi-Fi fees mean, plus what to say when you call. Checked November 27, 2026.",
+ extra_links=' · <a href="/save/spectrum-retention-department">Spectrum retention call script</a>',
+ amounts_html=_amt(["If your bill rose by", "Most likely cause", "Source"], [
+   ("<b>$10</b>", "Spectrum raised monthly rates $10 on legacy Flagship, Ultra and Gig internet packages in June to July 2026. Customers were notified in June. Current plans were not affected, and many legacy customers also got faster speeds.", "Cord Cutters News (Jul 29, 2026)"),
+   ("<b>$4</b>", "Legacy TV Essentials rose from $31 to $35.", "Cord Cutters News"),
+   ("<b>$2 to $4</b>", "Earlier rounds: about $3 to $4 in July 2024 and $2 on older internet plans in June 2025.", "Yahoo Finance, The Desk"),
+   ("<b>$5 to $10</b>", "A Spectrum-supplied Wi-Fi router is billed monthly. A router you own removes the line.", "Reported (HighSpeedInternet.com, WhistleOut)"),
+   ("<b>$15</b>", "We found no Spectrum-announced $15 increase. A jump this size usually means a promotion stepped up, a Wi-Fi or equipment line appeared, or a bundle credit ended.", "Our check, Nov 27, 2026"),
+   ("<b>$20 to $30</b>", "A promotion ending is what customers most often report, and more on TV bundles (examples in the table below).", "Customer reports")],
+   "We found no announced Spectrum increase for December 2026 or January 2027. Check your bill notice, which is the final word on your amount."),
+ script_html=_script("Spectrum", [
+   "Say: \"My bill went from $___ to $___. Which lines changed, and is my plan a legacy plan?\" Legacy plans (Flagship, Ultra, Gig) are the ones reported to have risen $10 in 2026.",
+   "Ask: \"What would a current plan at my address cost for the same or better speed, and how long is the price guaranteed?\" Reports describe Spectrum price guarantees of one to three years depending on the plan, so ask for the length and what it excludes.",
+   "Ask what Wi-Fi equipment you are being billed for, and say you will use your own router if that removes the charge.",
+   "Ask whether any Auto Pay or bundle credit applies to your account.",
+   "If the price is still too high, say you are looking at other providers at your address and ask whether there is an offer for customers who are thinking of leaving. Do not threaten to cancel unless you are ready to.",
+   "Get the new monthly price, the number of months it lasts and what is excluded before you accept. Ask for it in writing or note the agent's name and the time."],
+   "One reviewer-reported result (PCWorld, July 2025) was a drop from $68 to $45 a month for a full year, plus a speed increase from 400 to 500 Mbps, after the customer said they would cancel. Results vary and there is no guarantee of a discount. Spectrum is reported to charge no early termination fee on internet, so a month-to-month customer is free to leave if the answer is no.",
+   "Use the phone number, chat or account sign-in shown on your Spectrum bill or at spectrum.com. We could not verify a Spectrum-published retention number, so we do not list one."),
+)
+
+WENT["xfinity"]["src"] = WENT["xfinity"]["src"] + [("Xfinity: 5-year price guarantee terms", "https://www.xfinity.com/hub/internet/5-year-price-guarantee"),
+    ("Xfinity: data usage and the 1.2 TB limit on legacy plans", "https://www.xfinity.com/support/articles/data-usage-plan"),
+    ("Xfinity: cancel service (phone route)", "https://www.xfinity.com/cancel"),
+    ("CableTV.com: Xfinity hidden costs (Pro Gateway $15)", "https://www.cabletv.com/xfinity/hidden-costs"),
+    ("PCWorld: threatening to cancel Comcast or Spectrum (July 2025)", "https://www.pcworld.com/article/2835433/got-comcast-or-spectrum-internet-nows-a-great-time-to-threaten-youll-cancel.html")]
+WENT["spectrum"]["faq"] = WENT["spectrum"]["faq"] + [("Does Spectrum raise prices every year?", "Recent years have each had an increase on some plans: about $3 to $4 in July 2024 (The Desk), $2 on older internet plans in June 2025 (Yahoo Finance) and $10 on legacy Flagship, Ultra and Gig plans in June to July 2026 (Cord Cutters News). We found no announced Spectrum increase for December 2026 or January 2027."),
+    ("Did Spectrum raise prices in 2026?", "Yes for legacy plans: Cord Cutters News reports a $10 monthly increase on legacy Flagship, Ultra and Gig internet plans in June to July 2026, and $4 on legacy TV Essentials. Current plans were not affected.")]
+WENT["spectrum"]["src"] = WENT["spectrum"]["src"] + [("Yahoo Finance: Spectrum price changes (2024, 2025 increases)", "https://finance.yahoo.com/news/spectrum-plans-3-major-changes-190300141.html"),
+    ("HighSpeedInternet.com: what you actually pay for Spectrum", "https://highspeedinternet.com/resources/spectrum-real-costs"),
+    ("CableTV.com: change or cancel Spectrum service", "https://www.cabletv.com/spectrum/change-or-cancel"),
+    ("CableTV.com: Spectrum multi-year price guarantee", "https://www.cabletv.com/spectrum/multi-year-price-guarantee"),
+    ("PCWorld: threatening to cancel Comcast or Spectrum (July 2025)", "https://www.pcworld.com/article/2835433/got-comcast-or-spectrum-internet-nows-a-great-time-to-threaten-youll-cancel.html")]
+
+# ---- Frontier went-up page (new)
+WENT["frontier"] = dict(slug="frontier-bill-went-up", name="Frontier", kw="why did my frontier bill go up", save="/bills/frontier", bill="/bills/frontier",
+   checked="November 27, 2026", date="2026-11-27",
+   title="Frontier Bill Went Up? Why It Happens and What to Do (2026)",
+   desc="Why your Frontier internet bill went up: ended promotions, price guarantee limits, equipment and payment fees, and what changed after Verizon bought Frontier. Checked November 27, 2026.",
+     short="Frontier bills usually go up when a promotional rate ends and the plan moves to the everyday rate, reported at $10 to $50 a month, or when a price guarantee ends because you changed plans. We found no Frontier price increase announced after Verizon completed its purchase on January 20, 2026; Frontier says plans stay the same for now.",
+   rows=[("January 20, 2026", "Verizon closed its acquisition of Frontier. Frontier says that for the time being its Fiber plans stay the same, you receive Frontier Fiber and Verizon Wireless bills separately, and you will get advance notice if systems merge. Plans may later standardize across Verizon's territory. We found no announced Frontier residential price increase since.", "All Frontier customers", "Frontier, Verizon filing"),
+         ("When a promotion ends", "Frontier's billing help says your service then bills at the everyday monthly rate. HighSpeedInternet.com says promotional jumps typically range from $10 to $50 a month, usually about a year in.", "Customers on promotional pricing", "Frontier; reported (HighSpeedInternet.com)"),
+         ("Price guarantee limits", "Frontier markets multi-year price locks. Reviewers report the lock can end if you change plans or drop a service from a bundle, that taxes are added on top, and that Frontier may change equipment fees. We could not read Frontier's own lock terms, so check them on your order.", "Customers with a price guarantee", "Reported (HighSpeedInternet.com)"),
+         ("Payment and bill fees", "Frontier's bill guide lists a fee of up to $10 for using a Frontier agent to pay by phone, plus late and returned-payment fees. Reviewers report a $10 a month Autopay discount from a bank account ($5 by card). Frontier says a paper-bill fee can apply, but we did not find the amount.", "Customers who change how they pay", "Frontier; reported (HighSpeedInternet.com)"),
+         ("Mobile discount", "Frontier says an eligible Verizon mobile plan can take $15 a month off Frontier Fiber. Losing the mobile line removes the discount.", "Customers with Verizon mobile", "Frontier")],
+   find=["Sign in to your Frontier account and compare the last two bills line by line: plan price, promotion or discount lines, equipment, fees and taxes.",
+         "Find the date your promotion or price guarantee ends. If you changed plans after signing up, ask whether the guarantee still applies.",
+         "Check that Autopay and paperless billing are still on, and that any Verizon mobile discount is still applied."],
+   more=[("/bills/frontier", "Frontier fees and charges"), ("/fees/modem-router-rental-fee", "Modem and router rental")],
+   faq=[("Why did my Frontier bill go up?", "The most common reason is a promotion ending, so the plan moves to the everyday rate. Other causes are a price guarantee ending after a plan change, a lost Autopay or mobile discount, or an equipment or payment fee."),
+        ("Did Frontier raise prices after Verizon bought it?", "We found no announced Frontier residential price increase after the January 20, 2026 closing. Frontier says plans stay the same for now and that customers get advance notice of changes."),
+        ("Can I lower my Frontier bill?", "Ask what a new customer pays at your address for the same speed, ask whether a price guarantee is available, and check your Autopay and mobile discounts. If Frontier will not move, compare other providers at your ZIP code.")],
+   amounts_html=_amt(["If your bill rose by", "Most likely cause", "Source"], [
+        ("<b>$10 to $50</b>", "A promotion ending after about a year.", "Reported (HighSpeedInternet.com)"),
+        ("<b>$10 or $15</b>", "A lost Autopay credit ($10 from a bank account, reported) or a lost Verizon mobile discount ($15, Frontier).", "Frontier; reported"),
+        ("<b>Any amount</b>", "We found no Frontier-announced residential increase in 2026. Check the notice on your bill.", "Our check, Nov 27, 2026")],
+        "Frontier says it will notify you about upcoming rate changes on your bill."),
+   script_html=_script("Frontier", [
+        "Say: \"My bill went from $___ to $___. Can you show me which lines changed?\"",
+        "Ask when your promotion or price guarantee ends and what the price is afterward.",
+        "Ask: \"What do new customers pay at my address for the same speed, and is a multi-year price guarantee available to me?\" Ask what would end the guarantee, such as changing plans.",
+        "Ask whether Autopay, paperless billing and any Verizon mobile discount are applied.",
+        "If the price is still too high, say you are comparing other providers at your address and ask whether there is an offer for customers who are thinking of leaving.",
+        "Get the new price, how long it lasts and what is excluded before you accept, and note the agent's name and the time."],
+        "Results vary and there is no guarantee of a discount.",
+        "Frontier's contact page directs customers to chat and lists 800-917-7489 for paying by phone and 800-921-8101 for sales. We did not find a Frontier-published billing or retention number, so use chat or the sign-in on frontier.com."),
+   src=[("Frontier: Frontier and Verizon, what it means for you", "https://go.frontier.com/blog/frontier-verizon-2026-merger"),
+        ("Verizon 10-Q for the period ended September 30, 2026 (Frontier closing date)", "https://www.sec.gov/Archives/edgar/data/0000732712/000073271226000052/vz-20260930.htm"),
+        ("Frontier: billing FAQs", "https://frontier.com/helpcenter/billing/billing-faqs"),
+        ("Frontier: understand your bill", "https://frontier.com/helpcenter/billing/how-to-understand-your-bill"),
+        ("Frontier: contact us", "https://frontier.com/contact-us"),
+        ("HighSpeedInternet.com: what you actually pay for Frontier", "https://www.highspeedinternet.com/resources/frontier-real-costs"),
+        ("HighSpeedInternet.com: Verizon vs Frontier", "https://www.highspeedinternet.com/resources/verizon-vs-frontier")])
 
 def LOCAL(n):
     st = [("tx","Texas"),("ca","California"),("fl","Florida"),("ny","New York"),("ga","Georgia"),("pa","Pennsylvania"),("il","Illinois"),("oh","Ohio")]
@@ -270,20 +388,20 @@ def build_went(save):
     for k, d in WENT.items():
         n = d["name"]; path = "/bills/" + d["slug"]
         links = " · ".join(a(h, t) for h, t in d["more"])
-        body = (author.box(CHECKED) + short(d["short"]) + SEENBOX(k, n) + COMPARE(n) + CAUSES(n) + MINICALC
+        body = (author.box(d.get("checked", CHECKED)) + short(d["short"]) + d.get("amounts_html", "") + SEENBOX(k, n) + COMPARE(n) + CAUSES(n) + MINICALC
                 + f"<h2>What changed on {esc(n)} bills</h2>"
                 + tbl(["When", "What changed", "Who it affects", "Source"], [(f"<b>{esc(w)}</b>", esc(x), esc(y), esc(z)) for w, x, y, z in d["rows"]])
                 + f"<h2>How to find out why your {esc(n)} bill went up</h2>" + steps([esc(s) for s in d["find"]])
-                + BR.box(BR.key_from_path(path), n)
+                + d.get("script_html", "") + BR.box(BR.key_from_path(path), n)
                 + f"<h2>If you would rather stay with {esc(n)}</h2><p>Switching is usually where the bigger savings are, but if you want to stay, these steps can trim the bill:</p><ol class=\"steps\">" + "".join(f"<li>{esc(t)}</li>" for t in BB.B[k]["tips"]) + "</ol>"
-                + f'<p><a href="#compare">Compare providers at your address first</a> · <a href="{d["save"]}">Lower your {esc(n)} bill</a> · <a href="{d["bill"]}">Full {esc(n)} fee guide</a> · <a href="/guides/internet-price-increases-2026">2026 price increase tracker</a></p>'
-                + f"<h2>Related charges</h2><p>{links}</p>" + LOCAL(n) + BB.call_cta(n) + src(d["src"]))
+                + f'<p><a href="#compare">Compare providers at your address first</a> · <a href="{d["save"]}">Lower your {esc(n)} bill</a> · <a href="{d["bill"]}">Full {esc(n)} fee guide</a> · <a href="/guides/internet-price-increases-2026">2026 price increase tracker</a>{d.get("extra_links", "")}</p>'
+                + f"<h2>Related charges</h2><p>{links}</p>" + LOCAL(n) + BB.call_cta(n) + src(d["src"], d.get("checked")))
         TITLE_OVERRIDE = {"spectrum": "Spectrum Bill Went Up? Why and How to Lower It (2026)",
                           "att": "AT&T Bill Went Up? Why and How to Lower It (2026)"}
-        title = TITLE_OVERRIDE.get(k, f"Why Did My {n} Bill Go Up? What Changed in 2026")
-        save(path, page(path, title, f"Why your {n} bill went up: price increases, promotions ending, fees and lost discounts, with dates and sources. Checked {CHECKED}.",
+        title = d.get("title") or TITLE_OVERRIDE.get(k, f"Why Did My {n} Bill Go Up? What Changed in 2026")
+        save(path, page(path, title, d.get("desc") or f"Why your {n} bill went up: price increases, promotions ending, fees and lost discounts, with dates and sources. Checked {d.get('checked', CHECKED)}.",
              f"Why did my {n} bill go up?", f"What changed on {esc(n)} bills, how to find the line that rose, and what to do about it.", body, faqs(d["faq"]),
-             [("Home", SITE + "/"), ("Lower your bill", SITE + "/bills"), (f"{n} bill went up", SITE + path)], ["Bill increase", "Sources listed"]))
+             [("Home", SITE + "/"), ("Lower your bill", SITE + "/bills"), (f"{n} bill went up", SITE + path)], ["Bill increase", "Sources listed"], date=d.get("date"), checked=d.get("checked")))
 
 # ---------------------------------------------------------------- 2. "lower your X bill" pages
 SAVE = {
@@ -316,7 +434,7 @@ SAVE = {
  "att": dict(slug="lower-att-internet-bill", name="AT&T Internet", went="/bills/att-bill-went-up", bill="/bills/att",
    short="To lower an AT&T internet bill, enroll in Auto Pay and paperless billing, check whether a newer fiber tier costs less than your current plan, ask the loyalty team about the new-customer price in your area, and compare wireless bundle pricing.",
    asks=[("Apply the Auto Pay discount", "AT&T has offered up to $10 a month off for bank Auto Pay, $5 for a debit card, and $5 with the AT&T Points Plus card from Citi. AT&T says it applies within two bill periods."),
-         ("Move me to the cheapest current fiber tier that covers my use", "AT&T simplified its fiber plans on June 7, 2026. Reports put the lowest tier at $35 a month, so an older, faster-than-needed plan may cost more."),
+         ("Move me to the cheapest current fiber tier that covers my use", "AT&T simplified its fiber plans on June 7, 2026. Reports put the entry plan at $50 a month, or $35 with bundle discounts, so an older, faster-than-needed plan may cost more."),
          ("Price the wireless bundle", "Reports say the 1 Gig fiber plan is $80 alone and $60 with a qualifying wireless plan. Only worth it if you would keep the wireless plan anyway."),
          ("Ask the loyalty department", "Customers have reported that calling the loyalty team after a $5 increase sometimes produced a credit or lower rate."),
          ("Check data allowance", "Some AT&T Internet plans carry a 1,024 GB allowance with $10 per 50 GB overage; faster plans are unlimited.")],
@@ -366,7 +484,7 @@ def build_save(save):
 def build_guides(save):
     # --- why did my internet bill go up
     reasons = [("Your promotion ended", "Most internet plans start at a discounted price for 12 or 24 months. When it ends the plan moves to the standard rate. Xfinity reviewers report a rise of about $20 to $55 a month."),
-               ("Your provider raised prices", "Providers raise rates on existing customers, often on older plans. AT&T raised Fiber and Internet prices $5 on December 1, 2025, and Spectrum raised legacy internet plans $10 in mid-2026."),
+               ("Your provider raised prices", "Providers raise rates on existing customers, often on older plans. AT&T raised Fiber and Internet prices $5 on August 16, 2026 for plans activated June 2024 to July 2025 and says most older AT&T Internet plans rise $5 on December 1, 2026, and Spectrum raised legacy internet plans $10 in mid-2026."),
                ("A price guarantee does not cover everything", "Price locks cover the base plan rate. Xfinity says taxes, fees and equipment charges may change during and after a promotion or minimum-term agreement."),
                ("Equipment or Wi-Fi fees started", "A modem, gateway, router or Wi-Fi pod is billed monthly by some providers. Spectrum bills its Wi-Fi router separately, reported at $5 to $10."),
                ("TV fees changed", "Broadcast TV and regional sports fees sit outside the package price on many TV plans and can change."),
@@ -374,7 +492,7 @@ def build_guides(save):
                ("You went over a data cap", "Xfinity legacy plans charge $10 per 50 GB over 1.2 TB, up to $100 a month. Most large providers now offer unlimited data."),
                ("One-time charges", "Late fees, installation, activation, reconnection and unreturned equipment appear as single lines. Check whether the increase appears in one month only."),
                ("Taxes and recovery fees moved", "Provider recovery fees and local taxes change independently of the plan price.")]
-    body = (author.box(CHECKED) + short("Internet bills usually go up for one of nine reasons: a promotion ended, the provider raised the price, a fee or equipment charge changed, a discount was lost, a data or one-time charge appeared, or taxes and recovery fees moved. Comparing your last two bills line by line shows which.")
+    body = (author.box("November 27, 2026") + short("Internet bills usually go up for one of nine reasons: a promotion ended, the provider raised the price, a fee or equipment charge changed, a discount was lost, a data or one-time charge appeared, or taxes and recovery fees moved. Comparing your last two bills line by line shows which.")
             + "<h2>The 9 common reasons</h2>"
             + "".join(f"<h3>{i}. {esc(t)}</h3><p>{esc(x)}</p>" for i, (t, x) in enumerate(reasons, 1))
             + "<h2>Find your reason in 5 minutes</h2>" + steps(["Open your last two bills side by side.", "Compare the plan price first. If it is the same, the change is in fees or add-ons.",
@@ -382,50 +500,54 @@ def build_guides(save):
             + "<h2>Provider-specific guides</h2><div class=\"grid\">"
             + "".join(f'<a class="card" href="/bills/{d["slug"]}"><b>{esc(d["name"])} bill went up</b><span>What changed and how to check</span></a>' for d in WENT.values()) + "</div>"
             + f'<p><a href="/fees">All hidden fees explained</a> · <a href="/guides/internet-price-increases-2026">2026 price increase tracker</a> · <a href="/guides/internet-promo-ended">When your promo ends</a></p>'
+            + '<p><b>Ready to call?</b> Call scripts: <a href="/save/xfinity-retention-department">Xfinity</a> · <a href="/save/spectrum-retention-department">Spectrum</a> · <a href="/save/att-retention-department">AT&amp;T</a>. Thinking of leaving: <a href="/guides/how-to-cancel-xfinity">cancel Xfinity</a> · <a href="/guides/how-to-cancel-att">cancel AT&amp;T</a>.</p>'
             + BB.call_cta("internet") + src([("Xfinity: price changes", "https://www.xfinity.com/pricechanges/"),
                                            ("AT&T: details about your internet price change", "https://www.att.com/support/article/u-verse-high-speed-internet/KM1260426/"),
                                            ("Cord Cutters News: Spectrum $10 increase", "https://cordcuttersnews.com/another-big-price-hike-is-coming-to-spectrum-customers/"),
                                            ("HighSpeedInternet.com: what you actually pay for Xfinity", "https://highspeedinternet.com/resources/xfinity-real-costs"),
-                                           ("Xfinity: data usage and overage", "https://www.xfinity.com/support/internet/data-usage-exceed-usage")]))
+                                           ("Xfinity: data usage and overage", "https://www.xfinity.com/support/internet/data-usage-exceed-usage")], "November 27, 2026"))
     p = "/guides/why-internet-bill-went-up"
-    save(p, page(p, "Why Did My Internet Bill Go Up? 9 Common Reasons", f"Nine reasons your internet bill went up, how to tell which one applies to you, and what to do. Sources listed, checked {CHECKED}.",
+    save(p, page(p, "Why Did My Internet Bill Go Up? 9 Reasons and What to Say When You Call", "Why your internet bill went up $10, $15 or more: nine common reasons, how to find yours in 5 minutes, and a call script for Xfinity, Spectrum and AT&T. Checked November 27, 2026.",
          "Why did my internet bill go up?", "Nine common reasons, and a 5-minute way to find yours.", body,
          faqs([("Why did my internet bill go up for no reason?", "There is almost always a reason on the bill: an ended promotion, a rate increase, a new fee or a lost discount. Comparing the last two bills line by line shows it."),
                ("Can my provider raise my price during a contract?", "A promotional rate or minimum-term agreement usually protects the service price, but taxes, fees and equipment charges may still change. Read the terms of your agreement."),
                ("How much notice do providers give?", "Providers typically note changes on the bill. Check the bill message or important information section.")]),
-         [("Home", SITE + "/"), ("Guides", SITE + "/guides"), ("Why did my internet bill go up?", SITE + p)], ["Pillar guide", "Sources listed"]))
+         [("Home", SITE + "/"), ("Guides", SITE + "/guides"), ("Why did my internet bill go up?", SITE + p)], ["Pillar guide", "Sources listed"], date="2026-11-27", checked="November 27, 2026"))
 
     # --- 2026 price increase tracker
     trows = [("Xfinity", "Says some prices will increase starting December 2026; no amounts or services published. Newer TV packages fold TV fees into one price.", "Dec 2026 (announced)", "Provider page"),
              ("Spectrum", "$10 a month on legacy Flagship, Ultra and Gig internet plans; $4 on legacy TV Essentials ($31 to $35). Current plans not affected.", "June to July 2026", "Provider confirmed, per Cord Cutters News"),
-             ("AT&T", "$5 a month on AT&T Fiber and AT&T Internet.", "Dec 1, 2025", "Provider page"),
-             ("AT&T", "New fiber tiers (from $35); 1 Gig $80 alone or $60 with wireless; 5 Gig $140 to $125.", "June 7, 2026", "Reported by Broadband Breakfast and HighSpeedInternet.com"),
-             ("AT&T", "Another $5 on fiber and copper plans started June 2024 to July 2025; Access from AT&T copper plan $15 to $20.", "Aug 16, 2026", "Reported from internal documents; not confirmed by AT&T"),
+             ("AT&T", "$5 a month on home internet plans; customers who joined within the past year and Access from AT&T customers reported as not affected.", "Dec 1, 2025", "Reported (Android Authority)"),
+             ("AT&T", "$5 a month on AT&T Internet Air plans activated before October 2025.", "Sep 28, 2026", "Provider page"),
+             ("AT&T", "$5 a month on most AT&T Internet plans activated before June 2024, over one to three bill periods. Current AT&T Fiber and Internet Air plans excluded.", "Dec 1, 2026", "Provider page"),
+             ("AT&T", "New fiber tiers ($50 entry, or $35 with bundle discounts); 1 Gig $80 alone or $60 with wireless; 5 Gig $140 to $125.", "June 7, 2026", "Reported by Broadband Breakfast and HighSpeedInternet.com"),
+             ("AT&T", "Another $5 a month on AT&T Fiber and AT&T Internet plans activated June 9, 2024 to July 19, 2025; AT&T Internet with Access from AT&T at $15 goes up $5.", "Aug 16, 2026", "Provider page"),
              ("Cox", "$5 a month on 500 Mbps and 1 Gig plans (sources disagree on exact tiers). Moving into Spectrum; existing promotions honored.", "Early 2026", "Reported"),
              ("Verizon Wireless", "Regulatory Charge $0.21 to $0.26 per voice line. We found no confirmed Fios internet increase in 2026.", "Nov 1, 2026", "Provider page"),
              ("Starlink", "Plan prices rose in June 2026; kit rental fee added and reported removed; area-based pricing.", "June to July 2026", "Reported"),
              ("CenturyLink", "Voice feature charges raised by up to $2 in some states.", "2026", "State filing")]
-    body = (author.box(CHECKED) + short("In 2026 the clearest confirmed increases were Spectrum's $10 on legacy internet plans and AT&T's $5 on Fiber and Internet, and Xfinity says some prices will rise starting December 2026. Many other increases are reported rather than confirmed, and we label each one.")
+    body = (author.box("November 27, 2026") + short("In 2026 the clearest confirmed increases were Spectrum's $10 on legacy internet plans and AT&T's $5 on Fiber and Internet, and Xfinity says some prices will rise starting December 2026. Many other increases are reported rather than confirmed, and we label each one.")
             + "<h2>Provider-by-provider tracker</h2>"
             + tbl(["Provider", "What changed", "When", "How we know"], [(f"<b>{esc(w)}</b>", esc(x), esc(y), esc(z)) for w, x, y, z in trows])
             + warn("How to read this table", "Provider page means the provider states it. Reported means a news or review site reports it. Amounts vary by plan and area, and your bill is the final word.")
+            + '<div class="call tip"><b>Price went up? Call before you pay it.</b> Step-by-step call scripts: <a href="/save/xfinity-retention-department">Xfinity</a> · <a href="/save/spectrum-retention-department">Spectrum</a> · <a href="/save/att-retention-department">AT&amp;T</a>. Not sure which line rose? <a href="/guides/why-internet-bill-went-up">Why your bill went up</a> · <a href="/tools/promo-end-reminder">Get a promo-end reminder</a>. You may not need to switch.</div>'
             + "<h2>What to do when your provider raises prices</h2>" + steps(["Find the notice on your bill and write down the amount and the date it starts.",
                 "Check whether a newer plan from the same provider costs less than your current one.", "Call retention before the increase takes effect and ask for a credit or a current-plan rate.",
                 "Compare other providers at your ZIP code, including the price after any promotion."])
             + '<p>Individual provider pages: ' + " · ".join(a("/bills/" + d["slug"], d["name"]) for d in WENT.values()) + " · " + a("/bills/optimum-bill-went-up", "Optimum") + " · " + a("/bills/t-mobile-bill-went-up", "T-Mobile") + "</p>"
-            + f"<p class=\"note\">We re-check this page monthly. Last checked {CHECKED}.</p>"
+            + f"<p class=\"note\">We re-check this page monthly. Last checked November 27, 2026.</p>"
             + BB.call_cta("internet") + src([("Xfinity: price changes", "https://www.xfinity.com/pricechanges/"), ("Cord Cutters News: Spectrum $10 increase", "https://cordcuttersnews.com/another-big-price-hike-is-coming-to-spectrum-customers/"),
                                            ("AT&T: details about your internet price change", "https://www.att.com/support/article/u-verse-high-speed-internet/KM1260426/"), ("HighSpeedInternet.com: AT&T changes fiber prices", "https://highspeedinternet.com/resources/att-changes-fiber-prices"),
                                            ("Android Authority: AT&T price hike, August 2026", "https://www.androidauthority.com/att-price-hike-august-2026-3689162/"), ("CableTV.com: Cox-Spectrum merger", "https://www.cabletv.com/news/cox-spectrum-merger-will-price-increase"),
                                            ("Verizon: about taxes, fees and mobile surcharges", "https://www.verizon.com/support/surcharges"), ("The Next Web: Starlink price changes", "https://thenextweb.com/news/starlink-price-increase-standby-mode-roam-residential"),
-                                           ("Utah PSC: CenturyLink voice feature notice, 2026", "https://pscdocs.utah.gov/telecom/26docs/26049P02/343967Att1CstmrNtc2-19-2026.pdf")]))
+                                           ("Utah PSC: CenturyLink voice feature notice, 2026", "https://pscdocs.utah.gov/telecom/26docs/26049P02/343967Att1CstmrNtc2-19-2026.pdf")], "November 27, 2026"))
     p = "/guides/internet-price-increases-2026"
-    save(p, page(p, "Internet Price Increases 2026: Who Raised Rates and When", f"Which internet providers raised prices in 2026, by how much and when, with confirmed and reported changes labeled. Checked {CHECKED}.",
+    save(p, page(p, "Internet Price Increases 2026: Xfinity, Spectrum, AT&T, Cox Amounts", "Which internet providers raised prices in 2026: Spectrum $10, AT&T $5, Xfinity from December 2026, and more. Amounts, dates and what to do. Checked November 27, 2026.",
          "Internet price increases in 2026", "A provider-by-provider tracker, with confirmed and reported changes labeled.", body,
          faqs([("Which internet provider raised prices the most in 2026?", "It depends on the plan. Spectrum's $10 on legacy plans is the largest confirmed monthly increase we found among the big providers. Xfinity has said more increases start in December 2026."),
                ("Is Xfinity raising prices in December 2026?", "Xfinity says some prices will increase starting December 2026 and has not published amounts."),
-               ("How often is this tracker updated?", "Monthly. The last check was " + CHECKED + ".")]),
-         [("Home", SITE + "/"), ("Guides", SITE + "/guides"), ("Internet price increases 2026", SITE + p)], ["Pillar, refreshed monthly", "Sources listed"]))
+               ("How often is this tracker updated?", "Monthly. The last check was November 27, 2026.")]),
+         [("Home", SITE + "/"), ("Guides", SITE + "/guides"), ("Internet price increases 2026", SITE + p)], ["Pillar, refreshed monthly", "Sources listed"], date="2026-11-27", checked="November 27, 2026"))
 
     # --- average internet bill
     body = (author.box(CHECKED) + short("Surveys put the average US internet bill between about $69 and $81 a month in 2025 and 2026, depending on how it is measured. If you pay much more than that for a typical plan, check for fees, expired promotions or paying for more speed than you use.")

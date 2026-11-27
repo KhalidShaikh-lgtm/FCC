@@ -1,0 +1,83 @@
+{
+ "path": "/guides/how-to-cancel-att",
+ "title": "How to Cancel AT&T Internet: Steps, Fees and Equipment Return (2026)",
+ "description": "How to cancel AT&T Fiber or AT&T Internet: call 800.288.2020, the early termination fee rule, the 21-day equipment return and $150 non-return fee, and what to try first. Checked November 27, 2026.",
+ "h1": "How to cancel AT&T internet",
+ "lead": "What AT&T says about cancelling home internet, the fees to check and how to return equipment.",
+ "short_answer": "AT&T says to cancel by calling 800.288.2020. The account owner calls during business hours with the account number and PIN. Equipment must come back undamaged within 21 days, and AT&T lists a $150 non-return fee, refunded if you return it within 6 months. An early termination fee applies only if you leave a term commitment after the first 14 days.",
+ "chips": [
+  "Cancel guide",
+  "Sources listed"
+ ],
+ "crumbs": [
+  [
+   "Home",
+   "/"
+  ],
+  [
+   "Lower your bill",
+   "/bills"
+  ],
+  [
+   "How to cancel AT&T",
+   "/guides/how-to-cancel-att"
+  ]
+ ],
+ "cta_provider": "AT&T",
+ "sections": [
+  {
+   "h2": "Before you cancel",
+   "body_html": "<ol class=\"steps\"><li><b>Line up the replacement first.</b> Book your next provider's install date so you are not without internet.</li><li><b>Check for a promotional or term commitment.</b> AT&T says its Fiber and Internet Air plans do not require an annual contract, but AT&T's cancel page warns of penalties and fees if you cancel before a promotional commitment ends.</li><li><b>If price is the reason, call first.</b> See the <a href=\"/save/att-retention-department\">AT&amp;T call script</a>. You may not need to switch.</li><li><b>Gather your account number and PIN.</b> AT&T says the account owner must have them to cancel.</li></ol>"
+  },
+  {
+   "h2": "How to cancel, according to AT&T",
+   "body_html": "<ol class=\"steps\"><li>Call 800.288.2020. AT&T's cancel page says: \"To cancel, call us at 800.288.2020.\"</li><li>AT&T's cancellation policy says the account owner must call during business hours with the account number and PIN.</li><li>Service stays active until the end of the bill period, per AT&T's cancel page.</li><li>AT&T says customers who ordered Internet Air online may be able to cancel online at att.com/myatt in some states (we saw Illinois, Massachusetts and New York named). AT&T's price-change page also offers online chat for customers who want to cancel.</li></ol>"
+  },
+  {
+   "h2": "Early termination fee",
+   "body_html": "<p>AT&T's cancellation policy says an early termination fee applies only if you disconnect after the first 14 days while under a term commitment, and that it is prorated and reduced for each month your service is active. AT&T's policy gives a worked example of a $180 fee on a 12-month term that is reduced each month. Ask the agent for your exact fee and how it is calculated before you confirm.</p>"
+  },
+  {
+   "h2": "Returning equipment",
+   "body_html": "<p>AT&T says equipment must be returned undamaged within 21 days of cancellation, and that wall-mounted equipment stays in place. AT&T lists a non-return fee of $150 per its cancellation policy, which it says is refunded if the equipment is returned within 6 months of termination. Damage fees are not refunded. Ask the agent how to return it and keep your receipt or tracking number.</p>"
+  },
+  {
+   "h2": "After you cancel",
+   "body_html": "<p>Check your final bill for equipment charges and any early termination fee. To choose a new provider, <a href=\"/tools/compare-providers\">compare providers at your address</a> and check the price after the promotion. Our <a href=\"/tools/promo-end-reminder\">promo-end reminder</a> can call you before the new price starts.<p>Related: <a href=\"/guides/internet-price-increases-2026\">2026 internet price increases</a> · <a href=\"/guides/why-internet-bill-went-up\">why your bill went up</a> · <a href=\"/guides/do-bill-negotiation-services-work\">do negotiation services work?</a> · <a href=\"/tools/promo-end-reminder\">promo-end reminder</a></p></p>"
+  }
+ ],
+ "faq": [
+  [
+   "How do I cancel AT&T internet?",
+   "AT&T says to call 800.288.2020. The account owner calls during business hours with the account number and PIN."
+  ],
+  [
+   "Does AT&T charge an early termination fee?",
+   "Only if you disconnect after the first 14 days while under a term commitment. It is prorated and falls each month; AT&T's policy gives a $180 example on a 12-month term. Ask for your exact amount."
+  ],
+  [
+   "How long do I have to return AT&T equipment?",
+   "AT&T says equipment must be returned undamaged within 21 days of cancellation. A $150 non-return fee applies and is refunded if you return it within 6 months."
+  ],
+  [
+   "Can I cancel AT&T internet online?",
+   "AT&T says customers who ordered Internet Air online may be able to cancel at att.com/myatt in some states. For AT&T Fiber and AT&T Internet, AT&T directs cancellations to 800.288.2020."
+  ]
+ ],
+ "sources": [
+  [
+   "AT&T: how to cancel",
+   "https://www.att.com/support/article/my-account/KM1009500/you/"
+  ],
+  [
+   "AT&T: cancellation policy for internet",
+   "https://www.att.com/support/how-to/cancellation-policy-internet/"
+  ],
+  [
+   "AT&T: internet plans (no annual contract wording)",
+   "https://www.att.com/internet/"
+  ]
+ ],
+ "checked": "November 27, 2026",
+ "date": "2026-11-27"
+}
