@@ -107,7 +107,10 @@ def save(path, html_):
     os.makedirs(os.path.dirname(fn), exist_ok=True)
     open(fn, "w").write(html_)
     manifest.append(path)
+    h = _re.search(r'<h1[^>]*>(.*?)</h1>', html_, _re.S)
+    if h: _h1[path] = _re.sub(r'<[^>]+>', '', h.group(1)).strip()
 
+_h1 = {}
 def tech_phrase(k):
     c = TC[k]
     parts = [f"{n:,} ZIP codes with {t}" for t, n in c.most_common(3) if n > 0]
@@ -537,4 +540,10 @@ import chrome
 open(os.path.join(OUT,"_chrome.html"),"w").write(chrome.bundle())
 json.dump(sorted(set(manifest)), open(os.path.join(OUT, "manifest.json"), "w"), indent=0)
 json.dump(dict(sorted(lastmod.items())), open(os.path.join(OUT, "lastmod.json"), "w"), indent=0)
+# newest internet billing pages for the home page "Latest bill guides" box (read by the Worker)
+_skip = ("/guides/amazon-leo-vs-starlink", "/guides/one-internet-provider-zip-codes-study")
+_bill = [p for p in set(manifest) if p.startswith(("/bills/", "/save/", "/fees/", "/guides/")) and p not in _skip and p in _h1
+         and not p.startswith("/guides/how-much-internet-speed")]
+_bill.sort(key=lambda p: (lastmod.get(p, ""), p), reverse=True)
+json.dump([{"p": p, "t": _h1[p], "d": lastmod.get(p, "")} for p in _bill[:12]], open(os.path.join(OUT, "latest-billing.json"), "w"), indent=0)
 print(len(manifest), "pages;", TOTAL, "zips")
