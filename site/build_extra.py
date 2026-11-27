@@ -12,9 +12,9 @@ PHONE_TXT, PHONE_TEL = "(888) 491-5666", "+18884915666"
 def lc(n):
     return n[0].lower() + n[1:]
 
-def srcs(lst):
+def srcs(lst, checked=None):
     return ("<h2>Sources</h2><ul>" + "".join(f'<li><a href="{esc(u)}" rel="nofollow noopener" target="_blank">{esc(t)}</a></li>' for t, u in lst)
-            + f"</ul><p class=\"note\">Checked {CHECKED}. Amounts vary by area and change often; your bill and your provider's broadband label are the final word.</p>")
+            + f"</ul><p class=\"note\">Checked {checked or CHECKED}. Amounts vary by area and change often; your bill and your provider's broadband label are the final word.</p>")
 
 def table(head, rows):
     return ("<table><tr>" + "".join(f"<th>{esc(h)}</th>" for h in head) + "</tr>"
