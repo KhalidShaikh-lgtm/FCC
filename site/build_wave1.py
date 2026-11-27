@@ -103,9 +103,9 @@ def warn(title, txt):
 # ---------------------------------------------------------------- 1. "why did my X bill go up" pages
 WENT = {
  "xfinity": dict(slug="xfinity-bill-went-up", name="Xfinity", kw="why did my xfinity bill go up", save="/save/lower-xfinity-bill", bill="/bills/xfinity",
-   short="Xfinity bills usually go up because a promotion or price guarantee ended, a TV fee or equipment charge changed, or a discount such as Auto Pay was lost. Xfinity also says some prices will increase starting December 2026, without giving amounts yet.",
+   short="Xfinity bills usually go up because a promotion or contract ended, and customers often report the jump at $40 to $70 a month. Other causes are a changed TV fee or equipment charge, or a lost discount such as Auto Pay. Xfinity also says some prices will increase starting December 2026, without giving amounts yet.",
    rows=[("December 2026", "Xfinity says \"some of our prices will increase\" starting December 2026. The page gives no dollar amounts and says TV costs are tied to programmers' price increases.", "Some services; check your bill notice", "Xfinity"),
-         ("When a promotion ends", "Reviewers report the bill can rise by about $20 to $55 a month when a 12-month promotion ends.", "Customers on 12-month promotions", "Reviewer report"),
+         ("When a promotion ends", "Reviewers report the bill can rise by about $20 to $55 a month when a 12-month promotion ends, and customers on Xfinity's forum report jumps of $40 to $70.", "Customers on 12-month promotions", "Reviewer report"),
          ("During a promotion", "Xfinity says the service price stays the same during a promotional rate or minimum-term agreement, but taxes, fees and equipment charges may change.", "Everyone on a promo or price guarantee", "Xfinity"),
          ("Early 2026 onward", "New all-inclusive TV packages fold the Broadcast TV and Regional Sports fees into one price. Legacy TV packages keep them as separate lines.", "TV customers", "Xfinity"),
          ("Paperless + Auto Pay", "Xfinity internet customers can save $10 a month with paperless billing and automatic payments from a bank account. Losing that setup raises the bill by the same amount.", "Internet customers", "Xfinity")],
@@ -120,7 +120,7 @@ WENT = {
         ("Xfinity: broadcast TV and regional sports fees in new TV packages", "https://www.xfinity.com/pricechange/?linkId=110641971"),
         ("HighSpeedInternet.com: what you actually pay for Xfinity (Jan 2026)", "https://highspeedinternet.com/resources/xfinity-real-costs")]),
  "spectrum": dict(slug="spectrum-bill-went-up", name="Spectrum", kw="why did my spectrum bill go up", save="/save/lower-spectrum-bill", bill="/bills/spectrum",
-   short="The most common reasons a Spectrum bill goes up are a $10 increase on legacy internet plans reported from June and July 2026, a promotion ending, and Wi-Fi equipment fees. Current Spectrum plans were not part of the 2026 increase.",
+   short="The biggest Spectrum jumps come from a promotion ending: customers commonly report $20 to $30 a month more, and more on TV bundles. On top of that, Spectrum added $10 a month to legacy Flagship, Ultra and Gig internet plans from June and July 2026, and Wi-Fi equipment fees add $5 to $10. Current Spectrum plans were not part of the 2026 increase.",
    rows=[("June to July 2026", "Spectrum confirmed a $10 monthly increase for customers on legacy Flagship, Ultra and Gig internet plans. Most of those customers also got faster speeds (Flagship 400 to 500 Mbps, Ultra 600 Mbps to Gig). Legacy TV Essentials rose $4, from $31 to $35.", "Legacy plan customers", "Cord Cutters News"),
          ("July 2024", "Spectrum raised internet prices about $3 a month, and about $4 on retired plans.", "Many internet customers", "The Desk"),
          ("Promotions", "Several Spectrum tiers are introductory rates that move to a standard rate later. Spectrum has also offered price guarantees of one to three years on some plans.", "Customers on promo plans", "WhistleOut, Yahoo Finance"),
@@ -215,11 +215,48 @@ MINICALC = ('<style>.mc{border:2px solid var(--ink);border-radius:18px;padding:2
             '<script>(function(){var g=function(i){return document.getElementById(i)};g("mcGo").onclick=function(){var a=+g("mcA").value||0,b=+g("mcB").value||0,o=g("mcOut");'
             'if(!b){o.textContent="Enter the price after the promo.";return}var d=b-a;o.innerHTML="Your bill goes "+(d>=0?"up":"down")+" by <span class=big>"+(d>=0?"+":"-")+"$"+Math.abs(d).toFixed(2)+"/mo</span> \u00b7 $"+Math.abs(d*12).toFixed(0)+" a year."+(d>0?" <a href=\'/#zipfinder\'>See cheaper providers at your ZIP</a> or call <a href=\'tel:+18884915666\'>(888) 491-5666</a>.":"")}})()</script>')
 
+
+# ---------------------------------------------------------------- real customer reports ("What customers are seeing")
+SEEN = {
+ "spectrum": ("Spectrum customers mostly report jumps of $20 to $30 a month when a promotion ends, more on TV bundles. The $10 legacy-plan increase is smaller than what most people see.",
+   [("Promo ended (internet)", "$85 &rarr; about $105 before tax", "Reddit r/Spectrum, via The Cool Down", "https://www.thecooldown.com/?p=795341", "Sep 2026"),
+    ("TV, internet and phone bundle", "$209.88 &rarr; $221.43, then quoted $237 when the promo year ends", "QVC community forum", "https://community.qvc.com/t5/Community-Chat/My-Spectrum-Bill-Went-Up/m-p/5917505/highlight/true", "Customer report"),
+    ("Promo ended", "+$30 a month (22%)", "ABC Action News (Tampa)", "https://www.tampabay28.com/money/consumer/taking-action-for-you/spectrum-raising-rates-on-almost-everyone-in-some-cases-customers-say-they-are-shocked", "Older report"),
+    ("Price-guarantee plans", "Customers say bills rose during the guarantee from fees such as the broadcast TV surcharge", "The Cool Down", "https://www.thecooldown.com/?p=798828", "2026")]),
+ "xfinity": ("Xfinity customers report some of the biggest jumps of any provider when a promotion or contract ends, often $40 to $70 a month, and sometimes three times the old price.",
+   [("First-year promo ended", "$20 &rarr; $59", "Xfinity community forum", "https://forums.xfinity.com/conversations/billing/first-year-promotional-rate-ended-and-xfinity-internet-plan-increased-from-20-59/677ef5f3121aae71d76a3e6d", "Jan 2025"),
+    ("Promo ended, no notice seen", "$25 &rarr; $95", "Xfinity community forum", "https://forums.xfinity.com/conversations/customer-service/rapid-price-increases-with-no-warning/67fd1c6389747f592311d3c0", "Apr 2025"),
+    ("2-year contract ended", "$88 &rarr; $137", "Xfinity community forum", "https://forums.xfinity.com/conversations/email/extremely-frustrated-with-xfinity-service-need-immediate-resolution/688e67eca7bb62331b9757dc", "Aug 2025"),
+    ("Long-running promo ended", "$70 &rarr; $121 (+73%)", "Xfinity community forum", "https://forums.xfinity.com/conversations/billing/bill-went-up-by-50-with-no-warning/64c2854abe1840784489cbfa", "Jul 2023")]),
+ "cox": ("Cox customers report jumps of $20 to $60 a month when a promotion ends, and some say their bill rose during a price guarantee.",
+   [("Promo ended", "$69 &rarr; $100", "Cox community forum", "https://forums.cox.com/conversations/internet/cox-screwed-me-on-my-bill/6915e009f14c480f4edd6855", "Nov 2025"),
+    ("Promotional package expired", "+$60 a month", "Cox community forum", "https://forums.cox.com/discussions/internet/frustrating-experience-with-cox-cable-poor-customer-service-and-misleading-offer/153810", "Customer report"),
+    ("Internet-only plan, promo ended", "$69.99 &rarr; about double", "Cox community forum", "https://forums.cox.com/discussions/internet/rip-off/150683", "Customer report"),
+    ("During a 3-year rate guarantee", "+$17 a month, 4 months in", "Cox community forum", "https://forums.cox.com/conversations/tv/rate-increase-complaint/693f4f85134b1d5bad8b2dc2", "Dec 2025")]),
+ "att": ("AT&T customers rarely report big promo cliffs. The complaint is repeated $5 increases that add up over a few years.",
+   [("Price change on home internet", "+$5 a month", "Android Authority", "https://www.androidauthority.com/att-home-internet-price-hike-3608156", "Dec 2025"),
+    ("Plans started Jun 2024 – Jul 2025", "+$5 a month (reported from internal documents)", "GSMArena / PhoneArena", "https://www.gsmarena.com/at_t_is_raising_prices_next_month_leaked_document_reveals-news-73798.php", "Aug 2026"),
+    ("All increases 2022 – 2026", "$5 to $12 each time", "TalkAndroid", "https://www.talkandroid.com/528467-att-will-raise-prices/", "2026")]),
+ "verizon": ("Verizon Fios customers mostly report small $5 increases that show up as a charge or a smaller discount, not a large jump.",
+   [("Miscellaneous charges increase", "+$5 a month", "PhoneArena (Reddit reports)", "https://www.phonearena.com/news/Second-Verizon-price-hike-announced-in-less-than-a-month_id166996", "Jan 2025"),
+    ("Auto Pay discount cut", "Discount reduced by $5, so the bill rose $5", "PhoneArena (Reddit reports)", "https://www.phonearena.com/news/Second-Verizon-price-hike-announced-in-less-than-a-month_id166996", "Jan 2025")]),
+}
+
+def SEENBOX(k, n):
+    if k not in SEEN: return ""
+    lead, rows = SEEN[k]
+    return ('<style>.seen{border:1px solid var(--line);border-left:5px solid #e5484d;border-radius:16px;padding:18px 20px;margin:22px 0;background:#fff}'
+            '.seen h2{margin:0 0 6px}.seen p{margin:0 0 12px}.seen td,.seen th{font-size:15px}</style>'
+            f'<div class="seen"><h2>What {esc(n)} customers are actually seeing</h2><p>{esc(lead)}</p>'
+            + tbl(["Situation", "Bill change", "Reported by", "When"],
+                  [(esc(a_), f"<b>{b_}</b>", f'<a href="{u}" rel="nofollow noopener" target="_blank">{esc(c_)}</a>', esc(w)) for a_, b_, c_, u, w in rows])
+            + '<p style="margin:10px 0 0;font-size:14px;color:var(--muted)">Individual customer reports, not official prices. Your amount depends on your plan, market and promotion. <a href="#report">Report your own increase</a>.</p></div>')
+
 def build_went(save):
     for k, d in WENT.items():
         n = d["name"]; path = "/bills/" + d["slug"]
         links = " · ".join(a(h, t) for h, t in d["more"])
-        body = (author.box(CHECKED) + short(d["short"]) + CAUSES(n) + MINICALC + BR.box(BR.key_from_path(path), n)
+        body = (author.box(CHECKED) + short(d["short"]) + SEENBOX(k, n) + CAUSES(n) + MINICALC + BR.box(BR.key_from_path(path), n)
                 + f"<h2>What changed on {esc(n)} bills</h2>"
                 + tbl(["When", "What changed", "Who it affects", "Source"], [(f"<b>{esc(w)}</b>", esc(x), esc(y), esc(z)) for w, x, y, z in d["rows"]])
                 + f"<h2>How to find out why your {esc(n)} bill went up</h2>" + steps([esc(s) for s in d["find"]])
