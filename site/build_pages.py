@@ -108,7 +108,9 @@ def save(path, html_):
     open(fn, "w").write(html_)
     manifest.append(path)
     h = _re.search(r'<h1[^>]*>(.*?)</h1>', html_, _re.S)
-    if h: _h1[path] = _re.sub(r'<[^>]+>', '', h.group(1)).strip()
+    if h:
+        import html as _html
+        _h1[path] = _html.unescape(_re.sub(r'<[^>]+>', '', h.group(1)).strip())
 
 _h1 = {}
 def tech_phrase(k):
@@ -546,4 +548,6 @@ _bill = [p for p in set(manifest) if p.startswith(("/bills/", "/save/", "/fees/"
          and not p.startswith("/guides/how-much-internet-speed")]
 _bill.sort(key=lambda p: (lastmod.get(p, ""), p), reverse=True)
 json.dump([{"p": p, "t": _h1[p], "d": lastmod.get(p, "")} for p in _bill[:12]], open(os.path.join(OUT, "latest-billing.json"), "w"), indent=0)
+# full billing index for /llms.txt (read by the Worker)
+json.dump([{"p": p, "t": _h1[p]} for p in sorted(_bill)], open(os.path.join(OUT, "billing-index.json"), "w"), indent=0)
 print(len(manifest), "pages;", TOTAL, "zips")

@@ -1,0 +1,158 @@
+[
+{
+"p": "/bills/att",
+"t": "Why is my AT&T bill so high?"
+},
+{
+"p": "/bills/att-bill-went-up",
+"t": "Why did my AT&T bill go up?"
+},
+{
+"p": "/bills/centurylink",
+"t": "Why is my CenturyLink bill so high?"
+},
+{
+"p": "/bills/cox",
+"t": "Why is my Cox bill so high?"
+},
+{
+"p": "/bills/cox-bill-went-up",
+"t": "Why did my Cox bill go up?"
+},
+{
+"p": "/bills/frontier",
+"t": "Why is my Frontier bill so high?"
+},
+{
+"p": "/bills/optimum",
+"t": "Why is my Optimum bill so high?"
+},
+{
+"p": "/bills/optimum-bill-went-up",
+"t": "Why did my Optimum bill go up?"
+},
+{
+"p": "/bills/spectrum",
+"t": "Why is my Spectrum bill so high?"
+},
+{
+"p": "/bills/spectrum-bill-went-up",
+"t": "Why did my Spectrum bill go up?"
+},
+{
+"p": "/bills/starlink",
+"t": "Why is my Starlink bill so high?"
+},
+{
+"p": "/bills/t-mobile",
+"t": "Why is my T-Mobile bill so high?"
+},
+{
+"p": "/bills/t-mobile-bill-went-up",
+"t": "Why did my T-Mobile bill go up?"
+},
+{
+"p": "/bills/verizon",
+"t": "Why is my Verizon bill so high?"
+},
+{
+"p": "/bills/verizon-fios-bill-went-up",
+"t": "Why did my Verizon Fios bill go up?"
+},
+{
+"p": "/bills/xfinity",
+"t": "Why is my Xfinity bill so high?"
+},
+{
+"p": "/bills/xfinity-bill-went-up",
+"t": "Why did my Xfinity bill go up?"
+},
+{
+"p": "/fees/broadcast-tv-fee",
+"t": "What is the broadcast TV fee?"
+},
+{
+"p": "/fees/data-overage-fee",
+"t": "What is the data overage fee?"
+},
+{
+"p": "/fees/installation-and-activation-fee",
+"t": "What is the installation and activation fees?"
+},
+{
+"p": "/fees/modem-router-rental-fee",
+"t": "What is the modem and router rental fee?"
+},
+{
+"p": "/fees/recovery-and-regulatory-fees",
+"t": "What is the recovery and regulatory fees?"
+},
+{
+"p": "/fees/regional-sports-fee",
+"t": "What is the regional sports fee?"
+},
+{
+"p": "/fees/spectrum-wifi-fee",
+"t": "What is the spectrum Wi-Fi fee?"
+},
+{
+"p": "/fees/unreturned-equipment-fee",
+"t": "What is the unreturned equipment fee?"
+},
+{
+"p": "/fees/verizon-administrative-charge",
+"t": "What is the verizon Administrative and Telco Recovery Charge?"
+},
+{
+"p": "/fees/xfinity-data-overage",
+"t": "What is the xfinity data cap and overage charge?"
+},
+{
+"p": "/guides/average-internet-bill",
+"t": "Is my internet bill too high?"
+},
+{
+"p": "/guides/bill-negotiation-fee-worth-it",
+"t": "Is a 40% bill negotiation fee worth it?"
+},
+{
+"p": "/guides/billshark-vs-switching-internet-providers",
+"t": "Billshark vs switching internet providers"
+},
+{
+"p": "/guides/do-bill-negotiation-services-work",
+"t": "Do bill negotiation services work on internet bills?"
+},
+{
+"p": "/guides/internet-price-increases-2026",
+"t": "Internet price increases in 2026"
+},
+{
+"p": "/guides/internet-promo-ended",
+"t": "What to do when your internet promo ends"
+},
+{
+"p": "/guides/rocket-money-bill-negotiation-alternatives",
+"t": "Rocket Money bill negotiation alternatives"
+},
+{
+"p": "/guides/why-internet-bill-went-up",
+"t": "Why did my internet bill go up?"
+},
+{
+"p": "/save/lower-att-internet-bill",
+"t": "How to lower your AT&T Internet bill"
+},
+{
+"p": "/save/lower-cox-bill",
+"t": "How to lower your Cox bill"
+},
+{
+"p": "/save/lower-spectrum-bill",
+"t": "How to lower your Spectrum bill"
+},
+{
+"p": "/save/lower-xfinity-bill",
+"t": "How to lower your Xfinity bill"
+}
+]
