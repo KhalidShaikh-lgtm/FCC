@@ -29,3 +29,10 @@ city/ZIP pages (CTR 0.03%, position 37). The big comparison sites own "providers
 - Data study (one-provider ZIPs) and its pitches: kept; it supports the "no choice = higher prices" story.
 - Off-page and community answers: kept, focused on bill-increase threads and price assets.
 - Tools: kept; bill reader, promo price calculator and promo-end reminder are the main billing tools.
+
+## Search demand check (DataForSEO, US monthly, Nov 2026, 90 keywords)
+- Cancel: ~44,700 (how to cancel spectrum 14,800; cancel spectrum internet 8,100; cancel xfinity internet 6,600; xfinity / at&t internet 5,400 each; directv 4,400). People cancelling need a new provider: highest-value intent.
+- Price increase / bill went up: ~10,650 steady, but spikes on announcements (starlink price increase 14,800 in May 2026; t-mobile 4,400 Jun-Jul; at&t 3,600 May; spectrum 1,900 Aug). Be first when a hike is announced.
+- Lower / negotiate / retention: ~7,200 (spectrum retention department 2,400; xfinity 1,000; at&t 720).
+- Fees and average bill: ~5,000. Head term "internet providers near me" 110,000 but owned by the big comparison sites.
+- Plan: cancel + retention pages for the big providers at priority 1; price-increase pages updated within a day of any announcement.
