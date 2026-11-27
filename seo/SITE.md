@@ -62,8 +62,9 @@ if that skill is not available, follow `seo/PLAYBOOK.md` in this repo, which is 
   references in titles/H1s of evergreen guides to the current year, only where the content is re-verified.
 
 ## Hard limits
-- Max 10 new pages per writing run (daily), max 70 per week (set by Khalid, Nov 25). Skip any page that would be thin.
-- Plus up to 10 IMPROVED existing pages per day in the separate evening IMPROVE run (set by Khalid, Nov 27). Improvements never change a URL and do not count toward the new-page limit.
+- Max 20 new pages per day, as two WRITE runs of up to 10 each (2:37 PM and 11:17 PM IST), max 140 per week (raised by Khalid, Nov 27; was 10/70). Skip any page that would be thin; never publish a page the Opus fact-checker fails.
+- SAFETY BRAKE: if the weekly run sees billing-page average position worsen by 5+ places week on week, or fewer than half of last week's new pages indexed, go back to one WRITE run (10/day) and tell Khalid.
+- Plus up to 20 IMPROVED existing pages per day in the evening IMPROVE run (raised by Khalid, Nov 27). Each page at most once per 7 days, so the real number depends on how many billing pages exist. Improvements never change a URL and do not count toward the new-page limit.
 - No emails, posts, directory submissions or account changes without Khalid's approval. Off-page work produces
   drafts and lists only.
 - Never delete pages. Weak pages are handled by the staged 30/60/90-day rules in PLAYBOOK.md (PRUNE) (improve, merge with 301, or noindex), never by deletion. Never change the phone number, author, or legal/footer text.
