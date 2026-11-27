@@ -139,7 +139,7 @@ TITLES = {}
 def build_fees(save):
     for slug, (name, short, what, rows, avoid, faq, src) in FEES.items():
         others = " · ".join(f'<a href="/fees/{s}">{esc(v[0])}</a>' for s, v in FEES.items() if s != slug)
-        body = (author.box(CHECKED) + f'<div class="call tip"><b>Short answer</b>{esc(short)}</div>'
+        body = (author.box(CHECKED) + f'<div class="call tip"><b>Short answer:</b> {esc(short)}</div>'
                 f"<h2>What the {esc(lc(name))} is</h2><p>{esc(what)}</p>"
                 f"<h2>{esc(name)} by provider</h2>" + table(["Provider", "What we found"], [(f"<b>{esc(a)}</b>", esc(b)) for a, b in rows])
                 + f"<h2>How to avoid or lower it</h2><ol class=\"steps\">" + "".join(f"<li>{esc(t)}</li>" for t in avoid) + "</ol>"

@@ -94,7 +94,7 @@ def src(lst):
     return BE.srcs(lst)
 
 def short(txt):
-    return f'<div class="call tip"><b>Short answer</b>{esc(txt)}</div>'
+    return f'<div class="call tip"><b>Short answer:</b> {esc(txt)}</div>'
 
 def warn(title, txt):
     return f'<div class="call warn"><b>{esc(title)}</b>{esc(txt)}</div>'

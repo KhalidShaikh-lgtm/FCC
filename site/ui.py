@@ -94,7 +94,7 @@ def shell(path, title, desc, h1, lead, body, faq=None, crumbs=None, chips=None, 
     cr = " › ".join(f'<a href="{esc(u)}">{esc(n)}</a>' for n, u in crumbs[:-1])
     chip_html = "".join(f'<span class="chip">{esc(c)}</span>' for c in (chips or []))
     return ("<!DOCTYPE html><html lang=\"en\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">"
-            f"<title>{esc(title)}</title><meta name=\"description\" content=\"{esc(desc)}\"><link rel=\"canonical\" href=\"{url}\"><meta name=\"robots\" content=\"index,follow,max-image-preview:large,max-snippet:-1\">"
+            f"<title>{esc(title)}</title><meta name=\"description\" content=\"{esc(desc)}\"><link rel=\"canonical\" href=\"{url}\"><link rel=\"icon\" type=\"image/png\" sizes=\"48x48\" href=\"/favicon-48.png\"><link rel=\"apple-touch-icon\" href=\"/apple-touch-icon.png\"><meta name=\"robots\" content=\"index,follow,max-image-preview:large,max-snippet:-1\">"
             f"<meta property=\"og:title\" content=\"{esc(title)}\"><meta property=\"og:description\" content=\"{esc(desc)}\"><meta property=\"og:type\" content=\"article\"><meta property=\"og:url\" content=\"{url}\"><meta name=\"theme-color\" content=\"#0a8f6a\">"
             f"{FONTS}<style>{CSS}{chrome.CSS}{XCSS}</style><script type=\"application/ld+json\">{ldj}</script></head><body>"
             + chrome.header() +
