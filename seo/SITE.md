@@ -17,9 +17,20 @@ if that skill is not available, follow `seo/PLAYBOOK.md` in this repo, which is 
 - Nov 24, 2026: impressions almost all on city/state/ZIP pages. Query clusters, biggest first:
   1. "internet providers in [city/state]"  2. "fiber internet in [city]"  3. "near me / at my address"
   4. brand + place ("xtream by mediacom", "xfinity delaware", "windstream jasper ga")  5. "cheap internet [place]".
-- Current focus (set by Khalid, Nov 25): SMALL TOWNS FIRST (~80% of effort), big cities ~20%. Low competition ranks
-  fastest (same pattern that made dbi-infomatics.com rank in weeks). The call center can sell anywhere, rural included,
-  so every town is sellable. Each WRITE run of 10: 8 priority-1 small-town items + 2 priority-2 items (bigger cities). Pick towns already getting GSC impressions; add new ones from the snapshot weekly. Bill/fee pages (Wave 1) went live Nov 24; judge them from mid-December. GSC Nov 21-25: "bill went up" pages rank 6-8 and earned half the clicks; city/state pages sit at 25-45. Lean the mix toward billing-problem intent (went-up, fees, lower-your-bill) while keeping small towns.
+- CURRENT FOCUS (set by Khalid, Nov 27 2026, replaces the Nov 25 small-towns focus): BILLING-FIRST. The site is a free
+  watchdog for household bills: people overpaying, hit by price increases, promo endings and added fees. Search Console
+  Nov 21-26: 26 billing pages = 8 of 13 clicks, CTR 0.83%, avg position 8.9; 963 city/ZIP pages = 5 clicks, CTR 0.03%,
+  position 37. Big comparison brands own "internet providers near me"; nobody owns "my bill went up, what do I do".
+  - Effort split: ~90% billing (bill went up, price increases, fees, lower/negotiate your bill, retention scripts,
+    price tracker, alerts, data studies on pricing), ~10% keeping existing pages healthy.
+  - NO new town/city/fiber pages. Queue items of those types are 'parked'. Existing city/ZIP pages stay up (never
+    delete) and should point visitors to the billing pages.
+  - WRITE run mix: up to 10 items, all from priority-1/2 billing items in queue.csv; 'ctr'/'improve' items on pages
+    that already rank (positions 5-15) come FIRST, before new pages.
+  - Every billing page: a direct answer to the exact search (including dollar amounts people search, e.g. "went up $15"),
+    reported causes labelled "reported", a "what to say when you call" retention script, a link to the price tracker
+    and alert signup, and an honest "you may not need to switch" option. Judge pages by calls + leads (ev:<date>), not clicks alone.
+  - Full plan and goals: seo/ROADMAP.md.
 
 ## How to publish on this site
 - Repo: KhalidShaikh-lgtm/FCC. Pages build from Python in `site/`. Live site = Cloudflare Worker reading
