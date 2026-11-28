@@ -52,3 +52,5 @@
 - 2026-11-27 INDEXNOW FIX: daily IndexNow had returned 429 (0 URLs sent, nothing ever recorded). Now sends up to 200 not-yet-sent URLs a day straight to www.bing.com/indexnow, tools/outages/bills/fees/guides first, and stores Bing's reply in KV ping:last (indexnow_status, indexnow_reply, indexnow_pending). Google sitemap resubmission was fine (204 daily).
 
 - 2026-11-27: Added "What customers are actually seeing" box (sourced real customer bill jumps) to Xfinity, Spectrum, Cox, AT&T, Verizon Fios went-up pages; Spectrum + Xfinity short answers now lead with promo-ending jumps ($20-$30 Spectrum, $40-$70 Xfinity). Optimum/T-Mobile pending real reports.
+
+- 2026-11-28: Ranking drop detected (att/xfinity went-up pages out of US top 50; still indexed; Googlebot crawl OK; no manual action). Khalid chose safety brake: 10 new pages/day (5 per WRITE run). ZIP/city noindex NOT approved yet.
