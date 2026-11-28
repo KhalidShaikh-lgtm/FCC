@@ -114,6 +114,10 @@ B = {
        ("Yahoo Tech: T-Mobile home internet rate lock covers base rates", "https://tech.yahoo.com/home/articles/t-mobile-tweaks-5g-home-194555478.html"),
        ("HighSpeedInternet.com: what you actually pay for T-Mobile Home Internet", "https://highspeedinternet.com/resources/t-mobile-real-costs")]),
  "frontier": dict(
+  title='Frontier Bill Too High? Guarantee, Activation, Equipment',
+  desc='Why a Frontier fiber bill can run high: a price guarantee ending, one-time activation charges and equipment not returned. Includes a call script.',
+  lead='For Frontier, check three things first: whether your price guarantee is still active, any activation charge on the order, and equipment you have not returned.',
+  intro='Frontier is now part of Verizon. If the jump was recent, see <a href="/bills/frontier-bill-went-up">why your Frontier bill went up</a>; to leave, see <a href="/guides/how-to-cancel-frontier">how to cancel Frontier</a>. You may not need to switch: if your plan is still inside its guarantee, the right move may be to leave it alone.',
   short="Frontier Fiber includes the router and sells plans with up to a 5-year price guarantee. The bill rises if a guarantee ends, if you change plans, or when equipment is not returned. Frontier is now part of Verizon.",
   after=("Frontier advertises fiber plans with up to a 5-year price guarantee and no annual contract. The guarantee can end if you change your plan or drop a service from a bundle, "
          "and Frontier reserves the right to add or change equipment fees. Some offers carry a one-time activation charge."),
@@ -148,11 +152,15 @@ B = {
        ("HighSpeedInternet.com: Cox internet review (data cap and overage)", "https://highspeedinternet.com/providers/cox/internet"),
        ("Programming Insider: what changed when Cox became Spectrum (data caps)", "https://programminginsider.com/what-changed-when-cox-internet-became-spectrum/")]),
  "optimum": dict(
-  short="Optimum's newer plans carry a 5-year price lock and no internet equipment fee, but older plans rise after 12 and 24 months, and TV customers pay a broadcast fee and a regional sports fee.",
-  after=("Optimum moved new internet plans to a 5-year price lock in 2026; after the lock, the price can rise by up to $15 a year. Older plans typically rose after 12 and again after 24 months. "
-         "Optimum's own standard pricing list still shows a $6.00 Network Enhancement Fee, while some reviewers say it no longer applies to new internet plans, so check whether it appears on your bill."),
+  title='Optimum Bill Too High? Old-Plan Step-Ups and $6 Fee',
+  desc='Why an Optimum bill runs high: older plans that stepped up after 12 and 24 months, a $6.00 Network Enhancement Fee on its price list, and TV fees.',
+  lead='For Optimum, the likely culprits are an older plan that stepped up after 12 and 24 months and a $6.00 Network Enhancement Fee line.',
+  intro='In 2026 Optimum began offering a 5-year price lock on its internet plans (reported), so a bill that is still high may mean you signed up before it or are paying lines the lock does not cover. If it jumped recently, read <a href="/bills/optimum-bill-went-up">why your Optimum bill went up</a>; for a call script, see <a href="/save/lower-optimum-bill">how to lower your Optimum bill</a>. If you are already on a current locked plan, you may not need to change anything.',
+  short="Optimum internet plans now carry a reported 5-year price lock and no internet equipment fee, but older plans rise after 12 and 24 months, and TV customers pay a broadcast fee and a regional sports fee.",
+  after=("Optimum began offering a 5-year price lock on internet plans in 2026 (reported); after the lock, the monthly price can rise by up to $15 each year (reported). Older plans typically rose after 12 and again after 24 months. "
+         "Optimum's own price list shows a $6.00 Network Enhancement Fee for customers with internet service (select offers excluded), while some review sites report it was dropped or lower, so check whether it appears on your bill."),
   fees=[("Older plan step-ups", "Rises after 12 and 24 months on older plans", "By moving to a current plan", "Ask about the current 5-year price lock."),
-        ("Network Enhancement Fee", "$6.00/mo on Optimum's price list", "Check your bill", "Sources disagree on whether it still applies to internet."),
+        ("Network Enhancement Fee", "$6.00/mo on Optimum's price list", "Check your bill", "Optimum's list says it applies to internet, select offers excluded; some reviewers disagree."),
         ("TV broadcast fee", "$9.99/mo (reported)", "Only by changing TV service", "TV customers only."),
         ("Regional sports network fee", "$10.47/mo (reported)", "Only by changing TV service", "TV customers only."),
         ("Equipment after promo", "Up to about $14/mo on some accounts", "Often", "New plans include equipment; ask if you are still renting.")],
@@ -164,6 +172,10 @@ B = {
        ("HighSpeedInternet.com: what you actually pay for Optimum", "https://highspeedinternet.com/resources/optimum-real-costs"),
        ("CableTV.com: Optimum price lock and fees", "https://www.cabletv.com/optimum/hidden-fees")]),
  "centurylink": dict(
+  title='CenturyLink Bill Too High? Leased Modem and Other Fees',
+  desc='Why a CenturyLink bill can run above your internet rate: leased modem and Wi-Fi equipment, phone features and other charges a price lock may not cover.',
+  lead='For CenturyLink, the internet rate may be locked while leased equipment and phone features are not, so the total can still creep up (check your plan terms).',
+  intro='The CenturyLink Price for Life notice says charges other than the internet rate, including leased equipment, are not protected. If your bill just jumped, see <a href="/bills/centurylink-bill-went-up">why your CenturyLink bill went up</a>; to leave, see <a href="/guides/how-to-cancel-centurylink">how to cancel CenturyLink</a>. If the equipment line is the only extra, your own compatible modem may fix it without switching.',
   short="CenturyLink internet is mostly priced month to month, but leased equipment and other charges are not price-protected and can rise. Its Quantum Fiber business was sold to AT&T in 2026.",
   after=("CenturyLink and Quantum Fiber have offered 'Price for Life' on the internet rate. CenturyLink says other rates, fees and charges on the account, including leased equipment, are not protected and may increase. "
          "Leased modem and Wi-Fi equipment has been billed at about $15 a month in Quantum Fiber offers."),
@@ -179,6 +191,10 @@ B = {
        ("CenturyLink: switching to Quantum Fiber (unreturned equipment)", "https://www.centurylink.com/home/help/notices/move-to-quantum-fiber.html"),
        ("Utah PSC: CenturyLink voice feature increase notice, 2026", "https://pscdocs.utah.gov/telecom/26docs/26049P02/343967Att1CstmrNtc2-19-2026.pdf")]),
  "starlink": dict(
+  title='Starlink Bill Too High? Plan Prices, Kit Fee, Area Pricing',
+  desc='Why a Starlink bill runs high: 2026 plan price changes, a $10 kit fee reported removed in July, and area-based pricing, plus ways to cut it.',
+  lead='For Starlink, the bill depends on your tier, any kit rental fee and the pricing for your address.',
+  intro='Starlink prices were reported to change several times in 2026. For the sequence of changes, see <a href="/bills/starlink-bill-went-up">why your Starlink bill went up</a>. Compare any wired or 5G home internet that reaches your address, since it may cost less; if nothing else does, moving down a tier may be the only real saving.',
   short="Starlink prices changed several times in 2026: plan prices rose in June, a $10 monthly kit rental fee was added and then reported removed, and pricing now varies by area.",
   after=("After the June 2026 changes, US residential tiers were reported at about $55 (100 Mbps), $85 (200 Mbps) and $130 (Residential Max). "
          "A $10 monthly kit fee for rented dishes appeared in June and was reported removed for new orders in July. Starlink has also introduced area-based pricing, so the price depends on your address."),
@@ -188,14 +204,16 @@ B = {
         ("Shipping and one-time surcharges", "One-time", "No", "Shown at checkout.")],
   tips=["Check whether you are paying a kit rental fee and compare it with the price of buying a dish.",
         "If a lower tier covers your household's use, move down a tier.",
-        "If wired or 5G home internet has reached your address, compare it. Starlink is usually the most expensive option where alternatives exist.",
+        "If wired or 5G home internet has reached your address, compare it; it may cost less.",
         "Use Standby Mode if you only need the connection part of the year (it was raised to $10/mo in 2026)."],
   src=[("Satelliteinternet.com: Starlink rentals back to $0 (Jul 2026)", "https://www.satelliteinternet.com/resources/starlink-rental/"),
        ("The Next Web: Starlink raises prices across consumer plans", "https://thenextweb.com/news/starlink-price-increase-standby-mode-roam-residential"),
        ("Notebookcheck: Starlink dynamic pricing by region", "https://notebookcheck.net/Starlink-intros-dynamic-prices-of-up-to-156-a-month.1440188.0.html")]),
 }
 
-EXTRA = {"centurylink": ' · <a href="/bills/centurylink-bill-went-up">Why your CenturyLink bill went up</a> · <a href="/guides/how-to-cancel-centurylink">Cancel CenturyLink</a>',
+EXTRA = {"frontier": ' · <a href="/bills/frontier-bill-went-up">Why your Frontier bill went up</a> · <a href="/guides/how-to-cancel-frontier">Cancel Frontier</a>',
+         "starlink": ' · <a href="/bills/starlink-bill-went-up">Why your Starlink bill went up</a>',
+         "centurylink": ' · <a href="/bills/centurylink-bill-went-up">Why your CenturyLink bill went up</a> · <a href="/guides/how-to-cancel-centurylink">Cancel CenturyLink</a>',
          "optimum": ' · <a href="/save/lower-optimum-bill">Lower your Optimum bill</a> · <a href="/bills/optimum-bill-went-up">Why your Optimum bill went up</a>'}
 
 ORDER = ["xfinity", "spectrum", "att", "verizon", "t-mobile", "frontier", "cox", "optimum", "centurylink", "starlink"]
