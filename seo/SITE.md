@@ -61,6 +61,12 @@ if that skill is not available, follow `seo/PLAYBOOK.md` in this repo, which is 
 - Year in titles: in the first REFRESH run of each year (and from mid-December for next-year pages), update year
   references in titles/H1s of evergreen guides to the current year, only where the content is re-verified.
 
+## Index cleanup (2026-11-28, approved by Khalid)
+- All /internet/<ZIP> pages are noindex,follow and out of the sitemaps. City pages are noindex too EXCEPT the KEEPC list in the worker (top ~100 cities by GSC impressions + the 5 hand-written metro pages). State pages stay indexed. Pages still work for visitors.
+- Reason: ZIP pages had 10,155 impressions and 0 clicks in 28 days; city pages 15,867 / 5; the template pages most likely pulled the whole site down (bill pages fell from ~pos 7 to outside top 50 on Nov 27-28; no manual action).
+- Do NOT create new ZIP or city pages, and do not add cities to KEEPC without hand-written unique content and Khalid's OK. New pages = billing pages only.
+- Priority for IMPROVE runs until rankings return: the ANTI-TEMPLATE queue items (unique titles/descriptions/intros per provider; /bills/<p> = 'why so high', /bills/<p>-bill-went-up = 'why it went up').
+
 ## Hard limits
 - SAFETY BRAKE ACTIVE since 2026-11-28 (Khalid chose 'slow to 10/day'): max 10 new pages per day = each of the two WRITE runs (2:37 PM and 11:17 PM IST) publishes UP TO 5 new pages, max 70 per week. Reason: site-wide ranking drop on Nov 27-28 (bill pages fell from ~pos 7-8 to outside top 50 in US Google; still indexed; no manual action). Do not raise this limit without Khalid. (Was 20/day, raised Nov 27.) Skip any page that would be thin; never publish a page the Opus fact-checker fails.
 - SAFETY BRAKE: if the weekly run sees billing-page average position worsen by 5+ places week on week, or fewer than half of last week's new pages indexed, go back to one WRITE run (10/day) and tell Khalid.
