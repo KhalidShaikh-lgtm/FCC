@@ -19,6 +19,10 @@ PHONE_TEL = "+18884915666"
 # ways to lower the bill, and sources. Fee row = (charge, typical amount, can you avoid it?, note)
 B = {
  "xfinity": dict(
+  title='Xfinity Bill So High? Promo Cliffs, Gateway Rental and TV Fees Line by Line',
+  desc='Where an Xfinity bill gets padded: the 12-month promo ending (reviewers report +$20 to $55), gateway rental, Broadcast TV and Regional Sports fees. A fee table and checks. Checked November 28, 2026.',
+  lead='Xfinity bills are mostly a story of promotions ending and TV fees that sit outside promo pricing.',
+  intro='Xfinity\'s price guarantees cover the base internet rate only, so the lines to inspect are the ones outside it: equipment (on plans that charge for it), Broadcast TV, Regional Sports and taxes. If the jump just happened, start with <a href="/bills/xfinity-bill-went-up">why your Xfinity bill went up</a>, then use the <a href="/save/xfinity-retention-department">Xfinity retention call script</a>.',
   short="Most Xfinity bills rise for three reasons: a promotional rate ending, equipment rental, and TV fees (Broadcast TV and Regional Sports) that are not covered by promotional pricing.",
   after=("Xfinity sells many plans with a 12-month promotional rate, and some newer plans with a 1-year or 5-year price guarantee. "
          "When a 12-month promo ends, reviewers report the bill can rise by roughly $20 to $55 a month. "
@@ -36,6 +40,10 @@ B = {
        ("Xfinity: price changes and TV fees", "https://www.xfinity.com/pricechanges/"),
        ("HighSpeedInternet.com: what you actually pay for Xfinity (Jan 2026)", "https://highspeedinternet.com/resources/xfinity-real-costs")]),
  "spectrum": dict(
+  title='Spectrum Bill Higher Than Expected? Advanced WiFi, Legacy Plans and the Promo End',
+  desc='Why a Spectrum internet bill climbs: the promo ending (reported +$20 to $35), Advanced WiFi billed on some plans, and a reported $10 increase on legacy plans in 2026. Checked November 28, 2026.',
+  lead='Three Spectrum-specific suspects: the end of the promotional rate, Advanced WiFi and an older legacy plan.',
+  intro='Spectrum has no data caps on internet, so overage is not the cause. Check for an older plan name on your bill and an Advanced WiFi line first. For the sudden-jump version of this question see <a href="/bills/spectrum-bill-went-up">why your Spectrum bill went up</a> and the <a href="/save/spectrum-retention-department">Spectrum retention call script</a>.',
   short="Spectrum bills usually jump when the 12-month promotion ends, when Advanced WiFi is billed separately, and on TV accounts through the Broadcast TV surcharge. Spectrum internet has no data caps.",
   after=("Spectrum promotional prices typically last 12 months (some bundles 24). Reviewers report the smallest plan rises by about $20 a month afterwards and most other plans by about $35. "
          "Separately, Spectrum added a $10 monthly increase on many legacy internet plans in 2026, so older plans can rise even without a promo ending."),
@@ -52,6 +60,10 @@ B = {
        ("Cord Cutters News: Spectrum $10 internet price increase", "https://cordcuttersnews.com/?p=248449"),
        ("CableTV.com: hidden costs of Spectrum", "https://www.cabletv.com/spectrum/hidden-costs")]),
  "att": dict(
+  title='AT&T Internet Bill Too High? The $5 Increases, Fiber Extras and What to Ask',
+  desc="AT&T's listed $5 internet increases (Aug 16, Sep 28 and Dec 1, 2026, by plan and activation date), optional add-ons that inflate a bill, and how to ask for a cheaper plan. Checked November 28, 2026.",
+  lead='Check whether your plan falls in one of the AT&T 2026 $5 increases, then look at add-ons and your plan tier.',
+  intro='The AT&T price-change page lists $5 increases in 2026 that apply to groups of plans by the date they were activated, so a high AT&T bill often points to one of those or to an add-on you did not mean to keep. Read the line-by-line list below, then see <a href="/bills/att-bill-went-up">why your AT&amp;T bill went up</a> and the <a href="/save/att-retention-department">AT&amp;T retention call script</a>.',
   short="AT&T Fiber has no equipment fee, no data cap and no annual contract, so most AT&T increases come from company-wide price changes rather than a promo ending.",
   after=("AT&T raised the monthly price of AT&T Fiber and AT&T Internet plans by $5 from December 1, 2025, and a further $5 increase was reported for August 2026. "
          "These changes apply on top of the plan you already have, so an AT&T bill can rise even when nothing on your account changes."),
@@ -67,6 +79,10 @@ B = {
        ("Android Authority: AT&T home internet price hike, August 2026", "https://www.androidauthority.com/att-price-hike-august-2026-3689162/"),
        ("HighSpeedInternet.com: what you actually pay for AT&T", "https://www.highspeedinternet.com/resources/att-real-costs")]),
  "verizon": dict(
+  title='Verizon Fios Bill Too High? What the Price Lock Does Not Cover',
+  desc='Fios includes the router and offers 3- to 5-year price locks, but taxes, fees and a missing Auto Pay credit can still lift the bill. Fee table and checks. Checked November 28, 2026.',
+  lead='A Fios price lock covers the base rate, so the extra dollars come from the lines it leaves out.',
+  intro='With the router included, a Fios bill that looks high usually comes down to Auto Pay not being applied, TV add-ons or fees outside the lock. For a recent increase see <a href="/bills/verizon-fios-bill-went-up">why your Verizon Fios bill went up</a> and <a href="/guides/how-to-cancel-verizon-fios">how to cancel Fios</a>.',
   short="Verizon Fios includes the router and sells plans with 3- to 5-year price locks, but the lock covers the base rate only. Taxes, fees and add-ons can still rise.",
   after=("Current Fios plans come with a 3-, 4- or 5-year price lock depending on speed. The lock applies to the plan's base rate, not to taxes and fees, "
          "and Fios customers have previously seen a $5 'miscellaneous charges' increase. Paying without Auto Pay also costs more each month."),
@@ -113,6 +129,10 @@ B = {
        ("Frontier: multi-year price guarantees", "https://blog.frontier.com/2026/07/stop-bill-shock-eliminate-hidden-internet-fees-with-multi-year-price-guarantees/"),
        ("HighSpeedInternet.com: what you actually pay for Frontier", "https://www.highspeedinternet.com/resources/frontier-real-costs")]),
  "cox": dict(
+  title='Cox Bill Too High? Price-Lock Endings, Panoramic Wifi Rental and Data Overage',
+  desc='What inflates a Cox internet bill: a price lock or promotion ending, Panoramic Wifi gateway rental (reported), old data-cap overage and TV surcharges. Checked November 28, 2026.',
+  lead='For Cox the main suspects are a price lock or promotion that ended and the Panoramic Wifi gateway being billed monthly.',
+  intro='Charter closed its Cox purchase on August 20, 2026, so check which brand name appears on your bill. The charges below are the ones Cox and reviewers describe. For a recent jump see <a href="/bills/cox-bill-went-up">why your Cox bill went up</a> and <a href="/guides/how-to-cancel-cox">how to cancel Cox</a>.',
   short="Cox bills usually rise when a 12- or 24-month price lock ends and when the Panoramic Wifi gateway starts being billed. Cox has also had a 1.25 TB data cap with overage charges.",
   after=("Many Cox plans carry a price lock of up to 24 months, with the Panoramic Wifi gateway included for that period. After it ends, the plan moves to the standard rate and the gateway can be billed monthly (reported at about $13 to $15). "
          "Cox has had a 1.25 TB monthly data cap with $10 per extra 50 GB; a September 2026 report says caps were dropped, so check your bill for any overage line."),
@@ -175,6 +195,9 @@ B = {
        ("Notebookcheck: Starlink dynamic pricing by region", "https://notebookcheck.net/Starlink-intros-dynamic-prices-of-up-to-156-a-month.1440188.0.html")]),
 }
 
+EXTRA = {"centurylink": ' · <a href="/bills/centurylink-bill-went-up">Why your CenturyLink bill went up</a> · <a href="/guides/how-to-cancel-centurylink">Cancel CenturyLink</a>',
+         "optimum": ' · <a href="/save/lower-optimum-bill">Lower your Optimum bill</a> · <a href="/bills/optimum-bill-went-up">Why your Optimum bill went up</a>'}
+
 ORDER = ["xfinity", "spectrum", "att", "verizon", "t-mobile", "frontier", "cox", "optimum", "centurylink", "starlink"]
 
 SCRIPT = ("<div class=\"call tip\"><b>What to say when you call</b>"
@@ -212,22 +235,22 @@ def build(P, page_unused, save):
         d = B[k]; p = P.get(k, {}); n = p.get("name", k.title())
         price = p.get("price", "")
         body = (author.box(CHECKED) + f'<div class="call tip"><b>Short answer:</b> {esc(d["short"])}</div>'
-                f"<h2>What happens to your {esc(n)} bill after the promotion</h2><p>{esc(d['after'])}</p>"
+                + (f"<p>{d['intro']}</p>" if d.get("intro") else "") + f"<h2>What happens to your {esc(n)} bill after the promotion</h2><p>{esc(d['after'])}</p>"
                 + (f"<p>For comparison, {esc(n)}'s typical new-customer starting price we track is <b>{esc(price)}</b> (November 2026). If you pay a lot more for similar speed, you are probably on post-promotion pricing or paying add-ons.</p>" if price else "")
                 + f"<h2>Charges that make a {esc(n)} bill higher</h2>" + fees_table(d["fees"])
                 + f"<h2>How to lower your {esc(n)} bill</h2><ol class=\"steps\">" + "".join(f"<li>{esc(t)}</li>" for t in d["tips"]) + "</ol>"
                 + "<h2>Before you call: 6-point bill check</h2>" + cl_html()
                 + f"<h2>Asking {esc(n)} for a better rate</h2>" + SCRIPT
-                + f'<h2>More {esc(n)} help</h2><p><a href="/providers/{k}">{esc(n)} customer service numbers</a> · <a href="/speed-test/{k}">{esc(n)} speed test</a> · <a href="/moving/{k}">Moving {esc(n)} service</a> · <a href="/bills">All bill guides</a></p>'
+                + f'<h2>More {esc(n)} help</h2><p><a href="/providers/{k}">{esc(n)} customer service numbers</a> · <a href="/speed-test/{k}">{esc(n)} speed test</a> · <a href="/moving/{k}">Moving {esc(n)} service</a> · <a href="/bills">All bill guides</a>' + EXTRA.get(k, "") + '</p>'
                 + call_cta(n) + src_html(d["src"]))
         faq = [(f"Why did my {n} bill go up?", d["short"]),
                (f"Can I get {n} to lower my bill?", f"Often, yes. Call {n}, ask for the retention or loyalty team, and quote the price new customers get in your area. If they will not match it, compare other providers at your address."),
                (f"Does a {n} price guarantee cover everything?", "No. Price guarantees and price locks cover the base plan rate. Taxes, regulatory fees and equipment charges are usually excluded and can still rise."),
                ("Is it worth buying my own modem?", "If your plan charges a monthly equipment rental, a compatible modem you own usually pays for itself within a year. Check your provider's approved device list first.")]
-        title = f"Why Is My {n} Bill So High? Fees, Price Increases and How to Lower It"
-        desc = f"Why {n} bills go up: promo endings, equipment and TV fees, and 2026 price changes, with a fee table, a call script and sources. Checked {CHECKED}."
+        title = d.get("title") or f"Why Is My {n} Bill So High? Fees, Price Increases and How to Lower It"
+        desc = d.get("desc") or f"Why {n} bills go up: promo endings, equipment and TV fees, and 2026 price changes, with a fee table, a call script and sources. Checked {CHECKED}."
         h1 = f"Why is my {n} bill so high?"
-        lead = f"What pushes a {esc(n)} bill up, which charges you can remove, and what to say to get a lower rate."
+        lead = esc(d["lead"]) if d.get("lead") else f"What pushes a {esc(n)} bill up, which charges you can remove, and what to say to get a lower rate."
         crumbs = [("Home", SITE + "/"), ("Lower your bill", SITE + "/bills"), (n, SITE + f"/bills/{k}")]
         save(f"/bills/{k}", ui.shell(f"/bills/{k}", title, desc, h1, lead, body, faq, crumbs, ["Bill guide", "Sources listed"], date=DATE, checked=CHECKED, author=author.PERSON))
         done.append(k)

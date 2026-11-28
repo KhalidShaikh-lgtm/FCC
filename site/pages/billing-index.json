@@ -12,6 +12,10 @@
 "t": "Why is my CenturyLink bill so high?"
 },
 {
+"p": "/bills/centurylink-bill-went-up",
+"t": "Why did my CenturyLink bill go up?"
+},
+{
 "p": "/bills/cox",
 "t": "Why is my Cox bill so high?"
 },
@@ -136,6 +140,10 @@
 "t": "How to cancel AT&T internet"
 },
 {
+"p": "/guides/how-to-cancel-centurylink",
+"t": "How to cancel CenturyLink internet"
+},
+{
 "p": "/guides/how-to-cancel-cox",
 "t": "How to cancel Cox internet"
 },
@@ -182,6 +190,10 @@
 {
 "p": "/save/lower-cox-bill",
 "t": "How to lower your Cox bill"
+},
+{
+"p": "/save/lower-optimum-bill",
+"t": "How to lower your Optimum bill"
 },
 {
 "p": "/save/lower-spectrum-bill",

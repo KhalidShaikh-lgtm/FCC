@@ -1,0 +1,91 @@
+{
+ "path": "/save/lower-optimum-bill",
+ "title": "How to Lower Your Optimum Bill: Plan Tier, Auto Pay, Bundles and a Retention Call",
+ "description": "Ways to lower an Optimum internet bill: check your price lock and Auto Pay credit, drop a tier, own your modem, bundle, and call retention. Reported figures labelled. Checked November 28, 2026.",
+ "h1": "How to lower your Optimum bill",
+ "lead": "Six checks that can cut an Optimum internet bill, with the figures reviewers report and where they disagree.",
+ "short_answer": "Optimum announced in March 2026 a $25 fiber plan locked for five years for new customers. For existing customers, reviewers report the biggest levers are moving to a cheaper tier (by the prices Reviews.org lists, 1 Gig at $45 to 300 Mbps at $35 would save $10 a month), the $10 Auto Pay and paperless credit, owning your modem, and asking retention for a loyalty rate.",
+ "chips": [
+  "Lower your bill",
+  "Sources listed"
+ ],
+ "crumbs": [
+  [
+   "Home",
+   "/"
+  ],
+  [
+   "Lower your bill",
+   "/bills"
+  ],
+  [
+   "Lower your Optimum bill",
+   "/save/lower-optimum-bill"
+  ]
+ ],
+ "cta_provider": "Optimum",
+ "sections": [
+  {
+   "h2": "1. Check your plan and price lock",
+   "body_html": "<p>Optimum's March 3, 2026 announcement describes Optimum Fiber Internet starting at $25 a month, \"locked in for five full years\", for new customers who sign up for 300 Mbps. CableTV.com reports all Optimum internet plans offered a 5-year price lock as of August 2026, with the price rising by up to $15 a month each year after it ends. Reviews.org says both that all plans include a five-year lock and that plans do not come with a guarantee, so sources disagree. Ask Optimum whether your plan has a lock and when it ends. If you joined earlier, ask to move to a current plan. See <a href=\"/bills/optimum-bill-went-up\">why your Optimum bill went up</a>.</p>"
+  },
+  {
+   "h2": "2. Try a lower speed tier",
+   "body_html": "<p>Reviews.org lists these internet prices with a $10 Auto Pay and paperless credit: 300 Mbps $35, 500 Mbps $25, 1 Gig $45, 2 Gig $65 and 8 Gig $90 a month. By those prices, moving from 1 Gig to 300 Mbps would save $10 a month, $120 a year (Reviews.org's own text says $25 a month, which does not match its table). The $25 figure for 500 Mbps looks like a special offer, since it is below the 300 Mbps price, so ask which tiers are really available. Prices vary by area and offer, so confirm yours. Use our <a href=\"/tools/internet-speed-calculator\">internet speed calculator</a> if you are unsure what you need.</p>"
+  },
+  {
+   "h2": "3. Turn on Auto Pay and paperless",
+   "body_html": "<p>The advertised prices above carry a $10 monthly Auto Pay and paperless credit, according to Reviews.org and CableTV.com. If your bill does not show it, ask. CableTV.com also lists a $10 late fee.</p>"
+  },
+  {
+   "h2": "4. Check equipment lines",
+   "body_html": "<p>Reviews.org says Optimum has done away with its monthly equipment rental charge, while CableTV.com lists the router rental as free or $5 a month and a Wi-Fi extender as free or $3 a month, plus a $3.50 Network Enhancement Fee it calls mandatory. Those sources differ, so look at your own bill, and ask about any equipment line you do not recognise.</p>"
+  },
+  {
+   "h2": "5. Bundle only if it lowers the total",
+   "body_html": "<p>Optimum's announcement says adding Optimum Mobile and TV can save up to $15 a month. Reviews.org reports mobile bundle prices such as 300 Mbps plus unlimited mobile for $60 and says Optimum Mobile is only available to existing Optimum customers. Add up the full cost before you bundle. Do not add TV to save a few dollars. CableTV.com reports TV prices rise after year one, by up to $45 a month in some regions.</p>"
+  },
+  {
+   "h2": "6. Call retention",
+   "body_html": "<div class=\"call tip\"><b>What to say when you call</b>\"My Optimum internet bill is $[total]. I would like to keep the service, but I need a lower rate. Can you move me to a current plan with a price lock, apply the Auto Pay credit, and tell me the best price you can give an existing customer? If not, please send me to retention.\"</div><p>Reviews.org advises asking for customer retention and says waiting about six months after leaving can bring a win-back offer. Use the number on your Optimum bill. We did not find a retention number published by Optimum. Do not count on any particular result.</p>"
+  },
+  {
+   "h2": "You may not need to switch",
+   "body_html": "<p>If a lower tier and the credits get you near what new customers pay, staying is simplest. If not, see <a href=\"/guides/how-to-cancel-optimum\">how to cancel Optimum</a> and <a href=\"/tools/compare-providers\">compare providers at your address</a>. More: <a href=\"/guides/internet-price-increases-2026\">2026 internet price increases</a> and the <a href=\"/tools/promo-end-reminder\">promo-end reminder</a>.</p>"
+  }
+ ],
+ "faq": [
+  [
+   "How do I lower my Optimum bill?",
+   "Check your price lock, try a lower speed tier, turn on Auto Pay and paperless credits, review equipment lines, and ask for customer retention."
+  ],
+  [
+   "Does Optimum charge for the modem?",
+   "Sources differ. Reviews.org says the rental charge was dropped; CableTV.com lists router rental as free or $5 a month. Check your bill."
+  ],
+  [
+   "Does Optimum have a price lock?",
+   "Optimum announced a five-year lock for its $25 fiber plan for new customers. CableTV.com reports all internet plans had a five-year lock as of August 2026. Ask Optimum about your plan."
+  ]
+ ],
+ "sources": [
+  [
+   "Optimum: $25 for 5 campaign announcement (Mar 3, 2026)",
+   "https://www.optimum.com/about-us/news/articles/optimum-launches-25-5-campaign-introducing-25-fiber-internet-locked-five-full-years"
+  ],
+  [
+   "Reviews.org: how to lower your Optimum internet bill (Sep 2026)",
+   "https://www.reviews.org/internet-service/how-to-lower-optimum-bill/"
+  ],
+  [
+   "CableTV.com: Optimum hidden fees (Oct 2026)",
+   "https://www.cabletv.com/optimum/hidden-fees"
+  ],
+  [
+   "Telecompetitor: Optimum five-year lock on $25 fiber",
+   "https://www.telecompetitor.com/optimum-offers-five-year-lock-on-25-per-month-fiber-service/"
+  ]
+ ],
+ "checked": "November 28, 2026",
+ "date": "2026-11-28"
+}

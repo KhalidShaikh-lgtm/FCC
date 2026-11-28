@@ -1,5 +1,20 @@
 [
 {
+"p": "/save/lower-optimum-bill",
+"t": "How to lower your Optimum bill",
+"d": "2026-11-28"
+},
+{
+"p": "/guides/how-to-cancel-centurylink",
+"t": "How to cancel CenturyLink internet",
+"d": "2026-11-28"
+},
+{
+"p": "/bills/centurylink-bill-went-up",
+"t": "Why did my CenturyLink bill go up?",
+"d": "2026-11-28"
+},
+{
 "p": "/save/xfinity-retention-department",
 "t": "Xfinity retention department: what to say to lower your bill",
 "d": "2026-11-27"
@@ -42,21 +57,6 @@
 {
 "p": "/guides/how-to-cancel-frontier",
 "t": "How to cancel Frontier internet",
-"d": "2026-11-27"
-},
-{
-"p": "/guides/how-to-cancel-cox",
-"t": "How to cancel Cox internet",
-"d": "2026-11-27"
-},
-{
-"p": "/guides/how-to-cancel-att",
-"t": "How to cancel AT&T internet",
-"d": "2026-11-27"
-},
-{
-"p": "/bills/xfinity-bill-went-up",
-"t": "Why did my Xfinity bill go up?",
 "d": "2026-11-27"
 }
 ]
