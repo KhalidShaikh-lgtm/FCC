@@ -25,7 +25,7 @@ if that skill is not available, follow `seo/PLAYBOOK.md` in this repo, which is 
     price tracker, alerts, data studies on pricing), ~10% keeping existing pages healthy.
   - NO new town/city/fiber pages. Queue items of those types are 'parked'. Existing city/ZIP pages stay up (never
     delete) and should point visitors to the billing pages.
-  - WRITE run mix: up to 10 items, all from priority-1/2 billing items in queue.csv; 'ctr'/'improve' items on pages
+  - WRITE run mix: up to 5 items while the safety brake is active (see Limits), all from priority-1/2 billing items in queue.csv; 'ctr'/'improve' items on pages
     that already rank (positions 5-15) come FIRST, before new pages.
   - Every billing page: a direct answer to the exact search (including dollar amounts people search, e.g. "went up $15"),
     reported causes labelled "reported", a "what to say when you call" retention script, a link to the price tracker
@@ -62,7 +62,7 @@ if that skill is not available, follow `seo/PLAYBOOK.md` in this repo, which is 
   references in titles/H1s of evergreen guides to the current year, only where the content is re-verified.
 
 ## Hard limits
-- Max 20 new pages per day, as two WRITE runs of up to 10 each (2:37 PM and 11:17 PM IST), max 140 per week (raised by Khalid, Nov 27; was 10/70). Skip any page that would be thin; never publish a page the Opus fact-checker fails.
+- SAFETY BRAKE ACTIVE since 2026-11-28 (Khalid chose 'slow to 10/day'): max 10 new pages per day = each of the two WRITE runs (2:37 PM and 11:17 PM IST) publishes UP TO 5 new pages, max 70 per week. Reason: site-wide ranking drop on Nov 27-28 (bill pages fell from ~pos 7-8 to outside top 50 in US Google; still indexed; no manual action). Do not raise this limit without Khalid. (Was 20/day, raised Nov 27.) Skip any page that would be thin; never publish a page the Opus fact-checker fails.
 - SAFETY BRAKE: if the weekly run sees billing-page average position worsen by 5+ places week on week, or fewer than half of last week's new pages indexed, go back to one WRITE run (10/day) and tell Khalid.
 - Plus up to 20 IMPROVED existing pages per day in the evening IMPROVE run (raised by Khalid, Nov 27). Each page at most once per 7 days, so the real number depends on how many billing pages exist. Improvements never change a URL and do not count toward the new-page limit.
 - No emails, posts, directory submissions or account changes without Khalid's approval. Off-page work produces
