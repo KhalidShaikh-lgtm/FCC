@@ -1,0 +1,79 @@
+{
+ "path": "/guides/how-to-cancel-centurylink",
+ "title": "How to Cancel CenturyLink Internet: Online, Chat and the 30-Day Modem Deadline",
+ "description": "How to cancel CenturyLink internet: the My CenturyLink online route, chat, the 30-day leased-modem return rule and the up-to-$200 charge, and what to do first. Checked November 28, 2026.",
+ "h1": "How to cancel CenturyLink internet",
+ "lead": "The cancel routes CenturyLink publishes, the modem return deadline, and options to try before you leave.",
+ "short_answer": "CenturyLink says some customers can cancel online by signing in to My CenturyLink; others must chat with CenturyLink to cancel. A leased modem must be returned within 30 days of cancelling, or you can be charged up to $200. CenturyLink's split-bill notice also says there is no annual contract and no early termination fee for cancelling; confirm that for your plan.",
+ "chips": [
+  "Cancel guide",
+  "Sources listed"
+ ],
+ "crumbs": [
+  [
+   "Home",
+   "/"
+  ],
+  [
+   "Lower your bill",
+   "/bills"
+  ],
+  [
+   "How to cancel CenturyLink",
+   "/guides/how-to-cancel-centurylink"
+  ]
+ ],
+ "cta_provider": "CenturyLink",
+ "sections": [
+  {
+   "h2": "Before you cancel",
+   "body_html": "<p>If the reason is a price rise, read <a href=\"/bills/centurylink-bill-went-up\">why your CenturyLink bill went up</a> and <a href=\"/bills/centurylink\">CenturyLink fees</a> first. CenturyLink's own cancel page says long-time customers may qualify for a better rate or promotion, and it offers a vacation hold that pauses phone or internet at a reduced rate, or a transfer to a new address. Those are worth a few minutes if you are leaving only because of cost or a move.</p>"
+  },
+  {
+   "h2": "How to cancel",
+   "body_html": "<p>CenturyLink's cancel page says: \"Some customers are able to cancel service online. Sign in to My CenturyLink and scroll to the bottom of the home page.\" If your account does not show that option, the page says to chat with CenturyLink to cancel. We did not find a cancellation phone number on that page, and we do not list third-party numbers. Use the number on your bill if you prefer to call.</p><ol class=\"steps\"><li>Pick the last day you want service. Do not cancel until the new internet service at your address is working.</li><li>Sign in to My CenturyLink and look for the cancel option, or open chat.</li><li>Ask for the final bill amount, the date service ends, and whether any promotion or Price for Life offer tied to your account ends.</li><li>Write down the date, the agent's name and any confirmation number.</li></ol>"
+  },
+  {
+   "h2": "Fees: what CenturyLink says",
+   "body_html": "<p>CenturyLink's phone-service notice says there are \"no penalties or early termination fees for canceling\" and no annual contract. That notice is about its split-bill change, so confirm with CenturyLink that it applies to your plan. The same notice warns that changing or cancelling one service can cost you a promotion or Price for Life offer that is tied to both, so check what happens to your other service before you cancel one.</p>"
+  },
+  {
+   "h2": "Return the modem within 30 days",
+   "body_html": "<p>CenturyLink says a leased modem must be returned within 30 days of cancellation. Its return page says that to avoid equipment charges of up to $200 you must return your current equipment within 30 days, and that for a leased modem that is not returned you are responsible for the full retail cost. To return it, use the return link on CenturyLink's return page, which opens a UPS returns site; there you can continue as a guest and either have a prepaid label emailed or get a QR code to take to a UPS Store with the boxed modem. CenturyLink says returns are not accepted at its own stores. Keep the receipt or QR confirmation.</p><p>If you own your modem, none of this applies.</p>"
+  },
+  {
+   "h2": "Not ready to leave?",
+   "body_html": "<p>You may not need to switch. See <a href=\"/guides/why-internet-bill-went-up\">why internet bills go up</a>, <a href=\"/guides/internet-price-increases-2026\">2026 internet price increases</a>, the <a href=\"/tools/promo-end-reminder\">promo-end reminder</a>, and <a href=\"/tools/compare-providers\">compare providers at your address</a>.</p>"
+  }
+ ],
+ "faq": [
+  [
+   "How do I cancel CenturyLink internet?",
+   "CenturyLink says some customers can cancel online through My CenturyLink; otherwise chat with CenturyLink to cancel."
+  ],
+  [
+   "Is there a CenturyLink cancellation fee?",
+   "CenturyLink's phone-service notice says there are no penalties or early termination fees for cancelling and no annual contract. Confirm for your plan."
+  ],
+  [
+   "How long do I have to return the CenturyLink modem?",
+   "30 days. CenturyLink says unreturned leased equipment can be charged up to $200, or the full retail cost."
+  ]
+ ],
+ "sources": [
+  [
+   "CenturyLink: how to cancel your service",
+   "https://www.centurylink.com/home/help/account/how-to-cancel-your-centurylink-service.html"
+  ],
+  [
+   "CenturyLink: how to pack and return the modem",
+   "https://www.centurylink.com/home/help/internet/modems-and-routers/how-to-pack-and-return-the-modem.html"
+  ],
+  [
+   "CenturyLink: split bill FAQs",
+   "https://www.centurylink.com/home/help/notices/phone-service-change.html"
+  ]
+ ],
+ "checked": "November 28, 2026",
+ "date": "2026-11-28"
+}

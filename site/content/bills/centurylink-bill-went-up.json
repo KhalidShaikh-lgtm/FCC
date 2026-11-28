@@ -1,0 +1,83 @@
+{
+ "path": "/bills/centurylink-bill-went-up",
+ "title": "CenturyLink Bill Went Up? Price for Life, 30-Day Notices and Split Bills",
+ "description": "Why a CenturyLink internet bill rises: monthly charge increases with 30 days notice, the October 2025 split bill and paper fee. What to say when you call. Checked November 28, 2026.",
+ "h1": "Why did my CenturyLink bill go up?",
+ "lead": "What CenturyLink says about its rate increases, which accounts are protected, and what to check on your bill.",
+ "short_answer": "CenturyLink says its internet monthly charge increases take effect 30 days after notice, by email for prepaid (month-to-month) customers or a bill message for others. Accounts with the Price for Life promotion are exempt from that increase. No dollar amount is printed on the notice page, so read your own notice.",
+ "chips": [
+  "Went-up page",
+  "Sources listed"
+ ],
+ "crumbs": [
+  [
+   "Home",
+   "/"
+  ],
+  [
+   "Lower your bill",
+   "/bills"
+  ],
+  [
+   "CenturyLink bill went up",
+   "/bills/centurylink-bill-went-up"
+  ]
+ ],
+ "cta_provider": "CenturyLink",
+ "sections": [
+  {
+   "h2": "What CenturyLink says",
+   "body_html": "<p>CenturyLink's rate-increase notice says the increase is effective 30 days after notification, and customers are told by email (prepaid, month-to-month customers) or by a message on the monthly bill. It tells customers to read their individual notice for dates. The notice says the increase does not apply if you have the Price for Life promotion. We could not find a dollar amount for the increase on that page, so we do not quote one. Your notice is the only place to see the figure for your account.</p><p>CenturyLink's separate internet-rate FAQ describes a $5.00 monthly charge paired with a matching $5.00 discount for the length of a promotion, so the net bill does not change in that situation. That page gives a January 2024 effective date, so it may be out of date. Check your bill before assuming either applies.</p>"
+  },
+  {
+   "h2": "Other reasons a CenturyLink bill changes",
+   "body_html": "<ul><li><b>Split bills.</b> CenturyLink says that in October 2025 it separated the services of some customers onto two bills, phone and internet, and gave internet a new account number. It says monthly service rates did not change. It also lists a $2 fee on paper statements and a fee for agent-assisted payments. CenturyLink says service rates did not change, but payment fees can now apply twice, so check the total.</li><li><b>Leased equipment.</b> If you lease a modem, it shows as its own line. See <a href=\"/bills/centurylink\">CenturyLink fees</a>.</li><li><b>Phone features.</b> A customer notice filed with the Utah Public Service Commission lists increases of up to $2.00 a month on most phone features for Utah customers from March 1, 2026. It does not name CenturyLink in its text, but uses CenturyLink contact details. Remove features you do not use.</li></ul>"
+  },
+  {
+   "h2": "What to check on the bill",
+   "body_html": "<ol class=\"steps\"><li>Look for the bill message or email that announced the change and the date it started.</li><li>Check whether your plan says Price for Life. If it does and the internet line still rose, ask which line changed.</li><li>Compare the total of both bills if you now get two.</li><li>Look for a leased modem line and a paper statement fee.</li></ol>"
+  },
+  {
+   "h2": "What to say when you call",
+   "body_html": "<div class=\"call tip\"><b>What to say when you call</b>\"My CenturyLink internet bill went up on [date] to $[total]. Is my plan on Price for Life, and which line increased? Can you do an account review and tell me the best current price for my speed at my address? If you cannot lower it, please tell me the cancellation steps and any charge.\"</div><p>CenturyLink's notice itself suggests an account review, which it says may bring a new promotion or a speed upgrade, and assistance programs for income-qualified households. Ask for the price in writing and note the agent's name. We could not find a retention phone number published by CenturyLink, so use the number on your bill or the chat in your account.</p>"
+  },
+  {
+   "h2": "You may not need to switch",
+   "body_html": "<p>If an account review brings your price close to what new customers pay, staying avoids a new install. If not, <a href=\"/guides/how-to-cancel-centurylink\">here is how to cancel CenturyLink</a> and <a href=\"/tools/compare-providers\">compare providers at your address</a>. Wider context: <a href=\"/guides/why-internet-bill-went-up\">why internet bills go up</a> and <a href=\"/guides/internet-price-increases-2026\">2026 price increases by provider</a>. Set a <a href=\"/tools/promo-end-reminder\">promo-end reminder</a>.</p>"
+  }
+ ],
+ "faq": [
+  [
+   "Why did my CenturyLink bill go up?",
+   "CenturyLink says increases take effect 30 days after notice (email or bill message). Price for Life accounts are exempt."
+  ],
+  [
+   "How much did CenturyLink raise internet prices?",
+   "CenturyLink's notice page does not print a dollar amount. Your individual notice shows your figure."
+  ],
+  [
+   "Why do I have two CenturyLink bills?",
+   "CenturyLink says it split phone and internet onto separate bills for some customers in October 2025 and that monthly service rates did not change."
+  ]
+ ],
+ "sources": [
+  [
+   "CenturyLink: internet monthly recurring charge increase",
+   "https://centurylink.com/home/help/notices/rate-increase.html"
+  ],
+  [
+   "CenturyLink: high-speed internet rate FAQ",
+   "https://www.centurylink.com/home/help/notices/internetrate.html"
+  ],
+  [
+   "CenturyLink: split bill FAQs",
+   "https://www.centurylink.com/home/help/notices/phone-service-change.html"
+  ],
+  [
+   "Utah PSC: CenturyLink voice feature increase notice, 2026",
+   "https://pscdocs.utah.gov/telecom/26docs/26049P02/343967Att1CstmrNtc2-19-2026.pdf"
+  ]
+ ],
+ "checked": "November 28, 2026",
+ "date": "2026-11-28"
+}
